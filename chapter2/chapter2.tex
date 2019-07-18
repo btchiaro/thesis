@@ -1,0 +1,20 @@
+% This allows you to build chapter 2 without building the entire thesis.
+
+\documentclass{report}
+
+\input{../packages.tex}
+\input{../macros.tex}
+
+\author{Daniel Sank}
+\pagestyle{headings}
+\title{Chapter 2\\
+\copyright [year]}
+
+\begin{document} %Begin zee document!
+
+\input{chapter2-content}
+
+\bibliographystyle{plain}
+\bibliography{../references}
+
+\end{document}
