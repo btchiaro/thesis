@@ -75,9 +75,9 @@
 
 % use the natbib package for easier bibliography customization
 % we modify bibliography to be single spaced and include line in table of contents
-\RequirePackage{natbib}
-\let\old@bibpreamble\bibpreamble
-\renewcommand{\bibpreamble}{\old@bibpreamble\singlespacing\addcontentsline{toc}{chapter}{\bibname}}
+%%% \RequirePackage{natbib}  BC Edit
+%%% \let\old@bibpreamble\bibpreamble
+%%% \renewcommand{\bibpreamble}{\old@bibpreamble\singlespacing\addcontentsline{toc}{chapter}{\bibname}}
 
 
 % make sure index gets included properly in table of contents

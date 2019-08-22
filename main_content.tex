@@ -1,11 +1,9 @@
 \input{packages.tex}
 \input{macros.tex}
-
+\input{bib_files.tex}
 \input{front_matter.tex}
-
 \begin{document}
-
-\maketitle
+%\maketitle
 
 \begin{frontmatter}
 
@@ -18,7 +16,6 @@
 \input{note_for_the_reader.tex}
 
 \input{abstract.tex}
-
 \cleardoublepage
 \pdfbookmark{Contents}{Contents}
 \begin{singlespace}
@@ -29,13 +26,23 @@
 
 \pagestyle{plain} % no headers but puts page numbers in correct place
 
-\subimport*{chapter1/}{chapter1-content}
+\subimport*{ch_Introduction/}{Introduction.tex}
 
-\subimport*{chapter2/}{chapter2-content}
+\subimport*{Article_TiN_arxiv/}{arXiv-TiN-Submission_thesis.tex}
 
-\subimport*{Appendix/}{appendix}
+\subimport*{Article_Vortex_arxiv/}{DielectricFluxTrap_arxiv_thesis.tex}
 
-\bibliographystyle{plain}
-\bibliography{references}
+%\subimport*{rapid_rto/}{rapid_rto.tex}
+
+%\subimport*{chapter2/}{chapter2-content}
+
+\subimport*{analog_control/}{analog_control_content.tex}
+
+%\subimport*{mbl/}{mbl}
+
+%\subimport*{Appendix/}{appendix}
+
+%\bibliographystyle{plain}
+%\bibliography{references}
 
 \end{document}

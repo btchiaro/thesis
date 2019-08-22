@@ -1,5 +1,5 @@
 function compile_thesis(){
-arara -v ~/Google\ Drive/thesis/mbl_manuscript/mbl_manuscript_full.tex
+arara -v ~/Google\ Drive/thesis/main_UCSB_submission.tex
 }
 function compile_ch2(){
 arara -v ~/Google\ Drive/thesis/Article_TiN_arxiv/arXiv-TiN-Submission.tex

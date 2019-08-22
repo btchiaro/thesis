@@ -1,0 +1,4076 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Leduc2010}{article}{}
+      \name{author}{13}{}{%
+        {{hash=b02b6dc9df885e3ca732a43e4d322d0b}{%
+           family={Leduc},
+           familyi={L\bibinitperiod},
+           given={Henry\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=b3c5f4090b96197548c7fb43cd0f31ca}{%
+           family={Bumble},
+           familyi={B\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8d25d6418e042568af153e5aad7f775e}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Peter\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=f4e02b40b771cdce3dc4fbaa8c272f77}{%
+           family={Eom},
+           familyi={E\bibinitperiod},
+           given={Byeong\bibnamedelima Ho},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f6a53c9969577587f5acdc92df740bf4}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jiansong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=25b07fe4f1bc3610afd2fde52e8ea2a2}{%
+           family={Golwala},
+           familyi={G\bibinitperiod},
+           given={Sunil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e76d867ad3380b7e732b8759d927eb17}{%
+           family={Mazin},
+           familyi={M\bibinitperiod},
+           given={Benjamin\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8d13a844518f2445eebf533de3b5bb6d}{%
+           family={McHugh},
+           familyi={M\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f6da8a827767e0530def923c4e66badc}{%
+           family={Merrill},
+           familyi={M\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4dce8cdc335b9b96f5927f3632ae4f16}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0f8d69c4da21854139404b9cf099fe7f}{%
+           family={Noroozian},
+           familyi={N\bibinitperiod},
+           given={Omid},
+           giveni={O\bibinitperiod}}}%
+        {{hash=51f922af27f1dc9424e2bdd24eeee34b}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Anthony\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e952cdd64c504471db03b03b1f1dc01a}{%
+           family={Zmuidzinas},
+           familyi={Z\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fa58cc30a0b9a4c8d32483148ec255f}
+      \strng{fullhash}{9942f45f86a925a651d46a5e16dcc0c6}
+      \strng{bibnamehash}{0fa58cc30a0b9a4c8d32483148ec255f}
+      \strng{authorbibnamehash}{0fa58cc30a0b9a4c8d32483148ec255f}
+      \strng{authornamehash}{0fa58cc30a0b9a4c8d32483148ec255f}
+      \strng{authorfullhash}{9942f45f86a925a651d46a5e16dcc0c6}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{10}
+      \field{title}{Titanium nitride films for ultrasensitive microresonator detectors}
+      \field{volume}{97}
+      \field{year}{2010}
+      \field{pages}{102509}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3480420
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3480420
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3480420
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3480420
+      \endverb
+    \endentry
+    \entry{Vissers2010}{article}{}
+      \name{author}{8}{}{%
+        {{hash=176c18e54e1760ee794eedcd4dbf7ecf}{%
+           family={Vissers},
+           familyi={V\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=db78cb9680889168cd377cb6775b53dc}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1691c1a7f947a09d5b5e1e0a538bfffd}{%
+           family={Wisbey},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9c1e9f185fdd2273c5f48b83f6057699}{%
+           family={Hite},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fe2330c00d9943dddcbf5883b50df021}{%
+           family={Tsuei},
+           familyi={T\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=4d47ea3f845ab8fa5b872b60ceeb3368}{%
+           family={Corcoles},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=eee8d0934f5e07c856880b4cb003b423}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c73831db32d6b6bc13996807f00c698c}{%
+           family={Pappas},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{0edb7dfb4c3cd47596476604fca3916d}
+      \strng{fullhash}{94e8a5a4c48f3c130ac5161e5e2d3a7c}
+      \strng{bibnamehash}{0edb7dfb4c3cd47596476604fca3916d}
+      \strng{authorbibnamehash}{0edb7dfb4c3cd47596476604fca3916d}
+      \strng{authornamehash}{0edb7dfb4c3cd47596476604fca3916d}
+      \strng{authorfullhash}{94e8a5a4c48f3c130ac5161e5e2d3a7c}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{23}
+      \field{title}{Low loss superconducting titanium nitride coplanar waveguide resonators}
+      \field{volume}{97}
+      \field{year}{2010}
+      \field{pages}{232509}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3517252
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3517252
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3517252
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3517252
+      \endverb
+    \endentry
+    \entry{Sage2011}{article}{}
+      \name{author}{5}{}{%
+        {{hash=53140bb38c45439b2e2dcdf74d555492}{%
+           family={Sage},
+           familyi={S\bibinitperiod},
+           given={Jeremy\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c0476a02ffa8b35f6b557ffc6516040c}{%
+           family={Bolkhovsky},
+           familyi={B\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+        {{hash=7e0fdfb97a5d24e12cfe5768c4fcf567}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={William\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6941ce9eaafc7e51ea71a70bf91fa428}{%
+           family={Turek},
+           familyi={T\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=58a8008ae4a26db4cf4990b42197456a}{%
+           family={Welander},
+           familyi={W\bibinitperiod},
+           given={Paul\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ed04080e1c79f7723f60358a95e36a9}
+      \strng{fullhash}{af6377d297ccfe6d9cfe6845363dc6d3}
+      \strng{bibnamehash}{af6377d297ccfe6d9cfe6845363dc6d3}
+      \strng{authorbibnamehash}{af6377d297ccfe6d9cfe6845363dc6d3}
+      \strng{authornamehash}{6ed04080e1c79f7723f60358a95e36a9}
+      \strng{authorfullhash}{af6377d297ccfe6d9cfe6845363dc6d3}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{6}
+      \field{title}{Study of loss in superconducting coplanar waveguide resonators}
+      \field{volume}{109}
+      \field{year}{2011}
+      \field{pages}{063915}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3552890
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3552890
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3552890
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3552890
+      \endverb
+    \endentry
+    \entry{Vissers2012}{article}{}
+      \name{author}{5}{}{%
+        {{hash=5a68fccafae2d93fec6f8ff1597071ff}{%
+           family={Vissers},
+           familyi={V\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a65796d7eb93a11bb9267c4ffbed0b45}{%
+           family={Kline},
+           familyi={K\bibinitperiod},
+           given={Jeffrey\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f6a53c9969577587f5acdc92df740bf4}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jiansong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=586eead31223749fb2272ccb5126bfa5}{%
+           family={Wisbey},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6ec16ffb89186951759616ce7f0ba123}{%
+           family={Pappas},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8415b492a4f8d61a1d114889092f758a}
+      \strng{fullhash}{15ec3ace0856bf57d7e6d5c3a508f84e}
+      \strng{bibnamehash}{15ec3ace0856bf57d7e6d5c3a508f84e}
+      \strng{authorbibnamehash}{15ec3ace0856bf57d7e6d5c3a508f84e}
+      \strng{authornamehash}{8415b492a4f8d61a1d114889092f758a}
+      \strng{authorfullhash}{15ec3ace0856bf57d7e6d5c3a508f84e}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{8}
+      \field{title}{Reduced microwave loss in trenched superconducting coplanar waveguides}
+      \field{volume}{100}
+      \field{year}{2012}
+      \field{pages}{082602}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3683552
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3683552
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3683552
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3683552
+      \endverb
+    \endentry
+    \entry{Diener2012}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e46134d4ccfb7e08966ac3a24cacb916}{%
+           family={Diener},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fe9c8f6b6fc821ef54bf43b14b8bd7ae}{%
+           family={Leduc},
+           familyi={L\bibinitperiod},
+           given={H.\bibnamedelimi G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=65dac49ef75f23803d112f9aa21014e2}{%
+           family={Yates},
+           familyi={Y\bibinitperiod},
+           given={S.\bibnamedelimi J.\bibnamedelimi C.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=edb6348afe1e24fb9fc3cb1a2055229a}{%
+           family={Lankwarden},
+           familyi={L\bibinitperiod},
+           given={Y.\bibnamedelimi J.\bibnamedelimi Y.},
+           giveni={Y\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=f1802bed6a5443ed2c009b43a2e17b4f}{%
+           family={Baselmans},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{08cdd6f504de6ddb4873bdd7669078e7}
+      \strng{fullhash}{765c7414d6aff813103f59dfaace2b06}
+      \strng{bibnamehash}{765c7414d6aff813103f59dfaace2b06}
+      \strng{authorbibnamehash}{765c7414d6aff813103f59dfaace2b06}
+      \strng{authornamehash}{08cdd6f504de6ddb4873bdd7669078e7}
+      \strng{authorfullhash}{765c7414d6aff813103f59dfaace2b06}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To use highly resistive material for Kinetic Inductance Detectors (KID), new designs have to be done, in part due to the impedance match needed between the KID chip and the whole 50 $\Omega$ readout circuit. Chips from two new hybrid designs, with an aluminum throughline coupled to titanium nitride microresonators, have been measured and compared to a TiN only chip. In the hybrid chips, parasitic temperature dependent box resonances are absent. The dark KID properties have been measured in a large set of resonators. A surprisingly long lifetime, up to 5.6 ms is observed in a few KIDs. For the other more reproducible devices, the mean electrical Noise Equivalent Power is {\$}5.4 {\backslash}times 10^{\{}-19{\}}{\backslash} {\backslash}mathrm{\{}W{\}}{\backslash}sqrt{\{}{\backslash}mathrm{\{}Hz{\}}{\}}{\$}.}
+      \field{issn}{1573-7357}
+      \field{journaltitle}{Journal of Low Temperature Physics}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{Design and Testing of Kinetic Inductance Detectors Made of Titanium Nitride}
+      \field{volume}{167}
+      \field{year}{2012}
+      \field{pages}{305\bibrangedash 310}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/s10909-012-0484-z
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10909-012-0484-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10909-012-0484-z
+      \endverb
+    \endentry
+    \entry{Mazin2012}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e76d867ad3380b7e732b8759d927eb17}{%
+           family={Mazin},
+           familyi={M\bibinitperiod},
+           given={Benjamin\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b3c5f4090b96197548c7fb43cd0f31ca}{%
+           family={Bumble},
+           familyi={B\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3321b40335af2f052fee76796b235225}{%
+           family={Meeker},
+           familyi={M\bibinitperiod},
+           given={Seth\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=37026090a75029d6cb4740078e2fd5d4}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Kieran},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8d13a844518f2445eebf533de3b5bb6d}{%
+           family={McHugh},
+           familyi={M\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+        {{hash=422dd15e409c02a26d69c624ddb974e4}{%
+           family={Langman},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {OSA}%
+      }
+      \strng{namehash}{68e1e93d1ad9abda60d8a6f8a1a6a8d9}
+      \strng{fullhash}{1fb7c70ca7eed7cbd8cdab2958e7b3ad}
+      \strng{bibnamehash}{68e1e93d1ad9abda60d8a6f8a1a6a8d9}
+      \strng{authorbibnamehash}{68e1e93d1ad9abda60d8a6f8a1a6a8d9}
+      \strng{authornamehash}{68e1e93d1ad9abda60d8a6f8a1a6a8d9}
+      \strng{authorfullhash}{1fb7c70ca7eed7cbd8cdab2958e7b3ad}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Microwave Kinetic Inductance Detectors, or MKIDs, have proven to be a powerful cryogenic detector technology due to their sensitivity and the ease with which they can be multiplexed into large arrays. A MKID is an energy sensor based on a photon-variable superconducting inductance in a lithographed microresonator, and is capable of functioning as a photon detector across the electromagnetic spectrum as well as a particle detector. Here we describe the first successful effort to create a photon-counting, energy-resolving ultraviolet, optical, and near infrared MKID focal plane array. These new Optical Lumped Element (OLE) MKID arrays have significant advantages over semiconductor detectors like charge coupled devices (CCDs). They can count individual photons with essentially no false counts and determine the energy and arrival time of every photon with good quantum efficiency. Their physical pixel size and maximum count rate is well matched with large telescopes. These capabilities enable powerful new astrophysical instruments usable from the ground and space. MKIDs could eventually supplant semiconductor detectors for most astronomical instrumentation, and will be useful for other disciplines such as quantum optics and biological imaging.}
+      \field{journaltitle}{Opt. Express}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{A superconducting focal plane array for ultraviolet, optical, and near-infrared astrophysics}
+      \field{volume}{20}
+      \field{year}{2012}
+      \field{pages}{1503\bibrangedash 1511}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1364/OE.20.001503
+      \endverb
+      \verb{urlraw}
+      \verb http://www.opticsexpress.org/abstract.cfm?URI=oe-20-2-1503
+      \endverb
+      \verb{url}
+      \verb http://www.opticsexpress.org/abstract.cfm?URI=oe-20-2-1503
+      \endverb
+      \keyw{Arrays; Astronomy and astrophysics; Charge coupled devices; Electromagnetic radiation; Narrow band filters; Power spectra; Q factor; Scanning electron microscopy}
+    \endentry
+    \entry{Cecil2012}{article}{}
+      \name{author}{8}{}{%
+        {{hash=efac07faf7d68b40d6c77138a703c003}{%
+           family={Cecil},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=145dfa80b3692132389866e25f98b39f}{%
+           family={Miceli},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=65755e89ae8de1c970454907980c64eb}{%
+           family={Gades},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=334fd995ab70f775a9645a884c45a5cc}{%
+           family={Datesman},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=59af2cc1e849aab074d3a45e45992526}{%
+           family={Quaranta},
+           familyi={Q\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=fa2d8a03c456ae8eb7baee2e1c019ff5}{%
+           family={Yefremenko},
+           familyi={Y\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=80125feb4af52d17a9f6d015a0f21c12}{%
+           family={Novosad},
+           familyi={N\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=3ebb165c012311da4182cf7ae2ec7276}{%
+           family={Mazin},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7eceb73a2b8d2192a07ffc53f0c11a5b}
+      \strng{fullhash}{0a374397b3d67315f02fa273453ce538}
+      \strng{bibnamehash}{7eceb73a2b8d2192a07ffc53f0c11a5b}
+      \strng{authorbibnamehash}{7eceb73a2b8d2192a07ffc53f0c11a5b}
+      \strng{authornamehash}{7eceb73a2b8d2192a07ffc53f0c11a5b}
+      \strng{authorfullhash}{0a374397b3d67315f02fa273453ce538}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The lack of efficient x-ray detectors is often the main factor limiting the effective use of ever more powerful synchrotron light sources. Spectroscopic X-ray detectors are used for a wide variety of synchrotron experiments including X-ray micro/nano-probes and X-ray absorption spectroscopy for biology and geophysical applications. The current state-of-art spectroscopic X-ray detectors are semiconductor devices, and their energy resolutions are approaching their theoretical limit of about 100eV at 6 keV. We describe a detector research and development program to develop the next-generation of high-resolution spectroscopic X-ray detectors using superconducting Kinetic Inductance Detectors (KIDs). With a required energy per charge carrier four orders of magnitude smaller than that of Si, superconducting detectors offer up to two orders of magnitude increase in energy resolution. In addition, KIDs can be optimized for detection of photons ranging in energy from hard X-ray to IR.}
+      \field{issn}{1875-3892}
+      \field{journaltitle}{Physics Procedia}
+      \field{note}{Proceedings of the 2nd International Conference on Technology and Instrumentation in Particle Physics (TIPP 2011)}
+      \field{title}{Kinetic Inductance Detectors for X-Ray Spectroscopy}
+      \field{volume}{37}
+      \field{year}{2012}
+      \field{pages}{697\bibrangedash 702}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.phpro.2012.03.719
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S1875389212017609
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1875389212017609
+      \endverb
+      \keyw{kinetic inductance detector,x-ray spectroscopy}
+    \endentry
+    \entry{Noroozian2012}{article}{}
+      \name{author}{5}{}{%
+        {{hash=fd1b6d7e7e677ff6f68ddc7c60b5ef39}{%
+           family={{Noroozian}},
+           familyi={N\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6916d8e1cc73a1bb5e84e81bdc0c2020}{%
+           family={{Day}},
+           familyi={D\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=412fb59319159ea078f536621b939b1b}{%
+           family={{Eom}},
+           familyi={E\bibinitperiod},
+           given={B.\bibnamedelimi H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=fe9c8f6b6fc821ef54bf43b14b8bd7ae}{%
+           family={{Leduc}},
+           familyi={L\bibinitperiod},
+           given={H.\bibnamedelimi G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=f5f7daf5e7969450318a4158b1da4738}{%
+           family={{Zmuidzinas}},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c5e7ef369e32184083d2095315fe7d7}
+      \strng{fullhash}{94bdd3a50101ba16c22542d060b24e15}
+      \strng{bibnamehash}{94bdd3a50101ba16c22542d060b24e15}
+      \strng{authorbibnamehash}{94bdd3a50101ba16c22542d060b24e15}
+      \strng{authornamehash}{0c5e7ef369e32184083d2095315fe7d7}
+      \strng{authorfullhash}{94bdd3a50101ba16c22542d060b24e15}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Crosstalk Reduction for Superconducting Microwave Resonator Arrays}
+      \field{volume}{60}
+      \field{year}{2012}
+      \field{pages}{1235\bibrangedash 1243}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TMTT.2012.2187538
+      \endverb
+      \keyw{crosstalk;earthing;electromagnetic coupling;inductors;microwave resonators;submillimetre wave devices;telescopes;crosstalk reduction;superconducting microwave resonator arrays;large-scale arrays;microwave kinetic inductance detectors;next generation submillimeter-wave telescopes;CCAT;lumped-element resonators;pixel packing density;microwave crosstalk;electromagnetic coupling;grounding shield;double-wound geometry;meander inductor;resonator frequencies;checkerboard pattern;Optical resonators;Resonant frequency;Couplings;Crosstalk;Integrated circuit modeling;Superconducting microwave devices;Tin;Crosstalk;submillimeter wave astronomy;superconducting microwave resonator;superconducting photon detector}
+    \endentry
+    \entry{Calvo2012}{article}{}
+      \name{author}{13}{}{%
+        {{hash=d94899789d514df7a10e24eaeadb6d7b}{%
+           family={Calvo},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bf43ac8fe3e5819c622c080a5ef5d596}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d649e82368f0e6c18894bd24cbebc1ed}{%
+           family={Benoit},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=54878fc505ba551362344e3a69de50e1}{%
+           family={Boudou},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4b699112a8015aebcdda9b1a754b3ddc}{%
+           family={Cruciani},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1d6ebaf3555e95d7a29d3d40264815b3}{%
+           family={Doyle},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ca87e63d32b370ca30788dfb4625e022}{%
+           family={Giordano},
+           familyi={G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1fa6be9a8b979791ea48ed408788f4be}{%
+           family={Hoarau},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=71d8cc3bdbf06c14c42e7a8cef7c0e46}{%
+           family={LeDuc},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=91931ec0cea307d3db6ed78fdf98ad0e}{%
+           family={Mauskopf},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=65efc046e28e349ff416384eaa8a4b8e}{%
+           family={Monfardini},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e557d25609ae53674966c38d3cc1f61e}{%
+           family={Roesch},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e8153afc256392f244b693da1c779d39}{%
+           family={Schuster},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4b4778baead5f10a7328d0b6d40ae78}
+      \strng{fullhash}{40a041bcf36bd238f59a3ba6945c039e}
+      \strng{bibnamehash}{e4b4778baead5f10a7328d0b6d40ae78}
+      \strng{authorbibnamehash}{e4b4778baead5f10a7328d0b6d40ae78}
+      \strng{authornamehash}{e4b4778baead5f10a7328d0b6d40ae78}
+      \strng{authorfullhash}{40a041bcf36bd238f59a3ba6945c039e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Microwave Kinetic Inductance Detectors (MKIDs) have recently drawn the attention of the low-temperature detectors community. Easy fabrication, high sensitivity, small time constants and most notably the intrinsic capability to frequency multiplexing open new possibilities to applications that need very large array sizes and/or high speed read-out. Lumped Element Kinetic Inductance Detectors (LEKIDs) designed and fabricated in our collaboration have already shown good on sky performances, but new developments are needed for future multi-thousands-pixels instruments. In this contribution we present such ongoing developments: a new LEKIDs design, optimized to be dual polarization sensitive; use of new materials such as TiN in order to reach better signal to noise ratios; new solutions to minimize the cross-talk between pixels in order to achieve a better control of the resonance positions in frequency space. We discuss present lab measurements of the optical performances and recent improvements of the read-out electronics.}
+      \field{issn}{1573-7357}
+      \field{journaltitle}{Journal of Low Temperature Physics}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{LEKIDs Developments for mm-Wave Astronomy}
+      \field{volume}{167}
+      \field{year}{2012}
+      \field{pages}{379\bibrangedash 385}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/s10909-012-0553-3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10909-012-0553-3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10909-012-0553-3
+      \endverb
+    \endentry
+    \entry{Eom2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=da072f8c6dd2aba995779e650ab7cf99}{%
+           family={Ho\bibnamedelima Eom},
+           familyi={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Byeong},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8d25d6418e042568af153e5aad7f775e}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Peter\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=d2beb00fef07765f0116d89e562db854}{%
+           family={LeDuc},
+           familyi={L\bibinitperiod},
+           given={Henry\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=e952cdd64c504471db03b03b1f1dc01a}{%
+           family={Zmuidzinas},
+           familyi={Z\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a0b71b56b27fb1ed68c008b8437f7de}
+      \strng{fullhash}{333992a7e5911d5f5932ee1747256fc0}
+      \strng{bibnamehash}{333992a7e5911d5f5932ee1747256fc0}
+      \strng{authorbibnamehash}{333992a7e5911d5f5932ee1747256fc0}
+      \strng{authornamehash}{8a0b71b56b27fb1ed68c008b8437f7de}
+      \strng{authorfullhash}{333992a7e5911d5f5932ee1747256fc0}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Physics}
+      \field{month}{07}
+      \field{title}{A wideband, low-noise superconducting amplifier with high dynamic range}
+      \field{volume}{8}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nphys2356
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nphys2356
+      \endverb
+    \endentry
+    \entry{Driessen2012}{article}{}
+      \name{author}{5}{}{%
+        {{hash=82efb57e7c47135e30207792dbda2469}{%
+           family={Driessen},
+           familyi={D\bibinitperiod},
+           given={E.\bibnamedelimi F.\bibnamedelimi C.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ef9db4dfda461db7e8272ef36e1fdc9b}{%
+           family={Coumou},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi C.\bibnamedelimi J.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=91dce3c27c2017f31f02b389f0fb41ca}{%
+           family={Tromp},
+           familyi={T\bibinitperiod},
+           given={R.\bibnamedelimi R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b6afdd36658c241a3385d31966103c9b}{%
+           family={Visser},
+           familyi={V\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=a10a6e3117743c059ea48d9587e40d1c}{%
+           family={Klapwijk},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7360e2bbab2faf20c4f6d696efac6fe4}
+      \strng{fullhash}{80de5210a6afaad390c557cfcd13f39c}
+      \strng{bibnamehash}{80de5210a6afaad390c557cfcd13f39c}
+      \strng{authorbibnamehash}{80de5210a6afaad390c557cfcd13f39c}
+      \strng{authornamehash}{7360e2bbab2faf20c4f6d696efac6fe4}
+      \strng{authorfullhash}{80de5210a6afaad390c557cfcd13f39c}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{9}
+      \field{title}{Strongly Disordered TiN and NbTiN $s$-Wave Superconductors Probed by Microwave Electrodynamics}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{107003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.109.107003
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.107003
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.107003
+      \endverb
+    \endentry
+    \entry{Kumar1988}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d3d78e256768bf5fc359debe285d4897}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=374e0f1e88b458a5d45ddc13b486d462}{%
+           family={McGinn},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=61f480c26fee40ca4cfced0a7bb09c2a}{%
+           family={Pourrezaei},
+           familyi={P\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9f4df6cd3a68e6e63c8d3fcab824d1e2}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c882d549cdc1de51015c2f4443448f1b}{%
+           family={Douglas},
+           familyi={D\bibinitperiod},
+           given={E.\bibnamedelimi C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{cf85cd3e3e27b6892f8d5a5311484508}
+      \strng{fullhash}{0e73682942333fbb0e1b865e161081e4}
+      \strng{bibnamehash}{0e73682942333fbb0e1b865e161081e4}
+      \strng{authorbibnamehash}{0e73682942333fbb0e1b865e161081e4}
+      \strng{authornamehash}{cf85cd3e3e27b6892f8d5a5311484508}
+      \strng{authorfullhash}{0e73682942333fbb0e1b865e161081e4}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Vacuum Science \& Technology A}
+      \field{number}{3}
+      \field{title}{Transmission electron microscopy studies of brown and golden titanium nitride thin films as diffusion barriers in very large scale integrated circuits}
+      \field{volume}{6}
+      \field{year}{1988}
+      \field{pages}{1602\bibrangedash 1608}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1116/1.575335
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1116/1.575335
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1116/1.575335
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1116/1.575335
+      \endverb
+    \endentry
+    \entry{Mandl1990}{article}{}
+      \name{author}{3}{}{%
+        {{hash=98724c230bbf715b978ada84aecef378}{%
+           family={Mandl},
+           familyi={M\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=76f0f3dc9ed9cc898a35be245bb2f94e}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={Horst},
+           giveni={H\bibinitperiod}}}%
+        {{hash=45affa592f264fe438ec514a76288dc1}{%
+           family={Kucher},
+           familyi={K\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{317bdb580d84aebb064a91efc6d61fdb}
+      \strng{fullhash}{d9ffdc2b41a81bcf51f408cfce208640}
+      \strng{bibnamehash}{d9ffdc2b41a81bcf51f408cfce208640}
+      \strng{authorbibnamehash}{d9ffdc2b41a81bcf51f408cfce208640}
+      \strng{authornamehash}{317bdb580d84aebb064a91efc6d61fdb}
+      \strng{authorfullhash}{d9ffdc2b41a81bcf51f408cfce208640}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{month}{10}
+      \field{title}{Diffusion barrier properties of Ti/TiN investigated by transmission electron microscopy}
+      \field{volume}{68}
+      \field{year}{1990}
+      \field{pages}{2127\bibrangedash 2132}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1063/1.346568
+      \endverb
+    \endentry
+    \entry{Logothetidis1999}{article}{}
+      \name{author}{4}{}{%
+        {{hash=14750357246388a650c292fb3443e577}{%
+           family={Logothetidis},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=29ed15f82150176dbb1651cc3a655520}{%
+           family={Meletis},
+           familyi={M\bibinitperiod},
+           given={E.I.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=053a4a1f2765046aa553c6b3d4f8eb3a}{%
+           family={Stergioudis},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=60ba5ce37039fb713c950571516f4a52}{%
+           family={Adjaottor},
+           familyi={A\bibinitperiod},
+           given={A.A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fab1b89dce6979c8179624049e77cfd}
+      \strng{fullhash}{a6137cc2685c79188e39aad9dd24ce78}
+      \strng{bibnamehash}{a6137cc2685c79188e39aad9dd24ce78}
+      \strng{authorbibnamehash}{a6137cc2685c79188e39aad9dd24ce78}
+      \strng{authornamehash}{5fab1b89dce6979c8179624049e77cfd}
+      \strng{authorfullhash}{a6137cc2685c79188e39aad9dd24ce78}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The room temperature oxidation process of thin TiNx films, grown by DC reactive magnetron sputtering, was studied by in-situ and real time spectroscopic ellipsometry, X-ray reflectivity, Auger electron spectroscopy, X-ray photoelectron spectroscopy and stress measurements. The films were deposited at various negative bias voltages (Vb) in order to vary the TiNx stoichiometry and then exposed to several gases and to air at room temperature. The oxidation rate was found to depend strongly on Vb and thus on film stoichiometry. Fast oxidation was observed in films deposited at low |Vb|, that contain nitrogen which is weakly bonded to Ti and can be easily replaced by oxygen. At high |Vb| values (above −80 V) stoichiometric TiN films were developed, that were stable and not prone to oxidation. The results showed that oxidation takes place in the bulk of the film and can proceed up to about 10\% transformation of titanium nitride into titanium oxide. The fastest step in the film oxidation mechanism is diffusion of oxygen along the columnar grain boundary structure, followed by the reaction of oxygen with the weakly bonded TiN. The results suggest that the oxidation process proceeds with different stages involving formation of TiON, followed by a slow stage of TiO2 formation. These microstructural changes are consistent with the evolution of compressive stresses in the films and the increase in film density and thickness and the decrease in surface roughness as determined by X-ray reflectivity.}
+      \field{issn}{0040-6090}
+      \field{journaltitle}{Thin Solid Films}
+      \field{number}{1}
+      \field{title}{Room temperature oxidation behavior of TiN thin films}
+      \field{volume}{338}
+      \field{year}{1999}
+      \field{pages}{304\bibrangedash 313}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0040-6090(98)00975-4
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0040609098009754
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0040609098009754
+      \endverb
+      \keyw{TIN films,Magnetron sputtering}
+    \endentry
+    \entry{Chowdhury1996}{article}{}
+      \name{author}{4}{}{%
+        {{hash=af4504dc9221c11e2f9d06f0965008fe}{%
+           family={Chowdhury},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=262d0797872b40de615b4973cc76c099}{%
+           family={Vispute},
+           familyi={V\bibinitperiod},
+           given={R.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=cb9d036b2d6d1dea12d115983810374a}{%
+           family={Jagannadham},
+           familyi={J\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a018297bd1ec3d24dd854efb23b56a7e}{%
+           family={Narayan},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{5eb8f98c661b6a29fa447e34bbe9cd24}
+      \strng{fullhash}{fe7e98e8f15ee571a6f54938ba7247ee}
+      \strng{bibnamehash}{fe7e98e8f15ee571a6f54938ba7247ee}
+      \strng{authorbibnamehash}{fe7e98e8f15ee571a6f54938ba7247ee}
+      \strng{authornamehash}{5eb8f98c661b6a29fa447e34bbe9cd24}
+      \strng{authorfullhash}{fe7e98e8f15ee571a6f54938ba7247ee}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Materials Research}
+      \field{number}{6}
+      \field{title}{Characteristics of titanium nitride films grown by pulsed laser deposition}
+      \field{volume}{11}
+      \field{year}{1996}
+      \field{pages}{1458\bibrangedash 1469}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1557/JMR.1996.0182
+      \endverb
+    \endentry
+    \entry{Chappe2007}{article}{}
+      \name{author}{6}{}{%
+        {{hash=60452f00a7ce27a2d1f6b4dd50f385ba}{%
+           family={Chapp{é}},
+           familyi={C\bibinitperiod},
+           given={Jean-Marie},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=0e114fcb893c9e96e896bc25a778900a}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=11fee3b7ef3b916c1d8b637417ef8d70}{%
+           family={Lintymer},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=67a74709db9ec14d55c195c868b1cdb8}{%
+           family={Sthal},
+           familyi={S\bibinitperiod},
+           given={Fabrice},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e284a2decf550ff408f690fbb9a4effd}{%
+           family={Terwagne},
+           familyi={T\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8fa2b8cc487f3814f382ddaba0840146}{%
+           family={Takadoum},
+           familyi={T\bibinitperiod},
+           given={Jamal},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ce61fcfbb0aa62322e7b70602abfcbd}
+      \strng{fullhash}{7a174b1be1cb685476df17cdf063627b}
+      \strng{bibnamehash}{4ce61fcfbb0aa62322e7b70602abfcbd}
+      \strng{authorbibnamehash}{4ce61fcfbb0aa62322e7b70602abfcbd}
+      \strng{authornamehash}{4ce61fcfbb0aa62322e7b70602abfcbd}
+      \strng{authorfullhash}{7a174b1be1cb685476df17cdf063627b}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{DC reactive sputtering was used to successfully make thin films of titanium oxynitride using titanium metallic target, argon as plasma gas and nitrogen and oxygen as reactive gases. The nitrogen partial pressure was kept constant during every deposition whereas oxygen flow rate was pulsed using a square pattern. The study consisted in analysing the influence of the shape of the pulsed rate on physical properties of these films. In order to adjust the metalloid concentration to get films with a wide range of oxygen-to-nitrogen ratios, the reactive gas pulsing process (RGPP) was used. In this process, the oxygen flow switches ``on'' and ``off'' periodically according to a duty cycle α=tON/T. Electrical conductivity of films measured against temperature was gradually modified from metallic (σ300K=4.42×104Sm−1) to semi-conducting behaviour (σ300K=7.14Sm−1) with an increasing duty cycle. Mechanical properties like nanohardness (Hn) and reduced Young's modulus (Er) of the films were investigated. Experimental values of Hn and Er obtained by nanoindentation at 10\% depth ranged from 15.8 to 5.2GPa and from 273 to 142GPa, respectively. Evolutions of Hn and E against duty cycle were similar. A regular decrease was observed for duty cycle α≤25\% corresponding to the occurrence of TiOxNy phase. Higher duty cycles led to the smallest values of Hn and E and correlated with TiO2 compound composition. At last, the colour variation of these titanium oxynitrides was investigated as a function of α in the L*a*b* colour space. It was related to the chemical composition of the films.}
+      \field{issn}{0169-4332}
+      \field{journaltitle}{Applied Surface Science}
+      \field{number}{12}
+      \field{title}{Titanium oxynitride thin films sputter deposited by the reactive gas pulsing process}
+      \field{volume}{253}
+      \field{year}{2007}
+      \field{pages}{5312\bibrangedash 5316}
+      \range{pages}{5}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.apsusc.2006.12.004
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0169433206015273
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0169433206015273
+      \endverb
+      \keyw{Titanium oxynitride,Thin films,Reactive sputtering,Reactive gas pulsing process}
+    \endentry
+    \entry{Radecka2011}{article}{}
+      \name{author}{8}{}{%
+        {{hash=df37db01916fe93cbf8a436be7495373}{%
+           family={Radecka},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bc20cfea83fe427c55d389cb9cab7134}{%
+           family={Pamula},
+           familyi={P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=14eaefc18ea43f0397563f186254405e}{%
+           family={Trenczek-Zajac},
+           familyi={T\bibinithyphendelim Z\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cddd86a1f310555542da4c969a354ca3}{%
+           family={Zakrzewska},
+           familyi={Z\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3f14f2b1142637bd796dc75fbb9b3760}{%
+           family={Brudnik},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bdbe3c5e459b0785613aad9bc68b9908}{%
+           family={Kusior},
+           familyi={K\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e6d696da00a6b7b045657e011dc44e43}{%
+           family={Kim-Ngan},
+           familyi={K\bibinithyphendelim N\bibinitperiod},
+           given={N.-T.H.},
+           giveni={N\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=cf04f854a3ef28decb724f38a26b50c2}{%
+           family={Balogh},
+           familyi={B\bibinitperiod},
+           given={A.G.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{80f62fff6aad67c4bca1983642476832}
+      \strng{fullhash}{4ea88b64b512fb8639db79e853dcd7f8}
+      \strng{bibnamehash}{80f62fff6aad67c4bca1983642476832}
+      \strng{authorbibnamehash}{80f62fff6aad67c4bca1983642476832}
+      \strng{authornamehash}{80f62fff6aad67c4bca1983642476832}
+      \strng{authorfullhash}{4ea88b64b512fb8639db79e853dcd7f8}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Titanium oxynitride TiNxOy thin films have been deposited by DC-pulsed magnetron sputtering from Ti target in the Ar+N2+O2 reactive atmosphere controlled by plasma emission spectroscopy. Correlation between chemical composition and crystallographic structure of thin films has been determined and presented in the form of the pseudo-equilibrium ternary phase diagram. The atomic N/Ti and O/Ti ratios have been derived from Rutherford backscattering (RBS) measurements. X-ray diffraction at grazing incidence has revealed formation of defective TiN--TiO solid solutions. The surface roughness estimated from atomic force microscopy (AFM) surface images decreases with increasing oxygen content in the films, in accordance with the progressive sample amorphisation. Impedance spectroscopy measurements indicate that the electrical conductivity changes its character from metallic to semiconducting with increasing oxygen content in TiNxOy thin films.}
+      \field{issn}{0167-2738}
+      \field{journaltitle}{Solid State Ionics}
+      \field{note}{Proceedings of the 17th International Conference on Solid State Ionics}
+      \field{number}{1}
+      \field{title}{Chemical composition, crystallographic structure and impedance spectroscopy of titanium oxynitride TiNxOy thin films}
+      \field{volume}{192}
+      \field{year}{2011}
+      \field{pages}{693\bibrangedash 698}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ssi.2010.07.021
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0167273810004194
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0167273810004194
+      \endverb
+      \keyw{Titanium oxynitrides,Thin films,Impedance spectroscopy,Rutherford backscattering}
+    \endentry
+    \entry{Martinis2005}{article}{}
+      \name{author}{11}{}{%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=57822ff5f4177ea75d881babcb7bf750}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={K.\bibnamedelimi B.},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3bd2850aa6db5592ab9d8f129d06e35b}{%
+           family={McDermott},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4d699184e97e79510fba7d47b54242fa}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0eca69a0085d760b0d510091c9ee3eb5}{%
+           family={Ansmann},
+           familyi={A\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f84674c9f7731b4fce6a327f07d1de07}{%
+           family={Osborn},
+           familyi={O\bibinitperiod},
+           given={K.\bibnamedelimi D.},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=9e8b1af28ddae2ade894352e676c4d51}{%
+           family={Cicak},
+           familyi={C\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=60c3a70113db65186b504eccd38d7f69}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Seongshik},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c73831db32d6b6bc13996807f00c698c}{%
+           family={Pappas},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=29147a1192697445e40837b66adc3180}{%
+           family={Simmonds},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=fcf69875b44ffe5e7d86fbb6730e5792}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Clare\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f959223c27127fcba7d9460797e42505}
+      \strng{fullhash}{a1b46942836eff4c865eb72827083a30}
+      \strng{bibnamehash}{f959223c27127fcba7d9460797e42505}
+      \strng{authorbibnamehash}{f959223c27127fcba7d9460797e42505}
+      \strng{authornamehash}{f959223c27127fcba7d9460797e42505}
+      \strng{authorfullhash}{a1b46942836eff4c865eb72827083a30}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{21}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Decoherence in Josephson Qubits from Dielectric Loss}
+      \field{volume}{95}
+      \field{year}{2005}
+      \field{pages}{210503}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.95.210503
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.95.210503
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.95.210503
+      \endverb
+    \endentry
+    \entry{Williams1987}{article}{}
+      \name{author}{6}{}{%
+        {{hash=67f29aa1687243e89343df91591ccbd9}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=133ada2f394a33bada7fee5ef8a63436}{%
+           family={Baiocchi},
+           familyi={B\bibinitperiod},
+           given={F.\bibnamedelimi A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1490c2067f57ade531508d8925f85a9a}{%
+           family={Beairsto},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b297d64ad5b1ff26219d1d4660c54e0f}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=be65dc8f46a700efb4a88cc8a20b96b1}{%
+           family={Knoell},
+           familyi={K\bibinitperiod},
+           given={R.\bibnamedelimi V.},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=2d53ef42df15b8a745abf0c348e6cfb1}{%
+           family={Murarka},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4afea7a3340da750252bfc086d18994c}
+      \strng{fullhash}{33cf1022561fba453542c553cf17741a}
+      \strng{bibnamehash}{4afea7a3340da750252bfc086d18994c}
+      \strng{authorbibnamehash}{4afea7a3340da750252bfc086d18994c}
+      \strng{authornamehash}{4afea7a3340da750252bfc086d18994c}
+      \strng{authorfullhash}{33cf1022561fba453542c553cf17741a}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Vacuum Science \& Technology B: Microelectronics Processing and Phenomena}
+      \field{number}{6}
+      \field{title}{Nitrogen, oxygen, and argon incorporation during reactive sputter deposition of titanium nitride}
+      \field{volume}{5}
+      \field{year}{1987}
+      \field{pages}{1723\bibrangedash 1729}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1116/1.583654
+      \endverb
+      \verb{eprint}
+      \verb https://avs.scitation.org/doi/pdf/10.1116/1.583654
+      \endverb
+      \verb{urlraw}
+      \verb https://avs.scitation.org/doi/abs/10.1116/1.583654
+      \endverb
+      \verb{url}
+      \verb https://avs.scitation.org/doi/abs/10.1116/1.583654
+      \endverb
+    \endentry
+    \entry{Ahn1983}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a2e968cce080dce16eca92ff1d8648fb}{%
+           family={Ahn},
+           familyi={A\bibinitperiod},
+           given={K.Y.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5522c7bf9a5888e129045385ea731f42}{%
+           family={Wittmer},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0f4481d06ffaf625a9a023b3069f41a1}{%
+           family={Ting},
+           familyi={T\bibinitperiod},
+           given={C.Y.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{45e0deba448e5884c6a0b083b56f622f}
+      \strng{fullhash}{75f34fefd291b142ddf6937a26357251}
+      \strng{bibnamehash}{75f34fefd291b142ddf6937a26357251}
+      \strng{authorbibnamehash}{75f34fefd291b142ddf6937a26357251}
+      \strng{authornamehash}{45e0deba448e5884c6a0b083b56f622f}
+      \strng{authorfullhash}{75f34fefd291b142ddf6937a26357251}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{TiN films were prepared by reactive sputtering of titanium in a gas mixture of argon and nitrogen using a sputter gun. The properties of the sputtered films were investigated with Rutherford backscattering spectrometry, electrical resistivity and optical reflectivity measurements, X-ray diffractometry and transmission electron microscopy. For a given input power to the sputter gun the film properties depend on the gas composition, the bias voltage applied to the substrates and oxygen contamination during sputtering. In addition, it was found that powering the sputter gun with r.f. causes an iron contamination in the films by material sputtered off the plasma confinement shield. This contamination is very much reduced when d.c. is employed to power the sputter gun.}
+      \field{journaltitle}{Thin Solid Films}
+      \field{number}{1}
+      \field{title}{Investigation of Tin films reactively sputtered using a sputter gun}
+      \field{volume}{107}
+      \field{year}{1983}
+    \endentry
+    \entry{Schiller1984}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c2b089eafab682bfb5e566c5e1cfb552}{%
+           family={Schiller},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f232d84d6e4e8fb5f5b2040425e16e7b}{%
+           family={Beister},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e54b96a69f48600baa10c72929e77bcb}{%
+           family={Sieber},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1af38a484f397cb36d2e97f4e8104c49}
+      \strng{fullhash}{15f66daaccab31e7f0e546d508dcc0cc}
+      \strng{bibnamehash}{15f66daaccab31e7f0e546d508dcc0cc}
+      \strng{authorbibnamehash}{15f66daaccab31e7f0e546d508dcc0cc}
+      \strng{authornamehash}{1af38a484f397cb36d2e97f4e8104c49}
+      \strng{authorfullhash}{15f66daaccab31e7f0e546d508dcc0cc}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{On the basis of previous investigations of the deposition rate, stoichiometry and refractive index of TiOx films we demonstrate the effects of the target mode, the target-to-substrate distance and the oxygen partial pressure on reactive high rate d.c. sputtering. The observed relationships are discussed in terms of the ratio of the impact numbers as well as the kinetic energy and the excitation state of the sputtered particles on the substrate. The characteristic change in the colour of TiNx films, which is observed as the nitrogen partial pressure is varied, is correlated with other interesting properties of the films.}
+      \field{issn}{0040-6090}
+      \field{journaltitle}{Thin Solid Films}
+      \field{number}{3}
+      \field{title}{Reactive high rate D.C. sputtering: Deposition rate, stoichiometry and features of TiOx and TiNx films with respect to the target mode}
+      \field{volume}{111}
+      \field{year}{1984}
+      \field{pages}{259\bibrangedash 268}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0040-6090(84)90147-0
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/0040609084901470
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0040609084901470
+      \endverb
+    \endentry
+    \entry{Johansson1985}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bf1a4961754708107cdf88fbb0f43719}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={B.\bibnamedelimi O.},
+           giveni={B\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=2feeaccdc6d7ec2d14fc9cd458b1b2da}{%
+           family={Sundgren},
+           familyi={S\bibinitperiod},
+           given={J.‐E.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bb6404a3306962d36f276a056dd311c7}{%
+           family={Greene},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=64a1b99446d60e6dbc40c6537d6239b8}{%
+           family={Rockett},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b1d5f1a6aaf22a8f72ea019578912559}{%
+           family={Barnett},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4eaf2a615b7b19b869c2cdb9bdbc531d}
+      \strng{fullhash}{de89eaf63b14abb32650786c5ae16b47}
+      \strng{bibnamehash}{de89eaf63b14abb32650786c5ae16b47}
+      \strng{authorbibnamehash}{de89eaf63b14abb32650786c5ae16b47}
+      \strng{authornamehash}{4eaf2a615b7b19b869c2cdb9bdbc531d}
+      \strng{authorfullhash}{de89eaf63b14abb32650786c5ae16b47}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Vacuum Science \& Technology A}
+      \field{number}{2}
+      \field{title}{Growth and properties of single crystal TiN films deposited by reactive magnetron sputtering}
+      \field{volume}{3}
+      \field{year}{1985}
+      \field{pages}{303\bibrangedash 307}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1116/1.573255
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1116/1.573255
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1116/1.573255
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1116/1.573255
+      \endverb
+    \endentry
+    \entry{Wriedt1987}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5690254496e419057b1d2cd0ded727cb}{%
+           family={Wriedt},
+           familyi={W\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f24e5fe57ede2c94d5f9a1f10953fb0e}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fd9477e3a516761261362b297cacc3a}
+      \strng{fullhash}{8fd9477e3a516761261362b297cacc3a}
+      \strng{bibnamehash}{8fd9477e3a516761261362b297cacc3a}
+      \strng{authorbibnamehash}{8fd9477e3a516761261362b297cacc3a}
+      \strng{authornamehash}{8fd9477e3a516761261362b297cacc3a}
+      \strng{authorfullhash}{8fd9477e3a516761261362b297cacc3a}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0197-0216}
+      \field{journaltitle}{Bulletin of Alloy Phase Diagrams}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{The N-Ti (Nitrogen-Titanium) system}
+      \field{volume}{8}
+      \field{year}{1987}
+      \field{pages}{378\bibrangedash 388}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/BF02869274
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF02869274
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF02869274
+      \endverb
+    \endentry
+    \entry{Vissers2013}{article}{}
+      \name{author}{7}{}{%
+        {{hash=5a68fccafae2d93fec6f8ff1597071ff}{%
+           family={Vissers},
+           familyi={V\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f6a53c9969577587f5acdc92df740bf4}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jiansong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a65796d7eb93a11bb9267c4ffbed0b45}{%
+           family={Kline},
+           familyi={K\bibinitperiod},
+           given={Jeffrey\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=735c238323ff8f843a967d4c75d67361}{%
+           family={Sandberg},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7e655a210366131fedd4cad240f7eba7}{%
+           family={Weides},
+           familyi={W\bibinitperiod},
+           given={Martin\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=586eead31223749fb2272ccb5126bfa5}{%
+           family={Wisbey},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6ec16ffb89186951759616ce7f0ba123}{%
+           family={Pappas},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8415b492a4f8d61a1d114889092f758a}
+      \strng{fullhash}{507ee4429d2ada439abe0cc019f2f4f9}
+      \strng{bibnamehash}{8415b492a4f8d61a1d114889092f758a}
+      \strng{authorbibnamehash}{8415b492a4f8d61a1d114889092f758a}
+      \strng{authornamehash}{8415b492a4f8d61a1d114889092f758a}
+      \strng{authorfullhash}{507ee4429d2ada439abe0cc019f2f4f9}
+      \field{extraname}{3}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The structural and electrical properties of Ti--N films deposited by reactive sputtering depend on their growth parameters, in particular the Ar:N2 gas ratio. We show that the nitrogen percentage changes the crystallographic phase of the film progressively from pure α-Ti, through an α-Ti phase with interstitial nitrogen, to stoichiometric Ti2N, and through a substoichiometric TiNx to stoichiometric TiN. These changes also affect the superconducting transition temperature, TC, allowing, the superconducting properties to be tailored for specific applications. After decreasing from a TC of 0.4K for pure Ti down to below 50mK at the Ti2N point, the TC then increases rapidly up to nearly 5K over a narrow range of nitrogen incorporation. This very sharp increase of TC makes it difficult to control the properties of the film from wafer-to-wafer as well as across a given wafer to within acceptable margins for device fabrication. Here we show that the nitrogen composition and hence the superconductive properties are related to, and can be determined by, spectroscopic ellipsometry. Therefore, this technique may be used for process control and wafer screening prior to investing time in processing devices. Contribution of the U.S. government, not subject to copyright.}
+      \field{issn}{0040-6090}
+      \field{journaltitle}{Thin Solid Films}
+      \field{title}{Characterization and in-situ monitoring of sub-stoichiometric adjustable superconducting critical temperature titanium nitride growth}
+      \field{volume}{548}
+      \field{year}{2013}
+      \field{pages}{485\bibrangedash 488}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.tsf.2013.07.046
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0040609013012297
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0040609013012297
+      \endverb
+      \keyw{Titanium nitride,Sub-stoichiometric,Ellipsometry,Superconductors,X-ray diffraction,Sputtering}
+    \endentry
+    \entry{Penilla2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=584eee7e186311d110532b9f98dd4017}{%
+           family={Penilla},
+           familyi={P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3702f1c146e64a6c91fc47b81ea59fc7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London, UK, United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {Hindawi Limited}%
+      }
+      \strng{namehash}{7cd576cfe0458b4a117925295b08854c}
+      \strng{fullhash}{7cd576cfe0458b4a117925295b08854c}
+      \strng{bibnamehash}{7cd576cfe0458b4a117925295b08854c}
+      \strng{authorbibnamehash}{7cd576cfe0458b4a117925295b08854c}
+      \strng{authornamehash}{7cd576cfe0458b4a117925295b08854c}
+      \strng{authorfullhash}{7cd576cfe0458b4a117925295b08854c}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1687-4110}
+      \field{journaltitle}{J. Nanomaterials}
+      \field{month}{1}
+      \field{title}{Pressure and Temperature Effects on Stoichiometry and Microstructure of Nitrogen-rich TiN Thin Films Synthesized via Reactive Magnetron DC-sputtering}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \field{pages}{29:1\bibrangedash 29:9}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1155/2008/267161
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1155/2008/267161
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1155/2008/267161
+      \endverb
+    \endentry
+    \entry{Lu2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=31e46e46fae6e00720795887c541f2b6}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Junqing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ce4c6a09cdf7ddb32b8fc54fb0453fcc}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chan\bibnamedelima Gyu},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4c41e6e99fe09d27d5b75cd34907c29}
+      \strng{fullhash}{e4c41e6e99fe09d27d5b75cd34907c29}
+      \strng{bibnamehash}{e4c41e6e99fe09d27d5b75cd34907c29}
+      \strng{authorbibnamehash}{e4c41e6e99fe09d27d5b75cd34907c29}
+      \strng{authornamehash}{e4c41e6e99fe09d27d5b75cd34907c29}
+      \strng{authorfullhash}{e4c41e6e99fe09d27d5b75cd34907c29}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{During the sputtering process in Ar gas, the sputtered target atoms and the reflected Ar neutrals from the target have much higher energy than the background gas. In this study, the Thompson distribution and an updated Meyer model based on the elastic energy transfer between two colliding particles were used to obtain energy distributions and average energies for the sputtered metal atoms and the reflected Ar neutrals. An energy dependent elastic collision cross section was incorporated into Meyer's model and a thermalization criterion based on power balance was used. Under typical sputtering conditions (0.5 mTorr and 1000 K Ar, 400 eV incident Ar ion), the model predictions indicate that for Cu, Ti and Ta targets, the sputtered metal atoms have initial average energies from 15 to 22 eV and thermalize with the background Ar gas between 10 and 20 collisions. The reflected Ar neutrals thermalize after about 10 collisions. Depending on the number of collisions, the energy dependent mean free path values of the sputtered metal atoms range from 300 to 100 cm while the mean free path values for the reflected Ar neutrals range from 200 to 100 cm.}
+      \field{issn}{0042-207X}
+      \field{journaltitle}{Vacuum}
+      \field{number}{8}
+      \field{title}{Numerical estimates for energy of sputtered target atoms and reflected Ar neutrals in sputter processes}
+      \field{volume}{86}
+      \field{year}{2012}
+      \field{pages}{1134\bibrangedash 1140}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.vacuum.2011.10.018
+      \endverb
+      \keyw{Sputter,Physical vapor deposition,Sputtered atom energy,Reflected Ar neutrals,Thermalization}
+    \endentry
+    \entry{Adjaottor1995}{article}{}
+      \name{author}{5}{}{%
+        {{hash=60ba5ce37039fb713c950571516f4a52}{%
+           family={Adjaottor},
+           familyi={A\bibinitperiod},
+           given={A.A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=29ed15f82150176dbb1651cc3a655520}{%
+           family={Meletis},
+           familyi={M\bibinitperiod},
+           given={E.I.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=14750357246388a650c292fb3443e577}{%
+           family={Logothetidis},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4040dd644d0ca05ae4e09e656eef0a3c}{%
+           family={Alexandrou},
+           familyi={A\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d1fb9f751f090eea86e707b3e60855c1}{%
+           family={Kokkou},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b12e31aa5b428f719229f7ceab658eae}
+      \strng{fullhash}{84332e98006542645987a8bdefcddb6c}
+      \strng{bibnamehash}{84332e98006542645987a8bdefcddb6c}
+      \strng{authorbibnamehash}{84332e98006542645987a8bdefcddb6c}
+      \strng{authornamehash}{b12e31aa5b428f719229f7ceab658eae}
+      \strng{authorfullhash}{84332e98006542645987a8bdefcddb6c}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Carbides and nitrides of transition metals such as Ti attract significant interest since they find a wide field of applications ranging from high-temperature structural materials to contact layers in solar cells. In the present study we report on the influence of the bias voltage on the development of TiCx, TiNy, and TiCxNy films (600--3000 {Å} thick) developed by magnetron sputtering. The TiCx films were deposited by r.f. magnetron sputtering from TiC targets, while the TiNy and TiCxNy films were deposited by d.c. and r.f. reactive sputtering from Ti and TiC targets, respectively. The bias voltage was varied from 0 to 200 V for all three types of film. In-situ spectroscopic ellipsometry (SE) was used in the energy region 1.5--5.5 eV to monitor film characteristics. Auger electron spectroscopy (AES), X-ray photoelectron spectroscopy (XPS), X-ray diffraction (XRD) and microhardness measurements were taken to characterize the composition, stoichiometry, structure, quality and integrity of the films as a function of the bias voltage. For the present deposition conditions, the substrate bias voltage was found to have a significant effect on the stoichiometry and structure of all three types of films. The results show that for TiNy, films the substrate bias can promote stoichiometry and structure refinement through resputtering effects. For TiCx and TiCxNy films, substrate bias can influence stoichiometry and structure by increasing reaction probabilities (of carbon and nitrogen, respectively) in the plasma through ionization and plasma activation effects. Mechanistic aspects of the film development process are discussed in view of the in-situ SE results and the post deposition AES, XPS, XRD and microhardness evaluation.}
+      \field{issn}{0257-8972}
+      \field{journaltitle}{Surface and Coatings Technology}
+      \field{title}{Effect of substrate bias on sputter-deposited TiCx, TiNy and TiCxNy thin films}
+      \field{volume}{76-77}
+      \field{year}{1995}
+      \field{pages}{142\bibrangedash 148}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0257-8972(95)02594-4
+      \endverb
+      \keyw{Sputter deposition,Titanium nitride,Titanium carbide,Titanium carbonitride,Spectroscopic ellipsometry}
+    \endentry
+    \entry{Thornton1985}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4615ebb2f57af975197987eb38f0b20d}{%
+           family={Thornton},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7c4a8f016a62b7c5649200225d72e5a4}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e9467651b76ea1ac8cfda9b00cd7423}
+      \strng{fullhash}{3e9467651b76ea1ac8cfda9b00cd7423}
+      \strng{bibnamehash}{3e9467651b76ea1ac8cfda9b00cd7423}
+      \strng{authorbibnamehash}{3e9467651b76ea1ac8cfda9b00cd7423}
+      \strng{authornamehash}{3e9467651b76ea1ac8cfda9b00cd7423}
+      \strng{authorfullhash}{3e9467651b76ea1ac8cfda9b00cd7423}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Vacuum Science \& Technology A}
+      \field{number}{3}
+      \field{title}{The influence of discharge current on the intrinsic stress in Mo films deposited using cylindrical and planar magnetron sputtering sources}
+      \field{volume}{3}
+      \field{year}{1985}
+      \field{pages}{576\bibrangedash 579}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1116/1.572997
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1116/1.572997
+      \endverb
+    \endentry
+    \entry{Patsalas2000}{article}{}
+      \name{author}{3}{}{%
+        {{hash=550e21d424b081872d79a6e0e07fda46}{%
+           family={Patsalas},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fb62fab9df10709098072ca5d1e60955}{%
+           family={Charitidis},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=14750357246388a650c292fb3443e577}{%
+           family={Logothetidis},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1040dffe34fb2323f44e3bff6e6f0a4}
+      \strng{fullhash}{3102478754f2761be1b48d9d679956b1}
+      \strng{bibnamehash}{3102478754f2761be1b48d9d679956b1}
+      \strng{authorbibnamehash}{3102478754f2761be1b48d9d679956b1}
+      \strng{authornamehash}{c1040dffe34fb2323f44e3bff6e6f0a4}
+      \strng{authorfullhash}{3102478754f2761be1b48d9d679956b1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The mechanical properties of titanium nitride (TiNx) thin films have been investigated using depth sensing nanoindentation tests. The effects of substrate temperature (Ts) and of substrate biasing (Vb) on the mechanical properties and the microstructure of the TiNx films were studied. Ts and Vb have strong effect on the film's microstructural characteristics such as density, grain size and orientation. It was found that deposition at high Ts and Vb promotes the growth of (002) oriented films with density close to the bulk density of stoichiometric TiN, indicating the absence of voids and the growth of stoichiometric TiN. The film hardness and elastic modulus were measured using the continuous stiffness measurements technique. It was found that there exists a direct correlation between the film's mechanical properties and microstructure. The films that exhibit the best mechanical performance are those grown along the (002) orientation and being denser and stoichiometric.}
+      \field{issn}{0257-8972}
+      \field{journaltitle}{Surface and Coatings Technology}
+      \field{number}{1}
+      \field{title}{The effect of substrate temperature and biasing on the mechanical properties and structure of sputtered titanium nitride thin films}
+      \field{volume}{125}
+      \field{year}{2000}
+      \field{pages}{335\bibrangedash 340}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0257897299006064
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0257897299006064
+      \endverb
+      \keyw{Grain growth,Nano-indentation,Sputtering,Titanium nitride,X-ray diffraction}
+    \endentry
+    \entry{T-SComment}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{note}{Private communication with H. G. LeDuc and B. Bumble.}
+    \endentry
+    \entry{Sandberg2012}{article}{}
+      \name{author}{7}{}{%
+        {{hash=735c238323ff8f843a967d4c75d67361}{%
+           family={Sandberg},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5a68fccafae2d93fec6f8ff1597071ff}{%
+           family={Vissers},
+           familyi={V\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a65796d7eb93a11bb9267c4ffbed0b45}{%
+           family={Kline},
+           familyi={K\bibinitperiod},
+           given={Jeffrey\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5447d396ea2451e08ff317acae1d12e5}{%
+           family={Weides},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f6a53c9969577587f5acdc92df740bf4}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jiansong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=586eead31223749fb2272ccb5126bfa5}{%
+           family={Wisbey},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6ec16ffb89186951759616ce7f0ba123}{%
+           family={Pappas},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{431030cfd995eaf599327f11c996289b}
+      \strng{fullhash}{fb69a123f8c7696b6c9522cf4435d92c}
+      \strng{bibnamehash}{431030cfd995eaf599327f11c996289b}
+      \strng{authorbibnamehash}{431030cfd995eaf599327f11c996289b}
+      \strng{authornamehash}{431030cfd995eaf599327f11c996289b}
+      \strng{authorfullhash}{fb69a123f8c7696b6c9522cf4435d92c}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{26}
+      \field{title}{Etch induced microwave losses in titanium nitride superconducting resonators}
+      \field{volume}{100}
+      \field{year}{2012}
+      \field{pages}{262605}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4729623
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.4729623
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.4729623
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.4729623
+      \endverb
+    \endentry
+    \entry{Barends2011}{article}{}
+      \name{author}{17}{}{%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=056672c3aeb542ee777de20bea78b2c5}{%
+           family={Lenander},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1093e222cf8a036deb2e78914bfd6ab9}{%
+           family={Bialczak},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=eff4026eb032033e709bde6174d3be9f}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=08f97d47f19bcf66b262db834049e96f}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=374bd4a2aa079a5f999cb4dd0bd0238d}{%
+           family={Mariantoni},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=39856f0439f35f79a8eed8b12d26166c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=01a783820fca905cdcff203f64caa39f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=326e7e67b0b4605a06b13d7b7d37ab75}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f1802bed6a5443ed2c009b43a2e17b4f}{%
+           family={Baselmans},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{fullhash}{afade78ae4a74227663a498403326b8e}
+      \strng{bibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authorbibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authorfullhash}{afade78ae4a74227663a498403326b8e}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{11}
+      \field{title}{Minimizing quasiparticle generation from stray infrared light in superconducting quantum circuits}
+      \field{volume}{99}
+      \field{year}{2011}
+      \field{pages}{113507}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3638063
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3638063
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3638063
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3638063
+      \endverb
+    \endentry
+    \entry{Megrant2012}{article}{}
+      \name{author}{19}{}{%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=49ad05d570dcddac67f42c0abf3e3ba0}{%
+           family={Feigl},
+           familyi={F\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1ca86a6dfd219877ce431f01a165a869}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bdb44c753feea38b69ffdaeb660ee3fb}{%
+           family={Mariantoni},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=96fcb68450f28a59913f918bcce52221}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.\bibnamedelimi J.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7ea58a08978a1363797b293339adad82}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=01a783820fca905cdcff203f64caa39f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=326e7e67b0b4605a06b13d7b7d37ab75}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cb1f8a017f4f762c10e3169d4bdc88c3}{%
+           family={Palmstr{ø}m},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{efe95de29730982b1387bcaee27db749}
+      \strng{fullhash}{fa5a79222799fea6ce79801ed8916693}
+      \strng{bibnamehash}{efe95de29730982b1387bcaee27db749}
+      \strng{authorbibnamehash}{efe95de29730982b1387bcaee27db749}
+      \strng{authornamehash}{efe95de29730982b1387bcaee27db749}
+      \strng{authorfullhash}{fa5a79222799fea6ce79801ed8916693}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{11}
+      \field{title}{Planar superconducting resonators with internal quality factors above one million}
+      \field{volume}{100}
+      \field{year}{2012}
+      \field{pages}{113510}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3693409
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3693409
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3693409
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3693409
+      \endverb
+    \endentry
+    \entry{Gao2008}{article}{}
+      \name{author}{9}{}{%
+        {{hash=f6a53c9969577587f5acdc92df740bf4}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jiansong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fff6f219b2460bd96349e66eb1d61895}{%
+           family={Daal},
+           familyi={D\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bc497c9e59e2e3ae288b36d114ecea26}{%
+           family={Vayonakis},
+           familyi={V\bibinitperiod},
+           given={Anastasios},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c5f0c0cd77a589410ef4ba1ceff13855}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Shwetank},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e952cdd64c504471db03b03b1f1dc01a}{%
+           family={Zmuidzinas},
+           familyi={Z\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0132fc3d0034c33501d50e74ae5225bb}{%
+           family={Sadoulet},
+           familyi={S\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e76d867ad3380b7e732b8759d927eb17}{%
+           family={Mazin},
+           familyi={M\bibinitperiod},
+           given={Benjamin\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8d25d6418e042568af153e5aad7f775e}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Peter\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=b02b6dc9df885e3ca732a43e4d322d0b}{%
+           family={Leduc},
+           familyi={L\bibinitperiod},
+           given={Henry\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9e37aac89a147d47c03493331bd5dd8}
+      \strng{fullhash}{1c9c32f767f95967b4ef4912c7d62e6c}
+      \strng{bibnamehash}{a9e37aac89a147d47c03493331bd5dd8}
+      \strng{authorbibnamehash}{a9e37aac89a147d47c03493331bd5dd8}
+      \strng{authornamehash}{a9e37aac89a147d47c03493331bd5dd8}
+      \strng{authorfullhash}{1c9c32f767f95967b4ef4912c7d62e6c}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{15}
+      \field{title}{Experimental evidence for a surface distribution of two-level systems in superconducting lithographed microwave resonators}
+      \field{volume}{92}
+      \field{year}{2008}
+      \field{pages}{152505}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.2906373
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.2906373
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.2906373
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.2906373
+      \endverb
+    \endentry
+    \entry{day2003}{article}{}
+      \name{author}{5}{}{%
+        {{hash=8d25d6418e042568af153e5aad7f775e}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Peter\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=d2beb00fef07765f0116d89e562db854}{%
+           family={LeDuc},
+           familyi={L\bibinitperiod},
+           given={Henry\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=e76d867ad3380b7e732b8759d927eb17}{%
+           family={Mazin},
+           familyi={M\bibinitperiod},
+           given={Benjamin\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bc497c9e59e2e3ae288b36d114ecea26}{%
+           family={Vayonakis},
+           familyi={V\bibinitperiod},
+           given={Anastasios},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e952cdd64c504471db03b03b1f1dc01a}{%
+           family={Zmuidzinas},
+           familyi={Z\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9c9476aa2d0e41a8203245c24fc87d1}
+      \strng{fullhash}{567619d0da44fa6e276632712f4c80d1}
+      \strng{bibnamehash}{567619d0da44fa6e276632712f4c80d1}
+      \strng{authorbibnamehash}{567619d0da44fa6e276632712f4c80d1}
+      \strng{authornamehash}{d9c9476aa2d0e41a8203245c24fc87d1}
+      \strng{authorfullhash}{567619d0da44fa6e276632712f4c80d1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cryogenic detectors are extremely sensitive and have a wide variety of applications1,2,3 (particularly in astronomy4,5,6,7,8), but are difficult to integrate into large arrays like a modern CCD (charge-coupled device) camera. As current detectors of the cosmic microwave background (CMB) already have sensitivities comparable to the noise arising from the random arrival of CMB photons, the further gains in sensitivity needed to probe the very early Universe will have to arise from large arrays. A similar situation is encountered at other wavelengths. Single-pixel X-ray detectors now have a resolving power of ΔE < 5 eV for single 6-keV photons, and future X-ray astronomy missions7 anticipate the need for 1,000-pixel arrays. Here we report the demonstration of a superconducting detector that is easily fabricated and can readily be incorporated into such an array. Its sensitivity is already within an order of magnitude of that needed for CMB observations, and its energy resolution is similarly close to the targets required for future X-ray astronomy missions.}
+      \field{isbn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{number}{6960}
+      \field{title}{A broadband superconducting detector suitable for use in large arrays}
+      \field{volume}{425}
+      \field{year}{2003}
+      \field{pages}{817\bibrangedash 821}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nature02037
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nature02037
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nature02037
+      \endverb
+    \endentry
+    \entry{mazin2012}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e76d867ad3380b7e732b8759d927eb17}{%
+           family={Mazin},
+           familyi={M\bibinitperiod},
+           given={Benjamin\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b3c5f4090b96197548c7fb43cd0f31ca}{%
+           family={Bumble},
+           familyi={B\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3321b40335af2f052fee76796b235225}{%
+           family={Meeker},
+           familyi={M\bibinitperiod},
+           given={Seth\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=37026090a75029d6cb4740078e2fd5d4}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Kieran},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8d13a844518f2445eebf533de3b5bb6d}{%
+           family={McHugh},
+           familyi={M\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+        {{hash=422dd15e409c02a26d69c624ddb974e4}{%
+           family={Langman},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {OSA}%
+      }
+      \strng{namehash}{68e1e93d1ad9abda60d8a6f8a1a6a8d9}
+      \strng{fullhash}{1fb7c70ca7eed7cbd8cdab2958e7b3ad}
+      \strng{bibnamehash}{68e1e93d1ad9abda60d8a6f8a1a6a8d9}
+      \strng{authorbibnamehash}{68e1e93d1ad9abda60d8a6f8a1a6a8d9}
+      \strng{authornamehash}{68e1e93d1ad9abda60d8a6f8a1a6a8d9}
+      \strng{authorfullhash}{1fb7c70ca7eed7cbd8cdab2958e7b3ad}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Microwave Kinetic Inductance Detectors, or MKIDs, have proven to be a powerful cryogenic detector technology due to their sensitivity and the ease with which they can be multiplexed into large arrays. A MKID is an energy sensor based on a photon-variable superconducting inductance in a lithographed microresonator, and is capable of functioning as a photon detector across the electromagnetic spectrum as well as a particle detector. Here we describe the first successful effort to create a photon-counting, energy-resolving ultraviolet, optical, and near infrared MKID focal plane array. These new Optical Lumped Element (OLE) MKID arrays have significant advantages over semiconductor detectors like charge coupled devices (CCDs). They can count individual photons with essentially no false counts and determine the energy and arrival time of every photon with good quantum efficiency. Their physical pixel size and maximum count rate is well matched with large telescopes. These capabilities enable powerful new astrophysical instruments usable from the ground and space. MKIDs could eventually supplant semiconductor detectors for most astronomical instrumentation, and will be useful for other disciplines such as quantum optics and biological imaging.}
+      \field{journaltitle}{Opt. Express}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{A superconducting focal plane array for ultraviolet, optical, and near-infrared astrophysics}
+      \field{volume}{20}
+      \field{year}{2012}
+      \field{pages}{1503\bibrangedash 1511}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1364/OE.20.001503
+      \endverb
+      \verb{urlraw}
+      \verb http://www.opticsexpress.org/abstract.cfm?URI=oe-20-2-1503
+      \endverb
+      \verb{url}
+      \verb http://www.opticsexpress.org/abstract.cfm?URI=oe-20-2-1503
+      \endverb
+      \keyw{Arrays; Astronomy and astrophysics; Charge coupled devices; Electromagnetic radiation; Narrow band filters; Power spectra; Q factor; Scanning electron microscopy}
+    \endentry
+    \entry{mariantoni2011}{article}{}
+      \name{author}{15}{}{%
+        {{hash=bdb44c753feea38b69ffdaeb660ee3fb}{%
+           family={Mariantoni},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=39856f0439f35f79a8eed8b12d26166c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=96915b48a6ff353a26c5d4aab56c137c}{%
+           family={Bialczak},
+           familyi={B\bibinitperiod},
+           given={Radoslaw\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=056672c3aeb542ee777de20bea78b2c5}{%
+           family={Lenander},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1ca86a6dfd219877ce431f01a165a869}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=75f3d78a932ed86386a2ef2bafd63f44}{%
+           family={Neeley},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ef731f91c6c2ab28052bce78d9956be7}{%
+           family={O'Connell},
+           familyi={O\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3e5c8b8267aa3425512c77a8be10db57}{%
+           family={Weides},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5467fb216200fc3ea3a9de29808aaec4}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=01a783820fca905cdcff203f64caa39f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=326e7e67b0b4605a06b13d7b7d37ab75}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group SN -}%
+      }
+      \strng{namehash}{e503095e2717cf30b2c043133f2d2788}
+      \strng{fullhash}{b78df23f245a9b464ffa497e5dc3b15f}
+      \strng{bibnamehash}{e503095e2717cf30b2c043133f2d2788}
+      \strng{authorbibnamehash}{e503095e2717cf30b2c043133f2d2788}
+      \strng{authornamehash}{e503095e2717cf30b2c043133f2d2788}
+      \strng{authorfullhash}{b78df23f245a9b464ffa497e5dc3b15f}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Physics}
+      \field{month}{01}
+      \field{title}{Photon shell game in three-resonator circuit quantum electrodynamics}
+      \field{volume}{7}
+      \field{year}{2011}
+      \field{pages}{287 EP -}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nphys1885
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nphys1885
+      \endverb
+      \warn{\item Range field 'pages' in entry 'mariantoni2011' is malformed, falling back to literal}
+    \endentry
+    \entry{barends2013}{article}{}
+      \name{author}{16}{}{%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c100c55f6ebe8b06bf6ac7fe84162405}{%
+           family={Jeffrey},
+           familyi={J\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=01a783820fca905cdcff203f64caa39f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8303fdb222c36e017825e09dce34cafb}{%
+           family={Mutus},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=08f97d47f19bcf66b262db834049e96f}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1da87e45f27c6d9d57192ddcc39536eb}{%
+           family={Roushan},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{fullhash}{0e17145a4f47aa430b86c4ef9e690363}
+      \strng{bibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authorbibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authorfullhash}{0e17145a4f47aa430b86c4ef9e690363}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{8}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{8}
+      \field{title}{Coherent Josephson Qubit Suitable for Scalable Quantum Integrated Circuits}
+      \field{volume}{111}
+      \field{year}{2013}
+      \field{pages}{080502}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.111.080502
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.111.080502
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.111.080502
+      \endverb
+    \endentry
+    \entry{jeffrey2014}{article}{}
+      \name{author}{18}{}{%
+        {{hash=9900c4e96164131afb8af307845df9b8}{%
+           family={Jeffrey},
+           familyi={J\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9c196f976101682c061efc0614f70fa6}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5a77e82e7902840db5b1f11ad325b7aa}{%
+           family={Mutus},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Y.},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d90f53b6c47cfea3540b0fb9da23dbd7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=41e3b7df214ae8e20258fc5d1eb197eb}{%
+           family={Dunsworth},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=96fcb68450f28a59913f918bcce52221}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.\bibnamedelimi J.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1da87e45f27c6d9d57192ddcc39536eb}{%
+           family={Roushan},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7ea58a08978a1363797b293339adad82}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b0aad2d463432be67c3969a3b0f0ddf3}
+      \strng{fullhash}{c759e88b4f9773b245da0f1b81a2a1c3}
+      \strng{bibnamehash}{b0aad2d463432be67c3969a3b0f0ddf3}
+      \strng{authorbibnamehash}{b0aad2d463432be67c3969a3b0f0ddf3}
+      \strng{authornamehash}{b0aad2d463432be67c3969a3b0f0ddf3}
+      \strng{authorfullhash}{c759e88b4f9773b245da0f1b81a2a1c3}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{19}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{5}
+      \field{title}{Fast Accurate State Measurement with Superconducting Qubits}
+      \field{volume}{112}
+      \field{year}{2014}
+      \field{pages}{190504}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.112.190504
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.112.190504
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.112.190504
+      \endverb
+    \endentry
+    \entry{wang2015}{article}{}
+      \name{author}{8}{}{%
+        {{hash=466ce84bc5093e2ec73b823c573ad026}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4087e7475cf01f98509b89527d10c225}{%
+           family={Axline},
+           familyi={A\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6a4d6d30743886ed36b7df04b2c8de78}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Y.\bibnamedelimi Y.},
+           giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=d4113a142c09c7742c631b87142e68e7}{%
+           family={Brecht},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1165a1b0305743791906bbd5db13867f}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a8867a4ca5f2d405dae9f54225bc88cd}{%
+           family={Frunzio},
+           familyi={F\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0d9f84b792e96adb5dfcaa8565fc5c67}{%
+           family={Devoret},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=702489c1f664d1120cc37aafe7cdc98a}{%
+           family={Schoelkopf},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
+      \strng{fullhash}{b63c292044cd32930757de22248a5cc5}
+      \strng{bibnamehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
+      \strng{authorbibnamehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
+      \strng{authornamehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
+      \strng{authorfullhash}{b63c292044cd32930757de22248a5cc5}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{16}
+      \field{title}{Surface participation and dielectric loss in superconducting qubits}
+      \field{volume}{107}
+      \field{year}{2015}
+      \field{pages}{162601}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4934486
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.4934486
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.4934486
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.4934486
+      \endverb
+    \endentry
+    \entry{wisbey2010}{article}{}
+      \name{author}{7}{}{%
+        {{hash=586eead31223749fb2272ccb5126bfa5}{%
+           family={Wisbey},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f6a53c9969577587f5acdc92df740bf4}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jiansong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5a68fccafae2d93fec6f8ff1597071ff}{%
+           family={Vissers},
+           familyi={V\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=fca5bc6500331d79b08562a44f96dd61}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Fabio\bibnamedelimb C.\bibnamedelimi S.},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=a65796d7eb93a11bb9267c4ffbed0b45}{%
+           family={Kline},
+           familyi={K\bibinitperiod},
+           given={Jeffrey\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d755400e6147ea1badb6e6b42b46f7c5}{%
+           family={Vale},
+           familyi={V\bibinitperiod},
+           given={Leila},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6ec16ffb89186951759616ce7f0ba123}{%
+           family={Pappas},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{397cdb12aa6e8d00de2c71a77b22c6ec}
+      \strng{fullhash}{d7d0d1516e36d864669114b9c1903502}
+      \strng{bibnamehash}{397cdb12aa6e8d00de2c71a77b22c6ec}
+      \strng{authorbibnamehash}{397cdb12aa6e8d00de2c71a77b22c6ec}
+      \strng{authornamehash}{397cdb12aa6e8d00de2c71a77b22c6ec}
+      \strng{authorfullhash}{d7d0d1516e36d864669114b9c1903502}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{9}
+      \field{title}{Effect of metal/substrate interfaces on radio-frequency loss in superconducting coplanar waveguides}
+      \field{volume}{108}
+      \field{year}{2010}
+      \field{pages}{093918}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3499608
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3499608
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3499608
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3499608
+      \endverb
+    \endentry
+    \entry{wang2014}{article}{}
+      \name{author}{12}{}{%
+        {{hash=466ce84bc5093e2ec73b823c573ad026}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6a4d6d30743886ed36b7df04b2c8de78}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Y.\bibnamedelimi Y.},
+           giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=306935161ea8733a1147235ac395c29c}{%
+           family={Pop},
+           familyi={P\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ab169b667b6d4cc034bb05b7ba1c1cf0}{%
+           family={Vool},
+           familyi={V\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=4087e7475cf01f98509b89527d10c225}{%
+           family={Axline},
+           familyi={A\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d4113a142c09c7742c631b87142e68e7}{%
+           family={Brecht},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=136dd9e6ab49b8d8345bb201f6867355}{%
+           family={Heeres},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a8867a4ca5f2d405dae9f54225bc88cd}{%
+           family={Frunzio},
+           familyi={F\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0d9f84b792e96adb5dfcaa8565fc5c67}{%
+           family={Devoret},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=daf26a25b240634eeb7e51cf296ed21e}{%
+           family={Catelani},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=111ff865896fa07dad416536544eea09}{%
+           family={Glazman},
+           familyi={G\bibinitperiod},
+           given={L.\bibnamedelimi I.},
+           giveni={L\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=702489c1f664d1120cc37aafe7cdc98a}{%
+           family={Schoelkopf},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved. SN -}%
+      }
+      \strng{namehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
+      \strng{fullhash}{c095baf6d6297e9cb7fc8fb3c8019122}
+      \strng{bibnamehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
+      \strng{authorbibnamehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
+      \strng{authornamehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
+      \strng{authorfullhash}{c095baf6d6297e9cb7fc8fb3c8019122}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{month}{12}
+      \field{title}{Measurement and control of quasiparticle dynamics in a superconducting qubit}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{pages}{5836 EP -}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/ncomms6836
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/ncomms6836
+      \endverb
+      \warn{\item Range field 'pages' in entry 'wang2014' is malformed, falling back to literal}
+    \endentry
+    \entry{nsanzineza2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=dc4fc1a20e7ceac7366f5635dd69a553}{%
+           family={Nsanzineza},
+           familyi={N\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=bba15ace5b78fc209990dc2158057188}{%
+           family={Plourde},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi L.\bibnamedelimi T.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{23703e75f60ce94f4d5953bf58806155}
+      \strng{fullhash}{23703e75f60ce94f4d5953bf58806155}
+      \strng{bibnamehash}{23703e75f60ce94f4d5953bf58806155}
+      \strng{authorbibnamehash}{23703e75f60ce94f4d5953bf58806155}
+      \strng{authornamehash}{23703e75f60ce94f4d5953bf58806155}
+      \strng{authorfullhash}{23703e75f60ce94f4d5953bf58806155}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{11}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{9}
+      \field{title}{Trapping a Single Vortex and Reducing Quasiparticles in a Superconducting Resonator}
+      \field{volume}{113}
+      \field{year}{2014}
+      \field{pages}{117002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.113.117002
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.113.117002
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.113.117002
+      \endverb
+    \endentry
+    \entry{martinis2005}{article}{}
+      \name{author}{11}{}{%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=57822ff5f4177ea75d881babcb7bf750}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={K.\bibnamedelimi B.},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3bd2850aa6db5592ab9d8f129d06e35b}{%
+           family={McDermott},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4d699184e97e79510fba7d47b54242fa}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0eca69a0085d760b0d510091c9ee3eb5}{%
+           family={Ansmann},
+           familyi={A\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f84674c9f7731b4fce6a327f07d1de07}{%
+           family={Osborn},
+           familyi={O\bibinitperiod},
+           given={K.\bibnamedelimi D.},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=9e8b1af28ddae2ade894352e676c4d51}{%
+           family={Cicak},
+           familyi={C\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=60c3a70113db65186b504eccd38d7f69}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Seongshik},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c73831db32d6b6bc13996807f00c698c}{%
+           family={Pappas},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=29147a1192697445e40837b66adc3180}{%
+           family={Simmonds},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=fcf69875b44ffe5e7d86fbb6730e5792}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Clare\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f959223c27127fcba7d9460797e42505}
+      \strng{fullhash}{a1b46942836eff4c865eb72827083a30}
+      \strng{bibnamehash}{f959223c27127fcba7d9460797e42505}
+      \strng{authorbibnamehash}{f959223c27127fcba7d9460797e42505}
+      \strng{authornamehash}{f959223c27127fcba7d9460797e42505}
+      \strng{authorfullhash}{a1b46942836eff4c865eb72827083a30}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{21}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Decoherence in Josephson Qubits from Dielectric Loss}
+      \field{volume}{95}
+      \field{year}{2005}
+      \field{pages}{210503}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.95.210503
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.95.210503
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.95.210503
+      \endverb
+    \endentry
+    \entry{martinis2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a557b7694b64ed3c6eb8b1853ae08b72}{%
+           family={Ansmann},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=94c2447953cc2f3b16150f9d4eb77c85}{%
+           family={Aumentado},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f959223c27127fcba7d9460797e42505}
+      \strng{fullhash}{1669a15168ae2a6368a3503f065197af}
+      \strng{bibnamehash}{1669a15168ae2a6368a3503f065197af}
+      \strng{authorbibnamehash}{1669a15168ae2a6368a3503f065197af}
+      \strng{authornamehash}{f959223c27127fcba7d9460797e42505}
+      \strng{authorfullhash}{1669a15168ae2a6368a3503f065197af}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{9}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{8}
+      \field{title}{Energy Decay in Superconducting Josephson-Junction Qubits from Nonequilibrium Quasiparticle Excitations}
+      \field{volume}{103}
+      \field{year}{2009}
+      \field{pages}{097002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.103.097002
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.103.097002
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.103.097002
+      \endverb
+    \endentry
+    \entry{gao2008}{article}{}
+      \name{author}{9}{}{%
+        {{hash=f6a53c9969577587f5acdc92df740bf4}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jiansong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fff6f219b2460bd96349e66eb1d61895}{%
+           family={Daal},
+           familyi={D\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bc497c9e59e2e3ae288b36d114ecea26}{%
+           family={Vayonakis},
+           familyi={V\bibinitperiod},
+           given={Anastasios},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c5f0c0cd77a589410ef4ba1ceff13855}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Shwetank},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e952cdd64c504471db03b03b1f1dc01a}{%
+           family={Zmuidzinas},
+           familyi={Z\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0132fc3d0034c33501d50e74ae5225bb}{%
+           family={Sadoulet},
+           familyi={S\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e76d867ad3380b7e732b8759d927eb17}{%
+           family={Mazin},
+           familyi={M\bibinitperiod},
+           given={Benjamin\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8d25d6418e042568af153e5aad7f775e}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Peter\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=b02b6dc9df885e3ca732a43e4d322d0b}{%
+           family={Leduc},
+           familyi={L\bibinitperiod},
+           given={Henry\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9e37aac89a147d47c03493331bd5dd8}
+      \strng{fullhash}{1c9c32f767f95967b4ef4912c7d62e6c}
+      \strng{bibnamehash}{a9e37aac89a147d47c03493331bd5dd8}
+      \strng{authorbibnamehash}{a9e37aac89a147d47c03493331bd5dd8}
+      \strng{authornamehash}{a9e37aac89a147d47c03493331bd5dd8}
+      \strng{authorfullhash}{1c9c32f767f95967b4ef4912c7d62e6c}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{15}
+      \field{title}{Experimental evidence for a surface distribution of two-level systems in superconducting lithographed microwave resonators}
+      \field{volume}{92}
+      \field{year}{2008}
+      \field{pages}{152505}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.2906373
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.2906373
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.2906373
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.2906373
+      \endverb
+    \endentry
+    \entry{graaf2012}{article}{}
+      \name{author}{5}{}{%
+        {{hash=479e16c38c0d9c6daaa7c005a9f620a7}{%
+           family={Graaf},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi E.\bibnamedelimi de},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=c207bff3fb533a73a030355a7787ec1d}{%
+           family={Danilov},
+           familyi={D\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=9a257d3f6aa7facf1cecfeba4317b041}{%
+           family={Adamyan},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1f374a37db70c485f36b256af8b1e172}{%
+           family={Bauch},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ee485ebd7c962c7110293afa6a8cbe9e}{%
+           family={Kubatkin},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{2236993295c20a52d028a7be9f55eede}
+      \strng{fullhash}{6521ed163dc6109c84e38fe93742f92c}
+      \strng{bibnamehash}{6521ed163dc6109c84e38fe93742f92c}
+      \strng{authorbibnamehash}{6521ed163dc6109c84e38fe93742f92c}
+      \strng{authornamehash}{2236993295c20a52d028a7be9f55eede}
+      \strng{authorfullhash}{6521ed163dc6109c84e38fe93742f92c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{12}
+      \field{title}{Magnetic field resilient superconducting fractal resonators for coupling to free spins}
+      \field{volume}{112}
+      \field{year}{2012}
+      \field{pages}{123905}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4769208
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.4769208
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.4769208
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.4769208
+      \endverb
+    \endentry
+    \entry{bothner2011}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c672fa9e11c553598f7d33e9f3f64616}{%
+           family={Bothner},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bc6fc385997a06c62af734fe43968108}{%
+           family={Gaber},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=97c5405ca0a22f456d2939deac1594d9}{%
+           family={Kemmler},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5735368644ac583e49dbf48db81131f1}{%
+           family={Koelle},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ce0e9a18b9d5198f524492d8ba31db67}{%
+           family={Kleiner},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c93e9cf4bb492ef3a639191fc03bd93}
+      \strng{fullhash}{148e6689e8e955456443e121911e0e49}
+      \strng{bibnamehash}{148e6689e8e955456443e121911e0e49}
+      \strng{authorbibnamehash}{148e6689e8e955456443e121911e0e49}
+      \strng{authornamehash}{5c93e9cf4bb492ef3a639191fc03bd93}
+      \strng{authorfullhash}{148e6689e8e955456443e121911e0e49}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{10}
+      \field{title}{Improving the performance of superconducting microwave resonators in magnetic fields}
+      \field{volume}{98}
+      \field{year}{2011}
+      \field{pages}{102504}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3560480
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3560480
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3560480
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3560480
+      \endverb
+    \endentry
+    \entry{bothner2012}{article}{}
+      \name{author}{11}{}{%
+        {{hash=c672fa9e11c553598f7d33e9f3f64616}{%
+           family={Bothner},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4926fc2201c5f30fe0896e5e8d611be4}{%
+           family={Clauss},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3646d7ea9d3ffb64c3d08ac444661e57}{%
+           family={Koroknay},
+           familyi={K\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=97c5405ca0a22f456d2939deac1594d9}{%
+           family={Kemmler},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bc6fc385997a06c62af734fe43968108}{%
+           family={Gaber},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8a6e6f4c4b636eedf5ca5b48a3f1da07}{%
+           family={Jetter},
+           familyi={J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=734b76d862ea9278008138d9779a99e6}{%
+           family={Scheffler},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7dc17f60ff153eccfe5053dc85a88768}{%
+           family={Michler},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=918220769ac894b0fa9784c55ef87f0c}{%
+           family={Dressel},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5735368644ac583e49dbf48db81131f1}{%
+           family={Koelle},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ce0e9a18b9d5198f524492d8ba31db67}{%
+           family={Kleiner},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c93e9cf4bb492ef3a639191fc03bd93}
+      \strng{fullhash}{b3aa4135b8f7fd89380c7496b7f5f624}
+      \strng{bibnamehash}{5c93e9cf4bb492ef3a639191fc03bd93}
+      \strng{authorbibnamehash}{5c93e9cf4bb492ef3a639191fc03bd93}
+      \strng{authornamehash}{5c93e9cf4bb492ef3a639191fc03bd93}
+      \strng{authorfullhash}{b3aa4135b8f7fd89380c7496b7f5f624}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{1}
+      \field{title}{Reducing vortex losses in superconducting microwave resonators with microsphere patterned antidot arrays}
+      \field{volume}{100}
+      \field{year}{2012}
+      \field{pages}{012601}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3673869
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3673869
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3673869
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3673869
+      \endverb
+    \endentry
+    \entry{stan2004}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9eca440937763ac73e53f5c83aa45296}{%
+           family={Stan},
+           familyi={S\bibinitperiod},
+           given={Gheorghe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8e399c1ceda655abdba9c98d241ef311}{%
+           family={Field},
+           familyi={F\bibinitperiod},
+           given={Stuart\bibnamedelima B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{793ca0532f3eae8b4c5edec8631524da}
+      \strng{fullhash}{91b46d49739a662f299f602252e6a3fb}
+      \strng{bibnamehash}{91b46d49739a662f299f602252e6a3fb}
+      \strng{authorbibnamehash}{91b46d49739a662f299f602252e6a3fb}
+      \strng{authornamehash}{793ca0532f3eae8b4c5edec8631524da}
+      \strng{authorfullhash}{91b46d49739a662f299f602252e6a3fb}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{9}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{3}
+      \field{title}{Critical Field for Complete Vortex Expulsion from Narrow Superconducting Strips}
+      \field{volume}{92}
+      \field{year}{2004}
+      \field{pages}{097003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.92.097003
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.92.097003
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.92.097003
+      \endverb
+    \endentry
+    \entry{tinkham}{book}{}
+      \name{author}{1}{}{%
+        {{hash=35bae14532c526b4a5ac004c663f3ce9}{%
+           family={Tinkham},
+           familyi={T\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{35bae14532c526b4a5ac004c663f3ce9}
+      \strng{fullhash}{35bae14532c526b4a5ac004c663f3ce9}
+      \strng{bibnamehash}{35bae14532c526b4a5ac004c663f3ce9}
+      \strng{authorbibnamehash}{35bae14532c526b4a5ac004c663f3ce9}
+      \strng{authornamehash}{35bae14532c526b4a5ac004c663f3ce9}
+      \strng{authorfullhash}{35bae14532c526b4a5ac004c663f3ce9}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to superconductivity}
+      \field{year}{2012}
+    \endentry
+    \entry{wenner2011}{article}{}
+      \name{author}{17}{}{%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1093e222cf8a036deb2e78914bfd6ab9}{%
+           family={Bialczak},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1ca86a6dfd219877ce431f01a165a869}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bdb44c753feea38b69ffdaeb660ee3fb}{%
+           family={Mariantoni},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=96fcb68450f28a59913f918bcce52221}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.\bibnamedelimi J.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7ea58a08978a1363797b293339adad82}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=39856f0439f35f79a8eed8b12d26166c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=01a783820fca905cdcff203f64caa39f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=326e7e67b0b4605a06b13d7b7d37ab75}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{155ac7307e2326ddb650ea6951e20012}
+      \strng{fullhash}{f91891c6bbd46a8872f13cda864ce846}
+      \strng{bibnamehash}{155ac7307e2326ddb650ea6951e20012}
+      \strng{authorbibnamehash}{155ac7307e2326ddb650ea6951e20012}
+      \strng{authornamehash}{155ac7307e2326ddb650ea6951e20012}
+      \strng{authorfullhash}{f91891c6bbd46a8872f13cda864ce846}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{11}
+      \field{title}{Surface loss simulations of superconducting coplanar waveguide resonators}
+      \field{volume}{99}
+      \field{year}{2011}
+      \field{pages}{113513}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3637047
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3637047
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3637047
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3637047
+      \endverb
+    \endentry
+    \entry{megrant2012}{article}{}
+      \name{author}{19}{}{%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=49ad05d570dcddac67f42c0abf3e3ba0}{%
+           family={Feigl},
+           familyi={F\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1ca86a6dfd219877ce431f01a165a869}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bdb44c753feea38b69ffdaeb660ee3fb}{%
+           family={Mariantoni},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=96fcb68450f28a59913f918bcce52221}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.\bibnamedelimi J.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7ea58a08978a1363797b293339adad82}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=01a783820fca905cdcff203f64caa39f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=326e7e67b0b4605a06b13d7b7d37ab75}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cb1f8a017f4f762c10e3169d4bdc88c3}{%
+           family={Palmstr{ø}m},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{efe95de29730982b1387bcaee27db749}
+      \strng{fullhash}{fa5a79222799fea6ce79801ed8916693}
+      \strng{bibnamehash}{efe95de29730982b1387bcaee27db749}
+      \strng{authorbibnamehash}{efe95de29730982b1387bcaee27db749}
+      \strng{authornamehash}{efe95de29730982b1387bcaee27db749}
+      \strng{authorfullhash}{fa5a79222799fea6ce79801ed8916693}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{11}
+      \field{title}{Planar superconducting resonators with internal quality factors above one million}
+      \field{volume}{100}
+      \field{year}{2012}
+      \field{pages}{113510}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3693409
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3693409
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3693409
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3693409
+      \endverb
+    \endentry
+    \entry{barends2011}{article}{}
+      \name{author}{17}{}{%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=056672c3aeb542ee777de20bea78b2c5}{%
+           family={Lenander},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1093e222cf8a036deb2e78914bfd6ab9}{%
+           family={Bialczak},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=eff4026eb032033e709bde6174d3be9f}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=08f97d47f19bcf66b262db834049e96f}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=374bd4a2aa079a5f999cb4dd0bd0238d}{%
+           family={Mariantoni},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=39856f0439f35f79a8eed8b12d26166c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=01a783820fca905cdcff203f64caa39f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=326e7e67b0b4605a06b13d7b7d37ab75}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f1802bed6a5443ed2c009b43a2e17b4f}{%
+           family={Baselmans},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{fullhash}{afade78ae4a74227663a498403326b8e}
+      \strng{bibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authorbibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authorfullhash}{afade78ae4a74227663a498403326b8e}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{11}
+      \field{title}{Minimizing quasiparticle generation from stray infrared light in superconducting quantum circuits}
+      \field{volume}{99}
+      \field{year}{2011}
+      \field{pages}{113507}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3638063
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3638063
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3638063
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3638063
+      \endverb
+    \endentry
+    \entry{bruno2015}{article}{}
+      \name{author}{6}{}{%
+        {{hash=dd5475d3af69323b75b9037b2ef7c138}{%
+           family={Bruno},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e5fc6f0c626f9f16b197ab6768b6b60c}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=af36d4b6df13cfee601f320e24fc0636}{%
+           family={Asaad},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=822c435222804b118d0ccd6b6d6b5719}{%
+           family={Enden},
+           familyi={E\bibinitperiod},
+           given={K.\bibnamedelimi L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=ff2b6fae84b19d0d94a4f0bfe7a9709a}{%
+           family={Langford},
+           familyi={L\bibinitperiod},
+           given={N.\bibnamedelimi K.},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c833f31f50c58de50633781406def803}{%
+           family={DiCarlo},
+           familyi={D\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9f722a4597a654aa17bb1b517a55de2}
+      \strng{fullhash}{73fa0ead0323a922be09b0773900b6c8}
+      \strng{bibnamehash}{b9f722a4597a654aa17bb1b517a55de2}
+      \strng{authorbibnamehash}{b9f722a4597a654aa17bb1b517a55de2}
+      \strng{authornamehash}{b9f722a4597a654aa17bb1b517a55de2}
+      \strng{authorfullhash}{73fa0ead0323a922be09b0773900b6c8}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{18}
+      \field{title}{Reducing intrinsic loss in superconducting resonators by surface treatment and deep etching of silicon substrates}
+      \field{volume}{106}
+      \field{year}{2015}
+      \field{pages}{182601}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4919761
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.4919761
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.4919761
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.4919761
+      \endverb
+    \endentry
+    \entry{wang2009}{article}{}
+      \name{author}{13}{}{%
+        {{hash=39856f0439f35f79a8eed8b12d26166c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d84f9df5093ba0cfac94b3e6164817a2}{%
+           family={Hofheinz},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a557b7694b64ed3c6eb8b1853ae08b72}{%
+           family={Ansmann},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1093e222cf8a036deb2e78914bfd6ab9}{%
+           family={Bialczak},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=056672c3aeb542ee777de20bea78b2c5}{%
+           family={Lenander},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1ca86a6dfd219877ce431f01a165a869}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=75f3d78a932ed86386a2ef2bafd63f44}{%
+           family={Neeley},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ef731f91c6c2ab28052bce78d9956be7}{%
+           family={O'Connell},
+           familyi={O\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3e5c8b8267aa3425512c77a8be10db57}{%
+           family={Weides},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{dccaa1dcfd3e42125e7248467021e0d9}
+      \strng{fullhash}{568a799d63688be3d93f1527371e7f9c}
+      \strng{bibnamehash}{dccaa1dcfd3e42125e7248467021e0d9}
+      \strng{authorbibnamehash}{dccaa1dcfd3e42125e7248467021e0d9}
+      \strng{authornamehash}{dccaa1dcfd3e42125e7248467021e0d9}
+      \strng{authorfullhash}{568a799d63688be3d93f1527371e7f9c}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{23}
+      \field{title}{Improving the coherence time of superconducting coplanar resonators}
+      \field{volume}{95}
+      \field{year}{2009}
+      \field{pages}{233508}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3273372
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3273372
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3273372
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3273372
+      \endverb
+    \endentry
+    \entry{faoro2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1afb833d7b03ef33b212be2e4e36c567}{%
+           family={Faoro},
+           familyi={F\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1c0d6f2418d3fd877a58639ad999a69d}{%
+           family={Ioffe},
+           familyi={I\bibinitperiod},
+           given={Lev\bibnamedelima B.},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{fc143894116d3ba51921be5f4142be88}
+      \strng{fullhash}{fc143894116d3ba51921be5f4142be88}
+      \strng{bibnamehash}{fc143894116d3ba51921be5f4142be88}
+      \strng{authorbibnamehash}{fc143894116d3ba51921be5f4142be88}
+      \strng{authornamehash}{fc143894116d3ba51921be5f4142be88}
+      \strng{authorfullhash}{fc143894116d3ba51921be5f4142be88}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{15}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{10}
+      \field{title}{Internal Loss of Superconducting Resonators Induced by Interacting Two-Level Systems}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{157005}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.109.157005
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.157005
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.157005
+      \endverb
+    \endentry
+    \entry{faoro2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1afb833d7b03ef33b212be2e4e36c567}{%
+           family={Faoro},
+           familyi={F\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1c0d6f2418d3fd877a58639ad999a69d}{%
+           family={Ioffe},
+           familyi={I\bibinitperiod},
+           given={Lev\bibnamedelima B.},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{fc143894116d3ba51921be5f4142be88}
+      \strng{fullhash}{fc143894116d3ba51921be5f4142be88}
+      \strng{bibnamehash}{fc143894116d3ba51921be5f4142be88}
+      \strng{authorbibnamehash}{fc143894116d3ba51921be5f4142be88}
+      \strng{authornamehash}{fc143894116d3ba51921be5f4142be88}
+      \strng{authorfullhash}{fc143894116d3ba51921be5f4142be88}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{1}
+      \field{title}{Interacting tunneling model for two-level systems in amorphous materials and its predictions for their dephasing and noise in superconducting microresonators}
+      \field{volume}{91}
+      \field{year}{2015}
+      \field{pages}{014201}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.91.014201
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.91.014201
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.91.014201
+      \endverb
+    \endentry
+    \entry{barends2010}{article}{}
+      \name{author}{9}{}{%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ce9df053e90e07f07961e463dc22f0e3}{%
+           family={Vercruyssen},
+           familyi={V\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=eba94e3d887933186eebcb36ff22c978}{%
+           family={Endo},
+           familyi={E\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b6afdd36658c241a3385d31966103c9b}{%
+           family={Visser},
+           familyi={V\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=f07c76aee1e7a87c493af1383668d3bb}{%
+           family={Zijlstra},
+           familyi={Z\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a10a6e3117743c059ea48d9587e40d1c}{%
+           family={Klapwijk},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e46134d4ccfb7e08966ac3a24cacb916}{%
+           family={Diener},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=65dac49ef75f23803d112f9aa21014e2}{%
+           family={Yates},
+           familyi={Y\bibinitperiod},
+           given={S.\bibnamedelimi J.\bibnamedelimi C.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f1802bed6a5443ed2c009b43a2e17b4f}{%
+           family={Baselmans},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{fullhash}{5d04b409b70d5c4ab35c7182418801c8}
+      \strng{bibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authorbibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authorfullhash}{5d04b409b70d5c4ab35c7182418801c8}
+      \field{extraname}{4}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{2}
+      \field{title}{Minimal resonator loss for circuit quantum electrodynamics}
+      \field{volume}{97}
+      \field{year}{2010}
+      \field{pages}{023508}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3458705
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3458705
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3458705
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3458705
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{Krocknberger2012}
+  \missing{R}
+  \missing{chiaro2015supp}
+  \missing{ohya2014}
+  \missing{qiplotfn}
+  \missing{song2009a}
+  \missing{song2009b}
+\endrefsection
+\endinput
+

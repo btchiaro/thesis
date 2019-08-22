@@ -1,0 +1,84 @@
+\section{Introduction to quantum computing}
+\subsection{what is a qubit}
+
+Whereas one classical bit of information can be represented as either 0 or 1, the state of a single ideal qubit can be represented as a vector pointing to the surface of a sphere.
+This sphere is refered to as the Bloch sphere, and provides excellent physical intuition for the behavior of a qubit.
+The Bloch Sphere is in fact the graphic representation of the density matrix.
+
+$\psi = \cos \left( \frac{\theta}{2} \right) \ket{0} + \sin \left( \frac{\theta}{2} \right)\ket{1} $
+
+% # TODO Figure of bloch sphere.
+
+\subsection{motivation}
+\subsection{gates vs analog}
+\subsection{Implementations of analog}
+\subsubsection{cold atoms}
+\section{Introduction to superconducting qubits}
+\subsection{Resonator}
+The linear resonator is a simple, critical element of many superconducting circuits.
+- It is valuable as a diagnostic tool for coherence engineering.
+
+It suffers from many of the same loss mechanisms as qubit devices, but is much simpler to fabricate.
+It's simplicity means that the resonator can be iterated rapidly.
+good tool to dissect problems, (fab complications not conflated with actual physics)
+
+- Purcell filter
+
+- Readout resonators
+dispersive readout relies critically on the readout resonator.
+
+- Bus resonators.
+Some groups also use the linear resonator to mediate inter-qubit coupling.
+
+\subsubsection{Basic Physics}
+The CPW resonator is a simple electrical LC oscillator.
+The C is given by the capacitance to ground per unit length.
+TODO:  Equation from Gao or Rami
+The L has two contributions
+(1) geometric inductance.  is given by the inductance to ground per unit length.
+(2) kinetic (surface) inductance
+TODO:  Equation from Gao or Rami
+TODO:  Equation from Gao or Rami
+TODO:  Insert derivation of lambda/4 from frequency 1/sqrt(lc) ...
+TODO:  Quantization in the charge / flux basis
+
+\subsection{Josephson Junction}
+The Josephson Junction provides us with a lossless, nonlinear, tunable inductance.
+
+The Josephson Junction consists of two superconducting electrodes separated by a thin insulating barrier.
+% Figure
+In (year) Brian Josephson derived the following relations for (TODO: Cooper pair tunneling accross the junction)
+% TODO insert Josephson relations
+
+Since the L is L(I), the inductance is nonlinear.
+
+The consequence of this nonlinearity is that when we make our harmonic oscillator the energy levels are no longer evenly spaced.
+This has at least two important consequences.
+1) For uncoupled qubits, we can address the 0-1 transition without exciting the 1-2 transition.
+2) When performing a multi-qubit analog algorithm (many qubits at the same time).
+The nonlinearity gives an interaction term in the Bose-Hubbard Hamiltonian.
+This interaction term is essential in breaking integrability (making the dynamics computationally complex) and leads to the many-body effects that we observe in the last chapter.
+
+\subsection{Transmon}
+
+\subsection{gmon}
+TODO derive Bose-Hubbard from circuit model.
+% \subsection{more_basic_physics}
+% - Rotating wave approximation
+% - How do we drive a pi pulse
+% - How do we do readout
+
+\section{coherence}
+The major shortcoming of the quantum bit is that they are inherently unstable.
+This instability can be subdivided into relaxation (T1) and dephasing (T2).
+
+
+
+
+
+
+
+
+
+
+
