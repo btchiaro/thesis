@@ -233,10 +233,89 @@
 \newlabel{fullfield}{{S4}{40}{The full field dependence of $Q_i$ for four resonators without flux-trapping holes from the ebeam deposited film. The single loss minimum is observed when the total magnetic field is zero}{figure.0.4}{}}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {S1}{\ignorespaces Deposition condition, hole density, and TLS model parameters extracted from the power dependence at $\text  {B}^{\text  {cool}}_{\text  {applied}}$ = 0}}{41}{table.0.1}\protected@file@percent }
 \newlabel{table:ResonatorData}{{S1}{41}{Deposition condition, hole density, and TLS model parameters extracted from the power dependence at $\Bcapp $ = 0}{table.0.1}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {0.12}Unitary Tomography (2 qubit particle conserving evolution)}{42}{section.0.12}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {0.13}Eigenvalue case}{45}{section.0.13}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {0.13.1}simple example}{48}{subsection.0.13.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{scratch}{50}{section*.6}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {0.14}Doublon Spectroscopy}{50}{section.0.14}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {0.15}scratch}{52}{section.0.15}\protected@file@percent }
-\newlabel{BH_Hamiltonian}{{S65}{55}{scratch}{equation.0.65}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {0.12}Schematic}{42}{section.0.12}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {S5}{\ignorespaces Diagram of the tee circuit.}}{42}{figure.0.5}\protected@file@percent }
+\newlabel{fig.circuit_diagram}{{S5}{42}{Diagram of the tee circuit}{figure.0.5}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {S6}{\ignorespaces Circuit as seen by the AWG.}}{42}{figure.0.6}\protected@file@percent }
+\newlabel{fig.circuit_as_seen_by_awg}{{S6}{42}{Circuit as seen by the AWG}{figure.0.6}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {S7}{\ignorespaces  The PCB layout for the bias-T. Red is the top metal of the circuit, grey are through vias to the back side metal. The back side metal (blue) is a continuous ground plane}}{44}{figure.0.7}\protected@file@percent }
+\newlabel{fig.pcb}{{S7}{44}{The PCB layout for the bias-T. Red is the top metal of the circuit, grey are through vias to the back side metal. The back side metal (blue) is a continuous ground plane}{figure.0.7}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {0.13}Physical Implementation}{45}{section.0.13}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {0.14}SPICE Simulation}{45}{section.0.14}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {S8}{\ignorespaces  The bias-T SPICE simulation schematic, including the physical transmission line parameters from the layout.}}{46}{figure.0.8}\protected@file@percent }
+\newlabel{fig.SPICE_schematic}{{S8}{46}{The bias-T SPICE simulation schematic, including the physical transmission line parameters from the layout}{figure.0.8}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {S9}{\ignorespaces  The bias-T SPICE simulation results (with bad rendering) with a voltage probe across the qubit resistor R2. This shows that at 100\tmspace  +\thinmuskip {.1667em}MHz the change in response is 0.01 dB. There is less than 1\tmspace  +\thinmuskip {.1667em}dB change until above 700\tmspace  +\thinmuskip {.1667em}MHz. We see that the DC calculation was well within our error tolerance for this part.}}{47}{figure.0.9}\protected@file@percent }
+\newlabel{fig:SPICE_data}{{S9}{47}{The bias-T SPICE simulation results (with bad rendering) with a voltage probe across the qubit resistor R2. This shows that at 100\,MHz the change in response is 0.01 dB. There is less than 1\,dB change until above 700\,MHz. We see that the DC calculation was well within our error tolerance for this part}{figure.0.9}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {S10}{\ignorespaces  Circuit model including asymmetric resistor placement and resistor parasitics}}{48}{figure.0.10}\protected@file@percent }
+\newlabel{fig:SPICE_schematic_with_parasitics}{{S10}{48}{Circuit model including asymmetric resistor placement and resistor parasitics}{figure.0.10}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {S11}{\ignorespaces  Circuit model including asymmetric resistor placement and resistor parasitics}}{49}{figure.0.11}\protected@file@percent }
+\newlabel{fig:SPICE_results_with_parasitics}{{S11}{49}{Circuit model including asymmetric resistor placement and resistor parasitics}{figure.0.11}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {S12}{\ignorespaces  Circuit model with 10K resistor including asymmetric resistor placement and resistor parasitics}}{50}{figure.0.12}\protected@file@percent }
+\newlabel{fig:SPICE_results_with_parasitics}{{S12}{50}{Circuit model with 10K resistor including asymmetric resistor placement and resistor parasitics}{figure.0.12}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {0.15}Unitary Tomography (2 qubit particle conserving evolution)}{51}{section.0.15}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {0.16}Eigenvalue case}{54}{section.0.16}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {0.16.1}simple example}{57}{subsection.0.16.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{scratch}{59}{section*.6}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {0.17}Doublon Spectroscopy}{59}{section.0.17}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {0.18}scratch}{61}{section.0.18}\protected@file@percent }
+\newlabel{BH_Hamiltonian}{{S70}{64}{scratch}{equation.0.70}{}}
+\abx@aux@refcontextdefaultsdone
+\abx@aux@defaultrefcontext{0}{Leduc2010}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Vissers2010}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Sage2011}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Vissers2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Diener2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Mazin2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Cecil2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Noroozian2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Calvo2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Eom2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Driessen2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Kumar1988}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Mandl1990}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Logothetidis1999}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Chowdhury1996}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Chappe2007}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Radecka2011}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Martinis2005}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Williams1987}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Ahn1983}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Schiller1984}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Johansson1985}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Wriedt1987}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Vissers2013}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Penilla2008}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Lu2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Adjaottor1995}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Thornton1985}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Patsalas2000}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{T-SComment}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Sandberg2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Barends2011}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Megrant2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{Gao2008}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{day2003}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{mazin2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{mariantoni2011}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{barends2013}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{jeffrey2014}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{wang2015}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{wisbey2010}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{wang2014}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{nsanzineza2014}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{martinis2005}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{martinis2009}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{gao2008}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{graaf2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{bothner2011}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{bothner2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{stan2004}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{tinkham}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{wenner2011}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{megrant2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{barends2011}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{bruno2015}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{wang2009}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{faoro2012}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{faoro2015}{none/global//global/global}
+\abx@aux@defaultrefcontext{0}{barends2010}{none/global//global/global}
