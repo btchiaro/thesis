@@ -84,8 +84,9 @@
       <file>main_UCSB_submission.bcf</file>
     </requires>
     <requires type="editable">
-      <file>./Article_TiN_arxiv/TiN_references.bib</file>
-      <file>./Article_Vortex_arxiv/vortex_references.bib</file>
+      <file>./ch_Article_TiN_arxiv/TiN_references.bib</file>
+      <file>./ch_Article_Vortex_arxiv/vortex_references.bib</file>
+      <file>./ch_Article_MBL/v6/mbl_references_v6.bib</file>
     </requires>
   </external>
 </requests>

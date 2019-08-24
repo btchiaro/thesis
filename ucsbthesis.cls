@@ -15,7 +15,7 @@
 \RequirePackage[top=1.0in,bottom=1.0in,
                 inner=1.25in,outer=1.0in,
                 includehead,footskip=0.25in,
-                marginparwidth=1.0in,marginparsep=0.1in]{geometry}
+                marginparwidth=1.0in, marginparsep=0.1in]{geometry}
 
 % "intelligent" double-spacing
 \RequirePackage{setspace}
@@ -23,9 +23,11 @@
 % make sure that equation* and eqnarray* environments are defined
 \RequirePackage{amsmath}
 
+\RequirePackage[usenames, dvipsnames, hyperref]{xcolor} %from mk
+
 % command that lets us patch existing environments, so they can be used with the standard names
 % an environment called 'env' is implemented internally by defining two commands,
-% \env and \endenv.  To patch the environment, we first capture the current def's
+%% \env and \endenv.  To patch the environment, we first capture the current def's
 % of these commands into new variables called \old@env and \endold@env.  Then, we
 % renew the environment, adding the patches before and after the beginning and end,
 % respectively.  We use \begin and \end as usual, but call the old environment,
@@ -75,7 +77,7 @@
 
 % use the natbib package for easier bibliography customization
 % we modify bibliography to be single spaced and include line in table of contents
-%%% \RequirePackage{natbib}  BC Edit
+%%% \RequirePackage{natbib}  BC Edit since I prefer to use biblatex
 %%% \let\old@bibpreamble\bibpreamble
 %%% \renewcommand{\bibpreamble}{\old@bibpreamble\singlespacing\addcontentsline{toc}{chapter}{\bibname}}
 

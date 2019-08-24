@@ -1994,8 +1994,9 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">./Article_TiN_arxiv/TiN_references.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">./Article_Vortex_arxiv/vortex_references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">./ch_Article_TiN_arxiv/TiN_references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">./ch_Article_Vortex_arxiv/vortex_references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">./ch_Article_MBL/v6/mbl_references_v6.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">Leduc2010</bcf:citekey>
@@ -2084,6 +2085,59 @@
     <bcf:citekey order="48">megrant2012</bcf:citekey>
     <bcf:citekey order="49">nsanzineza2014</bcf:citekey>
     <bcf:citekey order="50">R</bcf:citekey>
+    <bcf:citekey order="51">Anderson1958</bcf:citekey>
+    <bcf:citekey order="51">Abrahams1979</bcf:citekey>
+    <bcf:citekey order="52">Nandkishore2015</bcf:citekey>
+    <bcf:citekey order="52">Altman2015</bcf:citekey>
+    <bcf:citekey order="52">Basko2006</bcf:citekey>
+    <bcf:citekey order="52">Gornyi2005</bcf:citekey>
+    <bcf:citekey order="53">Bardarson2012</bcf:citekey>
+    <bcf:citekey order="53">Serbyn2013</bcf:citekey>
+    <bcf:citekey order="53">Huse2014</bcf:citekey>
+    <bcf:citekey order="54">Neill2018</bcf:citekey>
+    <bcf:citekey order="55">Billy2008</bcf:citekey>
+    <bcf:citekey order="55">Weaver1990</bcf:citekey>
+    <bcf:citekey order="55">Wiersma1997</bcf:citekey>
+    <bcf:citekey order="55">Schwartz2007</bcf:citekey>
+    <bcf:citekey order="56">Basko2006</bcf:citekey>
+    <bcf:citekey order="56">Gornyi2005</bcf:citekey>
+    <bcf:citekey order="56">ImbriePRL2016</bcf:citekey>
+    <bcf:citekey order="57">BlochMBL2015</bcf:citekey>
+    <bcf:citekey order="57">demarco2015</bcf:citekey>
+    <bcf:citekey order="57">Monroe2015</bcf:citekey>
+    <bcf:citekey order="57">GrossScience2016</bcf:citekey>
+    <bcf:citekey order="57">Bordia2017</bcf:citekey>
+    <bcf:citekey order="57">Roushan2018</bcf:citekey>
+    <bcf:citekey order="57">Lukin2019</bcf:citekey>
+    <bcf:citekey order="58">Huse2007</bcf:citekey>
+    <bcf:citekey order="58">Bardarson2012</bcf:citekey>
+    <bcf:citekey order="58">Huse2014</bcf:citekey>
+    <bcf:citekey order="58">Serbyn2013</bcf:citekey>
+    <bcf:citekey order="58">Antonello2017</bcf:citekey>
+    <bcf:citekey order="58">Serbyn2014</bcf:citekey>
+    <bcf:citekey order="58">Yasaman2015</bcf:citekey>
+    <bcf:citekey order="58">Gopalakrishnan2015</bcf:citekey>
+    <bcf:citekey order="58">Serbyn2015</bcf:citekey>
+    <bcf:citekey order="58">ImbriePRL2016</bcf:citekey>
+    <bcf:citekey order="59">Serbyn2013</bcf:citekey>
+    <bcf:citekey order="59">Huse2014</bcf:citekey>
+    <bcf:citekey order="60">Varma2019</bcf:citekey>
+    <bcf:citekey order="61">supplement</bcf:citekey>
+    <bcf:citekey order="61">Znidaric2015</bcf:citekey>
+    <bcf:citekey order="61">Levi2016</bcf:citekey>
+    <bcf:citekey order="61">Fischer2016</bcf:citekey>
+    <bcf:citekey order="61">Luschen2017</bcf:citekey>
+    <bcf:citekey order="61">vanNieuwenburg2017</bcf:citekey>
+    <bcf:citekey order="62">Bardarson2012</bcf:citekey>
+    <bcf:citekey order="62">Huse2014</bcf:citekey>
+    <bcf:citekey order="62">Serbyn2013</bcf:citekey>
+    <bcf:citekey order="63">Serbyn2014</bcf:citekey>
+    <bcf:citekey order="64">Serbyn2014</bcf:citekey>
+    <bcf:citekey order="65">KnapPRL2014</bcf:citekey>
+    <bcf:citekey order="66">KnapPRL2014</bcf:citekey>
+    <bcf:citekey order="67">Varma2019</bcf:citekey>
+    <bcf:citekey order="68">Wootters1998</bcf:citekey>
+    <bcf:citekey order="69">Wootters2000</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
