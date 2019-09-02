@@ -2,19 +2,88 @@
 \section{what is a qubit}
 
 Whereas one classical bit of information can be represented as either 0 or 1, the state of a single ideal qubit can be represented as a vector pointing to the surface of a sphere.
-This sphere is refered to as the Bloch sphere, and provides excellent physical intuition for the behavior of a qubit.
-The Bloch Sphere is in fact the graphic representation of the density matrix.
+This sphere is referred to as the Bloch sphere, and provides excellent physical intuition for the behavior of a qubit.
 
+% TODO Graphic of Bloch sphere
 $\psi = \cos \left( \frac{\theta}{2} \right) \ket{0} + \sin \left( \frac{\theta}{2} \right)\ket{1} $
 
-% # TODO Figure of bloch sphere.
+The points away from the poles have amplitude in both the $\ket{0}$ state and the $\ket{1}$ state and are said to be "in superposition".
+The Bloch Sphere is in fact the graphic representation of the single qubit density matrix.
+Points on the surface of the sphere correspond to pure states, and points within the sphere correspond to mixed states.
 
-\section{motivation}
-\section{gates vs analog}
+Already at the single qubit level it is evident that using quantum bits provides a means for higher density information encoding than is possible with classical bits.
+The story is even more compelling when we combine multiple qubits together
+If two qubits a and b are each in a superposition state on the equator of the Bloch sphere:
+$\ket{\psi_a} = \frac{\ket{0}+\ket{1}}{\sqrt{2}}$ and $\ket{\psi_b} = \frac{\ket{0}+\ket{1}}{\sqrt{2}}$
+then the state fo the full a,b system is
+$\ket{\psi_{ab}} = \ket{\psi_a} \otimes \ket{\psi_b} = \frac{1}{4} \left( \ket{00} + \ket{01} + \ket{10} + \ket{11} \right)$.
+Whereas a two bit classical processor can represent one of the states $\ket{00}$, $\ket{01}$, $\ket{10}$, or $\ket{11}$, the quantum processor is able to represent them all simultaineously.
+In fact, the capacity of the quantum register is scaling exponentially in the number of qubits in contrast to the classical processor which is scaling linearly.
+Roughly speaking, If you want to double the capacity of the classical processor you would need to double the number of classical bits.
+In contrast, if you wish to double the capacity of the quantum processor you only need to add one more qubit.
+
+Thus the advantages of the quantum computer over it's classical counterpart arise from the ability to store and process information in an intrinsically parallel way.
+
+\section{applications}
+While it is true that not every computational problem can take advantage of quantum resources, there are several cases where a quantum speedup has been proven to exist.
+
+Shor's algorithm for factoring large numbers has been proven to give an exponential speedup
+
+Grover's algorithm for search has only a polynomial speedup.
+
+Other promsing areas of research rely on the efficiency of using the quantum computer to efficiently solve problems in quantum dynamics.
+Optimization problems of such as the "Travelling salesman" are an example of this.  Since these problems can be mapped to finding the groundstate of an Ising spin lattice,
+we can expect to realize a quantum speedup by simply producing our desired Ising lattice and allowing the system to decay to it's ground state and simply measuring this state.
+
+In this thesis we take the most direct approach of all.
+Directly computing quantum dynamics is a computationally hard problem.
+In order to make a brute force solution to a quantum dynamics problem, you need to time evolve the wave function under a Hamiltonian.
+
+% TODO write the schrodinger equation
+
+The Exponentation of a matrix who's linear dimension is scaling exponentially in the number of qubits, is intractible for even a few tens of qubits.
+
+% Table Hilbert space size for N 2-level, and 3-level systems ... Maybe fixed photon etc. (Classical memory required)
+This is essentially what Feynman had in mind when he proposed using quantum resources to simulate quantum systems.
+In 198x Feynman proposed using quantum resources to simulate quantum processes.
+
+
+
+This is because, as discussed above, the Hilbert space of the system is growing exponentally in the number of qubits.
+Classical methods rely on matrix exponentiation / exact diagonalization.
+Additionally, there are several
+
 \section{Implementations of analog}
-\subsection{cold atoms}
+In principle any controllable and well isolated quantum system can be used as a platform for quantum computation.
+Indeed, early processors have been demonstrated in a variety of formats.
+
+- Spins (NV)
+- Trapped ions
+- Lukin (Rydberg)
+- Cold atoms for quantum simulation
+- Superconducting qubits
+
+\section{Challenges}
+Although there is great promise in quantum computing there is one primary drawback.
+The information in a quantum computer is unstable.
+There errors arising from this instablity can be roughly categorized into two main categories:
+- relaxation
+- dephasing
+
+% TODO Figure bloch sphere dephasing relaxation
+
+In our effort to construct a quantum computer out of superconducting qubits a primary research direction is measuring and mitigating these error mechanisms.
+This is done by a variety of means.
+In this thesis we explore several aspects of this coherence engineering before demonstrating before providing an algorithm demonstration that where we
+use a supreconducting qubit system to address a modern question in condensed matter physics: Entanglement growth in the Manybody-localized phase.
+Material science (Chapter 3)
+Device design and fabrication (Chapter 4)
+Dephasing metrology (chapter 5)
+
+\section{gates vs analog}
 
 \chapter{Introduction to superconducting qubits}
+
 \section{Resonator}
 The linear resonator is a simple, critical element of many superconducting circuits.
 - It is valuable as a diagnostic tool for coherence engineering.
@@ -72,11 +141,12 @@ TODO derive Bose-Hubbard from circuit model.
 \section{coherence}
 The major shortcoming of the quantum bit is that they are inherently unstable.
 This instability can be subdivided into relaxation (T1) and dephasing (T2).
+\begin{itemize}
+    \item Let's show a swap spectroscopy in here.
+    \item Maybe also a Ramsey fringe.
+\end{itemize}
 
-
-
-
-
+\quickfig{2 in}{./PDF/LCO.pdf}{This is a simple LC oscillator (resonator)}{LCO}
 
 
 
