@@ -2729,6 +2729,81 @@
       \verb https://doi.org/10.1063/1.3499608
       \endverb
     \endentry
+    \entry{song2009a}{article}{}
+      \name{author}{8}{}{%
+        {{hash=d36f2a32a6f14d5bffe4ac892a27382d}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1bc0d87d50121490fafc9f16adf03e22}{%
+           family={Heitmann},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=60aae48b1b55c3735f29d06dd813df73}{%
+           family={DeFeo},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=94e8e738bd0d82a397a3fe2ced293023}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3bd2850aa6db5592ab9d8f129d06e35b}{%
+           family={McDermott},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=75f3d78a932ed86386a2ef2bafd63f44}{%
+           family={Neeley},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bba15ace5b78fc209990dc2158057188}{%
+           family={Plourde},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi L.\bibnamedelimi T.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{3008a8f8b7e644bef21271bb03597491}
+      \strng{fullhash}{93ddb9fa425cb03113ff7a1fa7f8724b}
+      \strng{bibnamehash}{3008a8f8b7e644bef21271bb03597491}
+      \strng{authorbibnamehash}{3008a8f8b7e644bef21271bb03597491}
+      \strng{authornamehash}{3008a8f8b7e644bef21271bb03597491}
+      \strng{authorfullhash}{93ddb9fa425cb03113ff7a1fa7f8724b}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{17}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{5}
+      \field{title}{Microwave response of vortices in superconducting thin films of Re and Al}
+      \field{volume}{79}
+      \field{year}{2009}
+      \field{pages}{174512}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.79.174512
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.79.174512
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.79.174512
+      \endverb
+    \endentry
     \entry{wang2014}{article}{}
       \name{author}{12}{}{%
         {{hash=466ce84bc5093e2ec73b823c573ad026}{%
@@ -3140,6 +3215,60 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1063/1.4769208
+      \endverb
+    \endentry
+    \entry{song2009b}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d36f2a32a6f14d5bffe4ac892a27382d}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=60aae48b1b55c3735f29d06dd813df73}{%
+           family={DeFeo},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=94e8e738bd0d82a397a3fe2ced293023}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bba15ace5b78fc209990dc2158057188}{%
+           family={Plourde},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi L.\bibnamedelimi T.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3008a8f8b7e644bef21271bb03597491}
+      \strng{fullhash}{0d6fe51dd6fe1a0fb995dc9ea3dd4e43}
+      \strng{bibnamehash}{0d6fe51dd6fe1a0fb995dc9ea3dd4e43}
+      \strng{authorbibnamehash}{0d6fe51dd6fe1a0fb995dc9ea3dd4e43}
+      \strng{authornamehash}{3008a8f8b7e644bef21271bb03597491}
+      \strng{authorfullhash}{0d6fe51dd6fe1a0fb995dc9ea3dd4e43}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{23}
+      \field{title}{Reducing microwave loss in superconducting resonators due to trapped vortices}
+      \field{volume}{95}
+      \field{year}{2009}
+      \field{pages}{232501}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3271523
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3271523
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3271523
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3271523
       \endverb
     \endentry
     \entry{bothner2011}{article}{}
@@ -6267,8 +6396,6 @@
   \missing{chiaro2015supp}
   \missing{ohya2014}
   \missing{qiplotfn}
-  \missing{song2009a}
-  \missing{song2009b}
 \endrefsection
 \endinput
 
