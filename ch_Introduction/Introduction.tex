@@ -259,10 +259,16 @@ The anharmonicity results from replacing the linear inductor of the LC oscillato
 As suggested in the original transmon paper \rd{cite koch}, the transmon can be thought of in magnetic and gravitational fields.
 In the limit where Ej/Ec >> 1, the gravitational energy dominates, keeping the reduced flux angle varphi small.
 For small varphi we can perform a perturbation expansion in varphi about varphi=0.
-
-
-
-
+With this expansion the potential energy is
+\qeqn{ \rd{U = - Ej + Ej varphi^2 / 2 - Ej varphi^4 / 24}}
+\rd{Koch makes a gauge transformation to eliminate ng after which the Hamiltonian is claimed to be
+\qeqn{ H = \sqrt{8 EcEj}(b^\dagger b +1/2)a - Ej - Ec/12(b+b^\dagger)^4 }
+Here the $b,b^\dagger$ are the standard harmonic oscillator operators.
+From perturbation theory then, the first order correction to the energies for level n is
+\qeqn{ Ec / 12 \bra{n}|(b + b^\dagger)^4|\ket{n} = }
+\qeqn{ \bra{n} | b^2 {b^{\dagger}}^2 + b^\dagger b b^\dagger b + b^\dagger b b b^\dagger + b b^\dagger b^\dagger b + b b^\dagger b b^\dagger + {b^{\dagger}}^2 b^2 | \ket{n}}
+\qeqn{ = 6n^2 +6n +3 }
+}
 In order to operate the oscillator as a qubit it is essential to make the energy levels anharmonic so that rotations may be driven between specified levels on demand.
 The means by which we do this is to replace the linear inductance of our oscillator with a Josephson junction, which behaves like a nonlinear inductor.
 
