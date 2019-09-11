@@ -166,6 +166,11 @@ We can configure two Josephson junctions in parallel to form a DC squid.
 This device behaves as a tunable nonlinear inductor.
 %TODO DC SQUID equations
 
+The DC squid is a device with two Josephson junctions in a loop. This behaves as a single junction with a critical current that is tunable with magnetic flux.
+The effective critical current of the DC squid is
+\rd{\qeqn{I_{c}(\Phi_{ext}) = 2 I_c \abs{\cos{\frac{\pi \Phi_{ext}}{\phi_0}}}}, Tinkham or really anyone}
+where $\phi_0$ is again the flux quantum.
+
 The consequence of this nonlinearity is that when we make our harmonic oscillator the energy levels are no longer evenly spaced.
 This has at least two important consequences.
 1) For uncoupled qubits, we can address the 0-1 transition without exciting the 1-2 transition.
@@ -190,7 +195,14 @@ Future iterations saw the device incorporate tunable inter-qubit coupling (gmon)
 Here we derive the Hamiltonian and energy spectrum for the transmon.  Later we will show how this is modified for the gmon.
 
 \section{gmon}
-The gmon is a variant of the transmon that features tunable inter-qubit coupling.  In order to implement this, rather than directly grounding the junctions we place a long inductive wire in series with them.
+The gmon is a variant of the transmon that features tunable inter-qubit coupling.
+In order to implement this, rather than directly grounding the junctions we place a long inductive wire in series with them.
+
+
+
+
+
+
 
 TODO derive Bose-Hubbard from circuit model.
 % \subsection{more_basic_physics}
@@ -255,6 +267,11 @@ of photonic excitations in the oscillator.
 \subsection{Transmon}
 The transmon is a slightly anharmonic oscillator.
 The anharmonicity results from replacing the linear inductor of the LC oscillator with a Josephson junction, which provides a nonlinear inductance as described above.
+In order to operate the oscillator as a qubit it is essential to make the energy levels anharmonic so that rotations may be driven between specified levels on demand.
+The means by which we do this is to replace the linear inductance of our oscillator with a Josephson junction, which behaves like a nonlinear inductor.
+
+Having computed the Josephson energy above, we can modify our oscillator's Hamiltonian as follows:
+\qeqn{ \text{Transnsmon Hamiltonian} }
 
 As suggested in the original transmon paper \rd{cite koch}, the transmon can be thought of in magnetic and gravitational fields.
 In the limit where Ej/Ec >> 1, the gravitational energy dominates, keeping the reduced flux angle varphi small.
@@ -269,14 +286,28 @@ From perturbation theory then, the first order correction to the energies for le
 \qeqn{ \bra{n} | b^2 {b^{\dagger}}^2 + b^\dagger b b^\dagger b + b^\dagger b b b^\dagger + b b^\dagger b^\dagger b + b b^\dagger b b^\dagger + {b^{\dagger}}^2 b^2 | \ket{n}}
 \qeqn{ = 6n^2 +6n +3 }
 }
-In order to operate the oscillator as a qubit it is essential to make the energy levels anharmonic so that rotations may be driven between specified levels on demand.
-The means by which we do this is to replace the linear inductance of our oscillator with a Josephson junction, which behaves like a nonlinear inductor.
 
-Having computed the Josephson energy above, we can modify our oscillator's Hamiltonian as follows:
-
-\qeqn{ \text{Transnsmon Hamiltonian} }
-
-
+\gn{In the next parts I show how the Hamiltonian is modified in cases}
+This is basically a todo list for this the next couple of days.
+\org{\subsection{XY control}
+Show how capacitive coupling results in the ability to do single qubit rotations.}
+\org{\subsection{Sigma Z}
+Show how detuning generates sigma z, this should be easy since the charge and flux operators combine to give n}
+\org{\subsection{Dispersive shift from readout resonator}
+How does coupling to the readout resonator give a dispersive shift?  Why sigma z?}
+\org{\subsection{Dispersive readout}
+Why does the readout resonator frequency shift with photon number?}
+\rd{Now the more complicated gmon physics}
+\org{\subsection{How does changing the copuler bias change sigma z?}
+Why does the readout resonator frequency shift with photon number?}
+\org{\subsection{How does capacitive coupling give hopping}
+Why does the readout resonator frequency shift with photon number?}
+\org{\subsection{How does "mode" coupling give a hopping term?}
+What is mode coupling?}
+\org{\subsection{Inductive coupling}
+How does mutual inductance coupling give a hopping term?}
+\org{\subsection{Inductive tail}
+How does the inductive tail change the qubit frequency, anharmonicity, mode structure?}
 
 
 

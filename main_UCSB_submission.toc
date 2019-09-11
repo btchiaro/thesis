@@ -20,76 +20,94 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Josephson Junction}{9}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Transmon}{11}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Transmon}{12}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Hamiltonian}{12}{subsection.2.3.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}gmon}{12}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Modelling the gmon}{12}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.1}Modelling the gmon}{13}{subsection.2.4.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}coherence}{13}{section.2.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}quantum dynamics}{13}{section.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Hamiltonians}{13}{section.2.7}% 
+\contentsline {section}{\numberline {2.7}Hamiltonians}{14}{section.2.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.1}Linear Resonator}{13}{subsection.2.7.1}% 
+\contentsline {subsection}{\numberline {2.7.1}Linear Resonator}{14}{subsection.2.7.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.7.2}Transmon}{15}{subsection.2.7.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}additional topics}{16}{section.2.8}% 
+\contentsline {subsection}{\numberline {2.7.3}XY control}{16}{subsection.2.7.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}TiN}{17}{chapter.3}% 
+\contentsline {subsection}{\numberline {2.7.4}Sigma Z}{17}{subsection.2.7.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{17}{section.3.1}% 
+\contentsline {subsection}{\numberline {2.7.5}Dispersive shift from readout resonator}{17}{subsection.2.7.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Film preparation}{18}{section.3.2}% 
+\contentsline {subsection}{\numberline {2.7.6}Dispersive readout}{17}{subsection.2.7.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Basic properties}{20}{section.3.3}% 
+\contentsline {subsection}{\numberline {2.7.7}How does changing the copuler bias change sigma z?}{17}{subsection.2.7.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Properties of stoichiometric films}{23}{section.3.4}% 
+\contentsline {subsection}{\numberline {2.7.8}How does capacitive coupling give hopping}{17}{subsection.2.7.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}In-plane distribution}{31}{section.3.5}% 
+\contentsline {subsection}{\numberline {2.7.9}How does "mode" coupling give a hopping term?}{17}{subsection.2.7.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}T-S distance dependence}{34}{section.3.6}% 
+\contentsline {subsection}{\numberline {2.7.10}Inductive coupling}{18}{subsection.2.7.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Properties of the scpw resonators}{35}{section.3.7}% 
+\contentsline {subsection}{\numberline {2.7.11}Inductive tail}{18}{subsection.2.7.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Summary}{40}{section.3.8}% 
+\contentsline {section}{\numberline {2.8}additional topics}{18}{section.2.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Vortex}{43}{chapter.4}% 
+\contentsline {chapter}{\numberline {3}TiN}{19}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Precision frequency noise metrology of a superconducting qubit}{59}{chapter.5}% 
+\contentsline {section}{\numberline {3.1}Introduction}{19}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Statement of the problem}{60}{section.5.1}% 
+\contentsline {section}{\numberline {3.2}Film preparation}{20}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}The single shot Ramsey technique}{60}{section.5.2}% 
+\contentsline {section}{\numberline {3.3}Basic properties}{22}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}mathematical derivation}{60}{subsection.5.2.1}% 
+\contentsline {section}{\numberline {3.4}Properties of stoichiometric films}{25}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}March meeting slides}{60}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {3.5}In-plane distribution}{33}{section.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}microwave bias T design}{60}{subsection.5.2.3}% 
+\contentsline {section}{\numberline {3.6}T-S distance dependence}{36}{section.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Schematic}{61}{section.5.3}% 
+\contentsline {section}{\numberline {3.7}Properties of the scpw resonators}{37}{section.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Physical Implementation}{64}{section.5.4}% 
+\contentsline {section}{\numberline {3.8}Summary}{42}{section.3.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}SPICE Simulation}{64}{section.5.5}% 
+\contentsline {chapter}{\numberline {4}Vortex}{45}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Analog Control}{70}{chapter.6}% 
+\contentsline {chapter}{\numberline {5}Precision frequency noise metrology of a superconducting qubit}{61}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Unitary Tomography (2 qubit particle conserving evolution)}{70}{section.6.1}% 
+\contentsline {section}{\numberline {5.1}Statement of the problem}{62}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Eigenvalue case}{73}{section.6.2}% 
+\contentsline {section}{\numberline {5.2}The single shot Ramsey technique}{62}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}simple example}{76}{subsection.6.2.1}% 
+\contentsline {subsection}{\numberline {5.2.1}mathematical derivation}{62}{subsection.5.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{scratch}{78}{section*.34}% 
+\contentsline {subsection}{\numberline {5.2.2}March meeting slides}{62}{subsection.5.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Doublon Spectroscopy}{78}{section.6.3}% 
+\contentsline {subsection}{\numberline {5.2.3}microwave bias T design}{62}{subsection.5.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}scratch}{79}{section.6.4}% 
+\contentsline {section}{\numberline {5.3}Schematic}{63}{section.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}MBL}{83}{chapter.7}% 
+\contentsline {section}{\numberline {5.4}Physical Implementation}{66}{section.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}SPICE Simulation}{66}{section.5.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Analog Control}{72}{chapter.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Unitary Tomography (2 qubit particle conserving evolution)}{72}{section.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Eigenvalue case}{75}{section.6.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}simple example}{78}{subsection.6.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{scratch}{80}{section*.34}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Doublon Spectroscopy}{80}{section.6.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}scratch}{81}{section.6.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}MBL}{85}{chapter.7}% 

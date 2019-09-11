@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.2.18)  10 SEP 2019 14:23
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.2.18)  10 SEP 2019 17:17
  restricted system commands enabled.
 **main_UCSB_submission.tex
 (./main_UCSB_submission.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.119 seconds
+luaotfload | main : initialization completed in 0.231 seconds
 (./ucsbthesis.cls
 Document Class: ucsbthesis 2014/09/11 UCSB thesis
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/book.cls
@@ -1601,7 +1601,7 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 \openout7 = main_UCSB_submission.toc
  [10] (./ch_Introduction/Introduction.tex
 Chapter 1.
-<ch_Introduction/./PDF/sch_bloch_sphere_190902_1237p.pdf, id=287, 381.27545pt x 
+<ch_Introduction/./PDF/sch_bloch_sphere_190902_1237p.pdf, id=332, 381.27545pt x 
 182.35428pt>
 File: ch_Introduction/./PDF/sch_bloch_sphere_190902_1237p.pdf Graphic file (type
  pdf)
@@ -1616,7 +1616,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [2<./ch_Introduction/./PDF/sch_bloch_sphere_190902_1237p.pdf>] [3] [4]
-<ch_Introduction/./PDF/sch_relaxation_dephasing_190902_1238p.pdf, id=320, 502.96
+<ch_Introduction/./PDF/sch_relaxation_dephasing_190902_1238p.pdf, id=366, 502.96
 709pt x 380.2446pt>
 File: ch_Introduction/./PDF/sch_relaxation_dephasing_190902_1238p.pdf Graphic fi
 le (type pdf)
@@ -1630,7 +1630,7 @@ Chapter 2.
 [7
 
 ]
-<ch_Introduction/./PDF/resonator_qubit_proxy.pdf, id=345, 580.80489pt x 233.139p
+<ch_Introduction/./PDF/resonator_qubit_proxy.pdf, id=390, 580.80489pt x 233.139p
 t>
 File: ch_Introduction/./PDF/resonator_qubit_proxy.pdf Graphic file (type pdf)
 <use ch_Introduction/./PDF/resonator_qubit_proxy.pdf>
@@ -1638,7 +1638,7 @@ Package luatex.def Info: ch_Introduction/./PDF/resonator_qubit_proxy.pdf  used o
 n input line 111.
 (luatex.def)             Requested size: 451.68752pt x 181.31407pt.
  [8<./ch_Introduction/./PDF/resonator_qubit_proxy.pdf>]
-<ch_Introduction/./PDF/JJ_image_190908_634p.pdf, id=380, 515.4527pt x 273.5048pt
+<ch_Introduction/./PDF/JJ_image_190908_634p.pdf, id=425, 515.4527pt x 273.5048pt
 >
 File: ch_Introduction/./PDF/JJ_image_190908_634p.pdf Graphic file (type pdf)
 <use ch_Introduction/./PDF/JJ_image_190908_634p.pdf>
@@ -1646,14 +1646,13 @@ Package luatex.def Info: ch_Introduction/./PDF/JJ_image_190908_634p.pdf  used on
  input line 145.
 (luatex.def)             Requested size: 433.62pt x 230.08885pt.
  [9] [10<./ch_Introduction/./PDF/JJ_image_190908_634p.pdf>] [11] [12]
-<ch_Introduction/./PDF/LCO.pdf, id=422, 64.54193pt x 73.22125pt>
+<ch_Introduction/./PDF/LCO.pdf, id=469, 64.54193pt x 73.22125pt>
 File: ch_Introduction/./PDF/LCO.pdf Graphic file (type pdf)
 <use ch_Introduction/./PDF/LCO.pdf>
-Package luatex.def Info: ch_Introduction/./PDF/LCO.pdf  used on input line 211.
+Package luatex.def Info: ch_Introduction/./PDF/LCO.pdf  used on input line 223.
 (luatex.def)             Requested size: 72.26999pt x 81.99158pt.
- [13<./ch_Introduction/./PDF/LCO.pdf>] [14] [15]) (./ch_Article_TiN_arxiv/arXiv
--TiN-Submission_thesis.tex
-[16]
+ [13<./ch_Introduction/./PDF/LCO.pdf>] [14] [15] [16] [17])
+(./ch_Article_TiN_arxiv/arXiv-TiN-Submission_thesis.tex [18]
 Chapter 3.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <29.86> not available
@@ -1667,38 +1666,38 @@ LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <29.86> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <29.86> not available
 (Font)              size <24.88> substituted on input line 1.
 
-[17
+[19
 
-] [18] [19]
-<ch_Article_TiN_arxiv/BasicProperties.jpg, id=485, 237.80328pt x 246.00757pt>
+] [20] [21]
+<ch_Article_TiN_arxiv/BasicProperties.jpg, id=539, 237.80328pt x 246.00757pt>
 File: ch_Article_TiN_arxiv/BasicProperties.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/BasicProperties.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/BasicProperties.jpg  used on input
  line 98.
 (luatex.def)             Requested size: 355.65944pt x 367.95938pt.
- [20] [21<./ch_Article_TiN_arxiv/BasicProperties.jpg>] [22]
-<ch_Article_TiN_arxiv/SEM2-9.jpg, id=512, 242.26738pt x 94.4698pt>
+ [22] [23<./ch_Article_TiN_arxiv/BasicProperties.jpg>] [24]
+<ch_Article_TiN_arxiv/SEM2-9.jpg, id=566, 242.26738pt x 94.4698pt>
 File: ch_Article_TiN_arxiv/SEM2-9.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/SEM2-9.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/SEM2-9.jpg  used on input line 119
 .
 (luatex.def)             Requested size: 355.65944pt x 138.6945pt.
 
-[23] [24<./ch_Article_TiN_arxiv/SEM2-9.jpg>]
-<ch_Article_TiN_arxiv/Stress-XRD.jpg, id=529, 244.55975pt x 115.34244pt>
+[25] [26<./ch_Article_TiN_arxiv/SEM2-9.jpg>]
+<ch_Article_TiN_arxiv/Stress-XRD.jpg, id=584, 244.55975pt x 115.34244pt>
 File: ch_Article_TiN_arxiv/Stress-XRD.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/Stress-XRD.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/Stress-XRD.jpg  used on input line
  132.
 (luatex.def)             Requested size: 355.65944pt x 167.75967pt.
- [25<./ch_Article_TiN_arxiv/Stress-XRD.jpg>] [26]
-<ch_Article_TiN_arxiv/Texture.jpg, id=548, 194.6102pt x 288.95935pt>
+ [27<./ch_Article_TiN_arxiv/Stress-XRD.jpg>] [28]
+<ch_Article_TiN_arxiv/Texture.jpg, id=603, 194.6102pt x 288.95935pt>
 File: ch_Article_TiN_arxiv/Texture.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/Texture.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/Texture.jpg  used on input line 14
 6.
 (luatex.def)             Requested size: 355.65944pt x 528.12904pt.
-<ch_Article_TiN_arxiv/SIMS2-9.jpg, id=549, 242.8272pt x 314.1336pt>
+<ch_Article_TiN_arxiv/SIMS2-9.jpg, id=604, 242.8272pt x 314.1336pt>
 File: ch_Article_TiN_arxiv/SIMS2-9.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/SIMS2-9.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/SIMS2-9.jpg  used on input line 15
@@ -1708,42 +1707,42 @@ Package luatex.def Info: ch_Article_TiN_arxiv/SIMS2-9.jpg  used on input line 15
 
 LaTeX Warning: Float too large for page by 9.56572pt on input line 159.
 
-[27] [28<./ch_Article_TiN_arxiv/Texture.jpg>] [29<./ch_Article_TiN_arxiv/SIMS2-9
-.jpg>] [30]
-<ch_Article_TiN_arxiv/InPlaneDist.jpg, id=577, 242.74998pt x 243.35324pt>
+[29] [30<./ch_Article_TiN_arxiv/Texture.jpg>] [31<./ch_Article_TiN_arxiv/SIMS2-9
+.jpg>] [32]
+<ch_Article_TiN_arxiv/InPlaneDist.jpg, id=632, 242.74998pt x 243.35324pt>
 File: ch_Article_TiN_arxiv/InPlaneDist.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/InPlaneDist.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/InPlaneDist.jpg  used on input lin
 e 197.
 (luatex.def)             Requested size: 355.65944pt x 356.58498pt.
- [31] [32<./ch_Article_TiN_arxiv/InPlaneDist.jpg>]
-<ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg, id=591, 241.42282pt x 210.29485pt>
+ [33] [34<./ch_Article_TiN_arxiv/InPlaneDist.jpg>]
+<ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg, id=645, 241.42282pt x 210.29485pt>
 File: ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg  used on inpu
 t line 207.
 (luatex.def)             Requested size: 355.65944pt x 309.81958pt.
-<ch_Article_TiN_arxiv/TS-change.jpg, id=593, 212.82852pt x 166.61916pt>
+<ch_Article_TiN_arxiv/TS-change.jpg, id=647, 212.82852pt x 166.61916pt>
 File: ch_Article_TiN_arxiv/TS-change.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/TS-change.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/TS-change.jpg  used on input line 
 218.
 (luatex.def)             Requested size: 355.65944pt x 278.45638pt.
- [33<./ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg>] [34] [35<./ch_Article_TiN_arx
-iv/TS-change.jpg>] [36] [37]
-<ch_Article_TiN_arxiv/Qi-Np-Strain.jpg, id=625, 241.48148pt x 166.5948pt>
+ [35<./ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg>] [36] [37<./ch_Article_TiN_arx
+iv/TS-change.jpg>] [38] [39]
+<ch_Article_TiN_arxiv/Qi-Np-Strain.jpg, id=679, 241.48148pt x 166.5948pt>
 File: ch_Article_TiN_arxiv/Qi-Np-Strain.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/Qi-Np-Strain.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/Qi-Np-Strain.jpg  used on input li
 ne 234.
 (luatex.def)             Requested size: 355.65944pt x 245.37694pt.
- [38] [39<./ch_Article_TiN_arxiv/Qi-Np-Strain.jpg>] [40] [41])
-(./ch_Article_Vortex_arxiv/DielectricFluxTrap_arxiv_thesis.tex [42]
+ [40] [41<./ch_Article_TiN_arxiv/Qi-Np-Strain.jpg>] [42] [43])
+(./ch_Article_Vortex_arxiv/DielectricFluxTrap_arxiv_thesis.tex [44]
 Chapter 4.
-[43
+[45
 
-] [44] [45]
-<ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpSchematic_arxiv_Rev2.pdf, id=672,
+] [46] [47]
+<ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpSchematic_arxiv_Rev2.pdf, id=727,
  412.54124pt x 950.55125pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpSchematic_arxiv_Rev2.pdf Gra
 phic file (type pdf)
@@ -1751,10 +1750,10 @@ phic file (type pdf)
 Package luatex.def Info: ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpSchematic
 _arxiv_Rev2.pdf  used on input line 85.
 (luatex.def)             Requested size: 200.0pt x 460.82825pt.
- [46] [47<./ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpSchematic_arxiv_Rev2.p
+ [48] [49<./ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpSchematic_arxiv_Rev2.p
 df>]
 <ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpData_arxiv_Rev2c_proof_revision1.
-pdf, id=687, 728.7225pt x 604.2575pt>
+pdf, id=742, 728.7225pt x 604.2575pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpData_arxiv_Rev2c_proof_revis
 ion1.pdf Graphic file (type pdf)
 <use ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpData_arxiv_Rev2c_proof_revisi
@@ -1767,17 +1766,17 @@ Overfull \hbox (3.56975pt too wide) in paragraph at lines 109--110
 [] \T1/lmr/m/n/12 we ob-serve that res-onators with pat-
  []
 
-[48] [49<./ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpData_arxiv_Rev2c_proof_
-revision1.pdf>] [50]
+[50] [51<./ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpData_arxiv_Rev2c_proof_
+revision1.pdf>] [52]
 Overfull \hbox (9.47696pt too wide) in paragraph at lines 122--123
 \T1/lmr/m/n/12 anal-y-sis con-trol-ling for the dif-fer-ence be-tween the MBE a
 nd ebeam films.[[]]
  []
 
-[51] [52] [53]
+[53] [54] [55]
 warning  (pdf backend): ignoring duplicate destination with the name 'equation.4
 .1'
-<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_basicfit.jpg, id=2091, 561
+<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_basicfit.jpg, id=2145, 561
 .48232pt x 254.7578pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_basicfit.jpg Graphic 
 file (type jpg)
@@ -1785,10 +1784,10 @@ file (type jpg)
 Package luatex.def Info: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_ba
 sicfit.jpg  used on input line 162.
 (luatex.def)             Requested size: 240.0pt x 108.89453pt.
-[54
+[56
 
 ]
-<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf, id=2103, 14
+<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf, id=2157, 14
 39.3775pt x 778.91pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf Graphic
  file (type pdf)
@@ -1796,7 +1795,7 @@ File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf Graphic
 Package luatex.def Info: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qn
 ovortex.pdf  used on input line 177.
 (luatex.def)             Requested size: 230.0pt x 124.46175pt.
-<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_meander.jpg, id=2105, 1292
+<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_meander.jpg, id=2159, 1292
 .83pt x 969.6225pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_meander.jpg Graphic f
 ile (type jpg)
@@ -1804,10 +1803,10 @@ ile (type jpg)
 Package luatex.def Info: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_me
 ander.jpg  used on input line 187.
 (luatex.def)             Requested size: 240.0pt x 179.99875pt.
- [55<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_basicfit.jpg>]
-[56<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf><./ch_A
+ [57<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_basicfit.jpg>]
+[58<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf><./ch_A
 rticle_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_meander.jpg>]
-<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf, id=2692, 15
+<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf, id=2746, 15
 48.78625pt x 794.97pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf Graphic
  file (type pdf)
@@ -1815,36 +1814,36 @@ File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf Graphic
 Package luatex.def Info: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fu
 llfield.pdf  used on input line 199.
 (luatex.def)             Requested size: 240.0pt x 123.18268pt.
- [57<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf>])
-(./ch_noise/noise_thesis.tex [58]
+ [59<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf>])
+(./ch_noise/noise_thesis.tex [60]
 Chapter 5.
-(./ch_noise/./noiseCalBiasT_spec.tex [59
+(./ch_noise/./noiseCalBiasT_spec.tex [61
 
 ]
 Overfull \vbox (109.46048pt too high) has occurred while \output is active []
 
 
-[60] [61]
-<ch_noise/./NoiseCalBiasT_PCB_Drawing1.png, id=2766, 963.6pt x 722.7pt>
+[62] [63]
+<ch_noise/./NoiseCalBiasT_PCB_Drawing1.png, id=2822, 963.6pt x 722.7pt>
 File: ch_noise/./NoiseCalBiasT_PCB_Drawing1.png Graphic file (type png)
 <use ch_noise/./NoiseCalBiasT_PCB_Drawing1.png>
 Package luatex.def Info: ch_noise/./NoiseCalBiasT_PCB_Drawing1.png  used on inpu
 t line 132.
 (luatex.def)             Requested size: 451.68752pt x 338.76479pt.
- [62] [63<./ch_noise/./NoiseCalBiasT_PCB_Drawing1.png>] [64]
-<ch_noise/./NoiseCalBiasT_SPICE_Circuit1.png, id=2790, 963.6pt x 722.7pt>
+ [64] [65<./ch_noise/./NoiseCalBiasT_PCB_Drawing1.png>] [66]
+<ch_noise/./NoiseCalBiasT_SPICE_Circuit1.png, id=2844, 963.6pt x 722.7pt>
 File: ch_noise/./NoiseCalBiasT_SPICE_Circuit1.png Graphic file (type png)
 <use ch_noise/./NoiseCalBiasT_SPICE_Circuit1.png>
 Package luatex.def Info: ch_noise/./NoiseCalBiasT_SPICE_Circuit1.png  used on in
 put line 165.
 (luatex.def)             Requested size: 451.68752pt x 338.76479pt.
-<ch_noise/./NoiseCalBiasT_SPICE_Sim1.png, id=2791, 1633.10126pt x 888.31876pt>
+<ch_noise/./NoiseCalBiasT_SPICE_Sim1.png, id=2845, 1633.10126pt x 888.31876pt>
 File: ch_noise/./NoiseCalBiasT_SPICE_Sim1.png Graphic file (type png)
 <use ch_noise/./NoiseCalBiasT_SPICE_Sim1.png>
 Package luatex.def Info: ch_noise/./NoiseCalBiasT_SPICE_Sim1.png  used on input 
 line 174.
 (luatex.def)             Requested size: 451.68752pt x 245.69131pt.
-<ch_noise/./NoiseCalBiasT_SPICE_Circuit2_parasitic.png, id=2792, 1635.10875pt x 
+<ch_noise/./NoiseCalBiasT_SPICE_Circuit2_parasitic.png, id=2846, 1635.10875pt x 
 1029.8475pt>
 File: ch_noise/./NoiseCalBiasT_SPICE_Circuit2_parasitic.png Graphic file (type p
 ng)
@@ -1852,16 +1851,16 @@ ng)
 Package luatex.def Info: ch_noise/./NoiseCalBiasT_SPICE_Circuit2_parasitic.png  
 used on input line 182.
 (luatex.def)             Requested size: 451.68752pt x 284.48964pt.
- [65<./ch_noise/./NoiseCalBiasT_SPICE_Circuit1.png>] [66<./ch_noise/./NoiseCalBi
+ [67<./ch_noise/./NoiseCalBiasT_SPICE_Circuit1.png>] [68<./ch_noise/./NoiseCalBi
 asT_SPICE_Sim1.png>]
-<ch_noise/./NoiseCalBiasT_SPICE_Sim2_parasitic.png, id=2804, 1635.10875pt x 1029
+<ch_noise/./NoiseCalBiasT_SPICE_Sim2_parasitic.png, id=2858, 1635.10875pt x 1029
 .8475pt>
 File: ch_noise/./NoiseCalBiasT_SPICE_Sim2_parasitic.png Graphic file (type png)
 <use ch_noise/./NoiseCalBiasT_SPICE_Sim2_parasitic.png>
 Package luatex.def Info: ch_noise/./NoiseCalBiasT_SPICE_Sim2_parasitic.png  used
  on input line 188.
 (luatex.def)             Requested size: 451.68752pt x 284.48964pt.
-<ch_noise/./NoiseCalBiasT_SPICE_Sim2_parasitic_10K.png, id=2805, 1635.10875pt x 
+<ch_noise/./NoiseCalBiasT_SPICE_Sim2_parasitic_10K.png, id=2859, 1635.10875pt x 
 1029.8475pt>
 File: ch_noise/./NoiseCalBiasT_SPICE_Sim2_parasitic_10K.png Graphic file (type p
 ng)
@@ -1869,97 +1868,97 @@ ng)
 Package luatex.def Info: ch_noise/./NoiseCalBiasT_SPICE_Sim2_parasitic_10K.png  
 used on input line 196.
 (luatex.def)             Requested size: 451.68752pt x 284.48964pt.
-)) (./ch_analog_control/analog_control_content.tex [67<./ch_noise/./NoiseCalBias
-T_SPICE_Circuit2_parasitic.png>] [68<./ch_noise/./NoiseCalBiasT_SPICE_Sim2_paras
-itic.png>] [69<./ch_noise/./NoiseCalBiasT_SPICE_Sim2_parasitic_10K.png>]
+)) (./ch_analog_control/analog_control_content.tex [69<./ch_noise/./NoiseCalBias
+T_SPICE_Circuit2_parasitic.png>] [70<./ch_noise/./NoiseCalBiasT_SPICE_Sim2_paras
+itic.png>] [71<./ch_noise/./NoiseCalBiasT_SPICE_Sim2_parasitic_10K.png>]
 Chapter 6.
-[70
+[72
 
-] [71] [72] [73] [74] [75]
+] [73] [74] [75] [76] [77]
 Overfull \hbox (178.58603pt too wide) detected at line 409
 []  \OT1/cmr/m/n/12 =[]\OMS/cmsy/m/n/12 )  [] []  \OT1/cmr/m/n/12 =[]\OMS/cmsy/
 m/n/12 )  [] []  \OT1/cmr/m/n/12 =[]\OMS/cmsy/m/n/12 )  []
  []
 
-[76] [77] [78]
+[78] [79] [80]
 Overfull \hbox (71.93597pt too wide) detected at line 656
 [] [] [] [] [] [] [] []  [] [] [] [] [] []  [] [] [] [] [] [] []  [] [] [] []
  []
 
-[79] [80] [81]
+[81] [82] [83]
 Overfull \hbox (11.51965pt too wide) detected at line 946
 \OMS/cmsy/m/n/12 H[] \T1/lmr/m/n/12 = [] [] [] + [] + [] []
  []
 
-) (./ch_Article_MBL/v6/mbl_manuscript_v6.tex [82]
+) (./ch_Article_MBL/v6/mbl_manuscript_v6.tex [84]
 Chapter 7.
-[83
+[85
 
 ]
-<ch_Article_MBL/v6/./PDF/f1_190716_1106a.pdf, id=2953, 360.00296pt x 286.03864pt
+<ch_Article_MBL/v6/./PDF/f1_190716_1106a.pdf, id=3007, 360.00296pt x 286.03864pt
 >
 File: ch_Article_MBL/v6/./PDF/f1_190716_1106a.pdf Graphic file (type pdf)
 <use ch_Article_MBL/v6/./PDF/f1_190716_1106a.pdf>
 Package luatex.def Info: ch_Article_MBL/v6/./PDF/f1_190716_1106a.pdf  used on in
 put line 34.
 (luatex.def)             Requested size: 426.79134pt x 339.10265pt.
- [84]
-<ch_Article_MBL/v6/./PDF/f2_190731_237p.pdf, id=2958, 517.8045pt x 143.40576pt>
+ [86]
+<ch_Article_MBL/v6/./PDF/f2_190731_237p.pdf, id=3012, 517.8045pt x 143.40576pt>
 File: ch_Article_MBL/v6/./PDF/f2_190731_237p.pdf Graphic file (type pdf)
 <use ch_Article_MBL/v6/./PDF/f2_190731_237p.pdf>
 Package luatex.def Info: ch_Article_MBL/v6/./PDF/f2_190731_237p.pdf  used on inp
 ut line 70.
 (luatex.def)             Requested size: 426.79134pt x 118.20398pt.
- [85] [86<./ch_Article_MBL/v6/./PDF/f1_190716_1106a.pdf>] [87<./ch_Article_MBL/v
-6/./PDF/f2_190731_237p.pdf>] [88
+ [87] [88<./ch_Article_MBL/v6/./PDF/f1_190716_1106a.pdf>] [89<./ch_Article_MBL/v
+6/./PDF/f2_190731_237p.pdf>] [90
 
-] [89]
-<ch_Article_MBL/v6/./PDF/f3_190714_509p.pdf, id=3493, 250.72269pt x 241.7271pt>
+] [91]
+<ch_Article_MBL/v6/./PDF/f3_190714_509p.pdf, id=3547, 250.72269pt x 241.7271pt>
 File: ch_Article_MBL/v6/./PDF/f3_190714_509p.pdf Graphic file (type pdf)
 <use ch_Article_MBL/v6/./PDF/f3_190714_509p.pdf>
 Package luatex.def Info: ch_Article_MBL/v6/./PDF/f3_190714_509p.pdf  used on inp
 ut line 149.
 (luatex.def)             Requested size: 253.22952pt x 244.1461pt.
- [90<./ch_Article_MBL/v6/./PDF/f3_190714_509p.pdf>] [91]
-<ch_Article_MBL/v6/./PDF/f4_190731_416p.pdf, id=3511, 250.12144pt x 351.95792pt>
+ [92<./ch_Article_MBL/v6/./PDF/f3_190714_509p.pdf>] [93]
+<ch_Article_MBL/v6/./PDF/f4_190731_416p.pdf, id=3566, 250.12144pt x 351.95792pt>
 
 File: ch_Article_MBL/v6/./PDF/f4_190731_416p.pdf Graphic file (type pdf)
 <use ch_Article_MBL/v6/./PDF/f4_190731_416p.pdf>
 Package luatex.def Info: ch_Article_MBL/v6/./PDF/f4_190731_416p.pdf  used on inp
 ut line 211.
 (luatex.def)             Requested size: 253.22952pt x 356.34468pt.
- [92] [93<./ch_Article_MBL/v6/./PDF/f4_190731_416p.pdf>] [94
+ [94] [95<./ch_Article_MBL/v6/./PDF/f4_190731_416p.pdf>] [96
 
 ]
-<ch_Article_MBL/v6/./PDF/f5_190716_156p.pdf, id=3549, 250.82307pt x 466.32317pt>
+<ch_Article_MBL/v6/./PDF/f5_190716_156p.pdf, id=3604, 250.82307pt x 466.32317pt>
 
 File: ch_Article_MBL/v6/./PDF/f5_190716_156p.pdf Graphic file (type pdf)
 <use ch_Article_MBL/v6/./PDF/f5_190716_156p.pdf>
 Package luatex.def Info: ch_Article_MBL/v6/./PDF/f5_190716_156p.pdf  used on inp
 ut line 255.
 (luatex.def)             Requested size: 199.16928pt x 370.29822pt.
- [95<./ch_Article_MBL/v6/./PDF/f5_190716_156p.pdf>] [96]
-<ch_Article_MBL/v6/./PDF/f6_190716_1129a.pdf, id=3571, 253.57234pt x 453.41496pt
+ [97<./ch_Article_MBL/v6/./PDF/f5_190716_156p.pdf>] [98]
+<ch_Article_MBL/v6/./PDF/f6_190716_1129a.pdf, id=3626, 253.57234pt x 453.41496pt
 >
 File: ch_Article_MBL/v6/./PDF/f6_190716_1129a.pdf Graphic file (type pdf)
 <use ch_Article_MBL/v6/./PDF/f6_190716_1129a.pdf>
 Package luatex.def Info: ch_Article_MBL/v6/./PDF/f6_190716_1129a.pdf  used on in
 put line 309.
 (luatex.def)             Requested size: 253.22952pt x 452.81192pt.
- [97]
+ [99]
 
-LaTeX Warning: Text page 98 contains only floats.
+LaTeX Warning: Text page 100 contains only floats.
 
 
 Overfull \vbox (6.48575pt too high) has occurred while \output is active []
 
 
-[98<./ch_Article_MBL/v6/./PDF/f6_190716_1129a.pdf>] [99]) [100]
+[100<./ch_Article_MBL/v6/./PDF/f6_190716_1129a.pdf>] [101]) [102]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 50.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [101
+) [103
 
 ]
 Overfull \hbox (12.58517pt too wide) in paragraph at lines 51--51
@@ -1968,7 +1967,7 @@ lmr/bx/n/12 20, \T1/lmr/m/n/12 15031511. [][]$\T1/lmtt/m/n/12 http : / / www .
  opticsexpress .
  []
 
-[102] [103] [104] [105] [106]
+[104] [105] [106] [107] [108]
 Overfull \hbox (12.58517pt too wide) in paragraph at lines 51--51
 \T1/lmr/m/n/12 near-infrared as-tro-physics. \T1/lmr/m/it/12 Opt. Ex-press \T1/
 lmr/bx/n/12 20, \T1/lmr/m/n/12 15031511. [][]$\T1/lmtt/m/n/12 http : / / www .
@@ -1982,24 +1981,24 @@ Overfull \hbox (3.56543pt too wide) in paragraph at lines 51--51
  .
  []
 
-[107] [108] [109] [110] [111] [112]
+[109] [110] [111] [112] [113] [114]
 Overfull \hbox (33.48004pt too wide) in paragraph at lines 51--51
 \T1/lmr/m/n/12 0165-2125. [][]$\T1/lmtt/m/n/12 http : / / www . sciencedirect .
  com / science / article / pii / 0165212590900342$[][]
  []
 
-[113
+[115
 Missing character: There is no ć (U+0107) in font ec-lmr12!
-] [114]
+] [116]
 Overfull \hbox (30.80608pt too wide) in paragraph at lines 51--51
 []\T1/lmr/m/n/12 Ser-byn, M., Pa-pić, Z. & Abanin, D. A. Cri-te-rion for Many-
 Body Localization-Delocalization
  []
 
-[115
+[117
 Missing character: There is no – (U+2013) in font ec-lmr12!
 Missing character: There is no ć (U+0107) in font ec-lmr12!
-] [116
+] [118
 Missing character: There is no ć (U+0107) in font ec-lmr12!
 Missing character: There is no Ž (U+017D) in font ec-lmr12!
 Missing character: There is no č (U+010D) in font ec-lmr12!
@@ -2010,14 +2009,14 @@ Overfull \hbox (14.44038pt too wide) in paragraph at lines 51--51
 tt .
  []
 
-[117]
+[119]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (./main_UCSB_submission.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `main_UCSB_submission.out' has not changed.
-(rerunfilecheck)             Checksum: 264AC56FC1C3B18DC5F894F97AD5C8E8;3027.
+(rerunfilecheck)             Checksum: 483FDD0854821B4F876F3637A8AE8055;3757.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2032,14 +2031,14 @@ Package logreq Info: Writing requests to 'main_UCSB_submission.run.xml'.
 ))
 
 Here is how much of LuaTeX's memory you used:
- 37930 strings out of 494383
+ 37952 strings out of 494383
  125171,1373583 words of node,token memory allocated
- 2126 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 36 sub_mlist, 1 glyph, 288 attribut
-e, 66 glue_spec, 288 attribute_list, 2 shape, 1 write, 52 pdf_action nodes
-   avail lists: 1:3,2:4115,3:1051,4:207,5:344,6:11,7:5769,8:171,9:562,10:26,11:4
+ 2134 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 36 sub_mlist, 1 glyph, 290 attribut
+e, 66 glue_spec, 290 attribute_list, 2 shape, 1 write, 52 pdf_action nodes
+   avail lists: 1:3,2:4115,3:1051,4:213,5:344,6:14,7:5769,8:171,9:562,10:26,11:4
 96,12:2
- 40134 multiletter control sequences out of 65536+600000
+ 40144 multiletter control sequences out of 65536+600000
  105 fonts using 6964855 bytes
  59i,15n,95p,2441b,1865s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/tex
@@ -2067,10 +2066,10 @@ e/2018/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2018/texmf
 /type1/public/lm/lmtt12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
 ublic/amsfonts/symbols/msbm10.pfb>
-Output written on main_UCSB_submission.pdf (126 pages, 21413591 bytes).
+Output written on main_UCSB_submission.pdf (128 pages, 21419344 bytes).
 
-PDF statistics: 3925 PDF objects out of 4296 (max. 8388607)
- 2767 compressed objects within 28 object streams
- 310 named destinations out of 1000 (max. 131072)
- 392 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 3981 PDF objects out of 4296 (max. 8388607)
+ 2820 compressed objects within 29 object streams
+ 322 named destinations out of 1000 (max. 131072)
+ 464 words of extra memory for PDF output out of 10000 (max. 100000000)
 
