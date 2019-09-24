@@ -87,7 +87,7 @@
 \usepackage{mathtools}
 \usepackage{rotating}
 \usepackage{afterpage}
-\usepackage{placeins}
+\usepackage[section]{placeins}
 \usepackage{wrapfig}%
 \usepackage{multicol}
 \usepackage{caption}
@@ -104,7 +104,6 @@
 \usepackage{graphicx}
 \usepackage{etoolbox}
 \usepackage{scrextend}
-\usepackage{placeins}
 \makeatletter
 \newcommand{\lyxdot}{.}
 \DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
@@ -116,7 +115,7 @@
 \usepackage{bm}
 %\usepackage{xcolor}
 %\usepackage{color}
-\usepackage{sectsty}
+%\usepackage{sectsty}
 \definecolor{red}{rgb}{1,0,0}
 \definecolor{green}{rgb}{0,1,0}
 \definecolor{blue}{rgb}{0,0,1}
@@ -124,15 +123,15 @@
 \definecolor{c2}{rgb}{0.09,0.740,0.81}
 \definecolor{c3}{rgb}{0.12,0.46,0.7}
 \definecolor{c4}{rgb}{0.58,0.40,0.74}
-\chapterfont{\color{blue}}
-\sectionfont{\color{blue}}
+%\chapterfont{\color{blue}}
+%\sectionfont{\color{blue}}
 \let\saved@includegraphics\includegraphics
 \AtBeginDocument{\let\includegraphics\saved@includegraphics}
 \renewenvironment*{figure}{\@float{figure}}{\end@float}
-\newcommand{\psection}[1]{\textcolor{BLUE}{\textbf{\emph{#1}}}}
-\newcommand{\esection}[1]{\textcolor{GREEN}{\textbf{\emph{#1}}}}
-\newcommand{\preff}[1]{\textcolor{light-gray}{[#1]}}
-\newcommand{\pref}[1]{\textcolor{cyan}{[#1]}}
+%\newcommand{\psection}[1]{\textcolor{BLUE}{\textbf{\emph{#1}}}}
+%\newcommand{\esection}[1]{\textcolor{GREEN}{\textbf{\emph{#1}}}}
+%\newcommand{\preff}[1]{\textcolor{light-gray}{[#1]}}
+%\newcommand{\pref}[1]{\textcolor{cyan}{[#1]}}
 \newcommand{\schrodinger}{Schr\"{o}dinger}
 
 
@@ -158,7 +157,6 @@
 \usepackage{verbatim}
 \usepackage{mathtools}
 \usepackage{afterpage}
-%\usepackage[section]{placeins}
 %\usepackage{authblk}
 \usepackage[all]{nowidow}
 
@@ -173,3 +171,21 @@
 \DeclareMathOperator{\im}{\mbox{Im}}
 \DeclareMathOperator{\erfc}{{erfc}}
 \DeclareMathOperator{\sign}{{sign}}
+
+%\let\Oldsection\section
+%\renewcommand{\section}{\FloatBarrier\Oldsection}
+
+\let\Oldsubsection\subsection
+\renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
+
+%\let\Oldsubsubsection\subsubsection
+%\renewcommand{\subsubsection}{\FloatBarrier\Oldsubsubsection}
+
+%%%
+%\makeatletter
+%\AtBeginDocument{% This is supposed to place a float barrier after each subsection.
+  %\expandafter\renewcommand\expandafter\subsection\expandafter{%
+    %\expandafter\@fb@secFB\subsection
+  %}%
+%}
+%\makeatother

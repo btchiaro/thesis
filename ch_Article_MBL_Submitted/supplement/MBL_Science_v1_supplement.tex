@@ -2,13 +2,15 @@
 % arara: biber
 % arara: pdflatex
 % arara: pdflatex
-textbf{\large Supplemental information for "Growth and preservation of entanglement in a many-body localized system"}
+\chapter[MBL supp]{Supplemental information for Growth and preservation of entanglement in a many-body localized system}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%  Discussion of population dynamics
 %%%%%%%%%%%%%%%%%%%%%%%%
 \section{Device and calibration, Figs.\,S1-S3}
+
 %In this experiment we used two devices, a 9 qubit linear chain (Figs. 2-4 of the main text) and a large 2D array (Fig. 5 of the main text).
+\subsection{Circuit schematic}
 The nearest-neighbor coupled, linear chain device used in Figs.\,2-4 of the main text features $9$ frequency tunable transmon qubits with tunable inter-qubit coupling.
 An optical micrograph is of this device is shown in Fig.\,S1\,(a).
 The design details are discussed further in \cite{Neill2018}.
@@ -19,27 +21,25 @@ We use the parameterized circuit model to create a mapping between the experimen
 The circuit model measurements are made as a series of single and two qubit measurements.
 Once the circuit model has been developed, we benchmark the 9-qubit collective dynamics as described in Fig.\,S3.
 \begin{figure}[h]
-\subsection{Circuit schematic}
-    \centering
-    \includegraphics[width=0.80\textwidth, keepaspectratio]{./PDF/fs1_190916_1029a.pdf}
-    \caption{\textbf{The 9 qubit linear chain device.} This device was used in Figs.\,2-4 of the main text.
-    \textbf{(a)} Optical micrograph of the $9$ qubit linear-chain device.
-    \textbf{(b)} Circuit diagram for a three qubit subsection of the device.}
+\centering
+\includegraphics[width=0.80\textwidth, keepaspectratio]{./PDF/fs1_190916_1029a.pdf}
+\caption{\textbf{The 9 qubit linear chain device.} This device was used in Figs.\,2-4 of the main text.
+\textbf{(a)} Optical micrograph of the $9$ qubit linear-chain device.
+\textbf{(b)} Circuit diagram for a three qubit subsection of the device.}
 \end{figure}
 
-\begin{figure}
 \subsection{Single qubit gate error rate}
+\begin{figure}
 \centering
 \includegraphics[width=140mm, keepaspectratio]{./PDF/RB_supp_190530_1105a.pdf}
 \caption{\textbf{Single qubit gate performance.}  Clifford based randomized benchmarking (RB), shown in red, characterizes the total error rate per Clifford.  Purity benchmarking, shown in black, characterizes the total incoherent error rate per Clifford.}
 \end{figure}
-
 We use Clifford based randomized benchmarking (RB) and purity benchmarking to quantify the total error rate and the error rate due to decoherence per Clifford for the single qubit gates in our algorithm.
 The data shown in Fig.\,S2 is for a typical qubit.  The total and incoherent error rates per Clifford are extracted to be $3.1 \times 10^{-3}$ and $2.7 \times 10^{-3}$.
 Since there are relatively few single qubit gates in our analog algorithms this is not a significant source of error.
 
+\subsection{Manybody Hamiltonian benchmarking}
 \begin{figure}
-    \subsection{Manybody Hamiltonian benchmarking}
     \centering
     \includegraphics[width=0.9\textwidth, keepaspectratio]{./PDF/random_hamiltonian_calibration_data_190508_549p.pdf}
     \caption{\textbf{Many-body Ramsey calibration data for 9 qubit randomly generated Hamiltonians.}
@@ -63,8 +63,8 @@ We then compare the eigenvalues predicted by the parameterized circuit model and
     The average error per eigenvalue for these Hamiltonian instances is $1.2 \, \text{MHz}$.
 
 \section{Transport measurements, Figs.\,S4-S6}
+\subsection{Transport measurement instances}
 \begin{figure}[h!]
-    \subsection{Transport measurement instances}
     \centering
     %\includegraphics[width=0.8\textwidth, keepaspectratio]{./PDF/transport_instances_190531_1214p.pdf}
     \includegraphics[width=0.8\textwidth, keepaspectratio]{./PDF/fs4_190625_150p.pdf}
@@ -77,8 +77,8 @@ In Fig.\,S4 we show data from the transport measurements before disorder averagi
 The disorder averaged data (black lines) is contained in Fig.\,2\,(a) of the main text, and the histograms in Fig.\,2\,(b) of the main text are time slices of this data at $100 \, \text{ns}$.
 The spread in values at short time is primarily due to readout error, as state preparation error is small.
 
-\begin{figure}[h]
 \subsection{Decoherence effects}
+\begin{figure}[h]
 \label{decoherence_effects}
 \centering
 \includegraphics[width=170mm, keepaspectratio]{./PDF/fs5_190919_1208p.pdf}%{./PDF/fig_sup_coherence_effects_190531_356p.pdf}
@@ -113,8 +113,8 @@ Crucially, we note that neither $T_1$ relaxation nor dephasing between the latti
 This feature is captured in the main text Fig.\,4\,(b) where we note that $\overline{ \langle \sigma^{z} \rangle }$ is nearly constant between $10 \, \text{ns}$ and $100 \, \text{ns}$.
 In Fig.\,S5\,(c) and (d) we show the raw and $T_1$ corrected data for $n_{ph}=2$.
 
+\subsection{Two state occupation}
 \begin{figure}[tbh]
-    \subsection{Two state occupation}
     \centering
     \includegraphics[width=150mm, keepaspectratio]{./PDF/fs6_190919_1238p.pdf}
     \caption{\textbf{Transport Measurements:  Two state occupation.}
@@ -139,8 +139,8 @@ When the system evolves for times $t/2$, the spin at site $i$ experiences an eff
 \label{field}
 \Delta_i = \tilde{h}_i  + \sum_j J_{ij} \tau_j^z + \sum_{j,k} J_{ijk}  \tau_j^z \tau_k^z + \ldots.
 \end{equation}
-\begin{figure}[h]
 \subsection{Echo pulse sequences}
+\begin{figure}[h]
 \centering
 \includegraphics[width=.6\columnwidth]{./PDF/schem2}
 \caption{\textbf{Pulse sequence schematics for spin and DEER echo.}  DEER echo differs from spin echo by the addition of a remote $\pi / 2$ pulse simultaneous with the spin echo $\pi$ pulse between the free precession intervals.}
@@ -171,8 +171,8 @@ Because these interaction effects are due to the local occupation of higher orbi
 In the experimental measurement of the purity, local occupations higher than two are not taken into account. This leads to a leakage of the measurement as characterized by the finite value of $\langle \sigma^z_i\rangle$ in Fig. \,3\,(b) of the main text. Moreover, we numerically estimate this effect by resolving the probabilities for maximum local occupations $n_i^{max} = 1,2,3$ during the DEER echo protocol for a evolution time of $t = 63 \, \text{ns}$ in Fig.\,S8.
 From that it can be deduced that leakage effects are not severe, and in particular does not change the qualitative difference between the spin echo and DEER echo protocols.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
 \subsection{Maximum local occupation}
+\begin{figure}
 \centering
 \epsfig{file=./PDF/nimax_L9_N4_nmax3_J04_U16_mu4_tMax125_nReals50_nSReals1.pdf, width=130mm}
 \caption{\textbf{Numerical estimate of the occupation of higher transmon levels during the DEER echo protocol.} Calculation shown here for for the one, two, and three excitation states}
@@ -185,8 +185,8 @@ Probability for maximum local occupations of $n_i^{max} = 1,2,3$ during the DEER
 %%%%%%%%%%%%%%%%%%%%%%%%  Discussion of Echo
 %%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{figure}
 \subsection{Comparison with numerics for echo experiments}
+\begin{figure}
 \centering
 \includegraphics[width=140mm, keepaspectratio]{./PDF/echo_numerics_comparison_190919_944a.pdf}
 \caption{\textbf{Comparison with numerics for echo experiments}.
@@ -199,8 +199,8 @@ This is a direct measure of the nonlocal interaction strength.}
 
 In Fig.\,S9 we compare the data from the interferometric pulse sequences presented in Fig.\,3 of the main text with numeric predictions.  In panels (a) and (b) we compare the onsite population at the spin echo qubit.  Although there is a strong correspondence, we observe greater diffusion off site (larger $\sigma^z)$)  in the experiment than in the numerics.  There is also less contrast in the experiment than in the numerics.  It is likely that these differences are related to the transient pulse response of our system and open systems effects, however further investigation is needed to make a conclusive determination.
 
-\begin{figure}
 \subsection{Extended data}
+\begin{figure}
 \centering
 \includegraphics[width=140mm, keepaspectratio]{./PDF/fs9_190919_513p.pdf}%{./PDF/fig_sup_echo_extended_190612_355p.pdf}
 \caption{\textbf{Interferometric Protocols:  Extended Data.}
@@ -280,8 +280,8 @@ and
 \end{equation}
 %%%%%%%%%%%%%%%%  From Michael and Annabelle email 190508
 \section{Density matrix evolution numerics comparison, Figs.\,S11 - S15}
-\begin{figure*}[tbh]
 \subsection{Comparison with numerics for superposition initial state.}
+\begin{figure*}[tbh]
 \centering
 \includegraphics[width=140mm, keepaspectratio]{./PDF/dat_cor_num_superposition_linear.pdf}
 \caption{\textbf{Entropy Comparison with Numerics}
@@ -301,8 +301,8 @@ The EOF observed in the experiment is slightly damped due to open system effects
 In the main text we observe the entropy accumulation of an x-polarized subsystem in an MBL environment.
 The von Neumann entropy represents contributions from entanglement within the 9 qubit system, as well as from open system effects.  In Figs.\,S11-S14 we provide supporting information to assist the reader in estimating the role of open systems effects in our experiment.  We find that a good estimate of the contribution to the von Neumann entropy coming from coupling to the open system is provided by the entropy of the $J=0$ curve.  In the $J=0$ case we do not expect interaction with the environmental qubits and attribute observed entropy in that case to extrinsic dephasing and relaxation processes.
 
-\begin{figure*}[tbh]
 \subsection{Comparison with numerics for bell initial state.}
+\begin{figure*}[tbh]
 \centering
 \includegraphics[width=140mm, keepaspectratio]{./PDF/dat_cor_num_bell_linear.pdf}
 \caption{\textbf{entropy comparison with numerics}
@@ -313,23 +313,23 @@ the black $J=0$ curve is our control experiment, and departure of the logarithmi
 }
 \end{figure*}
 
-\begin{figure*}
 \subsection{Comparison with numerics for superposition initial state.}
+\begin{figure*}
 \centering
 \includegraphics[width=140mm, keepaspectratio]{./PDF/dat_cor_num_superposition_log.pdf}
 \caption{Data from Fig.\,S11 plotted on semi-log axes to emphasize scaling.  The disagreement at short times is attributed to the transient respose of the control pulses.}
 \end{figure*}
 
-\begin{figure*}
 \subsection{Comparison with numerics for bell initial state.}
+\begin{figure*}
 \centering
 \hspace*{10mm}
 \includegraphics[width=195mm, keepaspectratio]{./PDF/dat_cor_num_bell_log.pdf}
 \caption{Data from Fig.\,S12 plotted on semi-log axes to emphasize scaling.  The disagreement at short times is attributed to the transient respose of the control pulses.}
 \end{figure*}
 
-\begin{figure*}
 \subsection{Long time numerics for superposition initial state.}
+\begin{figure*}
 \centering
 \includegraphics[width=140mm, keepaspectratio]{./PDF/num_svn_long_time.pdf}
 \caption{\textbf{Entropy comparison with numerics.}
@@ -341,16 +341,16 @@ Numerics to longer times than are accessible in the experiment illustrating the 
 The Hamiltonian parameter $U$ varies weakly as a function of the qubit frequencies and inter-qubit coupling.
 $U$ cannot be controlled independently in our system.
 Here we provide numerical evidence that the dynamics that we report in the MBL regime are not sensitive to this parameter.
-\begin{figure*}
 \subsection{Sensitivity of $S_{\text{vN}}^{\text{AB}}$ to nonlinearity $U$}
+\begin{figure*}
 \centering
 \hspace*{20 mm}
 \includegraphics[width=200mm, keepaspectratio]{./PDF/eta_svn.pdf}
 \caption{\textbf{Disorder averaged von Neumann entropy vs. $U$ for selected couplings and disorder magnitudes.}  The von Neumann entropy observed in the experiment is predicted to be insensitive to the precise value of $U$.}
 \end{figure*}
 
-\begin{figure*}[tbh]
 \subsection{Sensitivity of entanglement of formation to nonlinearity $U$}
+\begin{figure*}[tbh]
 \centering
 \hspace*{20 mm}
 \includegraphics[width=200mm, keepaspectratio]{./PDF/eta_eof.pdf}
@@ -359,8 +359,8 @@ Here we provide numerical evidence that the dynamics that we report in the MBL r
 The entanglement of formation observed in the experiment is predicted to be insensitive to the precise value of $U$.}
 \end{figure*}
 
-\begin{figure*}[h]
 \subsection{Sensitivity of $\sigma^z$ to nonlinearity $U$}
+\begin{figure*}[h]
 \centering
 \hspace*{20 mm}
 \includegraphics[width=200mm, keepaspectratio]{./PDF/eta_ziiz.pdf}
@@ -370,8 +370,8 @@ The onsite population observed in the experiment is predicted to be insensitive 
 \end{figure*}
 
 \section{Extended data for 1D qubit array, Fig.\,S19}
-\begin{figure*}[h]
 \subsection{Distillable entanglement in MBL and diffusive regimes}
+\begin{figure*}[h]
 \centering
 \includegraphics[width=89mm, keepaspectratio]{./PDF/f6_190716_1129a.pdf}
 \caption{\textbf{Entanglement of formation and distillable entanglement in MBL and diffusive regimes}
@@ -411,8 +411,8 @@ This is exemplified in panel (d) which shows the tomographic reconstruction of t
 These results show that a many-body localized system can efficiently retain quantum information over long time scales.
 
 \section{Extended data for 2D qubit arrays, Fig.\,S20}
-\begin{figure*}[tbh]
 \subsection{Onsite population for 2D qubit arrays}
+\begin{figure*}[tbh]
 \centering
 \includegraphics[width=175mm, keepaspectratio]{./PDF/population_2d_190915_1018a.pdf}
 \caption{\textbf{Extended data for onsite population of 2D arrays.}
@@ -422,5 +422,3 @@ These results show that a many-body localized system can efficiently retain quan
 
 In Fig.\,S20, we show extended data for the onsite population for 2D geometries, for $n_{ph}=1,2,3,4$.  The initial location of the excitations was randomized between runs but the observation site was always one of the initially excited qubits.  Similar to the 1D geometries, with sufficient disorder the onsite population takes a non-thermal stationary value and is consistent with many-body localization.  In the 2D geometries the onsite population consistent with thermalization at higher disorders when there are more photons in the system (greater $n_{ph}$), as in the 1D case.
 
-\printbibliography
-\end{document}
