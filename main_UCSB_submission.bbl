@@ -4231,546 +4231,29 @@
       \verb https://link.aps.org/doi/10.1103/PhysRev.109.1492
       \endverb
     \endentry
-    \entry{Abrahams1979}{article}{}
-      \name{author}{4}{}{%
+    \entry{The50years}{article}{}
+      \name{author}{1}{}{%
         {{hash=246985215718b90d10f3e01705cc3f8c}{%
            family={Abrahams},
            familyi={A\bibinitperiod},
            given={E.},
            giveni={E\bibinitperiod}}}%
-        {{hash=847b0698d138c139548ed0a7422a6a16}{%
-           family={Anderson},
-           familyi={A\bibinitperiod},
-           given={P.\bibnamedelimi W.},
-           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=ca4eebe3a1141e62e3271187f25c1a15}{%
-           family={Licciardello},
-           familyi={L\bibinitperiod},
-           given={D.\bibnamedelimi C.},
-           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=816212b09bacdab1052888f64660a602}{%
-           family={Ramakrishnan},
-           familyi={R\bibinitperiod},
-           given={T.\bibnamedelimi V.},
-           giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {American Physical Society}%
+        {World scientific publishing}%
       }
-      \strng{namehash}{5c1dd93659f03751a67e103938f5f9f5}
-      \strng{fullhash}{bce2688e3c0d4d24b5581787b66e321a}
-      \strng{bibnamehash}{bce2688e3c0d4d24b5581787b66e321a}
-      \strng{authorbibnamehash}{bce2688e3c0d4d24b5581787b66e321a}
-      \strng{authornamehash}{5c1dd93659f03751a67e103938f5f9f5}
-      \strng{authorfullhash}{bce2688e3c0d4d24b5581787b66e321a}
+      \strng{namehash}{246985215718b90d10f3e01705cc3f8c}
+      \strng{fullhash}{246985215718b90d10f3e01705cc3f8c}
+      \strng{bibnamehash}{246985215718b90d10f3e01705cc3f8c}
+      \strng{authorbibnamehash}{246985215718b90d10f3e01705cc3f8c}
+      \strng{authornamehash}{246985215718b90d10f3e01705cc3f8c}
+      \strng{authorfullhash}{246985215718b90d10f3e01705cc3f8c}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issue}{10}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{month}{3}
-      \field{title}{Scaling Theory of Localization: Absence of Quantum Diffusion in Two Dimensions}
-      \field{volume}{42}
-      \field{year}{1979}
-      \field{pages}{673\bibrangedash 676}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.42.673
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.42.673
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.42.673
-      \endverb
-    \endentry
-    \entry{Nandkishore2015}{article}{}
-      \name{author}{2}{}{%
-        {{hash=e5e6e67a79f512f5f077785108e64979}{%
-           family={Nandkishore},
-           familyi={N\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=a66f5000879c8b8ef0f6761935cced63}{%
-           family={Huse},
-           familyi={H\bibinitperiod},
-           given={D.\bibnamedelimi A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{fe2357dea22acaaaf639283d748e3958}
-      \strng{fullhash}{fe2357dea22acaaaf639283d748e3958}
-      \strng{bibnamehash}{fe2357dea22acaaaf639283d748e3958}
-      \strng{authorbibnamehash}{fe2357dea22acaaaf639283d748e3958}
-      \strng{authornamehash}{fe2357dea22acaaaf639283d748e3958}
-      \strng{authorfullhash}{fe2357dea22acaaaf639283d748e3958}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Annual Review of Condensed Matter Physics}
-      \field{title}{Many-Body Localization and Thermalization in Quantum Statistical Mechanics}
-      \field{volume}{6}
-      \field{year}{2015}
-      \field{pages}{15\bibrangedash 38}
-      \range{pages}{24}
-    \endentry
-    \entry{Altman2015}{article}{}
-      \name{author}{2}{}{%
-        {{hash=9894bb19bd9f48642539f5ef6d571f7d}{%
-           family={Altman},
-           familyi={A\bibinitperiod},
-           given={Ehud},
-           giveni={E\bibinitperiod}}}%
-        {{hash=7ba9bacd1070e2fada48a2181b27593a}{%
-           family={Vosk},
-           familyi={V\bibinitperiod},
-           given={Ronen},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{6658fcd099ae5012345e1dc0e5464116}
-      \strng{fullhash}{6658fcd099ae5012345e1dc0e5464116}
-      \strng{bibnamehash}{6658fcd099ae5012345e1dc0e5464116}
-      \strng{authorbibnamehash}{6658fcd099ae5012345e1dc0e5464116}
-      \strng{authornamehash}{6658fcd099ae5012345e1dc0e5464116}
-      \strng{authorfullhash}{6658fcd099ae5012345e1dc0e5464116}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We survey the recent progress made in understanding nonequilibrium dynamics in closed random systems. The emphasis is on the important role played by concepts from quantum information theory and on the application of systematic renormalization group methods to capture universal aspects of the dynamics. Finally, we outline some outstanding open questions, which include the description of the many-body-localization phase transition and the identification of physical systems that allow systematic experimental study of these phenomena.}
-      \field{journaltitle}{Annual Review of Condensed Matter Physics}
-      \field{number}{1}
-      \field{title}{Universal Dynamics and Renormalization in Many-Body-Localized Systems}
-      \field{volume}{6}
-      \field{year}{2015}
-      \field{pages}{383\bibrangedash 409}
-      \range{pages}{27}
-      \verb{doi}
-      \verb 10.1146/annurev-conmatphys-031214-014701
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1146/annurev-conmatphys-031214-014701
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1146/annurev-conmatphys-031214-014701
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1146/annurev-conmatphys-031214-014701
-      \endverb
-    \endentry
-    \entry{Basko2006}{article}{}
-      \name{author}{3}{}{%
-        {{hash=fbfc03d246e18bf9857d1e742b860f8d}{%
-           family={Basko},
-           familyi={B\bibinitperiod},
-           given={D.M.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=81d42b26b8e7c1147f6b8b1095670ad1}{%
-           family={Aleiner},
-           familyi={A\bibinitperiod},
-           given={I.L.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=5ee80e1ddc81ca5c2cf06953e6cbbcea}{%
-           family={Altshuler},
-           familyi={A\bibinitperiod},
-           given={B.L.},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{19472b9eb6974aa3ffac6f1e8528b29b}
-      \strng{fullhash}{b52ee633fb92ccdabc0270bce1416236}
-      \strng{bibnamehash}{b52ee633fb92ccdabc0270bce1416236}
-      \strng{authorbibnamehash}{b52ee633fb92ccdabc0270bce1416236}
-      \strng{authornamehash}{19472b9eb6974aa3ffac6f1e8528b29b}
-      \strng{authorfullhash}{b52ee633fb92ccdabc0270bce1416236}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{5}
-      \field{journaltitle}{Annals of Physics}
-      \field{title}{Metal-insulator transition in a weakly interacting many-electron system with localized single-particle states}
-      \field{volume}{321}
-      \field{year}{2006}
-      \field{pages}{1126\bibrangedash 1205}
-      \range{pages}{80}
-    \endentry
-    \entry{Gornyi2005}{article}{}
-      \name{author}{3}{}{%
-        {{hash=99a49e1c1d3db2ea378f1c878af7fc8c}{%
-           family={Gornyi},
-           familyi={G\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=57e1514ebbb0e90b80de4d78d6d8c092}{%
-           family={Mirlin},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=7478a06d520a1ed3370064cee8448bb7}{%
-           family={Polyakov},
-           familyi={P\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{c1d03229a94887763ba38203cb788257}
-      \strng{fullhash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
-      \strng{bibnamehash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
-      \strng{authorbibnamehash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
-      \strng{authornamehash}{c1d03229a94887763ba38203cb788257}
-      \strng{authorfullhash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{20}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{month}{11}
-      \field{title}{Interacting Electrons in Disordered Wires: Anderson Localization and Low-{$T$} Transport}
-      \field{volume}{95}
-      \field{year}{2005}
-      \field{pages}{206603}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.95.206603
-      \endverb
-      \verb{urlraw}
-      \verb http://link.aps.org/doi/10.1103/PhysRevLett.95.206603
-      \endverb
-      \verb{url}
-      \verb http://link.aps.org/doi/10.1103/PhysRevLett.95.206603
-      \endverb
-    \endentry
-    \entry{Bardarson2012}{article}{}
-      \name{author}{3}{}{%
-        {{hash=9a2b18f2a615eb5c1785f6ca0c5a5327}{%
-           family={Bardarson},
-           familyi={B\bibinitperiod},
-           given={Jens\bibnamedelima H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=fb4c86c0948ce1f16f8d42001263c071}{%
-           family={Pollmann},
-           familyi={P\bibinitperiod},
-           given={Frank},
-           giveni={F\bibinitperiod}}}%
-        {{hash=c5b71748031c9aa6b5d17116c88bf263}{%
-           family={Moore},
-           familyi={M\bibinitperiod},
-           given={Joel\bibnamedelima E.},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{e96334f621cc63c833bafa8519f63fdc}
-      \strng{fullhash}{4edb797e27c2a722270ecc5d2fa5b7dd}
-      \strng{bibnamehash}{4edb797e27c2a722270ecc5d2fa5b7dd}
-      \strng{authorbibnamehash}{4edb797e27c2a722270ecc5d2fa5b7dd}
-      \strng{authornamehash}{e96334f621cc63c833bafa8519f63fdc}
-      \strng{authorfullhash}{4edb797e27c2a722270ecc5d2fa5b7dd}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{1}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{month}{7}
-      \field{title}{Unbounded Growth of Entanglement in Models of Many-Body Localization}
-      \field{volume}{109}
-      \field{year}{2012}
-      \field{pages}{017202}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.109.017202
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.017202
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.017202
-      \endverb
-    \endentry
-    \entry{Serbyn2013}{article}{}
-      \name{author}{3}{}{%
-        {{hash=2a85155d1c8b6a69b46e628a74740a81}{%
-           family={Serbyn},
-           familyi={S\bibinitperiod},
-           given={Maksym},
-           giveni={M\bibinitperiod}}}%
-        {{hash=df315db6362880ebd000bf393896375a}{%
-           family={Papi{ć}},
-           familyi={P\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=59c7d3326149d6a72e734ba4d2131a4a}{%
-           family={Abanin},
-           familyi={A\bibinitperiod},
-           given={Dmitry\bibnamedelima A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{9829c8b51a7ddd42d9786762a66f0171}
-      \strng{fullhash}{febd1360c2136f88e60e59aec1b6a241}
-      \strng{bibnamehash}{febd1360c2136f88e60e59aec1b6a241}
-      \strng{authorbibnamehash}{febd1360c2136f88e60e59aec1b6a241}
-      \strng{authornamehash}{9829c8b51a7ddd42d9786762a66f0171}
-      \strng{authorfullhash}{febd1360c2136f88e60e59aec1b6a241}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We construct a complete set of local integrals of motion that characterize the many-body localized ({MBL)} phase. Our approach relies on the assumption that local perturbations act locally on the eigenstates in the {MBL} phase, which is supported by numerical simulations of the random-field {XXZ} spin chain. We describe the structure of the eigenstates in the {MBL} phase and discuss the implications of local conservation laws for its nonequilibrium quantum dynamics. We argue that the many-body localization can be used to protect coherence in the system by suppressing relaxation between eigenstates with different local integrals of motion.}
-      \field{number}{12}
-      \field{title}{Local Conservation Laws and the Structure of the Many-Body Localized States}
-      \field{volume}{111}
-      \field{year}{2013}
-      \field{pages}{127201}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.111.127201
-      \endverb
-      \keyw{disordered system,localization,many-body}
-    \endentry
-    \entry{Huse2014}{article}{}
-      \name{author}{3}{}{%
-        {{hash=afc2feebd8732fd639f4590f45eb781b}{%
-           family={Huse},
-           familyi={H\bibinitperiod},
-           given={David\bibnamedelima A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=f374451df61007f10886f754fa6699cb}{%
-           family={Nandkishore},
-           familyi={N\bibinitperiod},
-           given={Rahul},
-           giveni={R\bibinitperiod}}}%
-        {{hash=8f613db19551aac9cfb2ccc2c465b0ec}{%
-           family={Oganesyan},
-           familyi={O\bibinitperiod},
-           given={Vadim},
-           giveni={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{bf0ba5863f3dd96b132266c00d4ce4be}
-      \strng{fullhash}{f340057994f0935dc79158512df2aaf9}
-      \strng{bibnamehash}{f340057994f0935dc79158512df2aaf9}
-      \strng{authorbibnamehash}{f340057994f0935dc79158512df2aaf9}
-      \strng{authornamehash}{bf0ba5863f3dd96b132266c00d4ce4be}
-      \strng{authorfullhash}{f340057994f0935dc79158512df2aaf9}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Phys. Rev. B}
-      \field{number}{17}
-      \field{title}{Phenomenology of fully many-body-localized systems}
-      \field{volume}{90}
-      \field{year}{2014}
-      \field{pages}{174202}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevB.90.174202
-      \endverb
-      \keyw{{MBL},phenomenology}
-    \endentry
-    \entry{Neill2018}{article}{}
-      \name{author}{32}{}{%
-        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
-           family={Neill},
-           familyi={N\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=1da87e45f27c6d9d57192ddcc39536eb}{%
-           family={Roushan},
-           familyi={R\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=ecdb5c081413df029cbe5c5d5704b815}{%
-           family={Kechedzhi},
-           familyi={K\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-        {{hash=41bfc74e4b7c73f53902662b6f3dd8af}{%
-           family={Boixo},
-           familyi={B\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=d8c3307f54bf0b08d429490ee7dec2b8}{%
-           family={Isakov},
-           familyi={I\bibinitperiod},
-           given={S.\bibnamedelimi V.},
-           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=ce2fabfc39376c52915712e24f1ec9ee}{%
-           family={Smelyanskiy},
-           familyi={S\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
-           family={Megrant},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
-           family={Chiaro},
-           familyi={C\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=41e3b7df214ae8e20258fc5d1eb197eb}{%
-           family={Dunsworth},
-           familyi={D\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=78c4c62af83e6ebf07b77759f298cd89}{%
-           family={Arya},
-           familyi={A\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
-           family={Barends},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=b88b81188ba6c64293e9d8f8cc881750}{%
-           family={Burkett},
-           familyi={B\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=d90f53b6c47cfea3540b0fb9da23dbd7}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=2c11a24d77752d139c596ea42b66e6ae}{%
-           family={Fowler},
-           familyi={F\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=645313ab4043fd5e5817b9eef4a1634a}{%
-           family={Foxen},
-           familyi={F\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=bf558983da8a0a1b14c925a2751fc816}{%
-           family={Giustina},
-           familyi={G\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d08b1d6038d3c85f98358677d8e22f5d}{%
-           family={Graff},
-           familyi={G\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=c100c55f6ebe8b06bf6ac7fe84162405}{%
-           family={Jeffrey},
-           familyi={J\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=c8e3c06d29519f4220d0a0bde8acdbf6}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
-           family={Kelly},
-           familyi={K\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=95ff3569354a8d89b55edabf80c423e7}{%
-           family={Klimov},
-           familyi={K\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=eff4026eb032033e709bde6174d3be9f}{%
-           family={Lucero},
-           familyi={L\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=8303fdb222c36e017825e09dce34cafb}{%
-           family={Mutus},
-           familyi={M\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=75f3d78a932ed86386a2ef2bafd63f44}{%
-           family={Neeley},
-           familyi={N\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=6bbdfeb8cf2208c5732783731b39da6e}{%
-           family={Quintana},
-           familyi={Q\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=f04446b18aa4081121989c7b3a557778}{%
-           family={Sank},
-           familyi={S\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=7ea58a08978a1363797b293339adad82}{%
-           family={Vainsencher},
-           familyi={V\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
-           family={Wenner},
-           familyi={W\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d8e06b7053d365f509f13349d35954d0}{%
-           family={White},
-           familyi={W\bibinitperiod},
-           given={T.\bibnamedelimi C.},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=805e7a7a2621962b09d3ad6eb37f3ae0}{%
-           family={Neven},
-           familyi={N\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=9f2ac509b63af11f2f6e3ccb91b0fd50}{%
-           family={Martinis},
-           familyi={M\bibinitperiod},
-           given={J.\bibnamedelimi M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Association for the Advancement of Science}%
-      }
-      \strng{namehash}{ce16a008d7f5970cf9bac5cbba391382}
-      \strng{fullhash}{1a094371bbcd3832284dfff768179da6}
-      \strng{bibnamehash}{ce16a008d7f5970cf9bac5cbba391382}
-      \strng{authorbibnamehash}{ce16a008d7f5970cf9bac5cbba391382}
-      \strng{authornamehash}{ce16a008d7f5970cf9bac5cbba391382}
-      \strng{authorfullhash}{1a094371bbcd3832284dfff768179da6}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Quantum information scientists are getting closer to building a quantum computer that can perform calculations that a classical computer cannot. It has been estimated that such a computer would need around 50 qubits, but scaling up existing architectures to this number is tricky. Neill et al. explore how increasing the number of qubits from five to nine affects the quality of the output of their superconducting qubit device. If, as the number of qubits grows further, the error continues to increase at the same rate, a quantum computer with about 60 qubits and reasonable fidelity might be achievable with current technologies.Science, this issue p. 195A key step toward demonstrating a quantum system that can address difficult problems in physics and chemistry will be performing a computation beyond the capabilities of any classical computer, thus achieving so-called quantum supremacy. In this study, we used nine superconducting qubits to demonstrate a promising path toward quantum supremacy. By individually tuning the qubit parameters, we were able to generate thousands of distinct Hamiltonian evolutions and probe the output probabilities. The measured probabilities obey a universal distribution, consistent with uniformly sampling the full Hilbert space. As the number of qubits increases, the system continues to explore the exponentially growing number of states. Extending these results to a system of 50 qubits has the potential to address scientific questions that are beyond the capabilities of any classical computer.}
-      \field{issn}{0036-8075}
-      \field{journaltitle}{Science}
-      \field{number}{6385}
-      \field{title}{A blueprint for demonstrating quantum supremacy with superconducting qubits}
-      \field{volume}{360}
-      \field{year}{2018}
-      \field{pages}{195\bibrangedash 199}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1126/science.aao4309
-      \endverb
-      \verb{eprint}
-      \verb https://science.sciencemag.org/content/360/6385/195.full.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://science.sciencemag.org/content/360/6385/195
-      \endverb
-      \verb{url}
-      \verb https://science.sciencemag.org/content/360/6385/195
-      \endverb
+      \field{title}{50 Years of Anderson Localization}
+      \field{year}{2010}
     \endentry
     \entry{Billy2008}{article}{}
       \name{author}{10}{}{%
@@ -4992,6 +4475,91 @@
       \verb https://doi.org/10.1038/nature05623
       \endverb
       \warn{\item Range field 'pages' in entry 'Schwartz2007' is malformed, falling back to literal}
+    \endentry
+    \entry{Basko2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fbfc03d246e18bf9857d1e742b860f8d}{%
+           family={Basko},
+           familyi={B\bibinitperiod},
+           given={D.M.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=81d42b26b8e7c1147f6b8b1095670ad1}{%
+           family={Aleiner},
+           familyi={A\bibinitperiod},
+           given={I.L.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5ee80e1ddc81ca5c2cf06953e6cbbcea}{%
+           family={Altshuler},
+           familyi={A\bibinitperiod},
+           given={B.L.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{19472b9eb6974aa3ffac6f1e8528b29b}
+      \strng{fullhash}{b52ee633fb92ccdabc0270bce1416236}
+      \strng{bibnamehash}{b52ee633fb92ccdabc0270bce1416236}
+      \strng{authorbibnamehash}{b52ee633fb92ccdabc0270bce1416236}
+      \strng{authornamehash}{19472b9eb6974aa3ffac6f1e8528b29b}
+      \strng{authorfullhash}{b52ee633fb92ccdabc0270bce1416236}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Annals of Physics}
+      \field{title}{Metal-insulator transition in a weakly interacting many-electron system with localized single-particle states}
+      \field{volume}{321}
+      \field{year}{2006}
+      \field{pages}{1126\bibrangedash 1205}
+      \range{pages}{80}
+    \endentry
+    \entry{Gornyi2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=99a49e1c1d3db2ea378f1c878af7fc8c}{%
+           family={Gornyi},
+           familyi={G\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=57e1514ebbb0e90b80de4d78d6d8c092}{%
+           family={Mirlin},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7478a06d520a1ed3370064cee8448bb7}{%
+           family={Polyakov},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c1d03229a94887763ba38203cb788257}
+      \strng{fullhash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
+      \strng{bibnamehash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
+      \strng{authorbibnamehash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
+      \strng{authornamehash}{c1d03229a94887763ba38203cb788257}
+      \strng{authorfullhash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Interacting Electrons in Disordered Wires: Anderson Localization and Low-{$T$} Transport}
+      \field{volume}{95}
+      \field{year}{2005}
+      \field{pages}{206603}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.95.206603
+      \endverb
+      \verb{urlraw}
+      \verb http://link.aps.org/doi/10.1103/PhysRevLett.95.206603
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevLett.95.206603
+      \endverb
     \endentry
     \entry{ImbriePRL2016}{article}{}
       \name{author}{1}{}{%
@@ -5646,6 +5214,266 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.75.155111
       \endverb
     \endentry
+    \entry{Bardarson2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9a2b18f2a615eb5c1785f6ca0c5a5327}{%
+           family={Bardarson},
+           familyi={B\bibinitperiod},
+           given={Jens\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=fb4c86c0948ce1f16f8d42001263c071}{%
+           family={Pollmann},
+           familyi={P\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c5b71748031c9aa6b5d17116c88bf263}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Joel\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e96334f621cc63c833bafa8519f63fdc}
+      \strng{fullhash}{4edb797e27c2a722270ecc5d2fa5b7dd}
+      \strng{bibnamehash}{4edb797e27c2a722270ecc5d2fa5b7dd}
+      \strng{authorbibnamehash}{4edb797e27c2a722270ecc5d2fa5b7dd}
+      \strng{authornamehash}{e96334f621cc63c833bafa8519f63fdc}
+      \strng{authorfullhash}{4edb797e27c2a722270ecc5d2fa5b7dd}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{7}
+      \field{title}{Unbounded Growth of Entanglement in Models of Many-Body Localization}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{017202}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.109.017202
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.017202
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.017202
+      \endverb
+    \endentry
+    \entry{Serbyn2013b}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2a85155d1c8b6a69b46e628a74740a81}{%
+           family={Serbyn},
+           familyi={S\bibinitperiod},
+           given={Maksym},
+           giveni={M\bibinitperiod}}}%
+        {{hash=df315db6362880ebd000bf393896375a}{%
+           family={Papi{ć}},
+           familyi={P\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=59c7d3326149d6a72e734ba4d2131a4a}{%
+           family={Abanin},
+           familyi={A\bibinitperiod},
+           given={Dmitry\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9829c8b51a7ddd42d9786762a66f0171}
+      \strng{fullhash}{febd1360c2136f88e60e59aec1b6a241}
+      \strng{bibnamehash}{febd1360c2136f88e60e59aec1b6a241}
+      \strng{authorbibnamehash}{febd1360c2136f88e60e59aec1b6a241}
+      \strng{authornamehash}{9829c8b51a7ddd42d9786762a66f0171}
+      \strng{authorfullhash}{febd1360c2136f88e60e59aec1b6a241}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{26}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{6}
+      \field{title}{Universal Slow Growth of Entanglement in Interacting Strongly Disordered Systems}
+      \field{volume}{110}
+      \field{year}{2013}
+      \field{pages}{260601}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.110.260601
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.110.260601
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.110.260601
+      \endverb
+    \endentry
+    \entry{Huse2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=afc2feebd8732fd639f4590f45eb781b}{%
+           family={Huse},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f374451df61007f10886f754fa6699cb}{%
+           family={Nandkishore},
+           familyi={N\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8f613db19551aac9cfb2ccc2c465b0ec}{%
+           family={Oganesyan},
+           familyi={O\bibinitperiod},
+           given={Vadim},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf0ba5863f3dd96b132266c00d4ce4be}
+      \strng{fullhash}{f340057994f0935dc79158512df2aaf9}
+      \strng{bibnamehash}{f340057994f0935dc79158512df2aaf9}
+      \strng{authorbibnamehash}{f340057994f0935dc79158512df2aaf9}
+      \strng{authornamehash}{bf0ba5863f3dd96b132266c00d4ce4be}
+      \strng{authorfullhash}{f340057994f0935dc79158512df2aaf9}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{number}{17}
+      \field{title}{Phenomenology of fully many-body-localized systems}
+      \field{volume}{90}
+      \field{year}{2014}
+      \field{pages}{174202}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.90.174202
+      \endverb
+      \keyw{{MBL},phenomenology}
+    \endentry
+    \entry{Serbyn2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2a85155d1c8b6a69b46e628a74740a81}{%
+           family={Serbyn},
+           familyi={S\bibinitperiod},
+           given={Maksym},
+           giveni={M\bibinitperiod}}}%
+        {{hash=df315db6362880ebd000bf393896375a}{%
+           family={Papi{ć}},
+           familyi={P\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=59c7d3326149d6a72e734ba4d2131a4a}{%
+           family={Abanin},
+           familyi={A\bibinitperiod},
+           given={Dmitry\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9829c8b51a7ddd42d9786762a66f0171}
+      \strng{fullhash}{febd1360c2136f88e60e59aec1b6a241}
+      \strng{bibnamehash}{febd1360c2136f88e60e59aec1b6a241}
+      \strng{authorbibnamehash}{febd1360c2136f88e60e59aec1b6a241}
+      \strng{authornamehash}{9829c8b51a7ddd42d9786762a66f0171}
+      \strng{authorfullhash}{febd1360c2136f88e60e59aec1b6a241}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We construct a complete set of local integrals of motion that characterize the many-body localized ({MBL)} phase. Our approach relies on the assumption that local perturbations act locally on the eigenstates in the {MBL} phase, which is supported by numerical simulations of the random-field {XXZ} spin chain. We describe the structure of the eigenstates in the {MBL} phase and discuss the implications of local conservation laws for its nonequilibrium quantum dynamics. We argue that the many-body localization can be used to protect coherence in the system by suppressing relaxation between eigenstates with different local integrals of motion.}
+      \field{number}{12}
+      \field{title}{Local Conservation Laws and the Structure of the Many-Body Localized States}
+      \field{volume}{111}
+      \field{year}{2013}
+      \field{pages}{127201}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.111.127201
+      \endverb
+      \keyw{disordered system,localization,many-body}
+    \endentry
+    \entry{KnapPRL2014}{article}{}
+      \name{author}{9}{}{%
+        {{hash=683cbe014bb811c64f8cfa1b45f8cca0}{%
+           family={Serbyn},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c07767cba460a0c09e8ca2b191d25851}{%
+           family={Knap},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1f2ed6ea58db3e561832e066e424dfc2}{%
+           family={Gopalakrishnan},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c8f849457ae9f912539e68f5ad7586e7}{%
+           family={Papic},
+           familyi={P\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=810e6921467e1889765dc372c576f7a6}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={N.\bibnamedelimi Y.},
+           giveni={N\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=5840a120ecde941b19c531ea3ea4ee5c}{%
+           family={Laumann},
+           familyi={L\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=86f400ea55ea5f739e76a770c17f58a9}{%
+           family={Abanin},
+           familyi={A\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=152c9d776244752eaba344fc6d7d8f91}{%
+           family={Lukin},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=51c17c9575d3c5e6d7063a5ee6894d81}{%
+           family={Demler},
+           familyi={D\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{596d899aa5c5883425e03ba8b0846a91}
+      \strng{fullhash}{9f5aaece192b81997fd924a8fb60359d}
+      \strng{bibnamehash}{596d899aa5c5883425e03ba8b0846a91}
+      \strng{authorbibnamehash}{596d899aa5c5883425e03ba8b0846a91}
+      \strng{authornamehash}{596d899aa5c5883425e03ba8b0846a91}
+      \strng{authorfullhash}{9f5aaece192b81997fd924a8fb60359d}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{14}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{10}
+      \field{title}{Interferometric Probes of Many-Body Localization}
+      \field{volume}{113}
+      \field{year}{2014}
+      \field{pages}{147204}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.113.147204
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.113.147204
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.113.147204
+      \endverb
+    \endentry
     \entry{Antonello2017}{article}{}
       \name{author}{3}{}{%
         {{hash=99a3aaf626def3678d4d39088aba9e26}{%
@@ -5721,7 +5549,7 @@
       \strng{authorbibnamehash}{1eb2f16ba64fd006041c329a62045b48}
       \strng{authornamehash}{9829c8b51a7ddd42d9786762a66f0171}
       \strng{authorfullhash}{1eb2f16ba64fd006041c329a62045b48}
-      \field{extraname}{2}
+      \field{extraname}{4}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
@@ -5875,7 +5703,7 @@
       \strng{authorbibnamehash}{febd1360c2136f88e60e59aec1b6a241}
       \strng{authornamehash}{9829c8b51a7ddd42d9786762a66f0171}
       \strng{authorfullhash}{febd1360c2136f88e60e59aec1b6a241}
-      \field{extraname}{3}
+      \field{extraname}{5}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
@@ -5897,6 +5725,55 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevX.5.041047
       \endverb
+    \endentry
+    \entry{Altman2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9894bb19bd9f48642539f5ef6d571f7d}{%
+           family={Altman},
+           familyi={A\bibinitperiod},
+           given={Ehud},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7ba9bacd1070e2fada48a2181b27593a}{%
+           family={Vosk},
+           familyi={V\bibinitperiod},
+           given={Ronen},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6658fcd099ae5012345e1dc0e5464116}
+      \strng{fullhash}{6658fcd099ae5012345e1dc0e5464116}
+      \strng{bibnamehash}{6658fcd099ae5012345e1dc0e5464116}
+      \strng{authorbibnamehash}{6658fcd099ae5012345e1dc0e5464116}
+      \strng{authornamehash}{6658fcd099ae5012345e1dc0e5464116}
+      \strng{authorfullhash}{6658fcd099ae5012345e1dc0e5464116}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We survey the recent progress made in understanding nonequilibrium dynamics in closed random systems. The emphasis is on the important role played by concepts from quantum information theory and on the application of systematic renormalization group methods to capture universal aspects of the dynamics. Finally, we outline some outstanding open questions, which include the description of the many-body-localization phase transition and the identification of physical systems that allow systematic experimental study of these phenomena.}
+      \field{journaltitle}{Annual Review of Condensed Matter Physics}
+      \field{number}{1}
+      \field{title}{Universal Dynamics and Renormalization in Many-Body-Localized Systems}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{pages}{383\bibrangedash 409}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1146/annurev-conmatphys-031214-014701
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1146/annurev-conmatphys-031214-014701
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1146/annurev-conmatphys-031214-014701
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1146/annurev-conmatphys-031214-014701
+      \endverb
+    \endentry
+    \entry{supplement}{misc}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{note}{See supplementary material.}
     \endentry
     \entry{Varma2019}{article}{}
       \name{author}{5}{}{%
@@ -5932,18 +5809,13 @@
       \strng{authorbibnamehash}{9ac9c25591df0dd716220c8e52226521}
       \strng{authornamehash}{766becfb5f10b6e538cec3670bffa3a1}
       \strng{authorfullhash}{9ac9c25591df0dd716220c8e52226521}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1901.02902}
       \field{title}{Length scales in the many-body localized phase and their spectral signatures}
       \field{year}{2019}
-    \endentry
-    \entry{supplement}{misc}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
-      \field{note}{See supplementary material.}
     \endentry
     \entry{Znidaric2015}{article}{}
       \name{author}{1}{}{%
@@ -5962,8 +5834,8 @@
       \strng{authorbibnamehash}{90fd2a692f9c20cf51f5e79165ae6446}
       \strng{authornamehash}{90fd2a692f9c20cf51f5e79165ae6446}
       \strng{authorfullhash}{90fd2a692f9c20cf51f5e79165ae6446}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
@@ -6016,8 +5888,8 @@
       \strng{authorbibnamehash}{b0f96924418c7a828416a89f9373cfc2}
       \strng{authornamehash}{c5e8414e25fefa6474459444de2c3377}
       \strng{authorfullhash}{b0f96924418c7a828416a89f9373cfc2}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{23}
@@ -6065,8 +5937,8 @@
       \strng{authorbibnamehash}{cccec6a10e1faf35b610e4b11f1d5eeb}
       \strng{authornamehash}{a9bbb00e505f7f9137718e6cfac3d3f8}
       \strng{authorfullhash}{cccec6a10e1faf35b610e4b11f1d5eeb}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{16}
@@ -6149,8 +6021,8 @@
       \strng{authorbibnamehash}{5de346c845fc328cda81c41209d759ab}
       \strng{authornamehash}{5de346c845fc328cda81c41209d759ab}
       \strng{authorfullhash}{b3017fefd5c0eb3cf411c01814c88a7c}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -6205,8 +6077,8 @@
       \strng{authorbibnamehash}{66d1fcb24bd736281e7eafadce735133}
       \strng{authornamehash}{9c8fe5bbc41623af89cc5baffda0c34f}
       \strng{authorfullhash}{66d1fcb24bd736281e7eafadce735133}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{At long times, residual couplings to the environment become relevant even in the most isolated experiments, a crucial difficulty for the study of fundamental aspects of many-body dynamics. A particular example is many-body localization in a cold-atom setting, where incoherent photon scattering introduces both dephasing and particle loss. Whereas dephasing has been studied in detail and is known to destroy localization already on the level of non-interacting particles, the effect of particle loss is less well understood. A difficulty arises due to the `non-local' nature of the loss process, complicating standard numerical tools using matrix product decomposition. Utilizing symmetries of the Lindbladian dynamics, we investigate the particle loss on both the dynamics of observables, as well as the structure of the density matrix and the individual states. We find that particle loss in the presence of interactions leads to dissipation and a strong suppression of the (operator space) entanglement entropy. Our approach allows for the study of the interplay of dephasing and loss for pure and mixed initial states to long times, which is important for future experiments using controlled coupling of the environment.}
@@ -6220,86 +6092,6 @@
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1088/2058-9565/aa9a02
-      \endverb
-    \endentry
-    \entry{KnapPRL2014}{article}{}
-      \name{author}{9}{}{%
-        {{hash=683cbe014bb811c64f8cfa1b45f8cca0}{%
-           family={Serbyn},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=c07767cba460a0c09e8ca2b191d25851}{%
-           family={Knap},
-           familyi={K\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=1f2ed6ea58db3e561832e066e424dfc2}{%
-           family={Gopalakrishnan},
-           familyi={G\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=c8f849457ae9f912539e68f5ad7586e7}{%
-           family={Papic},
-           familyi={P\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=810e6921467e1889765dc372c576f7a6}{%
-           family={Yao},
-           familyi={Y\bibinitperiod},
-           given={N.\bibnamedelimi Y.},
-           giveni={N\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
-        {{hash=5840a120ecde941b19c531ea3ea4ee5c}{%
-           family={Laumann},
-           familyi={L\bibinitperiod},
-           given={C.\bibnamedelimi R.},
-           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=86f400ea55ea5f739e76a770c17f58a9}{%
-           family={Abanin},
-           familyi={A\bibinitperiod},
-           given={D.\bibnamedelimi A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=152c9d776244752eaba344fc6d7d8f91}{%
-           family={Lukin},
-           familyi={L\bibinitperiod},
-           given={M.\bibnamedelimi D.},
-           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=51c17c9575d3c5e6d7063a5ee6894d81}{%
-           family={Demler},
-           familyi={D\bibinitperiod},
-           given={E.\bibnamedelimi A.},
-           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{596d899aa5c5883425e03ba8b0846a91}
-      \strng{fullhash}{9f5aaece192b81997fd924a8fb60359d}
-      \strng{bibnamehash}{596d899aa5c5883425e03ba8b0846a91}
-      \strng{authorbibnamehash}{596d899aa5c5883425e03ba8b0846a91}
-      \strng{authornamehash}{596d899aa5c5883425e03ba8b0846a91}
-      \strng{authorfullhash}{9f5aaece192b81997fd924a8fb60359d}
-      \field{extraname}{4}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{14}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{month}{10}
-      \field{title}{Interferometric Probes of Many-Body Localization}
-      \field{volume}{113}
-      \field{year}{2014}
-      \field{pages}{147204}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.113.147204
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.113.147204
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.113.147204
       \endverb
     \endentry
     \entry{Wootters1998}{article}{}
@@ -6388,6 +6180,356 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevA.61.052306
+      \endverb
+    \endentry
+    \entry{Moore2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=173036d8b9c62f25b6681253db06f833}{%
+           family={Vasseur},
+           familyi={V\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0fbcce919b62e5505e0d94de1b1e83b0}{%
+           family={Parameswaran},
+           familyi={P\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=aa4ebc233d91960705d4a43c1369c0bb}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b5ceb853674af9e727c8d1986abdb8d0}
+      \strng{fullhash}{394b5a93db733791a9e8abe2e2cbbf87}
+      \strng{bibnamehash}{394b5a93db733791a9e8abe2e2cbbf87}
+      \strng{authorbibnamehash}{394b5a93db733791a9e8abe2e2cbbf87}
+      \strng{authornamehash}{b5ceb853674af9e727c8d1986abdb8d0}
+      \strng{authorfullhash}{394b5a93db733791a9e8abe2e2cbbf87}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{14}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{4}
+      \field{title}{Quantum revivals and many-body localization}
+      \field{volume}{91}
+      \field{year}{2015}
+      \field{pages}{140202}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.91.140202
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.91.140202
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.91.140202
+      \endverb
+    \endentry
+    \entry{Cirac2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c209131fb3c790e6710920d880ca9494}{%
+           family={Bañuls},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=810e6921467e1889765dc372c576f7a6}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={N.\bibnamedelimi Y.},
+           giveni={N\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=4c83e612ca6179605e076be7f68a2296}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=152c9d776244752eaba344fc6d7d8f91}{%
+           family={Lukin},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e95cc0745e2fbc83da963e5d6ab9c104}{%
+           family={Cirac},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0fa6d8a8ced533f8b0a8b91af8edb36f}
+      \strng{fullhash}{fe9901672fbf1770480226acf15d934b}
+      \strng{bibnamehash}{fe9901672fbf1770480226acf15d934b}
+      \strng{authorbibnamehash}{fe9901672fbf1770480226acf15d934b}
+      \strng{authornamehash}{0fa6d8a8ced533f8b0a8b91af8edb36f}
+      \strng{authorfullhash}{fe9901672fbf1770480226acf15d934b}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{17}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{11}
+      \field{title}{Dynamics of quantum information in many-body localized systems}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{174201}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.96.174201
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.96.174201
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.96.174201
+      \endverb
+    \endentry
+    \entry{Neill2018}{article}{}
+      \name{author}{32}{}{%
+        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1da87e45f27c6d9d57192ddcc39536eb}{%
+           family={Roushan},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ecdb5c081413df029cbe5c5d5704b815}{%
+           family={Kechedzhi},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=41bfc74e4b7c73f53902662b6f3dd8af}{%
+           family={Boixo},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d8c3307f54bf0b08d429490ee7dec2b8}{%
+           family={Isakov},
+           familyi={I\bibinitperiod},
+           given={S.\bibnamedelimi V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=ce2fabfc39376c52915712e24f1ec9ee}{%
+           family={Smelyanskiy},
+           familyi={S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=41e3b7df214ae8e20258fc5d1eb197eb}{%
+           family={Dunsworth},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=78c4c62af83e6ebf07b77759f298cd89}{%
+           family={Arya},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b88b81188ba6c64293e9d8f8cc881750}{%
+           family={Burkett},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d90f53b6c47cfea3540b0fb9da23dbd7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=2c11a24d77752d139c596ea42b66e6ae}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=645313ab4043fd5e5817b9eef4a1634a}{%
+           family={Foxen},
+           familyi={F\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=bf558983da8a0a1b14c925a2751fc816}{%
+           family={Giustina},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d08b1d6038d3c85f98358677d8e22f5d}{%
+           family={Graff},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c100c55f6ebe8b06bf6ac7fe84162405}{%
+           family={Jeffrey},
+           familyi={J\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c8e3c06d29519f4220d0a0bde8acdbf6}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=95ff3569354a8d89b55edabf80c423e7}{%
+           family={Klimov},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=eff4026eb032033e709bde6174d3be9f}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8303fdb222c36e017825e09dce34cafb}{%
+           family={Mutus},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=75f3d78a932ed86386a2ef2bafd63f44}{%
+           family={Neeley},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6bbdfeb8cf2208c5732783731b39da6e}{%
+           family={Quintana},
+           familyi={Q\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7ea58a08978a1363797b293339adad82}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=805e7a7a2621962b09d3ad6eb37f3ae0}{%
+           family={Neven},
+           familyi={N\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9f2ac509b63af11f2f6e3ccb91b0fd50}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{ce16a008d7f5970cf9bac5cbba391382}
+      \strng{fullhash}{1a094371bbcd3832284dfff768179da6}
+      \strng{bibnamehash}{ce16a008d7f5970cf9bac5cbba391382}
+      \strng{authorbibnamehash}{ce16a008d7f5970cf9bac5cbba391382}
+      \strng{authornamehash}{ce16a008d7f5970cf9bac5cbba391382}
+      \strng{authorfullhash}{1a094371bbcd3832284dfff768179da6}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantum information scientists are getting closer to building a quantum computer that can perform calculations that a classical computer cannot. It has been estimated that such a computer would need around 50 qubits, but scaling up existing architectures to this number is tricky. Neill et al. explore how increasing the number of qubits from five to nine affects the quality of the output of their superconducting qubit device. If, as the number of qubits grows further, the error continues to increase at the same rate, a quantum computer with about 60 qubits and reasonable fidelity might be achievable with current technologies.Science, this issue p. 195A key step toward demonstrating a quantum system that can address difficult problems in physics and chemistry will be performing a computation beyond the capabilities of any classical computer, thus achieving so-called quantum supremacy. In this study, we used nine superconducting qubits to demonstrate a promising path toward quantum supremacy. By individually tuning the qubit parameters, we were able to generate thousands of distinct Hamiltonian evolutions and probe the output probabilities. The measured probabilities obey a universal distribution, consistent with uniformly sampling the full Hilbert space. As the number of qubits increases, the system continues to explore the exponentially growing number of states. Extending these results to a system of 50 qubits has the potential to address scientific questions that are beyond the capabilities of any classical computer.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{number}{6385}
+      \field{title}{A blueprint for demonstrating quantum supremacy with superconducting qubits}
+      \field{volume}{360}
+      \field{year}{2018}
+      \field{pages}{195\bibrangedash 199}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.aao4309
+      \endverb
+      \verb{eprint}
+      \verb https://science.sciencemag.org/content/360/6385/195.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://science.sciencemag.org/content/360/6385/195
+      \endverb
+      \verb{url}
+      \verb https://science.sciencemag.org/content/360/6385/195
+      \endverb
+    \endentry
+    \entry{Vidal2002}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f62d54d12f1933af26fb09ba7084c940}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7df4226ad6836bc4b6550f163091c7af}{%
+           family={Werner},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d8b783b4609c032f78060254071d63eb}
+      \strng{fullhash}{d8b783b4609c032f78060254071d63eb}
+      \strng{bibnamehash}{d8b783b4609c032f78060254071d63eb}
+      \strng{authorbibnamehash}{d8b783b4609c032f78060254071d63eb}
+      \strng{authornamehash}{d8b783b4609c032f78060254071d63eb}
+      \strng{authorfullhash}{d8b783b4609c032f78060254071d63eb}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{2}
+      \field{title}{Computable measure of entanglement}
+      \field{volume}{65}
+      \field{year}{2002}
+      \field{pages}{032314}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.65.032314
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.65.032314
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.65.032314
       \endverb
     \endentry
   \enddatalist

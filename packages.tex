@@ -98,6 +98,78 @@
 \usepackage[italic]{mathastext}
 \usepackage{isomath}
 
+% Packages from MBL main submitted:
+\usepackage[all]{nowidow}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{etoolbox}
+\usepackage{scrextend}
+\usepackage{placeins}
+\makeatletter
+\newcommand{\lyxdot}{.}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+\usepackage{comment}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{xfrac}
+\usepackage{bm}
+%\usepackage{xcolor}
+%\usepackage{color}
+\usepackage{sectsty}
+\definecolor{red}{rgb}{1,0,0}
+\definecolor{green}{rgb}{0,1,0}
+\definecolor{blue}{rgb}{0,0,1}
+\definecolor{c1}{rgb}{0.178,0.63,0.17}
+\definecolor{c2}{rgb}{0.09,0.740,0.81}
+\definecolor{c3}{rgb}{0.12,0.46,0.7}
+\definecolor{c4}{rgb}{0.58,0.40,0.74}
+\chapterfont{\color{blue}}
+\sectionfont{\color{blue}}
+\let\saved@includegraphics\includegraphics
+\AtBeginDocument{\let\includegraphics\saved@includegraphics}
+\renewenvironment*{figure}{\@float{figure}}{\end@float}
+\newcommand{\psection}[1]{\textcolor{BLUE}{\textbf{\emph{#1}}}}
+\newcommand{\esection}[1]{\textcolor{GREEN}{\textbf{\emph{#1}}}}
+\newcommand{\preff}[1]{\textcolor{light-gray}{[#1]}}
+\newcommand{\pref}[1]{\textcolor{cyan}{[#1]}}
+\newcommand{\schrodinger}{Schr\"{o}dinger}
 
 
+% Packages from MBL_Submitted_Supplement
+\renewcommand{\thefigure}{\textbf{S\arabic{figure}}}
+\usepackage{mathrsfs}
+\usepackage{fullpage}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[strict]{changepage}
+\usepackage{framed}
+\usepackage{amsthm}
+\usepackage{bbm}
+\usepackage{colortbl}
+\usepackage{epsfig}
 
+\sloppy
+% Ben
+
+%\usepackage[margin=1.0in]{geometry}
+\usepackage{amstext,amsmath,amssymb}
+\usepackage{verbatim}
+\usepackage{mathtools}
+\usepackage{afterpage}
+%\usepackage[section]{placeins}
+%\usepackage{authblk}
+\usepackage[all]{nowidow}
+
+\usepackage{subfiles}
+\usepackage{titlesec}
+\usepackage[labelfont=bf]{caption}
+
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\Tr}{\mbox{Tr}}
+\DeclareMathOperator{\tr}{\mbox{tr}}
+\DeclareMathOperator{\re}{\mbox{Re}}
+\DeclareMathOperator{\im}{\mbox{Im}}
+\DeclareMathOperator{\erfc}{{erfc}}
+\DeclareMathOperator{\sign}{{sign}}

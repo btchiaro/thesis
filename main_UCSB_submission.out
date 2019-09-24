@@ -53,4 +53,35 @@
 \BOOKMARK [2][-]{subsection.6.2.1}{simple example}{section.6.2}% 53
 \BOOKMARK [1][-]{section.6.3}{Doublon Spectroscopy}{chapter.6}% 54
 \BOOKMARK [1][-]{section.6.4}{scratch}{chapter.6}% 55
-\BOOKMARK [0][-]{chapter.7}{MBL}{}% 56
+\BOOKMARK [1][-]{section.6.5}{}{chapter.6}% 56
+\BOOKMARK [1][-]{section.6.6}{}{chapter.6}% 57
+\BOOKMARK [1][-]{section.6.7}{}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.8}{}{chapter.6}% 59
+\BOOKMARK [1][-]{section.6.9}{Device and calibration, Figs.S1-S3}{chapter.6}% 60
+\BOOKMARK [2][-]{subsection.6.9.1}{Circuit schematic}{section.6.9}% 61
+\BOOKMARK [2][-]{subsection.6.9.2}{Single qubit gate error rate}{section.6.9}% 62
+\BOOKMARK [2][-]{subsection.6.9.3}{Manybody Hamiltonian benchmarking}{section.6.9}% 63
+\BOOKMARK [1][-]{section.6.10}{Transport measurements, Figs.S4-S6}{chapter.6}% 64
+\BOOKMARK [2][-]{subsection.6.10.1}{Transport measurement instances}{section.6.10}% 65
+\BOOKMARK [2][-]{subsection.6.10.2}{Decoherence effects}{section.6.10}% 66
+\BOOKMARK [2][-]{subsection.6.10.3}{Two state occupation}{section.6.10}% 67
+\BOOKMARK [1][-]{section.6.11}{Interferometric protocols, Figs.S7-S10}{chapter.6}% 68
+\BOOKMARK [2][-]{subsection.6.11.1}{Echo pulse sequences}{section.6.11}% 69
+\BOOKMARK [2][-]{subsection.6.11.2}{Maximum local occupation}{section.6.11}% 70
+\BOOKMARK [2][-]{subsection.6.11.3}{Comparison with numerics for echo experiments}{section.6.11}% 71
+\BOOKMARK [2][-]{subsection.6.11.4}{Extended data}{section.6.11}% 72
+\BOOKMARK [1][-]{section.6.12}{Entanglement measures}{chapter.6}% 73
+\BOOKMARK [1][-]{section.6.13}{Density matrix evolution numerics comparison, Figs.S11 - S15}{chapter.6}% 74
+\BOOKMARK [1][-]{section.6.14}{Sensitivity to nonlinearity U, Figs.S16-S18}{chapter.6}% 80
+\BOOKMARK [1][-]{section.6.15}{Extended data for 1D qubit array, Fig.S19}{chapter.6}% 84
+\BOOKMARK [1][-]{section.6.16}{Extended data for 2D qubit arrays, Fig.S20}{chapter.6}% 86
+\BOOKMARK [2][-]{subsection.6.13.1}{Comparison with numerics for superposition initial state.}{section.6.13}% 75
+\BOOKMARK [2][-]{subsection.6.13.2}{Comparison with numerics for bell initial state.}{section.6.13}% 76
+\BOOKMARK [2][-]{subsection.6.13.3}{Comparison with numerics for superposition initial state.}{section.6.13}% 77
+\BOOKMARK [2][-]{subsection.6.13.4}{Comparison with numerics for bell initial state.}{section.6.13}% 78
+\BOOKMARK [2][-]{subsection.6.13.5}{Long time numerics for superposition initial state.}{section.6.13}% 79
+\BOOKMARK [2][-]{subsection.6.14.1}{Sensitivity of SvNAB to nonlinearity U}{section.6.14}% 81
+\BOOKMARK [2][-]{subsection.6.14.2}{Sensitivity of entanglement of formation to nonlinearity U}{section.6.14}% 82
+\BOOKMARK [2][-]{subsection.6.14.3}{Sensitivity of z to nonlinearity U}{section.6.14}% 83
+\BOOKMARK [2][-]{subsection.6.15.1}{Distillable entanglement in MBL and diffusive regimes}{section.6.15}% 85
+\BOOKMARK [2][-]{subsection.6.16.1}{Onsite population for 2D qubit arrays}{section.6.16}% 87
