@@ -5,4 +5,25 @@ function compile_ch2(){
 arara -v ~/Google\ Drive/thesis/Article_TiN_arxiv/arXiv-TiN-Submission.tex
 }
 echo 'Loaded thesis bash functions'
+function cleanup_thesis_build_files {
+python - <<END
+import os
+file_path = os.path.expanduser('~/Google Drive/thesis/')
+file_names = os.listdir(file_path)
+for fn in file_names:
+    if 'main_UCSB_submission' in fn:
+        ext = fn.split('.')[1]
+        if ext not in ['pdf','tex']:
+            print('yes: {}'.format(fn))
+        else:
+            print('no: {}'.format(fn))
 
+
+END
+}
+function current_datetime {
+python - <<END
+import datetime
+print(datetime.datetime.now())
+END
+}

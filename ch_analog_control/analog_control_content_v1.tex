@@ -1,0 +1,555 @@
+\chapter[Analog Control]{Analog Control}
+% This is copied out of:
+% devBenGreen/latex/xiy_notes.tex
+The primary benchmarking technique for the ability of our circuit control model to set Hamiltonian coeffiecients is Manybody Ramsey spectroscopy \rd{cite Pedram}.
+This technique allows us to extract the eigenvalues of a time independent Hamiltonian.
+In this appendix we give a detailed discussion of the technique.
+
+\section{Manybody Ramsey spectroscopy}
+
+\quickfig{150mm}{./PDF/mbr_numerics_3qubit_o_psi0.pdf}{Numerics for various observables and initial states}{mbr_peaks_numerics}
+\quickfig{150mm}{./PDF/mbr_data_5qubit_o.pdf}{mbr_peaks_5q_data}
+
+The wavefunction in the energy basis is
+
+\begin{equation}
+    \ket{\psi (t)} =e^{-i \mathcal{H} t} \ket{\psi_{0}} = \sum_{\alpha} C_{\alpha} e^{- i E_{\alpha} t} \ket{\phi_{\alpha}}
+\end{equation}
+
+The coefficients are given by the overlap with the initial state
+
+\begin{equation}
+    C_{\alpha} = \braket{\phi_{\alpha}|\psi_{0}}
+\end{equation}
+
+An observable $\hat{O}$ in the energy basis is written as:
+
+
+\begin{equation}
+    \hat{O} = \sum_{\alpha,\alpha^{\prime}} O_{\alpha,\alpha^{\prime}} \ket{\phi_{\alpha^{\prime}}} \bra{\phi_{\alpha}}
+\end{equation}
+
+The time dependent expectation value of this operator is
+
+\begin{equation*}
+    \begin{aligned}
+        O(t) =\braket{\psi(t)|\hat{O}|\psi(t)} = \\[2.0ex]
+        \left( \sum_{\beta} C^{*}_{\beta} e^{i E_{\beta} t} \ket{\phi_{\beta}} \right)
+        \left( \sum_{\alpha,\alpha^{\prime}} O_{\alpha,\alpha^{\prime}} \ket{\phi_{\alpha^{\prime}}} \bra{\phi_{\alpha}} \right)
+        \left( \sum_{\beta^{\prime}} C_{\beta^{\prime}} e^{- i E_{\beta^{\prime}} t} \ket{\phi_{\beta^{\prime}}} \right) = \\[2.0ex]
+        \sum_{\alpha, \alpha^{\prime}, \beta, \beta^{\prime} }
+        \braket{\phi_{\beta^{\prime}}|\phi_{\alpha^{\prime}}}
+        \braket{\phi_{\beta}|\phi_{\alpha}}
+        C_{\beta^{\prime}}^{*} C_{\beta} O_{\alpha, \alpha^{\prime}} e^{i (E_{\beta^\prime} - E_{\beta}) t} = \\[2.0ex]
+        \sum_{\alpha, \alpha^{\prime}} C^{*}_{\alpha^{\prime}} C_{\alpha} O_{\alpha, \alpha^{\prime}} e^{- i (E_{\alpha^{\prime}} - E_{\alpha}) t}
+    \end{aligned}
+\end{equation*}
+
+Consider the case where the operator O is defined as X+iY on a single qubit
+
+\begin{equation}
+    O = \sigma^{x} + i \sigma^{y} =
+    \begin{bmatrix}
+        0 & 1 \\
+        1 & 0
+    \end{bmatrix}
+    +
+    i
+    \begin{bmatrix}
+        0 & -i \\
+        i & 0
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        0 & 1 \\
+        0 & 0
+    \end{bmatrix}
+\end{equation}
+
+In this case the only term that we keep is
+\begin{equation}
+    \ket{\phi_{\alpha}^{\prime}}
+    \bra{\phi_{\alpha}}=
+    \ket{0}
+    \bra{1}
+\end{equation}
+
+so that
+
+\begin{equation}
+    \left< O \right>(t) = C^{*}_{0}C_{1} \: O_{1,0} \: e^{- i(E_{0} - E_{1} )t}
+\end{equation}
+
+There are a few comments here.
+
+It is intuitive that we need to begin in a superposition state to form an interference pattern.
+We can also see that this is the case from the algebra above:  If either $C_0$ or $C_1$ = 0 then $\left< O \right>(t)$=0
+
+We also see that $\frac{ \ket{\text{vac}} + \ket{\text{target}} }{\sqrt{2}}$ Will give the strongest signal.
+If other states are part of the superposition, they will reduce the visibility due to normalization, but they will not add more frequencies.
+
+Let's be more explicit about how this works for a 3x3 example.
+\begin{equation*}
+    \begin{aligned}
+        O(t) =\braket{\psi(t)|\hat{O}|\psi(t)} = \sum_{\alpha, \alpha^{\prime}} C^{*}_{\alpha^{\prime}} C_{\alpha} O_{\alpha, \alpha^{\prime}} e^{- i (E_{\alpha^{\prime}} - E_{\alpha}) t}   \\[2.0ex]
+    \end{aligned}
+\end{equation*}
+
+In the energy basis $\ket{\phi}$:
+\begin{equation*}
+    \ket{\psi_0} = a\ket{\phi_1} + b\ket{\phi_2} + c\ket{\phi_3}
+\end{equation*}
+so that
+\begin{equation*}
+    \ket{\psi (t)} = a\ket{\phi_1}e^{-i E_1 t} + b\ket{\phi_2}e^{-i E_2 t} + c\ket{\phi_3}e^{-i E_3 t}
+\end{equation*}
+and with
+\begin{equation*}
+    O =
+    \begin{bmatrix}
+        O_{11} & O_{12} & O_{13}\\
+        O_{21} & O_{22} & O_{23}\\
+        O_{31} & O_{32} & O_{33}\\
+    \end{bmatrix}
+\end{equation*}
+we have
+\begin{equation*}
+    \begin{aligned}
+        \braket{\psi(t)|\hat{O}|\psi(t)} = \\[2.0ex]
+        \begin{bmatrix}
+            c_1^* e^{i E_1 t} & c_2^* e^{i E_2 t} & c_3^* e^{i E_3 t}
+        \end{bmatrix}
+        \begin{bmatrix}
+            O_{11} & O_{12} & O_{13}\\
+            O_{21} & O_{22} & O_{23}\\
+            O_{31} & O_{32} & O_{33}\\
+        \end{bmatrix}
+        \begin{bmatrix}
+            c_1 e^{-i E_1 t} \\
+            c_2 e^{-i E_2 t} \\
+            c_3 e^{-i E_3 t}
+        \end{bmatrix} = \\[2.0 ex]
+        c_1^* e^{i E_1 t} \left( c_1 O_{11} e^{-i E_1 t} + c_2 O_{12} e^{-i E_2 t} + c_3 O_{13} e^{-i E_3 t} \right) + \mathellipsis
+    \end{aligned}
+\end{equation*}
+From the above equation it is clear that without a reference state we will get energy differences and not energy eigenvalues.
+We can fix this problem and measure the eigenvalues by including a reference state that is decoupled from the dynamics of the 3x3 subspace and serves as an interference partner for a Ramsey measurement.
+The natural choice is the vacuum state.
+Taking the reference (vacuum) state to have zero energy and decoupled from the manifold that we wish to measure the eigenvalues of:
+\begin{equation*}
+    \ket{\psi (t)} = c_0\ket{\phi_{ref}} + c_1\ket{\phi_1}e^{-i E_1 t} + c_2\ket{\phi_2}e^{-i E_2 t} + c_3\ket{\phi_3}e^{-i E_3 t}
+\end{equation*}
+
+and
+\begin{equation*}
+    O =
+    \begin{bmatrix}
+        O_{00} & O_{01} & O_{02} & O_{03}\\
+        O_{10} & O_{11} & O_{12} & O_{13}\\
+        O_{20} & O_{21} & O_{22} & O_{23}\\
+        O_{30} & O_{31} & O_{32} & O_{33}\\
+    \end{bmatrix}
+\end{equation*}
+which leads to
+
+
+\begin{equation*}
+    \begin{aligned}
+        \braket{\psi(t)|\hat{O}|\psi(t)} = \\[2.0ex]
+        \begin{bmatrix}
+            c_0^* & c_1^* e^{i E_1 t} & c_2^* e^{i E_2 t} & c_3^* e^{i E_3 t}
+        \end{bmatrix}
+        \begin{bmatrix}
+            O_{00} & O_{01} & O_{02} & O_{03}\\
+            O_{10} & O_{11} & O_{12} & O_{13}\\
+            O_{20} & O_{21} & O_{22} & O_{23}\\
+            O_{30} & O_{31} & O_{32} & O_{33}\\
+        \end{bmatrix}
+        \begin{bmatrix}
+            c_0  \\
+            c_1 e^{-i E_1 t} \\
+            c_2 e^{-i E_2 t} \\
+            c_3 e^{-i E_3 t}
+        \end{bmatrix} = \\[2.0 ex]
+        c_0^* \left( c_0 O_{00} + c_1 O_{01} e^{-i E_1 t} + c_2 O_{02} e^{-i E_2 t} + c_3 O_{03} e^{-i E_3 t} \right)& + \\[2.0 ex]
+        c_1^* e^{i E_1 t} \left( c_0 O_{10} + c_1 O_{11} e^{-i E_1 t} + c_2 O_{12} e^{-i E_2 t} + c_3 O_{13} e^{-i E_3 t} \right)& +\\[2.0 ex]
+        c_2^* e^{i E_2 t} \left( c_0 O_{20} + c_1 O_{21} e^{-i E_1 t} + c_2 O_{22} e^{-i E_2 t} + c_3 O_{23} e^{-i E_3 t} \right)& +\\[2.0 ex]
+        c_3^* e^{i E_3 t} \left( c_0 O_{30} + c_1 O_{31} e^{-i E_1 t} + c_2 O_{32} e^{-i E_2 t} + c_3 O_{33} e^{-i E_3 t} \right)& \\[2.0 ex]
+    \end{aligned}
+\end{equation*}
+
+
+\subsection{simple example}
+For analog control our measurement basis is different than the dynamic basis.
+\begin{equation*}
+    %\begin{aligned}
+    \ket{\psi} \implies \textrm{the wavefunction}
+    \ket{\varphi} \implies \textrm{The measurement / initialization / Fock basis}
+    \ket{\phi} \implies \textrm{The measurement / Fock basis}
+    %\end{aligned}
+\end{equation*}
+
+Consider the example of the vacuum + 1 photon subspace of a three qubit system:
+the fock basis states are:
+\begin{equation*}
+    \varphi = \ket{000}, \ket{001}, \ket{010}, \ket{100}
+\end{equation*}
+Initializing to a superposition state by doing a X/2 pulse we have:
+\begin{equation*}
+    \psi = \frac{1}{\sqrt{2}} \left( \ket{000} + \ket{001} \right) = \frac{1}{\sqrt{2}} \left( \ket{\varphi_0} + \ket{\varphi_1} \right)
+\end{equation*}
+
+\begin{equation}
+    H=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & H_{11} & H_{12} & H_{13} \\
+        0 & H_{21} & H_{22} & H_{23} \\
+        0 & H_{31} & H_{32} & H_{33} \\
+    \end{bmatrix}
+\end{equation}
+
+
+Skipping over some algebra that is in my notebook.
+
+In the Energy basis
+\begin{equation}
+    \ket{\psi (t)} = \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        a_{11} e^{-i E_1 t} + a_{12} e^{-i E_2 t} + a_{13} e^{-i E_3 t} \\
+        a_{21} e^{-i E_1 t} + a_{22} e^{-i E_2 t} + a_{23} e^{-i E_3 t} \\
+        a_{31} e^{-i E_1 t} + a_{32} e^{-i E_2 t} + a_{33} e^{-i E_3 t}
+    \end{bmatrix}
+\end{equation}
+
+Now we can compare measurements with different operators on different initial states.
+\begin{equation}
+    \hat{a}_1 = \ket{000}\bra{001} =
+    \begin{bmatrix}
+        0 & 1 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \braket{\psi(t)|\hat{a}_1|\psi(t)} = a_{11} e^{-i E_1 t} + a_{12} e^{-i E_2 t} + a_{13} e^{-i E_3 t}
+\end{equation}
+
+\begin{equation}
+    \hat{n}_1 = \ket{001}\bra{001} =
+    \begin{bmatrix}
+        0 & 0 & 0 & 0 \\
+        0 & 1 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+
+\begin{equation}
+    \hat{n}_1 = \ket{001}\bra{001} =
+    \begin{bmatrix}
+        0 & 0 & 0 & 0 \\
+        0 & 1 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \braket{\psi(t)|\hat{a}_1|\psi(t)} = a_{11} e^{-i E_1 t} + a_{12} e^{-i E_2 t} + a_{13} e^{-i E_3 t}
+\end{equation}
+
+\section{Doublon Spectroscopy}
+In the analog control project with the gmon we routinely work outside the qubit subspace.  It is necessary to find the eigenvalues of such states as $\ket{002}$ etc.
+In this case we must engineer a similar operator with only one element.
+
+Here we show how to engineer a measurement operator $\hat{O}$ including $\ket{2}$
+
+From Sakurai The rotation operator for a spinor is
+
+\begin{equation}
+    \hat{D}(\hat{n},\phi)=e^{-i \hat{S} \cdot \hat{n} \frac{\phi}{\hbar}}=e^{-i \frac{\hat{\sigma} \cdot \hat{n}}{2} }
+\end{equation}
+which has the matrix representation:
+\begin{equation}
+    \begin{bmatrix}
+        \cos \left( \frac{\phi}{2} \right) - i n_z \sin \left( {\frac{\phi}{2}} \right) & \left( -i n_x - n_y \right) \sin \left( \frac{\phi}{2} \right)   \\
+        \left( -i n_x + n_y \right) \sin \left( \frac{\phi}{2} \right) & \cos \left( \frac{\phi}{2} \right) + i n_z \sin \left( {\frac{\phi}{2}} \right)   \\
+    \end{bmatrix}
+\end{equation}
+
+For $\pi$ rotations this is:
+\begin{equation}
+    \hat{D}(\hat{X}, \pi)=
+    \begin{bmatrix}
+        0 & -i \\
+        -i & 0
+    \end{bmatrix}
+\end{equation}
+Including the $|2>$ and addressing only a single transition:
+
+\begin{equation}
+    \hat{D_{01}}(\hat{X}, \pi)=
+    \begin{bmatrix}
+        0  & -i & 0 \\
+        -i & 0 & 0 \\
+        0  & 0 & 1 \\
+    \end{bmatrix},
+    \hat{D_{01}}(\hat{-X}, \pi)=
+    \begin{bmatrix}
+        0  & i & 0 \\
+        i & 0 & 0 \\
+        0  & 0 & 1 \\
+    \end{bmatrix},
+\end{equation}
+and
+\begin{equation}
+    \hat{D_{12}}(\hat{X}, \pi)=
+    \begin{bmatrix}
+        1 & 0 & 0 \\
+        0 & 0 & -i \\
+        0 & -i & 0 \\
+    \end{bmatrix},
+    \hat{D_{12}}(\hat{-X}, \pi)=
+    \begin{bmatrix}
+        1 & 0 & 0 \\
+        0 & 0 & i \\
+        0 & i & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+If we make an x rotation immediately before measuring x+iy our measurement operator is \textbf{TODO Check this} effectively:
+\begin{equation}
+    D_{12}^{\dagger}(x,\pi)(X_{01}+iY{01})D_{12}(X,\pi) =
+    \begin{bmatrix}
+        0 & 0 & -2 \\
+        0 & 0 & 0 \\
+        0 & (1+i) & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+
+\section{Application to Unitary Tomography (2 qubit particle conserving evolution)}
+We wish to measure the matrix elements of a generic two qubit photon conserving unitary U.
+
+In order to probe U, we can apply the unitary to an initial state of our choice.  We can also perform tomographic rotations prior to measurement.
+% TODO Why
+\begin{equation}
+    \left< \hat{O} \right> = \braket{\psi_0 | U^{\dagger} \hat{O} U | \psi_0 }
+    %\hat{O}
+\end{equation}
+
+The unitary U has a matrix representation as below
+\begin{equation}
+    U =
+    \begin{bmatrix}
+        U_{00} & U_{01} & U_{02} & U_{03} \\
+        U_{10} & U_{11} & U_{12} & U_{13} \\
+        U_{20} & U_{21} & U_{22} & U_{23} \\
+        U_{30} & U_{31} & U_{32} & U_{33} \\
+    \end{bmatrix}
+\end{equation}
+
+The unitary for the chemistry gates (this is I believe a generic photon number conserving unitary) has a very specific form that we can take advantage of:
+
+\begin{equation}
+    U=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & e^{ i (\phi{1} + \phi{2} + \phi{3})}\cos{\theta} & e^{ i (\phi{1} - \phi{2} + \phi{3})}\sin{\theta} & 0 \\
+        0 & e^{ i (\phi{1} - \phi{2} - \phi{3})}\sin{\theta} & e^{ i (\phi{1} + \phi{2} - \phi{3})}\cos{\theta} & 0 \\
+        0 & 0 & 0 & e^{i (\phi_{3}-\phi_{0})} \\
+    \end{bmatrix}
+\end{equation}=
+\begin{equation}
+    U=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & U_{11} & U_{12} & 0 \\
+        0 & U_{21} & U_{22} & 0 \\
+        0 & 0 & 0 & U_{33} \\
+    \end{bmatrix}
+\end{equation}
+
+
+The single photon subspace of U looks like
+\begin{equation}
+    U=
+    \begin{bmatrix}
+        e^{ i (\phi{1} + \phi{2} + \phi{3})}\cos{\theta} & e^{ i (\phi{1} - \phi{2} + \phi{3})}\sin{\theta} \\
+        e^{ i (\phi{1} - \phi{2} - \phi{3})}\sin{\theta} & e^{ i (\phi{1} + \phi{2} - \phi{3})}\cos{\theta} \\
+    \end{bmatrix}
+\end{equation}
+
+
+if we initialize the left qubit
+
+\begin{equation}
+    \ket{\psi_0}=\frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        1 \\
+        0 \\
+        0 \\
+    \end{bmatrix}
+\end{equation}
+
+then
+
+\begin{equation}
+    U\ket{\psi_0} =
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        U00 + U01 \\
+        U10 + U11 \\
+        U20 + U21 \\
+        U30 + U31 \\
+    \end{bmatrix}
+    =
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        U_{11} \\
+        U_{21} \\
+        0 \\
+    \end{bmatrix}
+\end{equation}
+
+If we initialize the second qubit then we select the corresponding column of the unitary
+
+\begin{equation}
+    \ket{\psi_0}=\frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        0 \\
+        1 \\
+        0 \\
+    \end{bmatrix}
+    \implies
+    \ket{\psi_{f}}=
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        U_{12} \\
+        U_{22} \\
+        0 \\
+    \end{bmatrix}
+\end{equation}
+
+Measuring the amplitude of $U_{ij}$ follows directly from z basis measurements.
+Measuring the phase can be done by measuring $\left< \sigma^{x} + i\sigma^{y} \right>$
+The phase of the unitary matrix element can be measured by directly measuring the single qubit phase.
+
+Explicitly the measurement operator for a measurement on qubit 1 is :
+
+\begin{equation}
+    \hat{O}=I \otimes (\sigma^{x} + i\sigma^{y}) =
+    \begin{bmatrix}
+        1 & 0\\
+        0 & 1\\
+    \end{bmatrix}
+    \otimes
+    \begin{bmatrix}
+        0 & 1\\
+        0 & 0\\
+    \end{bmatrix}=
+    \begin{bmatrix}
+        0 & 1 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+\end{equation}
+so that
+\begin{equation}
+    \psi_{f}=
+    \begin{bmatrix}
+        1 \\
+        U_{11} \\
+        U_{21} \\
+        0 \\
+    \end{bmatrix}
+    \implies
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} = U11
+\end{equation}
+or if you prefer:
+\begin{equation}
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} =
+    \begin{bmatrix}
+        1 & U_{11}^{*} & U_{21}^{*} & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        0 & 1 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+    \begin{bmatrix}
+        1 \\
+        U_{11} \\
+        U_{21} \\
+        0 \\
+    \end{bmatrix}
+    = U_{11}
+\end{equation}
+
+
+and for a measurement on qubit 2
+\begin{equation}
+    \hat{O}=(\sigma^{x} + i\sigma^{y}) \otimes I=
+    \begin{bmatrix}
+        0 & 1\\
+        0 & 0\\
+    \end{bmatrix}
+    \otimes
+    \begin{bmatrix}
+        1 & 0\\
+        0 & 1\\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        0 & 0 & 1 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+\end{equation}
+so that
+\begin{equation}
+    \psi_{f}=
+    \begin{bmatrix}
+        1 \\
+        U_{11} \\
+        U_{21} \\
+        0 \\
+    \end{bmatrix}
+    \implies
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} = U21
+\end{equation}
+or if you prefer:
+\begin{equation}
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} =
+    \begin{bmatrix}
+        1 & U_{11}^{*} & U_{21}^{*} & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        0 & 0 & 1 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+    \begin{bmatrix}
+        1 \\
+        U_{11} \\
+        U_{21} \\
+        0 \\
+    \end{bmatrix}
+    = U_{21}
+\end{equation}
+
+We have succeeded in measuring a single matrix element of the unitary, by mapping it's magnitude and phase onto the single qubit magnitude and phase.
+

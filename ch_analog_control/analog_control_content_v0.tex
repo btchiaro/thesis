@@ -1,0 +1,1003 @@
+\chapter[Analog Control]{Analog Control}
+
+% This is copied out of:
+% devBenGreen/latex/xiy_notes.tex
+
+\section{Unitary Tomography (2 qubit particle conserving evolution)}
+We wish to measure the matrix elements of a generic two qubit photon conserving unitary U.
+
+In order to probe U, we can apply the unitary to an initial state of our choice.  We can also perform tomographic rotations prior to measurement.
+% TODO Why
+\begin{equation}
+    \left< \hat{O} \right> = \braket{\psi_0 | U^{\dagger} \hat{O} U | \psi_0 }
+    %\hat{O}
+\end{equation}
+
+The unitary U has a matrix representation as below
+\begin{equation}
+    U =
+    \begin{bmatrix}
+        U_{00} & U_{01} & U_{02} & U_{03} \\
+        U_{10} & U_{11} & U_{12} & U_{13} \\
+        U_{20} & U_{21} & U_{22} & U_{23} \\
+        U_{30} & U_{31} & U_{32} & U_{33} \\
+    \end{bmatrix}
+\end{equation}
+
+The unitary for the chemistry gates (this is I believe a generic photon number conserving unitary) has a very specific form that we can take advantage of:
+
+\begin{equation}
+    U=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & e^{ i (\phi{1} + \phi{2} + \phi{3})}\cos{\theta} & e^{ i (\phi{1} - \phi{2} + \phi{3})}\sin{\theta} & 0 \\
+        0 & e^{ i (\phi{1} - \phi{2} - \phi{3})}\sin{\theta} & e^{ i (\phi{1} + \phi{2} - \phi{3})}\cos{\theta} & 0 \\
+        0 & 0 & 0 & e^{i (\phi_{3}-\phi_{0})} \\
+    \end{bmatrix}
+\end{equation}=
+\begin{equation}
+    U=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & U_{11} & U_{12} & 0 \\
+        0 & U_{21} & U_{22} & 0 \\
+        0 & 0 & 0 & U_{33} \\
+    \end{bmatrix}
+\end{equation}
+
+
+The single photon subspace of U looks like
+\begin{equation}
+    U=
+    \begin{bmatrix}
+        e^{ i (\phi{1} + \phi{2} + \phi{3})}\cos{\theta} & e^{ i (\phi{1} - \phi{2} + \phi{3})}\sin{\theta} \\
+        e^{ i (\phi{1} - \phi{2} - \phi{3})}\sin{\theta} & e^{ i (\phi{1} + \phi{2} - \phi{3})}\cos{\theta} \\
+    \end{bmatrix}
+\end{equation}
+
+
+if we initialize the left qubit
+
+\begin{equation}
+    \ket{\psi_0}=\frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        1 \\
+        0 \\
+        0 \\
+    \end{bmatrix}
+\end{equation}
+
+then
+
+\begin{equation}
+    U\ket{\psi_0} =
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        U00 + U01 \\
+        U10 + U11 \\
+        U20 + U21 \\
+        U30 + U31 \\
+    \end{bmatrix}
+    =
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        U_{11} \\
+        U_{21} \\
+        0 \\
+    \end{bmatrix}
+\end{equation}
+
+If we initialize the second qubit then we select the corresponding column of the unitary
+
+\begin{equation}
+    \ket{\psi_0}=\frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        0 \\
+        1 \\
+        0 \\
+    \end{bmatrix}
+    \implies
+    \ket{\psi_{f}}=
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        U_{12} \\
+        U_{22} \\
+        0 \\
+    \end{bmatrix}
+\end{equation}
+
+Measuring the amplitude of $U_{ij}$ follows directly from z basis measurements.
+Measuring the phase can be done by measuring $\left< \sigma^{x} + i\sigma^{y} \right>$
+The phase of the unitary matrix element can be measured by directly measuring the single qubit phase.
+
+Explicitly the measurement operator for a measurement on qubit 1 is :
+
+\begin{equation}
+    \hat{O}=I \otimes (\sigma^{x} + i\sigma^{y}) =
+    \begin{bmatrix}
+        1 & 0\\
+        0 & 1\\
+    \end{bmatrix}
+    \otimes
+    \begin{bmatrix}
+        0 & 1\\
+        0 & 0\\
+    \end{bmatrix}=
+    \begin{bmatrix}
+        0 & 1 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+\end{equation}
+so that
+\begin{equation}
+    \psi_{f}=
+    \begin{bmatrix}
+        1 \\
+        U_{11} \\
+        U_{21} \\
+        0 \\
+    \end{bmatrix}
+    \implies
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} = U11
+\end{equation}
+or if you prefer:
+\begin{equation}
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} =
+    \begin{bmatrix}
+        1 & U_{11}^{*} & U_{21}^{*} & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        0 & 1 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+    \begin{bmatrix}
+        1 \\
+        U_{11} \\
+        U_{21} \\
+        0 \\
+    \end{bmatrix}
+    = U_{11}
+\end{equation}
+
+
+and for a measurement on qubit 2
+\begin{equation}
+    \hat{O}=(\sigma^{x} + i\sigma^{y}) \otimes I=
+    \begin{bmatrix}
+        0 & 1\\
+        0 & 0\\
+    \end{bmatrix}
+    \otimes
+    \begin{bmatrix}
+        1 & 0\\
+        0 & 1\\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        0 & 0 & 1 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+\end{equation}
+so that
+\begin{equation}
+    \psi_{f}=
+    \begin{bmatrix}
+        1 \\
+        U_{11} \\
+        U_{21} \\
+        0 \\
+    \end{bmatrix}
+    \implies
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} = U21
+\end{equation}
+or if you prefer:
+\begin{equation}
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} =
+    \begin{bmatrix}
+        1 & U_{11}^{*} & U_{21}^{*} & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        0 & 0 & 1 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+    \begin{bmatrix}
+        1 \\
+        U_{11} \\
+        U_{21} \\
+        0 \\
+    \end{bmatrix}
+    = U_{21}
+\end{equation}
+
+
+
+We have succeeded in measuring a single matrix element of the unitary, by mapping it's magnitude and phase onto the single qubit magnitude and phase.
+
+
+
+\section{Eigenvalue case}
+
+The wavefunction in the energy basis is
+
+\begin{equation}
+    \ket{\psi (t)} =e^{-i \mathcal{H} t} \ket{\psi_{0}} = \sum_{\alpha} C_{\alpha} e^{- i E_{\alpha} t} \ket{\phi_{\alpha}}
+\end{equation}
+
+The coefficients are given by the overlap with the initial state
+
+\begin{equation}
+    C_{\alpha} = \braket{\phi_{\alpha}|\psi_{0}}
+\end{equation}
+
+An observable $\hat{O}$ in the energy basis is written as:
+
+
+\begin{equation}
+    \hat{O} = \sum_{\alpha,\alpha^{\prime}} O_{\alpha,\alpha^{\prime}} \ket{\phi_{\alpha^{\prime}}} \bra{\phi_{\alpha}}
+\end{equation}
+
+The time dependent expectation value of this operator is
+
+\begin{equation*}
+    \begin{aligned}
+        O(t) =\braket{\psi(t)|\hat{O}|\psi(t)} = \\[2.0ex]
+        \left( \sum_{\beta} C^{*}_{\beta} e^{i E_{\beta} t} \ket{\phi_{\beta}} \right)
+        \left( \sum_{\alpha,\alpha^{\prime}} O_{\alpha,\alpha^{\prime}} \ket{\phi_{\alpha^{\prime}}} \bra{\phi_{\alpha}} \right)
+        \left( \sum_{\beta^{\prime}} C_{\beta^{\prime}} e^{- i E_{\beta^{\prime}} t} \ket{\phi_{\beta^{\prime}}} \right) = \\[2.0ex]
+        \sum_{\alpha, \alpha^{\prime}, \beta, \beta^{\prime} }
+        \braket{\phi_{\beta^{\prime}}|\phi_{\alpha^{\prime}}}
+        \braket{\phi_{\beta}|\phi_{\alpha}}
+        C_{\beta^{\prime}}^{*} C_{\beta} O_{\alpha, \alpha^{\prime}} e^{i (E_{\beta^\prime} - E_{\beta}) t} = \\[2.0ex]
+        \sum_{\alpha, \alpha^{\prime}} C^{*}_{\alpha^{\prime}} C_{\alpha} O_{\alpha, \alpha^{\prime}} e^{- i (E_{\alpha^{\prime}} - E_{\alpha}) t}
+    \end{aligned}
+\end{equation*}
+
+Consider the case where the operator O is defined as X+iY on a single qubit
+
+\begin{equation}
+    O = \sigma^{x} + i \sigma^{y} =
+    \begin{bmatrix}
+        0 & 1 \\
+        1 & 0
+    \end{bmatrix}
+    +
+    i
+    \begin{bmatrix}
+        0 & -i \\
+        i & 0
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        0 & 1 \\
+        0 & 0
+    \end{bmatrix}
+\end{equation}
+
+In this case the only term that we keep is
+\begin{equation}
+    \ket{\phi_{\alpha}^{\prime}}
+    \bra{\phi_{\alpha}}=
+    \ket{0}
+    \bra{1}
+\end{equation}
+
+so that
+
+\begin{equation}
+    \left< O \right>(t) = C^{*}_{0}C_{1} \: O_{1,0} \: e^{- i(E_{0} - E_{1} )t}
+\end{equation}
+
+There are a few comments here.
+
+It is intuitive that we need to begin in a superposition state to form an interference pattern.
+We can also see that this is the case from the algebra above:  If either $C_0$ or $C_1$ = 0 then $\left< O \right>(t)$=0
+
+We also see that $\frac{ \ket{\text{vac}} + \ket{\text{target}} }{\sqrt{2}}$ Will give the strongest signal.
+If other states are part of the superposition, they will reduce the visibility due to normalization, but they will not add more frequencies.
+
+Let's be more explicit about how this works for a 3x3 example.
+\begin{equation*}
+    \begin{aligned}
+        O(t) =\braket{\psi(t)|\hat{O}|\psi(t)} = \sum_{\alpha, \alpha^{\prime}} C^{*}_{\alpha^{\prime}} C_{\alpha} O_{\alpha, \alpha^{\prime}} e^{- i (E_{\alpha^{\prime}} - E_{\alpha}) t}   \\[2.0ex]
+    \end{aligned}
+\end{equation*}
+
+In the energy basis $\ket{\phi}$:
+\begin{equation*}
+    \ket{\psi_0} = a\ket{\phi_1} + b\ket{\phi_2} + c\ket{\phi_3}
+\end{equation*}
+so that
+\begin{equation*}
+    \ket{\psi (t)} = a\ket{\phi_1}e^{-i E_1 t} + b\ket{\phi_2}e^{-i E_2 t} + c\ket{\phi_3}e^{-i E_3 t}
+\end{equation*}
+and with
+\begin{equation*}
+    O =
+    \begin{bmatrix}
+        O_{11} & O_{12} & O_{13}\\
+        O_{21} & O_{22} & O_{23}\\
+        O_{31} & O_{32} & O_{33}\\
+    \end{bmatrix}
+\end{equation*}
+we have
+\begin{equation*}
+    \begin{aligned}
+        \braket{\psi(t)|\hat{O}|\psi(t)} = \\[2.0ex]
+        \begin{bmatrix}
+            c_1^* e^{i E_1 t} & c_2^* e^{i E_2 t} & c_3^* e^{i E_3 t}
+        \end{bmatrix}
+        \begin{bmatrix}
+            O_{11} & O_{12} & O_{13}\\
+            O_{21} & O_{22} & O_{23}\\
+            O_{31} & O_{32} & O_{33}\\
+        \end{bmatrix}
+        \begin{bmatrix}
+            c_1 e^{-i E_1 t} \\
+            c_2 e^{-i E_2 t} \\
+            c_3 e^{-i E_3 t}
+        \end{bmatrix} = \\[2.0 ex]
+        c_1^* e^{i E_1 t} \left( c_1 O_{11} e^{-i E_1 t} + c_2 O_{12} e^{-i E_2 t} + c_3 O_{13} e^{-i E_3 t} \right) + \mathellipsis
+    \end{aligned}
+\end{equation*}
+From the above equation it is clear that without a reference state we will get energy differences and not energy eigenvalues.
+We can fix this problem and measure the eigenvalues by including a reference state that is decoupled from the dynamics of the 3x3 subspace and serves as an interference partner for a Ramsey measurement.
+The natural choice is the vacuum state.
+Taking the reference (vacuum) state to have zero energy and decoupled from the manifold that we wish to measure the eigenvalues of:
+\begin{equation*}
+    \ket{\psi (t)} = c_0\ket{\phi_{ref}} + c_1\ket{\phi_1}e^{-i E_1 t} + c_2\ket{\phi_2}e^{-i E_2 t} + c_3\ket{\phi_3}e^{-i E_3 t}
+\end{equation*}
+
+and
+\begin{equation*}
+    O =
+    \begin{bmatrix}
+        O_{00} & O_{01} & O_{02} & O_{03}\\
+        O_{10} & O_{11} & O_{12} & O_{13}\\
+        O_{20} & O_{21} & O_{22} & O_{23}\\
+        O_{30} & O_{31} & O_{32} & O_{33}\\
+    \end{bmatrix}
+\end{equation*}
+which leads to
+
+
+\begin{equation*}
+    \begin{aligned}
+        \braket{\psi(t)|\hat{O}|\psi(t)} = \\[2.0ex]
+        \begin{bmatrix}
+            c_0^* & c_1^* e^{i E_1 t} & c_2^* e^{i E_2 t} & c_3^* e^{i E_3 t}
+        \end{bmatrix}
+        \begin{bmatrix}
+            O_{00} & O_{01} & O_{02} & O_{03}\\
+            O_{10} & O_{11} & O_{12} & O_{13}\\
+            O_{20} & O_{21} & O_{22} & O_{23}\\
+            O_{30} & O_{31} & O_{32} & O_{33}\\
+        \end{bmatrix}
+        \begin{bmatrix}
+            c_0  \\
+            c_1 e^{-i E_1 t} \\
+            c_2 e^{-i E_2 t} \\
+            c_3 e^{-i E_3 t}
+        \end{bmatrix} = \\[2.0 ex]
+        c_0^* \left( c_0 O_{00} + c_1 O_{01} e^{-i E_1 t} + c_2 O_{02} e^{-i E_2 t} + c_3 O_{03} e^{-i E_3 t} \right)& + \\[2.0 ex]
+        c_1^* e^{i E_1 t} \left( c_0 O_{10} + c_1 O_{11} e^{-i E_1 t} + c_2 O_{12} e^{-i E_2 t} + c_3 O_{13} e^{-i E_3 t} \right)& +\\[2.0 ex]
+        c_2^* e^{i E_2 t} \left( c_0 O_{20} + c_1 O_{21} e^{-i E_1 t} + c_2 O_{22} e^{-i E_2 t} + c_3 O_{23} e^{-i E_3 t} \right)& +\\[2.0 ex]
+        c_3^* e^{i E_3 t} \left( c_0 O_{30} + c_1 O_{31} e^{-i E_1 t} + c_2 O_{32} e^{-i E_2 t} + c_3 O_{33} e^{-i E_3 t} \right)& \\[2.0 ex]
+    \end{aligned}
+\end{equation*}
+
+
+\subsection{simple example}
+For analog control our measurement basis is different than the dynamic basis.
+\begin{equation*}
+    %\begin{aligned}
+    \ket{\psi} \implies \textrm{the wavefunction}
+    \ket{\varphi} \implies \textrm{The measurement / initialization / Fock basis}
+    \ket{\phi} \implies \textrm{The measurement / Fock basis}
+    %\end{aligned}
+\end{equation*}
+
+Consider the example of the vacuum + 1 photon subspace of a three qubit system:
+the fock basis states are:
+\begin{equation*}
+    \varphi = \ket{000}, \ket{001}, \ket{010}, \ket{100}
+\end{equation*}
+Initializing to a superposition state by doing a X/2 pulse we have:
+\begin{equation*}
+    \psi = \frac{1}{\sqrt{2}} \left( \ket{000} + \ket{001} \right) = \frac{1}{\sqrt{2}} \left( \ket{\varphi_0} + \ket{\varphi_1} \right)
+\end{equation*}
+
+\begin{equation}
+    H=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & H_{11} & H_{12} & H_{13} \\
+        0 & H_{21} & H_{22} & H_{23} \\
+        0 & H_{31} & H_{32} & H_{33} \\
+    \end{bmatrix}
+\end{equation}
+
+
+Skipping over some algebra that is in my notebook.
+
+In the Energy basis
+\begin{equation}
+    \ket{\psi (t)} = \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        a_{11} e^{-i E_1 t} + a_{12} e^{-i E_2 t} + a_{13} e^{-i E_3 t} \\
+        a_{21} e^{-i E_1 t} + a_{22} e^{-i E_2 t} + a_{23} e^{-i E_3 t} \\
+        a_{31} e^{-i E_1 t} + a_{32} e^{-i E_2 t} + a_{33} e^{-i E_3 t}
+    \end{bmatrix}
+\end{equation}
+
+Now we can compare measurements with different operators on different initial states.
+\begin{equation}
+    \hat{a}_1 = \ket{000}\bra{001} =
+    \begin{bmatrix}
+        0 & 1 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \braket{\psi(t)|\hat{a}_1|\psi(t)} = a_{11} e^{-i E_1 t} + a_{12} e^{-i E_2 t} + a_{13} e^{-i E_3 t}
+\end{equation}
+
+\begin{equation}
+    \hat{n}_1 = \ket{001}\bra{001} =
+    \begin{bmatrix}
+        0 & 0 & 0 & 0 \\
+        0 & 1 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+
+\begin{equation}
+    \hat{n}_1 = \ket{001}\bra{001} =
+    \begin{bmatrix}
+        0 & 0 & 0 & 0 \\
+        0 & 1 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \braket{\psi(t)|\hat{a}_1|\psi(t)} = a_{11} e^{-i E_1 t} + a_{12} e^{-i E_2 t} + a_{13} e^{-i E_3 t}
+\end{equation}
+
+
+
+
+
+
+
+
+
+
+
+
+\subsubsection{scratch}
+\begin{equation}
+    \hat{O}=\hat{a}_1 = \ket{000}\bra{001} \implies \textrm{O(t)} = \left( \mathellipsis \right)
+\end{equation}
+
+\begin{equation}
+    \hat{O}=\hat{\sigma}^x_1 = \ket{000}\bra{001} + \ket{001}\bra{000} \implies \textrm{O(t)} = \left( \mathellipsis \right) + \left(  \mathellipsis  \right)^{*}
+\end{equation}
+
+\begin{equation}
+    \hat{O}=\hat{n}_1 = \ket{001}\bra{001} \implies \textrm{O(t)} = \lvert \left( \mathellipsis \right) \rvert^{2}
+\end{equation}
+
+
+
+
+
+
+
+
+
+\section{Doublon Spectroscopy}
+In the analog control project with the gmon we routinely work outside the qubit subspace.  It is necessary to find the eigenvalues of such states as $\ket{002}$ etc.
+In this case we must engineer a similar operator with only one element.
+
+Here we show how to engineer a measurement operator $\hat{O}$ including $\ket{2}$
+
+From Sakurai The rotation operator for a spinor is
+
+\begin{equation}
+    \hat{D}(\hat{n},\phi)=e^{-i \hat{S} \cdot \hat{n} \frac{\phi}{\hbar}}=e^{-i \frac{\hat{\sigma} \cdot \hat{n}}{2} }
+\end{equation}
+which has the matrix representation:
+\begin{equation}
+    \begin{bmatrix}
+        \cos \left( \frac{\phi}{2} \right) - i n_z \sin \left( {\frac{\phi}{2}} \right) & \left( -i n_x - n_y \right) \sin \left( \frac{\phi}{2} \right)   \\
+        \left( -i n_x + n_y \right) \sin \left( \frac{\phi}{2} \right) & \cos \left( \frac{\phi}{2} \right) + i n_z \sin \left( {\frac{\phi}{2}} \right)   \\
+    \end{bmatrix}
+\end{equation}
+
+For $\pi$ rotations this is:
+\begin{equation}
+    \hat{D}(\hat{X}, \pi)=
+    \begin{bmatrix}
+        0 & -i \\
+        -i & 0
+    \end{bmatrix}
+\end{equation}
+Including the $|2>$ and addressing only a single transition:
+
+\begin{equation}
+    \hat{D_{01}}(\hat{X}, \pi)=
+    \begin{bmatrix}
+        0  & -i & 0 \\
+        -i & 0 & 0 \\
+        0  & 0 & 1 \\
+    \end{bmatrix},
+    \hat{D_{01}}(\hat{-X}, \pi)=
+    \begin{bmatrix}
+        0  & i & 0 \\
+        i & 0 & 0 \\
+        0  & 0 & 1 \\
+    \end{bmatrix},
+\end{equation}
+and
+\begin{equation}
+    \hat{D_{12}}(\hat{X}, \pi)=
+    \begin{bmatrix}
+        1 & 0 & 0 \\
+        0 & 0 & -i \\
+        0 & -i & 0 \\
+    \end{bmatrix},
+    \hat{D_{12}}(\hat{-X}, \pi)=
+    \begin{bmatrix}
+        1 & 0 & 0 \\
+        0 & 0 & i \\
+        0 & i & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+If we make an x rotation immediately before measuring x+iy our measurement operator is \textbf{TODO Check this} effectively:
+\begin{equation}
+    D_{12}^{\dagger}(x,\pi)(X_{01}+iY{01})D_{12}(X,\pi) =
+    \begin{bmatrix}
+        0 & 0 & -2 \\
+        0 & 0 & 0 \\
+        0 & (1+i) & 0 \\
+    \end{bmatrix}
+\end{equation}
+
+\section{scratch}
+
+\begin{equation}
+    \hat{a}_1 = \sigma^{x} + i \sigma^{y} =
+    \begin{bmatrix}
+        0 & 1 \\
+        1 & 0
+    \end{bmatrix}
+    +
+    i
+    \begin{bmatrix}
+        0 & -i \\
+        i & 0
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        0 & 1 \\
+        0 & 0
+    \end{bmatrix}
+\end{equation}
+
+$\text{FFT}\left( O(t) \right)$
+
+\begin{equation}
+    \hat{a}
+    \hat{\sigma}^{x}_{1}
+\end{equation}
+
+\begin{equation}
+    \ket{\psi_{f}} = U \ket{\psi_{0}}
+\end{equation}
+
+\begin{equation}
+    \frac{\ket{0} + \ket{1}}{\sqrt{2}}
+\end{equation}
+
+
+\begin{equation}
+    \mathcal{H}=
+    \begin{bmatrix}
+        0 &   0&          0&          0 \\
+        0 &   11.76+0.j&   17.14+7.65j& 12.7 +3.57j \\
+        0 &   17.14-7.65j&  0.72+0.j&   12.1 +6.39j  \\
+        0 &   12.7 -3.57j& 12.1 -6.39j& 13.16+0.j
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \ket{0}
+    \ket{1}
+    \ket{2}
+    \ket{00}
+    \ket{01}
+    \ket{02}
+    \ket{10} \\
+    \ket{11}
+    \ket{12}
+    \ket{20}
+    \ket{21}
+    \ket{22} \\
+    \ket{000}
+    \ket{001}
+    \ket{010}
+    \ket{100}
+    \ket{011}
+    \ket{101} \\
+    \ket{110}
+    \ket{200}
+    \ket{020}
+    \ket{002}
+\end{equation}
+
+\begin{comment}
+    \begin{equation}
+        \bra{0}
+        \bra{1}
+        \bra{2} \\
+        \bra{00}
+        \bra{01}
+        \bra{02}
+        \bra{10}
+        \bra{11}
+        \bra{12}
+        \bra{20}
+        \bra{21}
+        \bra{22}
+        \bra{000} \\
+        \bra{001}
+        \bra{010}
+        \bra{100}
+        \bra{011}
+        \bra{101}
+        \bra{110}
+        \bra{200}
+        \bra{020}
+        \bra{002} \\
+        \Delta_{1}
+        \Delta_{2}
+        \Delta_{3}
+        \Delta_{n-1}
+        \Delta_{n} \\
+        \textrm{g}_{1,2}
+        \textrm{g}_{2,3}
+        \textrm{g}_{(\textrm{n}-1),\textrm{n}} \\
+        \textrm{XY}_{1} \\
+        \sigma^{z}
+        \textrm{q}_{\textrm{i}}
+        \textrm{q}_{\textrm{m}}
+        \frac{\textrm{Y}}{2}
+        \textrm{U_{21}}
+        \textrm{q1}
+        \textrm{q2}
+        \textrm{q3}
+    \end{equation}
+    \begin{equation}
+        \ket{\psi_{0}} = \ket{001}
+        \ket{\psi_{0}} = \frac{\ket{000} + \ket{001}}{\sqrt{2}}
+        \textrm{O(t)}  = \lvert a e^{-i E_1 t} + b e^{-i E_2 t} + c e^{-i E_3 t} \rvert^{2}
+        \textrm{O(t)} = \left( a e^{-i E_1 t} + b e^{-i E_2 t} + c e^{-i E_3 t}\right) + \left( a e^{-i E_1 t} + b e^{-i E_2 t} + c e^{-i E_3 t}\right)^{*}
+        \textrm{O(t)} = \left( a e^{-i E_1 t} + b e^{-i E_2 t} + c e^{-i E_3 t}\right)
+    \end{equation}
+\end{comment}
+\begin{comment}
+    \begin{equation}
+        -i
+        \begin{bmatrix}
+            \textrm{H}_{00} & \dots & \textrm{H}_{0\textrm{N}}\\
+            \vdots & \ddots & \vdots \\
+            \textrm{H}_{\textrm{N}0} & \dots & \textrm{H}_{\textrm{N}\textrm{N}}\\
+        \end{bmatrix}
+        t
+
+        e^{
+        \begin{bmatrix}
+            \textrm{H}_{00} & \dots & \textrm{H}_{0\textrm{N}}\\
+            \vdots & \ddots & \vdots \\
+            \textrm{H}_{\textrm{N}0} & \dots & \textrm{H}_{\textrm{N}\textrm{N}}\\
+        \end{bmatrix}
+        }
+
+    \end{equation}
+\end{comment}
+
+\begin{equation}
+    H_{BH} = \sum_{i}^{N_{coupler}} g_{i,i+1} \left( a^\dagger_{i} a_{i+1} +a_{i} a^\dagger_{i+1} \right)+ \frac{U}{2}\sum_{i}^{N_{qubit}}n_i(n_i-1) + \sum_{i}^{N_{qubit}} h_i n_i
+\end{equation}
+
+\begin{equation}
+    e^{-i \left( \hat{\text{I}} \hat{\text{Z}} - \hat{\text{Z}} \hat{\text{I}} \right) \frac{\delta_{a}}{4} }
+    e^{-i \left( \hat{\text{X}} \hat{\text{X}} - \hat{\text{Y}} \hat{\text{Y}} \right) \frac{\theta}{2} }
+    e^{-i \hat{\text{Z}} \hat{\text{Z}}  \frac{\phi}{4} }
+    e^{-i \left( \hat{\text{I}} \hat{\text{Z}} - \hat{\text{Z}} \hat{\text{I}} \right) \frac{\delta_{b}}{4} }
+    e^{-i \left( \hat{\text{I}} \hat{\text{Z}} + \hat{\text{Z}} \hat{\text{I}} \right) \frac{\omega}{4} }
+\end{equation}
+
+\begin{equation}
+    U=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & e^{ \frac{i}{2} (\omega)} \cos{\theta} & -i e^{ \frac{i}{2} (\omega)}\sin{\theta} & 0 \\
+        0 & -i e^{ - \frac{i}{2} (- \omega)}\sin{\theta} & e^{ -\frac{i}{2} ( - \omega)}\cos{\theta} & 0 \\
+        0 & 0 & 0 & e^{i (\theta-\phi)} \\
+    \end{bmatrix}
+\end{equation}
+
+
+\begin{equation}
+    \textrm{U off resonance}=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & e^{ \frac{i}{2} (\delta_{a} + \delta_{b} + \omega)}\cos{\theta} & -i e^{ \frac{i}{2} (\delta_{a} - \delta_{b} + \omega)}\sin{\theta} & 0 \\
+        0 & -i e^{ - \frac{i}{2} (\delta_{a} - \delta_{b} - \omega)}\sin{\theta} & e^{ -\frac{i}{2} (\delta_{a} + \delta_{b} - \omega)}\cos{\theta} & 0 \\
+        0 & 0 & 0 & e^{i (\omega-\phi)} \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \text{U on resonance}=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & e^{ i \frac{\theta}{2} } \cos{\theta} & -i e^{i \frac{\theta}{2} } \sin{\theta}  & 0 \\
+        0 & -i  e^{ i \frac{\theta}{2} } \sin{\theta} & e^{i \frac{\theta}{2}} \cos{\theta} & 0 \\
+        0 & 0 & 0 & e^{i (\theta-\phi)} \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \text{U on resonance simple}=
+    \begin{bmatrix}
+        1 & 0            &  0              & 0 \\
+        0 & \cos{\theta} & -i \sin{\theta} & 0 \\
+        0 & -i \sin{\theta} & \cos{\theta} & 0 \\
+        0 &  0              & 0            & e^{i \phi} \\
+    \end{bmatrix}
+\end{equation}
+
+
+\begin{equation}
+    \delta_{a} = \delta_{b} = 0
+\end{equation}
+
+\begin{equation}
+    \omega = \theta
+\end{equation}
+
+\begin{equation}
+    \theta=0
+\end{equation}
+
+\begin{equation}
+    \phi=0
+\end{equation}
+
+$\textrm{U}_{\textrm{fsim}}$
+\begin{equation}
+    U =
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & u_{11} & u_{12} & 0 \\
+        0 & u_{21} & u_{22} & 0 \\
+        0 & 0 & 0 & u_{33} \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \ket{\psi_0}=\frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        1 \\
+        0 \\
+        0 \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    U\ket{\psi_0} =
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        u00 + u01 \\
+        u10 + u11 \\
+        u20 + u21 \\
+        u30 + u31 \\
+    \end{bmatrix}
+    =
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        u_{11} \\
+        u_{21} \\
+        0 \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    U=
+    \begin{bmatrix}
+        1 & 0 & 0  & 0 \\
+        0 & u_{11} & u_{12} & 0 \\
+        0 & u_{21} & u_{22} & 0 \\
+        0 & 0 & 0  & u_{33} \\
+    \end{bmatrix}
+\end{equation}
+
+
+\begin{equation}
+    \hat{O}=\frac{1}{2}(\sigma^{x} + i\sigma^{y}) \otimes I=
+    \begin{bmatrix}
+        0 & 1\\
+        0 & 0\\
+    \end{bmatrix}
+    \otimes
+    \begin{bmatrix}
+        1 & 0\\
+        0 & 1\\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        0 & 0 & 1 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+\end{equation}
+so that
+\begin{equation}
+    \ket{\psi_{f}}=
+    \begin{bmatrix}
+        1 \\
+        u_{11} \\
+        u_{21} \\
+        0 \\
+    \end{bmatrix}
+    \implies
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} = u_{21}
+\end{equation}
+or if you prefer:
+\begin{equation}
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} =
+    \begin{bmatrix}
+        1 & u_{11}^{*} & u_{21}^{*} & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        0 & 0 & 1 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+    \begin{bmatrix}
+        1 \\
+        u_{11} \\
+        u_{21} \\
+        0 \\
+    \end{bmatrix}
+    = u_{21}
+\end{equation}
+
+
+\begin{equation}
+U_{cz}
+\begin{bmatrix}
+1 &  &  & \\
+& 1 &  & \\
+&  & 1 & \\
+&  &  & -1\\
+\end{bmatrix}
+\end{equation}
+
+
+
+
+\begin{equation}
+U_{\textrm{fSim}}
+\begin{bmatrix}
+1 &  &   & \\
+& 1 &   & \\
+&  & 1  & \\
+&  &  & -1\\
+\end{bmatrix}
+\end{equation}
+
+\begin{equation}
+\left< \sigma^{x} \right>^{2} + \left< \sigma^{y} \right>^{2} + \left< \sigma^{z} \right>^{2}
+\end{equation}
+
+
+\begin{equation}
+h_{i} \in \left[ -\textrm{W}, \textrm{W} \right] \textrm{MHz}
+h_{i} \in \left[ 50, 50 \right] \textrm{MHz}
+g_{i} \in \left[ 0,  45 \right] \textrm{MHz}
+\end{equation}
+
+
+
+\begin{equation}
+\mathcal{H}_{BH} =\frac{\hbar}{2 \pi} \left(\vphantom{\sum\limits_{i}^{N_{q}}}\right.
+\underbrace{\sum\limits_{i}^{N_{q} - 1} g_{i,i+1}(t) (a_i^\dagger a_{i+1} + a_i a_{i+1}^\dagger)}_{\text{Hopping interaction}} +
+\underbrace{\frac{1}{2} \sum\limits_{i}^{N_q} \eta_i (n_i (n_i-1))}_{\text{Qubit nonlinearity}} +
+\underbrace{\sum\limits_{i}^{N_q} \Delta_i (t) n_i + \frac {1}{2}}_{\text{Uncoupled oscillators}}
+\left.\vphantom{\sum\limits_{i}^{N_{q}}}\right)
+\label{BH_Hamiltonian}
+\end{equation}
+
+\begin{equation}
+\hat{\sigma^{z}}=
+\begin{bmatrix}
+1 & 0\\
+0 & -1\\
+\end{bmatrix}
+\end{equation}
+
+\begin{comment}
+\section{MBL scratch}
+
+\begin{equation}
+H_{\tau} = \sum_i \widetilde{h_i} \tau^z_i + \sum_{i,j} J_{ij} \tau^z_i \tau^z_j + \sum_{ijk} \tau^z_i \tau^z_j \tau^z_k + \mathellipsis = \sum_i \Delta_{i}(\left{ \tau^z_{j \neq i} \right}) \tau^z_i
+\end{equation}
+
+\begin{equation}
+\Delta_i = \widetilde{h_i} + \sum_{j} J_{ij} \tau^z_j + \sum_{jk} \tau^z_j \tau^z_k + \mathellipsis
+\end{equation}
+
+\begin{equation}
+\frac{\ket{0} + \ket{1}}{\sqrt{2}}
+\end{equation}
+\begin{equation}
+\frac{\ket{0} + i \ket{1}}{\sqrt{2}}
+\end{equation}
+
+\begin{equation}
+g \; t
+\end{equation}
+
+\begin{equation}
+\left< \sigma_{\textrm{N} \right>_{\textrm{disorder}}
+\end{equation}
+
+\begin{equation}
+\left< \textrm{N} \right>_{\textrm{disorder}}
+\end{equation}
+
+\begin{equation}
+\left< \textrm{N} \right>_{\textrm{disorder}}
+\end{equation}
+
+
+\begin{equation}
+\rho = \left< \sigma^{x} \right> \hat{x} + \left< \sigma^{y} \right> \hat{y} + \left< \sigma^{z} \right> \hat{z}
+\end{equation}
+
+\begin{equation}
+\mid \rho \mid
+\end{equation}
+
+\begin{equation}
+\textrm{tr} \left( \rho^{2} \right)
+\end{equation}
+
+\end{comment}

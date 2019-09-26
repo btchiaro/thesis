@@ -1,0 +1,433 @@
+\subsubsection{scratch}
+\begin{equation}
+    \hat{O}=\hat{a}_1 = \ket{000}\bra{001} \implies \textrm{O(t)} = \left( \mathellipsis \right)
+\end{equation}
+
+\begin{equation}
+    \hat{O}=\hat{\sigma}^x_1 = \ket{000}\bra{001} + \ket{001}\bra{000} \implies \textrm{O(t)} = \left( \mathellipsis \right) + \left(  \mathellipsis  \right)^{*}
+\end{equation}
+
+\begin{equation}
+    \hat{O}=\hat{n}_1 = \ket{001}\bra{001} \implies \textrm{O(t)} = \lvert \left( \mathellipsis \right) \rvert^{2}
+\end{equation}
+
+
+
+\section{scratch}
+
+\begin{equation}
+    \hat{a}_1 = \sigma^{x} + i \sigma^{y} =
+    \begin{bmatrix}
+        0 & 1 \\
+        1 & 0
+    \end{bmatrix}
+    +
+    i
+    \begin{bmatrix}
+        0 & -i \\
+        i & 0
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        0 & 1 \\
+        0 & 0
+    \end{bmatrix}
+\end{equation}
+
+$\text{FFT}\left( O(t) \right)$
+
+\begin{equation}
+    \hat{a}
+    \hat{\sigma}^{x}_{1}
+\end{equation}
+
+\begin{equation}
+    \ket{\psi_{f}} = U \ket{\psi_{0}}
+\end{equation}
+
+\begin{equation}
+    \frac{\ket{0} + \ket{1}}{\sqrt{2}}
+\end{equation}
+
+
+\begin{equation}
+    \mathcal{H}=
+    \begin{bmatrix}
+        0 &   0&          0&          0 \\
+        0 &   11.76+0.j&   17.14+7.65j& 12.7 +3.57j \\
+        0 &   17.14-7.65j&  0.72+0.j&   12.1 +6.39j  \\
+        0 &   12.7 -3.57j& 12.1 -6.39j& 13.16+0.j
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \ket{0}
+    \ket{1}
+    \ket{2}
+    \ket{00}
+    \ket{01}
+    \ket{02}
+    \ket{10} \\
+    \ket{11}
+    \ket{12}
+    \ket{20}
+    \ket{21}
+    \ket{22} \\
+    \ket{000}
+    \ket{001}
+    \ket{010}
+    \ket{100}
+    \ket{011}
+    \ket{101} \\
+    \ket{110}
+    \ket{200}
+    \ket{020}
+    \ket{002}
+\end{equation}
+
+\begin{comment}
+    \begin{equation}
+        \bra{0}
+        \bra{1}
+        \bra{2} \\
+        \bra{00}
+        \bra{01}
+        \bra{02}
+        \bra{10}
+        \bra{11}
+        \bra{12}
+        \bra{20}
+        \bra{21}
+        \bra{22}
+        \bra{000} \\
+        \bra{001}
+        \bra{010}
+        \bra{100}
+        \bra{011}
+        \bra{101}
+        \bra{110}
+        \bra{200}
+        \bra{020}
+        \bra{002} \\
+        \Delta_{1}
+        \Delta_{2}
+        \Delta_{3}
+        \Delta_{n-1}
+        \Delta_{n} \\
+        \textrm{g}_{1,2}
+        \textrm{g}_{2,3}
+        \textrm{g}_{(\textrm{n}-1),\textrm{n}} \\
+        \textrm{XY}_{1} \\
+        \sigma^{z}
+        \textrm{q}_{\textrm{i}}
+        \textrm{q}_{\textrm{m}}
+        \frac{\textrm{Y}}{2}
+        \textrm{U_{21}}
+        \textrm{q1}
+        \textrm{q2}
+        \textrm{q3}
+    \end{equation}
+    \begin{equation}
+        \ket{\psi_{0}} = \ket{001}
+        \ket{\psi_{0}} = \frac{\ket{000} + \ket{001}}{\sqrt{2}}
+        \textrm{O(t)}  = \lvert a e^{-i E_1 t} + b e^{-i E_2 t} + c e^{-i E_3 t} \rvert^{2}
+        \textrm{O(t)} = \left( a e^{-i E_1 t} + b e^{-i E_2 t} + c e^{-i E_3 t}\right) + \left( a e^{-i E_1 t} + b e^{-i E_2 t} + c e^{-i E_3 t}\right)^{*}
+        \textrm{O(t)} = \left( a e^{-i E_1 t} + b e^{-i E_2 t} + c e^{-i E_3 t}\right)
+    \end{equation}
+\end{comment}
+\begin{comment}
+    \begin{equation}
+        -i
+        \begin{bmatrix}
+            \textrm{H}_{00} & \dots & \textrm{H}_{0\textrm{N}}\\
+            \vdots & \ddots & \vdots \\
+            \textrm{H}_{\textrm{N}0} & \dots & \textrm{H}_{\textrm{N}\textrm{N}}\\
+        \end{bmatrix}
+        t
+
+        e^{
+        \begin{bmatrix}
+            \textrm{H}_{00} & \dots & \textrm{H}_{0\textrm{N}}\\
+            \vdots & \ddots & \vdots \\
+            \textrm{H}_{\textrm{N}0} & \dots & \textrm{H}_{\textrm{N}\textrm{N}}\\
+        \end{bmatrix}
+        }
+
+    \end{equation}
+\end{comment}
+
+\begin{equation}
+    H_{BH} = \sum_{i}^{N_{coupler}} g_{i,i+1} \left( a^\dagger_{i} a_{i+1} +a_{i} a^\dagger_{i+1} \right)+ \frac{U}{2}\sum_{i}^{N_{qubit}}n_i(n_i-1) + \sum_{i}^{N_{qubit}} h_i n_i
+\end{equation}
+
+\begin{equation}
+    e^{-i \left( \hat{\text{I}} \hat{\text{Z}} - \hat{\text{Z}} \hat{\text{I}} \right) \frac{\delta_{a}}{4} }
+    e^{-i \left( \hat{\text{X}} \hat{\text{X}} - \hat{\text{Y}} \hat{\text{Y}} \right) \frac{\theta}{2} }
+    e^{-i \hat{\text{Z}} \hat{\text{Z}}  \frac{\phi}{4} }
+    e^{-i \left( \hat{\text{I}} \hat{\text{Z}} - \hat{\text{Z}} \hat{\text{I}} \right) \frac{\delta_{b}}{4} }
+    e^{-i \left( \hat{\text{I}} \hat{\text{Z}} + \hat{\text{Z}} \hat{\text{I}} \right) \frac{\omega}{4} }
+\end{equation}
+
+\begin{equation}
+    U=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & e^{ \frac{i}{2} (\omega)} \cos{\theta} & -i e^{ \frac{i}{2} (\omega)}\sin{\theta} & 0 \\
+        0 & -i e^{ - \frac{i}{2} (- \omega)}\sin{\theta} & e^{ -\frac{i}{2} ( - \omega)}\cos{\theta} & 0 \\
+        0 & 0 & 0 & e^{i (\theta-\phi)} \\
+    \end{bmatrix}
+\end{equation}
+
+
+\begin{equation}
+    \textrm{U off resonance}=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & e^{ \frac{i}{2} (\delta_{a} + \delta_{b} + \omega)}\cos{\theta} & -i e^{ \frac{i}{2} (\delta_{a} - \delta_{b} + \omega)}\sin{\theta} & 0 \\
+        0 & -i e^{ - \frac{i}{2} (\delta_{a} - \delta_{b} - \omega)}\sin{\theta} & e^{ -\frac{i}{2} (\delta_{a} + \delta_{b} - \omega)}\cos{\theta} & 0 \\
+        0 & 0 & 0 & e^{i (\omega-\phi)} \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \text{U on resonance}=
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & e^{ i \frac{\theta}{2} } \cos{\theta} & -i e^{i \frac{\theta}{2} } \sin{\theta}  & 0 \\
+        0 & -i  e^{ i \frac{\theta}{2} } \sin{\theta} & e^{i \frac{\theta}{2}} \cos{\theta} & 0 \\
+        0 & 0 & 0 & e^{i (\theta-\phi)} \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \text{U on resonance simple}=
+    \begin{bmatrix}
+        1 & 0            &  0              & 0 \\
+        0 & \cos{\theta} & -i \sin{\theta} & 0 \\
+        0 & -i \sin{\theta} & \cos{\theta} & 0 \\
+        0 &  0              & 0            & e^{i \phi} \\
+    \end{bmatrix}
+\end{equation}
+
+
+\begin{equation}
+    \delta_{a} = \delta_{b} = 0
+\end{equation}
+
+\begin{equation}
+    \omega = \theta
+\end{equation}
+
+\begin{equation}
+    \theta=0
+\end{equation}
+
+\begin{equation}
+    \phi=0
+\end{equation}
+
+$\textrm{U}_{\textrm{fsim}}$
+\begin{equation}
+    U =
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & u_{11} & u_{12} & 0 \\
+        0 & u_{21} & u_{22} & 0 \\
+        0 & 0 & 0 & u_{33} \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \ket{\psi_0}=\frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        1 \\
+        0 \\
+        0 \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    U\ket{\psi_0} =
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        u00 + u01 \\
+        u10 + u11 \\
+        u20 + u21 \\
+        u30 + u31 \\
+    \end{bmatrix}
+    =
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        u_{11} \\
+        u_{21} \\
+        0 \\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    U=
+    \begin{bmatrix}
+        1 & 0 & 0  & 0 \\
+        0 & u_{11} & u_{12} & 0 \\
+        0 & u_{21} & u_{22} & 0 \\
+        0 & 0 & 0  & u_{33} \\
+    \end{bmatrix}
+\end{equation}
+
+
+\begin{equation}
+    \hat{O}=\frac{1}{2}(\sigma^{x} + i\sigma^{y}) \otimes I=
+    \begin{bmatrix}
+        0 & 1\\
+        0 & 0\\
+    \end{bmatrix}
+    \otimes
+    \begin{bmatrix}
+        1 & 0\\
+        0 & 1\\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        0 & 0 & 1 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+\end{equation}
+so that
+\begin{equation}
+    \ket{\psi_{f}}=
+    \begin{bmatrix}
+        1 \\
+        u_{11} \\
+        u_{21} \\
+        0 \\
+    \end{bmatrix}
+    \implies
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} = u_{21}
+\end{equation}
+or if you prefer:
+\begin{equation}
+    \braket{\psi_{f}|\hat{O}|\psi_{f}} =
+    \begin{bmatrix}
+        1 & u_{11}^{*} & u_{21}^{*} & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        0 & 0 & 1 & 0\\
+        0 & 0 & 0 & 1\\
+        0 & 0 & 0 & 0\\
+        0 & 0 & 0 & 0\\
+    \end{bmatrix}
+    \begin{bmatrix}
+        1 \\
+        u_{11} \\
+        u_{21} \\
+        0 \\
+    \end{bmatrix}
+    = u_{21}
+\end{equation}
+
+
+\begin{equation}
+    U_{cz}
+    \begin{bmatrix}
+        1 &  &  & \\
+        & 1 &  & \\
+        &  & 1 & \\
+        &  &  & -1\\
+    \end{bmatrix}
+\end{equation}
+
+
+
+
+\begin{equation}
+    U_{\textrm{fSim}}
+    \begin{bmatrix}
+        1 &  &   & \\
+        & 1 &   & \\
+        &  & 1  & \\
+        &  &  & -1\\
+    \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+    \left< \sigma^{x} \right>^{2} + \left< \sigma^{y} \right>^{2} + \left< \sigma^{z} \right>^{2}
+\end{equation}
+
+
+\begin{equation}
+    h_{i} \in \left[ -\textrm{W}, \textrm{W} \right] \textrm{MHz}
+    h_{i} \in \left[ 50, 50 \right] \textrm{MHz}
+    g_{i} \in \left[ 0,  45 \right] \textrm{MHz}
+\end{equation}
+
+
+
+\begin{equation}
+    \mathcal{H}_{BH} =\frac{\hbar}{2 \pi} \left(\vphantom{\sum\limits_{i}^{N_{q}}}\right.
+    \underbrace{\sum\limits_{i}^{N_{q} - 1} g_{i,i+1}(t) (a_i^\dagger a_{i+1} + a_i a_{i+1}^\dagger)}_{\text{Hopping interaction}} +
+    \underbrace{\frac{1}{2} \sum\limits_{i}^{N_q} \eta_i (n_i (n_i-1))}_{\text{Qubit nonlinearity}} +
+    \underbrace{\sum\limits_{i}^{N_q} \Delta_i (t) n_i + \frac {1}{2}}_{\text{Uncoupled oscillators}}
+    \left.\vphantom{\sum\limits_{i}^{N_{q}}}\right)
+    \label{BH_Hamiltonian}
+\end{equation}
+
+\begin{equation}
+    \hat{\sigma^{z}}=
+    \begin{bmatrix}
+        1 & 0\\
+        0 & -1\\
+    \end{bmatrix}
+\end{equation}
+
+\begin{comment}
+\section{MBL scratch}
+
+\begin{equation}
+H_{\tau} = \sum_i \widetilde{h_i} \tau^z_i + \sum_{i,j} J_{ij} \tau^z_i \tau^z_j + \sum_{ijk} \tau^z_i \tau^z_j \tau^z_k + \mathellipsis = \sum_i \Delta_{i}(\left{ \tau^z_{j \neq i} \right}) \tau^z_i
+\end{equation}
+
+\begin{equation}
+\Delta_i = \widetilde{h_i} + \sum_{j} J_{ij} \tau^z_j + \sum_{jk} \tau^z_j \tau^z_k + \mathellipsis
+\end{equation}
+
+\begin{equation}
+\frac{\ket{0} + \ket{1}}{\sqrt{2}}
+\end{equation}
+\begin{equation}
+\frac{\ket{0} + i \ket{1}}{\sqrt{2}}
+\end{equation}
+
+\begin{equation}
+g \; t
+\end{equation}
+
+\begin{equation}
+\left< \sigma_{\textrm{N} \right>_{\textrm{disorder}}
+\end{equation}
+
+\begin{equation}
+\left< \textrm{N} \right>_{\textrm{disorder}}
+\end{equation}
+
+\begin{equation}
+\left< \textrm{N} \right>_{\textrm{disorder}}
+\end{equation}
+
+
+\begin{equation}
+\rho = \left< \sigma^{x} \right> \hat{x} + \left< \sigma^{y} \right> \hat{y} + \left< \sigma^{z} \right> \hat{z}
+\end{equation}
+
+\begin{equation}
+\mid \rho \mid
+\end{equation}
+
+\begin{equation}
+\textrm{tr} \left( \rho^{2} \right)
+\end{equation}
+
+\end{comment}
