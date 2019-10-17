@@ -1,37 +1,41 @@
 \chapter[Analog Control]{Analog Control}
 % This is copied out of:
 % devBenGreen/latex/xiy_notes.tex
-The primary benchmarking technique for the ability of our circuit control model to set Hamiltonian coeffiecients is Manybody Ramsey spectroscopy \rd{cite Pedram}.
+Many-body Ramsey spectroscopy is the primary benchmarking technique for our multi-qubit, time-independent Hamiltonians\,\cite{Roushan2018}.
 This technique allows us to extract the eigenvalues of a time independent Hamiltonian.
-In this appendix we give a detailed discussion of the technique.
+We can then compare the extracted eigenvalues with those predicted from our control model to establish a measure of fidelity.
+In this appendix we give a detailed discussion of many-body Ramsey spectroscopy and its use in validating and optimizing our control model.
+\section{Spectroscopy}
 
-\section{Manybody Ramsey spectroscopy}
+\section{Many-body Ramsey spectroscopy}
 
-\quickfig{150mm}{./PDF/mbr_numerics_3qubit_o_psi0.pdf}{Numerics for various observables and initial states}{mbr_peaks_numerics}
-\quickfig{150mm}{./PDF/mbr_data_5qubit_o.pdf}{mbr_peaks_5q_data}
-
-The wavefunction in the energy basis is
+For a wavefunction $\ket{\psi}$ evolving under a time independent Hamiltonian $\mathcal{H}$ we can write down the time dependence of $\ket{\psi}$ by expanding it in the
+energy eigenbasis.
 
 \begin{equation}
-    \ket{\psi (t)} =e^{-i \mathcal{H} t} \ket{\psi_{0}} = \sum_{\alpha} C_{\alpha} e^{- i E_{\alpha} t} \ket{\phi_{\alpha}}
+    \label{ti_schrodinger_eqn}
+    \ket{\psi (t)} =e^{-i \mathcal{H} t} \ket{\psi_{0}} = \sum_{\alpha} C_{\alpha} e^{-i E_{\alpha} t} \ket{\phi_{\alpha}}
 \end{equation}
 
-The coefficients are given by the overlap with the initial state
+\noindent The coefficients $C_{\alpha}$ are given by the overlap of the initial state with the eigenstates of $\mathcal{H}$.
 
 \begin{equation}
     C_{\alpha} = \braket{\phi_{\alpha}|\psi_{0}}
 \end{equation}
 
-An observable $\hat{O}$ in the energy basis is written as:
-
+\noindent Looking at Eq.\,~\ref{ti_schrodinger_eqn}, it is clear that if we could simply Fourier transform the wavefunction, the task would be complete.
+Unfortunately, $\ket{\psi}$ is not an observable and our ability to interogate $\ket{\psi}$ is limited to sampling bitstrings which may be averaged
+to give the expectation values of Hermitian operators.  Such an observable $\hat{O}$ can be expanded in the energy basis as
 
 \begin{equation}
+    \label{observable}
     \hat{O} = \sum_{\alpha,\alpha^{\prime}} O_{\alpha,\alpha^{\prime}} \ket{\phi_{\alpha^{\prime}}} \bra{\phi_{\alpha}}
 \end{equation}
 
-The time dependent expectation value of this operator is
+\noindent The time dependent expectation value of this operator is
 
 \begin{equation*}
+    \label{derive_energy_differences}
     \begin{aligned}
         O(t) =\braket{\psi(t)|\hat{O}|\psi(t)} = \\[2.0ex]
         \left( \sum_{\beta} C^{*}_{\beta} e^{i E_{\beta} t} \ket{\phi_{\beta}} \right)
@@ -45,8 +49,290 @@ The time dependent expectation value of this operator is
     \end{aligned}
 \end{equation*}
 
-Consider the case where the operator O is defined as X+iY on a single qubit
+\noindent The time dependence of $O(t)$ exposes our central challenge.
+For a generic initial state and a generic $\hat{O}$ the time series $O(t)$ does not isolate the eigenvalues of $\mathcal{H}$.
+Instead, the Fourier transform of $O(t)$ reports all energy differences in the spectrum.
+In order to isolate the eigenvalues we must engineer the initial state and measurement observables such that we keep only terms with $E_{\alpha^{\prime}}=0$.
 
+From an engineering perspective,
+the above equation is still somewhat opaque because it describes the time dependence of an observable only in terms of the eigenbasis of $\mathcal{H}$.
+Typically, however, we use the Fock basis for initialization and measurement.
+Thus, although the Hamiltonian evolution of the multi-qubit system is most naturally described in terms of the the eigenstates of $\mathcal{H}$,
+the initial state and measurement observable that we wish to engineer are best described in terms of a product of single qubit states.
+
+\begin{center}
+\begin{tikzpicture}[node distance=2in]
+    \tikzstyle{process} = [rectangle, rounded corners, minimum width=0.5in, minimum height=0.5in,text centered, draw=black, fill=none]
+    \tikzstyle{arrow} = [thick,->,>=stealth]
+    \node (p1_label) [process, label=below:\varphi] {Initialization};
+    \node (p2_label) [process, right of=p1_label, xshift=0cm, label=below:\phi] {Hamiltonian evolution};
+    \node (p3_label) [process, right of=p2_label, xshift=0cm, label=below:\varphi] {Measurement};
+    \draw [arrow] (p1_label) -- (p2_label);
+    \draw [arrow] (p2_label) -- (p3_label);
+\end{tikzpicture}
+\end{center}
+
+It is useful to work this out explicitly for extracting the eigenvalues of the single photon manifold for a small three qubit system.  % in the zero and one photon manifolds.
+%Consider the example of the vacuum + 1 photon subspace of a three qubit system.
+The relevant Fock basis states are:
+\begin{equation}
+    \{\varphi\} = \ket{000}, \ket{001}, \ket{010}, \ket{100}
+\end{equation}
+Initializing to a superposition state by doing a Y/2 rotation on a single qubit pulse we have:
+\begin{equation*}
+    \ket{\psi_0} = \frac{1}{\sqrt{2}} \left( \ket{000} + \ket{001} \right) = \frac{1}{\sqrt{2}} \left( \ket{\varphi_0} + \ket{\varphi_1} \right)
+\end{equation*}
+Let C be the matrix that changes basis from the Fock basis to the eigenbasis of H.
+\begin{equation}
+    \ket{\psi_0}_{phi} = \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & c_{11} & c_{12} & c_{13} \\
+        0 & c_{21} & c_{22} & c_{23} \\
+        0 & c_{31} & c_{32} & c_{33} \\
+    \end{bmatrix}_{\varphi \rightarrow \phi}
+    \begin{bmatrix}
+        1 \\
+        1 \\
+        0 \\
+        0 \\
+    \end{bmatrix}_{\varphi}
+    =
+    \begin{bmatrix}
+        1 \\
+        c_{11} \\
+        c_{21} \\
+        c_{31} \\
+    \end{bmatrix}_{\varphi}
+\end{equation}
+Where the subscripts indicate which basis we are working in.
+The time dependence of $\psi$ is
+\begin{equation}
+    \ket{\psi(t)}_{\phi} =
+    \begin{bmatrix}
+        1 \\
+        c_{11} e^{-i E_1 t} \\
+        c_{21} e^{-i E_2 t} \\
+        c_{31} e^{-i E_3 t}\\
+    \end{bmatrix}_{\phi}
+\end{equation}
+
+We can apply the inverse transformation $C^{-1}$ to recover the time dependence of $\psi$ in the Fock (measurement) basis.
+\begin{equation*}
+    \begin{aligned}
+    \ket{\psi(t)}_{\varphi} =
+    C^{-1}\ket{\psi(t)}= \\
+    \frac{1}{\sqrt{2}}
+    \renewcommand*{\arraystretch}{1.5}
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & c^{-1}_{11} & c^{-1}_{12} & c^{-1}_{13} \\
+        0 & c^{-1}_{21} & c^{-1}_{22} & c^{-1}_{23} \\
+        0 & c^{-1}_{31} & c^{-1}_{32} & c^{-1}_{33} \\
+    \end{bmatrix}_{\phi \rightarrow \varphi}
+    \begin{bmatrix}
+        1 \\
+        c_{11} e^{-i E_1 t} \\
+        c_{21} e^{-i E_2 t} \\
+        c_{31} e^{-i E_3 t}\\
+    \end{bmatrix}_{\phi}
+    =
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+        1 \\
+        c^{-1}_{11} c_{11} e^{-i E_1 t} +  c^{-1}_{12} c_{21} e^{-i E_2 t} + c^{-1}_{13} c_{31} e^{-i E_3 t} \\
+        \ldots \\
+        \ldots \\
+    \end{bmatrix}_{\varphi}
+\end{aligned}
+\end{equation*}
+
+If we measure $\sigma^x + i \sigma^y$ on site 1, then we have
+\begin{equation}
+\begin{bmatrix}
+1 & (\ldots)^* & 0 & 0
+\end{bmatrix}
+\begin{bmatrix}
+0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\begin{bmatrix}
+1 \\
+(\ldots) \\
+0 \\
+0 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 & (\ldots)^* & 0 & 0
+\end{bmatrix}
+\begin{bmatrix}
+(\ldots) \\
+0 \\
+0 \\
+0 \\
+\end{bmatrix}
+= (...)
+\end{equation}
+
+In this case we recover the eigenvalues of H because \qeqn{ FFT(...) = \delta(E_1) + \delta(E_2) + \delta(E_3) }
+
+This calculation makes the roles of the initial state and measurement observable clear.
+It is essential that the initial state be a superposition of a reference state, and a state in the manifold that we wish to extract the eigenvalues of.
+it is critical that the reference state is member of a manifold with trivial internal dynamics, in this case $\ket{\psi}_{ref} = \ket{000}$.
+This state serves as an interference partner for our Ramsey experiment and its triviality assures that the spectrum of our interference pattern is exclusively due to the dynamics of the target manifold.
+
+The choice of $\hat{O} = \hat{a} = \hat{\sigma}^x + i \hat{\sigma}^y$ is also clarified by this calculation.
+This operator interfers the dynamic manifold with the reference state, isolating the eigenvalues.
+
+If we had instead chosen  $\hat{O} = \hat{\sigma}^x$ we would observe both positive and negative eigenvalues since
+
+\begin{equation}
+    \begin{bmatrix}
+        1 & (\ldots)^* & 0 & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        0 & 1 & 0 & 0 \\
+        1 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+    \end{bmatrix}
+    \begin{bmatrix}
+        1 \\
+        (\ldots) \\
+        0 \\
+        0 \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        1 & (\ldots)^* & 0 & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        (\ldots) \\
+        1 \\
+        0 \\
+        0 \\
+    \end{bmatrix}
+    = (...) + (...)^*
+\end{equation}
+This is intuitive because for a single qubit precessing on the equator of the Bloch sphere measuring $<\sigma^x>$ alone does not indicate which direction the Bloch vector is precessing!
+
+The naive attempt of measuring the onsite population of qubit $\hat{n}_1$ yields the eigenvalue differences since
+\begin{equation}
+    \begin{bmatrix}
+        1 & (\ldots)^* & 0 & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        0 & 0 & 0 & 0 \\
+        0 & 1 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+    \, \end{bmatrix}
+    \begin{bmatrix}
+        1 \\
+        (\ldots) \\
+        0 \\
+        0 \\
+    \end{bmatrix}
+    = \mid (\ldots) \mid^{2}
+\end{equation}
+The numerics below illustrate these points:
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150 mm]{./PDF/mbr_numerics_3qubit_o_psi0.pdf}
+    \end{center}
+    \caption{
+    The spectrum of $\hat{O} = \sigma^z$ is comprised of the differences of eigenvalues.
+    The spectrum of $\hat{O} = \sigma^x$ contains the eigenvalues and their mirrored frequencies.
+    The spectrum of $\hat{O} = \sigma^x + i \sigma^y$ isolates the eigenvalues.
+    }
+    \label{mbr_peaks_numerics}
+\end{figure}
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150 mm]{./PDF/mbr_peaks_5q_data_191016_1057a.pdf}
+    \end{center}
+    \caption{\textbf{Many-body Ramsey five qubit data.}
+    The fourier domain data for measurement observables
+    $\hat{O}=\sigma^z$, $\hat{O}=\sigma^x + i \sigma^y$.
+    The spectrum of $\left< \sigma^z (t) \right>$ is composed of artifacts from eigenvalue differences.
+    The spectrum of $\left< \sigma^x (t) \right> + i \left< \sigma^y (t) \right>$ recovers the eigenvalues of $H$.
+    }
+    \label{mbr_peaks_data}
+\end{figure}
+
+Because the Many-body Ramsey extracts the eigenvalues of the Hamiltonian that was actually
+generated we can compare the extracted eignevalues with those predicted by our circuit parameterization as a control error metric.
+With this error metric established, we can optimize the parameters of our control model to give a more accurate parameterization of the circuit.
+
+The 5 qubit data below illustrates this process.
+After using
+\section{calibration data}
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150 mm]{./PDF/fourier_amp_2d_tv_pre.pdf}
+        \caption{
+        Five qubit many-body Ramsey spectroscopy data overlayed with predictions from control model prior to optimization.
+        }
+    \end{center}
+\end{figure}
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150 mm]{./PDF/tv_error_during_opt.pdf}
+        \caption{
+        Error per eigenvalue for the training and validation splits during optimization.
+        Data shown is for five qubit Hamiltonians.
+        }
+    \end{center}
+\end{figure}
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150 mm]{./PDF/fourier_amp_2d_tv_post.pdf}
+        \caption{
+        Five qubit many-body Ramsey spectroscopy data overlayed with predictions from control model after optimization.
+        }
+    \end{center}
+\end{figure}
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150 mm]{./PDF/mbr_9q_validation.pdf}
+        \caption{\textbf{Manybody Ramsey calibration data for a nine qubit linear chain}
+        a) Raw Fourier data from Many-body Ramsey spectroscopy.  b) Histogram of errors for each eigenvalue.
+        }
+    \end{center}
+\end{figure}
+
+\section{Notes in progress}
+
+Because the Bose-Hubbard Hamiltonian that we evolve the system under is photon conserving it takes the following form:
+\begin{equation}
+H=
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & H_{11} & H_{12} & H_{13} \\
+0 & H_{21} & H_{22} & H_{23} \\
+0 & H_{31} & H_{32} & H_{33} \\
+\end{bmatrix}
+\end{equation}
+Skipping over some algebra that is in my notebook.
+Evolving under the H gives $\ket{\psi(t)}$
+In the Energy basis
+\begin{equation}
+\ket{\psi (t)} = \frac{1}{\sqrt{2}}
+\begin{bmatrix}
+1 \\
+a_{11} e^{-i E_1 t} + a_{12} e^{-i E_2 t} + a_{13} e^{-i E_3 t} \\
+a_{21} e^{-i E_1 t} + a_{22} e^{-i E_2 t} + a_{23} e^{-i E_3 t} \\
+a_{31} e^{-i E_1 t} + a_{32} e^{-i E_2 t} + a_{33} e^{-i E_3 t}
+\end{bmatrix}
+\end{equation}
+Consider the case where the operator O is defined as X+iY on a single qubit
 \begin{equation}
     O = \sigma^{x} + i \sigma^{y} =
     \begin{bmatrix}
@@ -139,19 +425,17 @@ Taking the reference (vacuum) state to have zero energy and decoupled from the m
 \begin{equation*}
     \ket{\psi (t)} = c_0\ket{\phi_{ref}} + c_1\ket{\phi_1}e^{-i E_1 t} + c_2\ket{\phi_2}e^{-i E_2 t} + c_3\ket{\phi_3}e^{-i E_3 t}
 \end{equation*}
-
 and
 \begin{equation*}
-    O =
-    \begin{bmatrix}
-        O_{00} & O_{01} & O_{02} & O_{03}\\
-        O_{10} & O_{11} & O_{12} & O_{13}\\
-        O_{20} & O_{21} & O_{22} & O_{23}\\
-        O_{30} & O_{31} & O_{32} & O_{33}\\
-    \end{bmatrix}
+O =
+\begin{bmatrix}
+O_{00} & O_{01} & O_{02} & O_{03}\\
+O_{10} & O_{11} & O_{12} & O_{13}\\
+O_{20} & O_{21} & O_{22} & O_{23}\\
+O_{30} & O_{31} & O_{32} & O_{33}\\
+\end{bmatrix}
 \end{equation*}
 which leads to
-
 
 \begin{equation*}
     \begin{aligned}
@@ -190,11 +474,11 @@ For analog control our measurement basis is different than the dynamic basis.
 \end{equation*}
 
 Consider the example of the vacuum + 1 photon subspace of a three qubit system:
-the fock basis states are:
+the Fock basis states are:
 \begin{equation*}
     \varphi = \ket{000}, \ket{001}, \ket{010}, \ket{100}
 \end{equation*}
-Initializing to a superposition state by doing a X/2 pulse we have:
+Initializing to a superposition state by doing a Y/2 pulse we have:
 \begin{equation*}
     \psi = \frac{1}{\sqrt{2}} \left( \ket{000} + \ket{001} \right) = \frac{1}{\sqrt{2}} \left( \ket{\varphi_0} + \ket{\varphi_1} \right)
 \end{equation*}
@@ -208,7 +492,6 @@ Initializing to a superposition state by doing a X/2 pulse we have:
         0 & H_{31} & H_{32} & H_{33} \\
     \end{bmatrix}
 \end{equation}
-
 
 Skipping over some algebra that is in my notebook.
 

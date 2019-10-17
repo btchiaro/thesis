@@ -1,13 +1,14 @@
-function compile_thesis(){
-arara -v ~/Google\ Drive/thesis/main_UCSB_submission.tex
+function current_datetime {
+python - <<END
+import datetime
+print(datetime.datetime.now())
+END
 }
-function compile_ch2(){
-arara -v ~/Google\ Drive/thesis/Article_TiN_arxiv/arXiv-TiN-Submission.tex
-}
-echo 'Loaded thesis bash functions'
+
 function cleanup_thesis_build_files {
 python - <<END
 import os
+import shutil
 file_path = os.path.expanduser('~/Google Drive/thesis/')
 file_names = os.listdir(file_path)
 for fn in file_names:
@@ -15,15 +16,38 @@ for fn in file_names:
         ext = fn.split('.')[1]
         if ext not in ['pdf','tex']:
             print('yes: {}'.format(fn))
+            #os.remove(file_path+fn)
+            shutil.move(file_path+fn, os.path.expanduser('~/Desktop/preTrash/'+fn))
         else:
             print('no: {}'.format(fn))
-
-
 END
 }
-function current_datetime {
-python - <<END
-import datetime
-print(datetime.datetime.now())
+
+function compile_thesis(){
+cleanup_thesis_build_files
+arara -v ~/Google\ Drive/thesis/main_UCSB_submission.tex
+}
+
+echo 'Loaded thesis bash functions'
+
+function compile_tex_svg {
+if [ "$#" -eq 1 ]; then
+    echo "One arg detected"
+    export full_input_tex_path_and_fn="$1"
+    export full_output_svg_path="0"
+else
+export full_input_tex_path_and_fn="$1"
+export full_output_svg_path="$2"
+fi
+python3 <<END
+import os
+full_input_tex_path_and_fn = os.environ['full_input_tex_path_and_fn']
+full_output_svg_path = os.environ['full_output_svg_path']
+print(full_input_tex_path_and_fn)
+print(full_output_svg_path)
+print(os.path.expanduser(full_input_tex_path_and_fn))
+import subprocess
+subprocess.run(['arara -v {}'.format(os.path.expanduser(full_input_tex_path_and_fn))], shell=True)
+#subprocess.run(['ls'])
 END
 }

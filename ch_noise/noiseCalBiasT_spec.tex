@@ -13,7 +13,7 @@
 We show the basic circuit analysis and the physical implementation for the Bias T that we use for the noise spectra calibration.  We use a SPICE simulation to check that this circuit will work up to at least 100\,MHz.
 %\end{abstract}
 
-\section{Schematic}
+\subsection{Schematic}
 
 We know from experiments that the calibration works well when the Agillent AWG outputs a 5V sin wave through a 70db attenuator to the qubit.
 Here we design a bias-T that gives 70 dB power attenuation between the AWG and the qubit using voltage division.  
@@ -121,7 +121,7 @@ to [TL,l_=$Z_{0}$] (4,2);
 \end{figure}
 \end{comment}
 
-\section{Physical Implementation}
+\subsection{Physical Implementation}
 
 \quickfig{\columnwidth}
 {NoiseCalBiasT_PCB_Drawing1.png}
@@ -145,7 +145,7 @@ I used the following parameters:
 \end{itemize}
 This gave $\epsilon_{\text{eff}} = 2.879$ and characteristic impedance of  $50.16\,\Omega$.
 
-\section{SPICE Simulation}
+\subsection{SPICE Simulation}
 We perform a SPICE simulation to predict the maximum operating frequency for the calibration.
 
 We convert the calculated $Z_0$ and $\epsilon_r$ to $L_l$ and $C_l$ since these are the inputs required by SPICE:
