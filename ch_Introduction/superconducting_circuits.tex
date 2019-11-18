@@ -1,0 +1,762 @@
+\chapter{Superconducting circuits for quantum computation}
+\label{ch:sc_circuits}
+\inprogress{
+In this section we give a practical introduction to superconducting circuits for quantum computing applications.
+% introduce the fundamental elements of superconducting circuits and summarize the basic theory that determines their dynamics.
+The derivations here follow closely those found in
+refs~\cite{Pozar, GaoThesis, RamiThesis, MazinThesis, DanThesis, JimmyThesis, CharlesThesis, vanDuzer1999, Koch2007,
+OliverQuantumEngineeringGuide, RoushanSummerSchool}.
+%Cite Jimmy's thesis, Dan's thesis, Dan's writeup, van Duzer, John's writeup.  Charles thesis, Koch transmon, Will Oliver's engineering handbook, Pedrams course notes.
+For completeness we summarize the essential results from these sources as necessary to describe the experiments in this thesis.
+} %end inprogress
+
+\section{Coplanar waveguide (CPW) resonator}
+\subsection{The CPW resonator as an LC oscillator}
+\quickfig{6 in}{./PDF/CPW_sw_schem.pdf}{A schematic diagram of a coplanar waveguide (CPW), shown in cross section}{CPW}
+A coplanar waveguide (CPW) transmission line consists of a signal electrode that is isolated from a surrounding ground plane.
+A cross sectional view of the basic CPW geometry is shown in cross section in fig.~\ref{CPW}.
+This device supports a propagating transverse electromagnetic (TEM) mode  with phase velocity \cite{Pozar}
+\qeqn{v_p = \frac{1}{\sqrt{C_l L_l}}}
+
+The capacitance per unit length $C_l$ is due to the geometry of the electrodes and the relative dielectric constant of the substrate $\epsilon_r$.
+$C_l$ can be calculated from Schwarz-Christoffel conformal mapping \cite{GaoThesis}, the result is:
+\qeqn{
+C_l = \left( \frac{1 + \epsilon_r}{2} \right) \epsilon_0 \frac{4 K(k)}{K(k^\prime)}
+}
+where $K$ is the elleptic integral of the first kind, $k = S/ \left( S + 2W \right)$, and $k^\prime = \sqrt{1 - k}$.
+
+The total inductance per unit length $L_l$ consists of the geometric $L_g$ as well as kinetic inductance $L_k$,
+which can be significant in superconducting devices.
+\qeqn{ L_l = L_g + L_k}
+%The inductance per unit length $L_l$ has a geometric contribution $L_g$ that can be similarly calculated.
+$L_g$ can be calculated in similar fashion to $C_l$ \cite{GaoThesis}
+\qeqn{L_g = \frac{\mu_0}{4} \frac{K \left( k^\prime \right)}{K \left( k \right)} }
+The kinetic inductance, due to the inertia of superconducting Cooper pairs, is dependent both on the superconducting material and the geometry of the transmission line.
+\qeqn{ L_k = g L_s }
+The surface inductance of the superconductor $L_s$ depends on the normal metal resistivity and the thickness of the electrode. \cite{KherThesis}
+\qeqn{L_s = \sqrt{ \frac{ \hslash \rho_n }{ \pi \Delta_0 t} } } % Equation 2.13
+and g is a geometric factor that can be calculated analyticaly for the CPW geometry \cite{GaoThesis}
+\qeqnarray{
+g &=& \frac{1}{4 a K^2(k)(1-k^2)} \left( \pi \log \frac{4 \pi a}{t} - k \log \frac{1 + k}{1 - k} \right) + \\
+  &=& \frac{1}{4 a K^2(k)(1-k^2)} \left( \pi \log \frac{4 \pi b}{t} - k \log \frac{1 + k}{1 - k} \right) \\
+} % end qeqnarray
+For high resistivity superconductors, such as titanium nitride considered in Chapter 3 $L_k$, can be significant and even dominate $L_l$.
+
+We can construct a quarter wave resonator by terminating a segment of the transmission line in a short circuit to the ground plane.
+The resonance condition for the quarter wave resonator can be found from the relation $v_p = f \lambda$.
+\qeqn{
+f_0 = \frac{1}{4 l }\frac{1}{\sqrt{L_l C_l}}
+\label{f0_resonator}
+}
+A consequence of eq.~\ref{f0_resonator} is that high kinetic inductance materials can make resonators smaller in size for a constant frequency resonator.
+%A drawback is of sensitivity of $L_k$ is that if the materials properties such as $\rho_2$ are not well controlled,
+
+%From Pozar (eqn 6.28 we find that the input resistance of a segment of lossy transmission line that is terminated in a short circuit is)
+It is apparent that a segment of lossy transmission should behave like a damped parallel RLC oscillator by inspecting the input impedance of such a line \cite{Pozar}
+\qeqn{
+Z_{in} = Z_0 \tanh \left( \alpha + i \beta \right) l = Z_0 \frac{1 - i \tanh \alpha l \cot \beta l}{\tanh \alpha l - i \cot \beta l}
+}
+where $\alpha$ and $\beta$ are the attenuation and propagation parameters of a TEM wave on the line.
+For a transmisssion line with small loss and near resonance so that $\omega = \omega_0 + \Delta \omega$ this is approximated as
+\qeqn{
+Z_{in} = \frac{1}{1/R + 2 i \Delta \omega / 2 \omega_0}
+}
+Which has the same form as $Z_{in}$ for a parallel RLC oscillator.
+
+\quickwidefig{\columnwidth}{./PDF/cpw_resonator.pdf}{
+a) An optical micrograph of a CPW resonator.
+b) The voltage antinode of the CPW resonator.
+c) The voltage node of the CPW resonator.
+d) A crosssectional SEM image of a CPW resonator.
+e) The circuit representation of an LC oscillator capacitively coupled to a transmission line.
+}{cpw_resonator}
+
+\subsection{Coherence metrology with CPW resonators}
+
+\subsubsection{Resonator qubit relationship}
+%It's simplicity means that the resonator can be iterated rapidly.
+%good tool to dissect problems, (fab complications not conflated with actual physics)
+
+The superconducting qubit considered later in this chapter is also a weakly damped LC oscillator.
+The damping is important because it causes relaxation events of the type sketched in fig.~\ref{schem relaxation dephasing}(a),
+which in turn contribute to the qubit's logical error rate.
+Thus, in order to achieve the best qubit performance the dissipation must be minimized.
+
+Throughout the history of superconducting qubits the resonator has been used for coherence engineering.
+This is because superconducting qubits and resonators are subject to many of the same dissipation mechanisms.
+This is not surprising given the similarity of their construction.
+Fig.~\ref{qubit_resonator}(a) shows an Xmon transmon superconducting qubit.
+It can be thought of as two intersecting strips of CPW transmission line,
+such as those that create the CPW resonator in Fig.~\ref{qubit_resonator}(c).
+
+\quickwidefig{\columnwidth}{./PDF/resonator_qubit_proxy.pdf}{
+a) an Xmon transmon qubit,
+b) The capacitive end of a $\lambda/4$ resonator.
+c) The full CPW resonator structure.
+}{qubit_resonator}
+
+\subsubsection{Quality factor}
+The resonator figure of merit describing dissipation is the quality factor $Q$,
+which characterizes the rate at which energy stored in the resonator is lost from it.  $Q$ is the number of oscillations
+the circuit performs within one energy relaxation time constant, which can in turn be related to the qubit relaxation time $T_1$.
+\qeqn{ Q = \frac{\omega E}{P} = \omega T_1}
+
+The rate at which which energy is lost from the resonator depends both on its coupling to external circuitry as well as its internal dissipation so that
+\qeqn{1/Q_{total} = 1/Q_{c} + 1/Q_{i}}
+where $Q_c$ and $Q_i$ refer to the coupling and internal quality factors respectively.
+Note that the quality factors sum in reciprocal since the energy loss rates are additive.
+
+For a quarter wave resonator capacitively coupled to a transmission line, the internal quality factor $Q_i$ and $Q_c$ can be extracted
+separately from transmission measurements.
+This is done by parametrically fitting measurements of transmission S - parameter $S_{21}$ vs frequency.\cite{Megrant2012}
+\qeqn{ \tilde{S}_{21}^{-1} = 1 + \frac{Q_i}{Q_c^*}\,\frac{1}{1 + i 2 Q_i \left( \frac{f - f_0}{f_0} \right) } }
+In chapters 3 and 4 of this thesis we focus on minimizing the internal dissipation $\frac{1}{Q_i}$ to improve the relaxation times of our qubits.
+Further discussion of the setup of such an experiment can be found in chapter 4.
+%When using the resonator for coherence engineering, the primary performance metric is the internal quality factor $Q_i$.
+%We characterize the dissipation of the resonator by its internal quality factor.
+\draftcomment{
+\subsubsection{Dielectric loss}
+
+Under the common operating conditions for superconducting qubits, the quality factor is often limited by dielectric loss.
+
+For in chapters 3 and 4, the role of the resonator is for coherence metrology.
+
+The linear resonator is an LC harmonic oscillator.
+The resonator is used in such diverse applications as the mediation of qubit-qubit coupling \rd{cite IBM, UCSB}, Purcell filtering \rd{cite Dan}, dispersive readout \rd{cite Dan and someone else}, and as a coherence metrology tool.
+Although all the of qubit measurements in this thesis make use of dispersive measurement, in chapter~\ref{ch:TiN} and chapter~\ref{ch:vortex} we focus on the use of the CPW resonator as a coherence metrology tool.
+
+\subsection{Implementation}
+A common way to implement the resonator is to terminate a length of coplanar waveguide (CPW) transmission line with a short circuit to the surounding ground plane.
+} % end draftcomment
+
+\draftcomment{
+\inprogress{
+We begin by following Pozar
+
+The quarter wave resonance condition is satisfied when
+\rd{
+\qeqn{ f \frac{\lambda}{4} = \nu}
+}
+Where f is the fundamental frequency of the resonator, $\lambda$ is the wavelength, and $\nu$ is the propagation velocity.
+
+It has a propagation velocity on chip of
+\qeqn{\nu = \frac{1}{\sqrt{LC}} } where the L and C are the inductance and capacitance per unit length.
+
+The propagation velocity is determined by the capacitance and inductance per unit length $C_l$ and $L_l$.
+The geometric contributions to $C_l$ and $L_l$ are calculated in \rd{Gao thesis}.
+For superconducting resonators $L_l$ has an additional contribution due to the kinetic inductance.
+The kinetic inductance fraction $\alpha = \frac{L_k}{L_g + L_k}$ depends on the surface inductance of the superconducting material as well as the thickness of the thin film.
+$\alpha$ is a few percent for Aluminum resonators, but can dominate $L_l$ for superconducting materials with large normal metal resistivity, such as Titanium Nitride considered in Chapter~\ref{ch:TiN}.
+
+Near resonance the $\lambda / 4$ resonator can be modeled as a parallel LCR oscillator \rd{cite Mazin, gao, Zmoidzinas, day, ...} where the resistance R describes dissipation in the circuit.
+The dissipation is often reported in terms the quality factor of the resonator $Q = \frac{\omega E}{P}$ where E is the energy stored in the resonator and P is the power dissipated by it.
+The rate at which which energy is lost from the resonator depends both on its coupling to external circuitry as well as its internal dissipation so that
+$1/Q_{total} = 1/Q_{c} + 1/Q_{i}$ where $Q_c$ and $Q_i$ refer to the internal and coupling quality factors respectively.
+
+The internal quality factor $Q_i$ quantifies the loss that is internal to the resonator.  It is determined by many of the same
+loss mechanisms as determine $T_1$ in qubit circuits, making it a valuable diagnostic tool for coherence engineering.
+It suffers from many of the same loss mechanisms as qubit devices, but is much simpler to fabricate.
+These loss mechanisms include dielectric loss, magnetic vortex loss, and quasiparticle loss.
+Thermal quasiparticles loss can be mitigated by operating the device at low temperatures relative to the superconducting gap.
+Nonequilibrium quasiparticles, such as those that arise from irradiating the device with photons at energies greater than the gap,
+can be suppressed by using light tight shielding for the operating environment as well as in line IR filters for the control wires.
+} % end draftcomment
+
+\draftcomment{
+\org{Have a fig on the measurement circuit and Qi extraction.  Or just reference Tony and the supplement of the Flux trap paper.}
+} % end draftcomment
+} % end inprogress
+
+\draftcomment{
+\begin{itemize}
+    \item Inductance and Cap per unit length of CPW
+    \item This gives a wave velocity.
+    \item The wave velocity and distance give a quarter wave resonant frequency.
+    \item $Z_{in}$ for parallel resonant circuit Pozar 6.12
+    \item $Z_{in}$ for terminated CPW pozar 6.28
+    \item Tony APL characterize circuit for $Q_i$
+    \item The C is given by the capacitance to ground per unit length. TODO:  Equation from Gao or Rami
+    \item The L has two contributions
+    \item (1) geometric inductance.  is given by the inductance to ground per unit length.
+    \item (2) kinetic (surface) inductance
+    \item TODO:  Insert derivation of lambda/4 from frequency 1/sqrt(lc) ...
+\end{itemize}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%         Quantum
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Quantum LC Oscillator}
+\quickfig{1 in}{./PDF/LCO.pdf}{This is a simple LC oscillator (resonator), maybe add the wavefunction or potential as a subfigure.}{LCO}
+\verify{At low temperatures and small energies} the LC oscillator behaves quantum mechanically.
+As such it's dynamics in this regime are described by the Schr\"odinger equation
+\begin{equation}
+    i \hbar \frac{d}{dt} \ket{\psi(t)} = H \ket{\psi}
+\end{equation}
+Here we derive the Hamiltonian and show that the LC oscillator behaves as a harmonic oscillator.
+
+The instantaneous power dissipated by a circuit element is
+\qeqn{P=IV}
+and therefore the energy stored within the element can be written as
+\qeqn{ E = \int_{t^\prime = t_0}^{t^\prime=t} I(t^\prime) V(t^\prime) dt^\prime }
+$t_0$ is normally taken to be $- \infty$, at which time $I(- \infty)=0$ and $V(- \infty)=0$.
+
+The customary approach for deriving the Hamiltonian $H$ is to write down the Lagrangian for a generalized coordinate of the circuit and compute $H$ via the Lagendre transformation.
+\verify{This approach ensures that we arrive at a Hamiltonian in terms of a generalized coordinate and it's conjugate momentum (i.e. described in terms of the normal modes.) .}
+We choose the flux $\Phi$, indicated in Fig.~\ref{LCO}, as our generalized coordinate.  $\Phi$ is also known as the node flux or branch flux.  $\Phi$ is defined in terms of the voltage across the inductor.
+\qeqn{\Phi(t) = \int_{-\infty}^{t} V(t^\prime) dt^\prime}
+
+\noindent
+The current I and voltage V at the node are simply related to $\Phi$
+\qeqn{ I = \Phi / L}
+\qeqn{ V = \dot{\Phi}}
+We can also write the energy of the capacitor and inductor in terms of \Phi.
+\qeqn{ E_{capacitor} =
+\int_{t^\prime = t_0}^{t^\prime=t} I(t^\prime) V(t^\prime) dt^\prime =
+\int_{t^\prime = t_0}^{t^\prime=t} C \frac{dV}{dt^\prime} V(t^\prime) dt^\prime =
+\frac{1}{2} C V^2 = \frac{1}{2} C \dot{\Phi}^2 }
+and
+\qeqn{ E_{inductor} =
+\int_{t^\prime = t_0}^{t^\prime=t} I(t^\prime) V(t^\prime) dt^\prime =
+\int_{t^\prime = t_0}^{t^\prime=t} I(t^\prime) L \frac{dI}{dt^\prime} dt^\prime =
+\frac{1}{2} L I^2 = \frac{1}{2 L} \Phi^2 }
+
+\noindent
+By associating the potential energy with the position dependent term and the kinetic energy with the momentum dependent term we can write the Lagrangian for the system
+\qeqn{ \mathcal{L} = \mathcal{T} - \mathcal{U} = \frac{1}{2} C \dot{\Phi}^2 - \frac{\Phi^2}{2L}}
+We calculate the momentum conjugate to $\Phi$ by differentiating the Lagrangian.
+\qeqn{ \frac{\partial \mathcal{L}}{\partial \dot{\Phi}} = C \dot{\Phi} = C V = Q}
+We recognize the conjugate momentum as the charge on the capacitor and hence denominate it Q.
+The Hamiltonian $H$ is obtained from $\mathcal{L}$ as
+\qeqn{
+H = Q \dot{\Phi} - \mathcal{L} = C \dot{\Phi}^2 -  (\frac{1}{2} C \dot{\Phi}^2 - \frac{\Phi^2}{2L} ) =
+\frac{1}{2} C \dot{\Phi^2} + \frac{\Phi^2}{2L}
+\label{H_LC_Lagrangian}
+}
+or
+\qeqn{H = \frac{1}{2} C V^2 + \frac{1}{2} L I^2 }
+which is the sum of the electric energy stored in the capacitor and the magnetic energy stored in the inductor.
+
+The quantum mechanical Hamiltonian for the electrical LC oscillator can be obtained by substituting the charge and flux operators $\hat{Q}$ and $\hat{\Phi}$
+in place of classical coodinate $\Phi$ and momentum $Q$ in Eq.~\ref{H_LC_Lagrangian}.
+\begin{equation}
+    H = \frac{\hat{Q}^2}{2C} + \frac{\hat{\Phi}^2}{2L}
+\end{equation}
+We recognize this as the Hamiltonian of a harmonic oscillator in the charge and flux coordinates.
+Thus the device inherits the properties of a harmonic oscillator.
+% The mechanical "mass on a spring" harmonic oscillator Hamiltonian is written
+% qeqn{H_{SHO} = \frac{
+The operators representing the conjugate variables obey the commutation relation
+\qeqn{ \left[ \hat{\Phi}, \hat{Q} \right] = i \hbar}
+Additionally, we get the familiar ladder of energy levels.
+\qeqn{E_n = \hbar \omega_0 \left( n + \frac{1}{2} \right) }
+
+We can also express the annihiliation and creation operators in terms of the charge and flux operators:
+\qeqn{ \hat{a} = \frac{1}{\sqrt{2 \hslash Z_0} } \left( \hat{\Phi} + i \hat{Q} / Z_0 \right)}
+and
+\qeqn{ \hat{a}^\dagger = \frac{1}{\sqrt{2 \hslash Z_0} } \left( \hat{\Phi} - i \hat{Q} / Z_0 \right)}
+where we have introduced the characteristic impedance
+\qeqn{Z_0 = \sqrt{\frac{L}{C}} }
+
+The Hamiltonian is often expressed in terms of the annihilation and creation operators:
+\qeqn{ H = \hbar \omega_0 \left( \hat{a}^\dagger \hat{a} + \frac{1}{2} \right) = \hbar \omega_0 \left( \hat{n} + \frac{1}{2} \right) }
+
+\noindent
+The use of the number operator $\hat{n} = \hat{a}^\dagger \hat{a}$ makes it clear that the eigenstates of the system are Fock states corresponding to the number
+of photonic excitations in the oscillator.
+The equal spacing of the energy levels makes the linear harmonic oscillator unusable as a qubit because we cannot address a target transition.
+This challenge is resolved by introducing nonlinearity into the circuit by incorporating a Josephson inductance.  This is described in the following sections.
+
+It is convenient to write $H$ in terms of the number of charges on the island $\hat{n}$ and \rd{the phase across the inductor $\hat{\phi}$}.
+
+\qeqn{ \hat{n} = \frac{\hat{Q}}{2 e} }
+
+\qeqn{ \hat{\phi} = \frac{2 \pi \hat{\Phi}}{\Phi_0} }
+where $e$ is the electronic charge and we have introduced the magnetic flux quantum
+\qeqn{ \Phi_0 = \frac{h}{2 e} }
+
+\noindent
+We define the charging energy as
+\qeqn{ E_c = \frac{e^2}{2 C} }
+and the inductive energy
+\qeqn{E_L = \frac{ \Phi_0^2 }{4 \pi^2 L} }
+In these coordinates
+\qeqn{H = 4 E_c \hat{n}^2 + \frac{1}{2} E_l \hat{\phi}^2 \label{H_lc_n_phi}}
+
+\draftcomment{
+\rd{
+For our dynamics we use time independent Hamiltonians.
+So we can use:
+\begin{equation}
+    \ket{\psi(t)} = e^{-i H t / \hbar}
+\end{equation}
+
+The LC oscillator is the electric analog to the simple harmonic oscillator.
+Whereas in the mass on a spring simple harmonic oscillator energy oscillates between kinetic and potential, in the LC oscillator energy oscilates between the electric and magnetic fields.
+
+The energy on the capacitor is $E_c = 1/2 C V^2$, and the inductor has an energy of $E = 1/2 L I^2$
+}
+} % end draftcomment
+
+\section{Josephson Junction}
+\quickfig{6 in}{./PDF/JJ_image_190908_634p.pdf}{a) A Josephson Junction b) The circuit symbol for a Josephson Junction}{jj_image}
+The Josephson Junction provides us with a lossless, nonlinear inductance.\cite{Josephson1962}
+The Josephson Junction consists of two superconducting electrodes separated by a thin insulating barrier.
+This is illustrated in Fig.~\ref{jj_image}.
+\draftcomment{We follow a derivation due to Van Duzer, cite Josephson
+% TODO Give derivation of Josephson effect.}
+% Figure
+In 1962 Brian Josephson derived the following relations for (TODO: Cooper pair tunneling accross the junction)
+Nobel 1973
+}% end draftcomment
+The Josephson relations for the current through the junction $I_j$ and the voltage across the junction $V$ to the phase:
+\qeqn{I_j = I_c \sin \delta }
+and
+\qeqn{V = \frac{\phi_0}{2\pi}\frac{d\delta}{dt} }
+from these we can compute the Josephson inductance
+\qeqn{ V = L\frac{dI}{dt} \implies L_j = \frac{\phi_0}{2 \pi I_c \cos \delta} }
+
+Since the L is L(I), the inductance is nonlinear.
+
+The parameter $I_c$ is known as the critical current, which is related to the normal resistance of the junction via the
+Ambegaokar - Baratoff Relation \cite{Ambegaokar1963}
+\qeqn{I_c R_n = \frac{\pi \Delta}{2 e} \text{tanh} \left( \frac{\Delta}{2 k_b T} \right)}
+
+The junction is an inductive element that stores energy in the magnetic field.  We do work against the junction to increase its energy.
+As the junction is dissipationless, work done against the junction is stored as energy within it.
+We can compute this energy from the current, voltage Josephson relations above.
+\qeqn{-\frac{dU}{dt} = I V = \left( I_c \sin \phi(t) \right) \left( \frac{\hbar}{2 e}\frac{d\phi}{dt} \right) }
+\qeqn{- \int dU = I_c \frac{\hbar}{2 e} \int \sin \phi d\phi }
+\qeqn{U = E_J \cos \phi, E_J = I_c \frac{ \hbar }{2e} \label{jj_energy}}
+
+We can configure two Josephson junctions in parallel to form a DC squid.
+This device behaves as a Josephson junction with a critical current that is tunable with magnetic flux.
+The effective critical current of the DC squid is \cite{vanDuzer1999}
+\qeqn{
+I_{c}(\Phi_{ext}) = 2 I_c \abs{ \cos{ \frac{ \pi \Phi_{ext} }{\Phi_0} } }
+}
+The tunability of the SQUID inductance forms the basis for frequency tunable superconducting qubits
+and coupling circuits that provide an adjustable interaction strength between the qubits.
+
+\section{Transmon superconducting qubits}
+
+The transmon is a Josephson junction with a large shunting capacitance which \verify{exponentially} surpresses charge noise at the cost of anharmonicity\cite{Koch2007}.
+In 2011 a 3D version of the transmon was developed at Yale and demonstrated remarkable coherence properties.\cite{Paik2011}
+This is due to the fact that the geometry of the device made it possible to store most of the most of the qubit mode energy in the lossless vacuum.
+Challenges of this 3d implementation are that they are too large to scale easily, cannot be microfabricated,
+and it is difficult to retain the coherence properties when coupling two or more of these devices together.
+% TODO image of transmon qubit. Maybe image of 3d transmon qubit. Probably need to request permission
+In 2013 planar variant of the transmon was introduced.\cite{Barends2013}
+Future iterations saw the device incorporate tunable inter-qubit coupling (gmon).\cite{Chen2014}
+
+The transmon is a slightly anharmonic oscillator.
+The anharmonicity results from replacing the linear inductor of the LC oscillator with a Josephson junction,
+which provides a nonlinear inductance as described in the previous section.
+
+\subsection{Hamiltonian of the transmon}
+We can obtain the transmon Hamiltonian by substituting the Josephson junction energy from Eq.~\ref{jj_energy} into the LC oscillator Hamiltonian
+Eq.~\ref{H_lc_n_phi} in place of the linear inductor energy.
+
+\qeqn{H = 4 E_c \hat{n}^2 - E_j \cos{\hat{\phi}} \label{H_transmon} }
+\inprogress{
+A key point here is that increasing the capacitance decreases the charging energy.
+Thus by forming the oscillator with a large capacitor the device is less sensitive to fluctuations in the charge.
+} % end inprogress
+
+\inprogress{
+In order to operate the oscillator as a qubit, it is essential to make the energy levels anharmonic so that rotations may be driven between specified levels on demand.
+The means by which we do this is to replace the linear inductance of our oscillator with a Josephson junction, which behaves like a nonlinear inductor.
+
+The consequence of this nonlinearity is that when we make our harmonic oscillator the energy levels are no longer evenly spaced.
+This has at least two important consequences.
+1) For uncoupled qubits, we can address the 0-1 transition without exciting the 1-2 transition.
+2) When performing a multi-qubit analog algorithm (many qubits at the same time).
+The nonlinearity gives an interaction term in the Bose-Hubbard Hamiltonian.
+This interaction term is essential in breaking integrability (making the dynamics computationally complex) and leads to the many-body effects that we observe in the last chapter.
+}% end inprogress
+
+\subsection{Nonlinearity of the transmon}
+As suggested by Koch, the transmon can be thought of as a charged mechanical rotor in magnetic and gravitational fields.
+In the transmon limit where Ej/Ec >> 1, the gravitational energy dominates, keeping the reduced flux angle $\varphi$ small.
+This justifies a perturbation expansion in $\varphi$ about $\varphi=0$.
+With this expansion the potential energy is
+\qeqn{U = - Ej + Ej \varphi^2 / 2 - Ej \varphi^4 / 24}
+Th quartic term is responsible for the nonlinearity to leading order.
+
+\rd{Koch makes a gauge transformation to eliminate ng after which the Hamiltonian is claimed to be
+\qeqn{ H = \sqrt{8 EcEj}(b^\dagger b +1/2)a - Ej - Ec/12(b+b^\dagger)^4 }
+}
+
+Here the $b,b^\dagger$ are the standard harmonic oscillator operators.
+From perturbation theory, the first order correction to the energies for level n coming from the quartic term is is
+\qeqn{\delta E_n =\bra{n} \delta_H \ket{n} =  Ec / 12 \bra{n}|(b + b^\dagger)^4|\ket{n}}
+\qeqn{ \bra{n} | b^2 {b^{\dagger}}^2 + b^\dagger b b^\dagger b + b^\dagger b b b^\dagger + b b^\dagger b^\dagger b + b b^\dagger b b^\dagger + {b^{\dagger}}^2 b^2 | \ket{n}}
+\qeqn{ \delta E_n = Ec / 12 \left( 6n^2 + 6n + 3 \right) }
+
+Note that the anharmonicity decreases as we decrease the charging energy by increasing the capacitance.
+This design choice is to trade away nonlinearity to gain charge noise insensitivity.
+
+\section{Coupled resonators}
+The advantages of quantum computing stem from the exponential scaling of Hilbert space dimension as we combine quantum systems.
+Useful quantum circuits, therefore, must provide a means for multiple qubits to interact.
+For superconducting qubits the coupling mechanism may be either capacitive or inductive in nature.
+In this section we show how these coupling mechanisms lead to a hopping term in the Hamiltonian.
+
+%\FloatBarrier
+\subsection{Capacitive coupling}
+
+The circuit diagram for two capacitively coupled oscillators is shown in Fig.\,~\ref{lco_cap_coupled}
+\quickfig{3 in}{./PDF/lco_cap_coupled.pdf}{Two capacitively coupled LC oscillators}{lco_cap_coupled}
+Maintaining the convention of associating the node fluxes $\Phi$ with potential energy and the node charges $Q$ with kinetic energy,
+we can immediately write down the Lagrangian for the capacitively coupled system.
+
+\qeqn{ \mathcal{L} = \mathcal{T} - \mathcal{U} =
+\left[
+\frac{1}{2} C_1 \dot{\Phi}^2_1 +
+\frac{1}{2} C_2 \dot{\Phi}^2_2 +
+\frac{1}{2} C_c \left( \dot{\Phi_1} - \dot{\Phi_2} \right)^2
+\right] -
+\left[ \frac{1}{2 L_1} \Phi_1^2 + \frac{1}{2 L_2}\Phi_2^2
+\right]
+}
+Which can be written as
+\qeqn{
+\mathcal{L} =
+\frac{1}{2} \bm{\dot{\Phi}}^T \bm{C} \bm{\dot{\Phi}} -
+\frac{1}{2} \bm{\Phi}^T \bm{L}^{-1} \bm{\Phi}
+}
+\noindent
+Where
+\qeqn{
+\bm{\Phi} =
+\begin{bmatrix}
+    \Phi_1 \\
+    \Phi_2
+\end{bmatrix}
+\text{,}\,
+\bm{C} =
+\begin{bmatrix}
+    C_1 + C_c & -C_c \\
+    -C_c      &  C_2 + C_c \\
+\end{bmatrix}
+\text{, and}\,
+\bm{L} =
+\begin{bmatrix}
+    L_1 & 0 \\
+    0             &  L_2 \\
+\end{bmatrix}
+}
+
+We find the conjugate momenta by differentiating the Lagrangian:
+\qeqn{ Q_1 = \frac{ \partial \mathcal{L} }{\partial \dot{\Phi_1} } = C_1 \dot{\Phi_1} + C_c(\dot{\Phi_1}-\dot{\Phi_2})}
+\qeqn{ Q_2 = \frac{ \partial \mathcal{L} }{\partial \dot{\Phi_2} } = C_2 \dot{\Phi_2} + C_c(\dot{\Phi_2}-\dot{\Phi_1})}
+
+We can solve for the $\dot{\Phi}$ in terms of the $Q_i$ by writing the above expressions as a matrix equation.
+
+\qeqn{
+\begin{bmatrix}
+Q_1 \\
+Q_2 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+ C_1 + C_c & -C_c \\
+-C_c      &  C_2 + C_c \\
+\end{bmatrix}
+\begin{bmatrix}
+\dot{\Phi_1}\\
+\dot{\Phi_2}
+\end{bmatrix}
+}
+or
+\qeqn{ Q = C \dot{\Phi} }
+We can invert this expression to get the $\dot{\Phi_1}$ and $\dot{\Phi_2}$ in terms of the
+cannonical momenta of the coupled system.
+\qeqn{
+\begin{bmatrix}
+    \dot{\Phi_1}\\
+    \dot{\Phi_2}
+\end{bmatrix}
+=
+\mathbf{C}^{-1} \mathbf{Q}
+=
+\frac{1}{ (C_1 + C_c)(C_2 + C_c) - C_c^2 }
+\begin{bmatrix}
+    C_2 + C_c & C_c \\
+    C_c      &  C_1 + C_c \\
+\end{bmatrix}
+\begin{bmatrix}
+    Q_1 \\
+    Q_2 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+    C^{-1}_{11} & C^{-1}_{12} \\[2.0ex]
+    C^{-1}_{21} & C^{-1}_{22} \\[2.0ex]
+\end{bmatrix}
+\\
+\begin{bmatrix}
+    Q_1 \\
+    Q_2 \\
+\end{bmatrix}
+\label{Phidot_in_terms_of_Q}
+}
+
+\inprogress{
+We can write the Lagrangian in terms of the $Q_i$.
+Since:
+\qeqn{Q = C \dot{\Phi} \implies \dot{\Phi} = C^{-1} Q }
+and
+\qeqn{\dot{\Phi}^T = \left( C^{-1} Q \right)^T \implies \dot{\Phi}^T = Q^T {C^{-1}}^T  \implies \dot{\Phi}^T = Q^T C^{-1} }
+Now we can write the lagrangian in terms of the node fluxes and the conjugate charges.
+\qeqn{
+\mathcal{L} = \frac{1}{2} Q^T C^{-1} Q - \frac{1}{2} \Phi^T L^{-1} \Phi
+\label{Lagrangian_Phi_Q}
+}
+} % end inprogress
+which is explicitly written as
+\qeqnarray{
+\mathcal{L} &=&
+\half
+\begin{bmatrix}
+    Q_1 & Q_2 \\
+\end{bmatrix}
+\begin{bmatrix}
+    C^{-1}_{11} & C^{-1}_{12} \\[2.0ex]
+    C^{-1}_{21} & C^{-1}_{22} \\[2.0ex]
+\end{bmatrix}
+\begin{bmatrix}
+    Q_1 \\
+    Q_2 \\
+\end{bmatrix}
+-
+\half
+\begin{bmatrix}
+    \Phi_1 & \Phi_2 \\
+\end{bmatrix}
+\begin{bmatrix}
+    \frac{1}{L_1} & 0 \\
+    0 & \frac{1}{L_2} \\
+\end{bmatrix}
+\begin{bmatrix}
+    \Phi_1 \\
+    \Phi_2 \\
+\end{bmatrix}
+\\
+&=& \half \left[ C^{-1}_{11} Q_1^2 + C^{-1}_{12} Q_1 Q_2 + C^{-1}_{21} Q_1 Q_2 + C^{-1}_{22} Q_2^2 \right] -
+\left[ \frac{1}{2 L_1} \Phi_1^2 + \frac{1}{2 L_2}\Phi_2^2 \right]
+\label{lagrangian_Phi_Q_explicit}
+}
+
+The Hamiltonian is
+\qeqn{H = \sum_i \dot{x}_i \frac{\partial \mathcal{L}}{\partial \dot{x}_i} - \mathcal{L} =
+\sum_i \dot{x}_i p_i - \mathcal{L} = \sum_i \dot{\Phi}_i Q_i - \mathcal{L}
+\label{Hamiltonian_general_Phidot_Q}
+}
+We can compute the sum by \ref{Phidot_in_terms_of_Q} and \ref{Lagrangian_Phi_Q} into \ref{Hamiltonian_general_Phidot_Q}
+
+\inprogress{
+\qeqn{
+\dot{\Phi_1} Q_1 + \dot{\Phi_2} Q_2 =
+(C^{-1}_{11} Q_1  + C^{-1}_{12} Q_2) Q_1 +
+(C^{-1}_{21} Q_1  + C^{-1}_{22} Q_2) Q_2
+}
+} % end inprogress
+So that
+\qeqn{
+H =
+\half \left[ C^{-1}_{11} Q_1^2 + 2*C^{-1}_{12} Q_1 Q_2 + C^{-1}_{22} Q_2^2 \right] +
+\left[ \frac{1}{2 L_1} \Phi_1^2 + \frac{1}{2 L_2}\Phi_2^2 \right]
+} % end qeqn
+This Hamiltonian resembles a harmonic oscillator Hamiltonian with increased effective capacitances with the addition of a charge - charge interaction.
+The third term $2*C^{-1}_{12} Q_1 Q_2$ is the charge - charge interaction that permits excitations to transfer (swap)
+between qubits.
+Using the Harmonic oscillator relations above $Q = -i Q0 (a - a^\dagger)$ so that
+\qeqn{
+Q_1 Q_2 = - Q0_1 Q0_2 (a_1 - a^\dagger_1)(a_2 - a^\dagger_2) =
+- Q0_1 Q0_2 (a_1 a_2 + a^\dagger_1  a^\dagger_2 - a_1 a_2^\dagger - a_2 a_1^\dagger)
+}
+The non photon conserving terms eliminated by the rotating wave approximation since they oscillate rapidly, quickly averaging to zero.\verify{rwacitation}
+\qeqn{Q_1 Q_2 \sim (a_1 a_2^\dagger + a_2 a_1^\dagger)}
+Written in this way it is clear that the capacitive charge - charge coupling mediates a swapping interaction.
+
+\draftcomment{
+This is all probably redundant now.
+\rd{
+\qeqn{
+H = \sum_i \dot{\Phi}_i Q_i - \mathcal{L} = \frac{2 e^2}{C_1} n_1^2 + \frac{2 e^2}{C_2} n_2^2 + \frac{2 e^2}{C_c} n_1 n_2 +
+\frac{\Phi^2_1}{2 L_1} + \frac{\Phi^2_2}{2 L_2}
+} % end qeqn
+where $C_1^{\prime} = C_1 + \frac{C_2  C_c}{C_2 + C_c}$, $C_2^{\prime} = C_2 + \frac{C_1  C_c}{C_1 + C_c}$ and $C_c = $
+} % end rd
+
+\rd{
+This Hamiltonian resembles a harmonic oscillator Hamiltonian with increased effective capacitances which can be thought of as
+the capacitance to ground of each node.
+The third term $\frac{2 e^2}{C_c} n_1 n_2$ is the charge - charge interaction that permits excitations to transfer (swap)
+between qubits.
+
+Using the Harmonic oscillator relations above $Q = -i Q0 (a - a^\dagger)$ so that
+\qeqn{
+Q_1 Q_2 = - Q0_1 Q0_2 (a_1 - a^\dagger_1)(a_2 - a^\dagger_2) =
+- Q0_1 Q0_2 (a_1 a_2 + a^\dagger_1  a^\dagger_2 - a_1 a_2^\dagger - a_2 a_1^\dagger)
+}
+The non photon conserving terms eliminated by the rotating wave approximation since they oscillate rapidly, quickly averaging to zero.\cite{rwacitation}
+In the qubit subspace $(a - a^\dagger) = \sigma^y$
+} %end rd
+} %end draftcomment
+
+\subsection{Inductive coupling}
+The gmon circuit considered in this work features fixed capacitive coupling as described above in combination with a tunable inductive coupling.
+\quickfig{3 in}{./PDF/lco_ind_coupled.pdf}{Two inductively coupled LC oscillators}{lco_ind_coupled}
+Fig.~\ref{lco_ind_coupled} shows the case of two inductively coupled oscillators.
+In this case we expect to generate a flux - flux interaction term in the Hamiltonian.
+
+By the definition of mutual inductance we have
+\qeqn{\Phi_1 = L_1 I_1 + M I_2}
+\qeqn{\Phi_2 = L_2 I_2 + M I_1}
+
+Which can be written as a matrix equation
+\qeqn{
+\begin{bmatrix}
+\Phi_1 \\
+\Phi_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+    L_1 & M \\
+    M & L_2
+\end{bmatrix}
+\begin{bmatrix}
+    I_1 \\
+    I_2
+\end{bmatrix}
+}
+
+Which implies
+\qeqn{
+I = L^{-1} \Phi = \frac{1}{L_1 L_2 - M^2}
+\begin{bmatrix}
+L_2 & -M \\
+-M  & L_1
+\end{bmatrix}
+\begin{bmatrix}
+    \Phi_{1} \\
+    \Phi_{2}
+\end{bmatrix}
+=
+\begin{bmatrix}
+    L^{-1}_{11} & L^{-1}_{12} \\[2.0ex]
+    L^{-1}_{21} & L^{-1}_{22} \\[2.0ex]
+\end{bmatrix}
+\begin{bmatrix}
+    \Phi_{1} \\
+    \Phi_{2}
+\end{bmatrix}
+}
+
+The energy in the inductors is
+\qeqn{E_{inductor} = \half \mathbf{I}^T \mathbf{L} \mathbf{I} = \half \Phi^T L^{-1} \Phi}
+Which we write in terms of the flux variable.
+
+The energy in the capacitors is the same as in the uncoupled case:
+
+\qeqn{E_{capacitor} = \half{} C_1 \dot{\Phi_1}^2 + \half{} C_2 \dot{\Phi_2}^2}% = \half \frac{Q_1^2}{C_1} + \half \frac{Q_2^2}{C_2}}
+
+The full Lagrangian is
+\qeqn{
+\mathcal{L} =
+\left[\half{} C_1 \dot{\Phi_1}^2 + \half{} C_2 \dot{\Phi_2}^2 \right] -
+\left[L^{-1}_{11} \Phi^2_1 + L^{-1}_{12} \Phi_1 \Phi_2 + L^{-1}_{21} \Phi_1 \Phi_2 + L^{-1}_{22} \Phi_2^2 \right]
+}
+
+The conjugate momenta are
+\qeqn{ Q_1 = \frac{ \partial \mathcal{L} }{\partial \dot{\Phi_1} } = C_1 \dot{\Phi_1} }
+\qeqn{ Q_2 = \frac{ \partial \mathcal{L} }{\partial \dot{\Phi_2} } = C_2 \dot{\Phi_2} }
+
+And finally the Hamiltonian is
+\qeqn{ H = \sum_i \dot{\Phi}_i Q_i - \mathcal{L} =
+\frac{Q_1^2}{2 C_1} + \frac{Q_2^2}{2 C_2} +
+L^{-1}_{11} \Phi^2_1 + 2 * L^{-1}_{12} \Phi_1 \Phi_2 + L^{-1}_{22} \Phi_2^2
+}
+
+This is again the Hamiltonian for a harmonic oscillator, but this time with a flux - flux coupling term $2 * L^{-1}_{12} \Phi_1 \Phi_2$
+Since \verify{$\Phi = 2 \sqrt{2 \hslash Z_0}(a^{\dagger} + a)$} and involking the RWA again, we find
+\qeqn{\Phi_1 \Phi_2 \sim (a_1 a_2^\dagger + a_2 a_1^\dagger)}
+so that the flux - flux coupling also generates a hopping term in the Hamiltonian.
+
+\section{Composite Hamiltonian.}
+\quickfig{6 in}{./PDF/fs1_190916_1029a.pdf}{
+a) An optical micrograph of a gmon device.
+b) Circuit schematic for 3 qubit subsection of the gmon.
+c) The resulting Bose-Hubbard Hamiltonian that describes the gmon dynamics.
+}{gmon_schematic}
+
+More complex devices, such as the gmon circuit employed in Chapter~\ref{ch:MBL}, can be understood by combining the concepts in the preceding sections.
+
+
+\draftcomment{
+\org{\subsection{XY control}
+Show how capacitive coupling results in the ability to do single qubit rotations.}
+\gn{In order to use the device as a qubit we must be able to perform rotations between the levels of the device.
+The standard way to do this is by coupling them together via the charge operator.
+TODO:  Insert figure with the circuit diagram showing a SEM with the uwave drive line labeled.}
+\org{\subsection{Sigma Z}
+Show how detuning generates sigma z, this should be easy since the charge and flux operators combine to give n
+The harmonic oscillator Hamiltonian $\hbar \omega \left( a^\dagger a + 1/2 \right)$
+generates phase accumulation of the $\ket{1}$ with respect to the $\ket{0}$ state.
+Using our bloch sphere convention, where $\ket{0}$ is at the North pole $\sigma{z} = 1 - 2 a^\dagger a$.
+}
+
+\org{\subsection{Dispersive shift from readout resonator}
+How does coupling to the readout resonator give a dispersive shift?  Why sigma z?}
+\org{\subsection{Dispersive readout}
+Why does the readout resonator frequency shift with photon number?}
+\rd{Now the more complicated gmon physics}
+\org{\subsection{How does changing the copuler bias change sigma z?}
+Why does the readout resonator frequency shift with photon number?}
+\org{\subsection{How does capacitive coupling give hopping}
+Why does the readout resonator frequency shift with photon number?}
+\org{\subsection{How does "mode" coupling give a hopping term?}
+What is mode coupling?}
+\org{\subsection{Inductive coupling}
+How does mutual inductance coupling give a hopping term?}
+\org{\subsection{Inductive tail}
+How does the inductive tail change the qubit frequency, anharmonicity, mode structure?}
+
+\section{coherence}
+The major shortcoming of the quantum bit is that they are inherently unstable.
+This instability can be subdivided into relaxation (T1) and dephasing (T2).
+\begin{itemize}
+    \item Let's show a swap spectroscopy in here.
+    \item Maybe also a Ramsey fringe.
+\end{itemize}
+
+\section{additional topics}
+this section will probably just be deleted but perhaps I can comment on some of these areas if there is time.
+
+\subsection{gmon}
+The gmon is a variant of the transmon that features tunable inter-qubit coupling.
+In order to implement this, rather than directly grounding the junctions we place a long inductive wire in series with them.
+
+TODO derive Bose-Hubbard from circuit model.
+% \subsection{more_basic_physics}
+% - Rotating wave approximation
+% - How do we drive a pi pulse
+% - How do we do readout
+\subsubsection{Modelling the gmon}
+asdf
+%The derivations in this section closely follow those found in \verfiy{Cite Charles paper, charles thesis}.
+
+\subsection{gates vs analog}
+
+\begin{itemize}
+    \item Analog is challenging because requires so much clean frequency space.
+\end{itemize}
+
+}% end draftcomment

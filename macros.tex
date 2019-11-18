@@ -10,6 +10,12 @@
 %\renewcommand{\Im}{\textrm{Im}}
 % Figures. Example usage:
 % \quickfig{\columnwidth}{my_image}{This is the caption}{fig:my_fig}
+
+
+
+
+
+
 \DeclareRobustCommand{\quickfig}[4]{
 \begin{figure}
     \begin{centering}
@@ -35,6 +41,12 @@
 \begin{equation}
     #1
 \end{equation}
+}
+
+\DeclareRobustCommand{\qeqnarray}[1]{
+\begin{eqnarray}
+    #1
+\end{eqnarray}
 }
 
 % From MBL work
@@ -88,3 +100,8 @@
 %\setlength{\columnwidth}{225 pt}
 %\setlength{\columnsep}{20 pt}
 %\small
+
+
+\newcommand{\expect}[1]{\langle#1\rangle}
+\newcommand{\half}{\frac{1}{2}}
+

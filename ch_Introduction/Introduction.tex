@@ -1,31 +1,114 @@
-\chapter{Introduction to quantum computing}
-\section{what is a qubit}
+\chapter{Introduction}\label{ch:introduction}
+%\section{Quantum information overview and motivation}
+\section{Historical context}
 
+In 1926 Erwin Schr\"odinger proposed a wave theory governing the dynamics of microscopic systems.\cite{Schrodinger1926}
+In the succeedng years, quantum mechanics would prove to be extraordinarily accurate in predicting the subtle and surprising behavior of electrons, photons, and atoms alike.
+Despite the success of the theory,
+the resulting equations developed a reputation for being unmanagable with only the simplest cases being exactly solvable.
+For this reason, approximation schemes have been an essential part of quantum physics since the early days.  %Since the early days of quantum mechanics approximation schemes have been essential to progress.
+With the developement of computers,
+numerical methods have become among the most important of these approximation schemes when applying quantum theory to real physical systems.
+The challenge is that for all but the simplest systems the computational resources required are immense.
+
+For this reason, people have long considered how to efficiently simulate quantum systems using computers.
+In 1982, in a lecture that could be considered the birth of quantum simulation,
+Richard Feynman suggested that quantum systems could be efficiently simulatable using quantum computational resources.\cite{Feynman1982}
+\draftcomment{
+This is the first and most obvious motivation for developing a quantum computer,
+though the vigorous development of quantum information theory has provided many others.\cite{MikeandIke, Shor, Grover}
+In principle, any quantum mechanical system could serve as the basis for a quantum computer.
+Numerous teams have demonstrated great progress toward that goal using such physical systems as trapped ions,
+defect spins, neutral atoms, among others.
+} % end draftcomment
+An insight that arose not long after Feynman's was that the relevance of quantum mechanics is not limited to microscopic objects.
+John Martinis observed that macroscopic electrical circuits can also behave quantum mechanically and thus form the basis of a superconducting quantum processor.\cite{Martinis1985}
+The superconducting quantum bit (qubit), a controllable, macroscopic two level system was demonstrated in 1999. \cite{Nakamura1999}
+
+Since that demonstration superconducting qubit architectures have continuously both improved qubit performance and increased the number of qubits in a processor.
+This progress culminated in the achievement of quantum supremacy in 2019,
+when a superconducting quantum processor performed a well defined computational task that is not possible to perform on a modern classical supercomputer.\cite{Arute2019}
+This achievement heralds the onset of an era in which quantum resources can meaningfully contribute to computational tasks considered intractable on classical hardware alone.
+It is likely that many of the early contributions of quantum computers will be to understanding the behavior of quantum systems,
+as was originally envisioned by Feynman.
+In that spirit,
+the final chapter of this thesis uses a quantum processor as a programmable quantum simulator to probe the entanglement dynamics of a many-body localized system.
+%The original design known as the Cooper-pair box
+
+\indraftprogress{
+In 2007 the transmon circuit was proposed as a device that should have better coherence. \cite{Koch2007}
+\indraftprogress{This was demonstrated on 2011\cite{Paik2011}}
+A planar version of the transmon circuit, compatible with modern microprocessing techniques and suitable for scaling to many-qubit systems was demonstrated not long after.\cite{Barends2013}
+The following year a variant on the transmon featuring a tunable inter-qubit strength was developed.\cite{Chen2014}
+This circuit is the basis for the processor that we use to probe many-body localization in the last chapter of this thesis.
+The latest milestone in the developement of superconducting qubits is the achievement of quantum supremacy.\cite{Arute2019}
+We have now demonstrated a decisive quantum computational advantage over a classical supercomputer,
+which heralds the onset of an era in which quantum resources can meaningfully contribute to tasks considered intractable to classical hardware alone.
+} % end indraftprogress
+\draftcomment{Origins of quantum mechanics?  Not sure if to include this but \cite{Einstein photo electric, Shrodinger1926, Heisenberg, von Neumann, Born}
+Circuits behave quantum mechanically, macroscopic quantum tunneling \cite{MartinisThesis}
+Demonstration of a superconducting qubit \cite{Nakamura1999}, could \cite{Martinis Rabi}
+Josephson Junction \cite{Josephson1962}
+Development of the transmon \cite{Koch2007}
+Demonstration of 3d transmon \cite{Paik2011}
+Quantum information \cite{Mike and Ike}
+Algorithms \cite{Shor, Grover, ...}
+Planar transmon \cite{Barends2013}
+Gmon \cite{Chen2014}
+Quantum suppremacy \cite{Arute2019}
+}
+
+\section{What is a qubit and why is it powerful?}
 Whereas one classical bit of information can be represented as either 0 or 1, the state of a single ideal qubit can be represented as a vector pointing to the surface of a sphere.
 This sphere is referred to as the Bloch sphere, and provides excellent physical intuition for the behavior of a qubit.
 % TODO Graphic of Bloch sphere
-\quickwidefig{\columnwidth}{./PDF/sch_bloch_sphere_190902_1237p.pdf}
-{
+\quickwidefig{0.8\columnwidth}{./PDF/sch_bloch_sphere_190902_1237p.pdf}
+{\textbf{Bloch sphere representation of the single qubit density matrix}.
+The states $\ket{\psi} = \cos \left( \frac{\theta}{2} \right) \ket{0} + e^{i \phi} \sin \left( \frac{\theta}{2} \right)\ket{1}$ for
+$\theta \in [0, \pi]$ and $\phi \in [0, 2 \pi]$ are on the surface of the Bloch sphere.
+The ground state $\ket{0}$ and excited state $\ket{1}$ are located at the North and South poles.
 }
-{}
-$\psi = \cos \left( \frac{\theta}{2} \right) \ket{0} + \sin \left( \frac{\theta}{2} \right)\ket{1} $
+{SchemBlochSphere}
 
+The points at the North and South poles of the Block sphere correspond to the logical $\ket{0}$ and $\ket{1}$.
 The points away from the poles have amplitude in both the $\ket{0}$ state and the $\ket{1}$ state and are said to be "in superposition".
-The Bloch Sphere is in fact the graphic representation of the single qubit density matrix.
-Points on the surface of the sphere correspond to pure states, and points within the sphere correspond to mixed states.
+The Bloch sphere is in fact the graphic representation of the single qubit Hilbert space.
+The Bloch vector is a vector pointing from the center of the sphere and represents the single qubit density matrix.
+The Bloch vector is commonly decomposed as
+\qeqn{ \rho = \frac{1}{2} \left( I + \vec{a} \cdot \vec{\sigma} \right) }
+where $a$ = $[\sigma^x, \sigma^y, \sigma^z]$ is a vector of Pauli matrices and $a  = \left[\expect{\sigma^x}, \expect{\sigma^y}, \expect{\sigma^z} \right]$ is a vector of their expectation values.
 
-Already at the single qubit level it is evident that using quantum bits provides a means for higher density information encoding than is possible with classical bits.
-The story is even more compelling when we combine multiple qubits together
-If two qubits a and b are each in a superposition state on the equator of the Bloch sphere:
+Points on the surface of the sphere correspond to pure states and can be written in the form:
+\qeqn{ \hat{\rho} = \ket{\psi} \bra{\psi} }
+
+Points on the inside of the sphere correspond with mixed states and can be written as:
+\qeqn{  \sum_i p_i \ket{\psi_i} \bra{\psi_i} }
+
+The distinction between these two types of states is best thought of in terms of von Neumann entropy
+\qeqn{S_{vN} = - \text{Tr} \, \rho \, \text{log} \, \rho}
+
+The von Neumann entropy quantifies the degree of entanglement with all external degrees of freedom.
+Pure states are those that have zero von Neumann entropy indicating a lack of entanglement with their environment,
+while mixed states of $N$ have up to  $N$ log 2.
+
+The ability to encode superposition and mixed states in a single quantum bit suggests that quantum bits provide a means for higher density information encoding than is possible with their classical counterparts.
+However, the true power of a quantum processor comes from the way that multiple qubits combine.
+For a system of qubits each in a pure state, the state of the composite system is described by the tensor product of the constituent wave vectors.
+For example, if two qubits a and b are each in a superposition state on the equator of the Bloch sphere:
 $\ket{\psi_a} = \frac{\ket{0}+\ket{1}}{\sqrt{2}}$ and $\ket{\psi_b} = \frac{\ket{0}+\ket{1}}{\sqrt{2}}$
-then the state fo the full a,b system is
+then the state of the full a,b system is
 $\ket{\psi_{ab}} = \ket{\psi_a} \otimes \ket{\psi_b} = \frac{1}{2} \left( \ket{00} + \ket{01} + \ket{10} + \ket{11} \right)$.
-Whereas a two bit classical processor can represent one of the states $\ket{00}$, $\ket{01}$, $\ket{10}$, or $\ket{11}$, the quantum processor is able to represent them all simultaineously.
+The fact that quantum systems combine in this way leads directly to the exponential scaling of the power of a quantum processor.
+
+Whereas a two bit classical processor can represent one of the states $\ket{00}$, $\ket{01}$, $\ket{10}$, or $\ket{11}$,
+the quantum processor is able to represent them all simultaineously,
+each with a relative amplitude and phase!
 In fact, the capacity of the quantum register is scaling exponentially in the number of qubits in contrast to the classical processor which is scaling linearly.
 Roughly speaking, If you want to double the capacity of the classical processor you would need to double the number of classical bits.
 In contrast, if you wish to double the capacity of the quantum processor you only need to add one more qubit.
+The advantages of the quantum computer over it's classical counterpart arise from the ability to store and process exponentially more information in an intrinsically parallel way.
 
-Thus the advantages of the quantum computer over it's classical counterpart arise from the ability to store and process information in an intrinsically parallel way.
+\indraftprogress{
 \section{applications}
 While it is true that not every computational problem can take advantage of quantum resources, there are several cases where a quantum speedup has been proven to exist.
 
@@ -34,7 +117,8 @@ Shor's algorithm for factoring large numbers has been proven to give an exponent
 Grover's algorithm for search has only a polynomial speedup.
 
 Other promsing areas of research rely on the efficiency of using the quantum computer to efficiently solve problems in quantum dynamics.
-Optimization problems of such as the "Travelling salesman" are an example of this.  Since these problems can be mapped to finding the groundstate of an Ising spin lattice,
+Optimization problems of such as the "Travelling salesman" are an example of this.
+Since these problems can be mapped to finding the groundstate of an Ising spin lattice,
 we can expect to realize a quantum speedup by simply producing our desired Ising lattice and allowing the system to decay to it's ground state and simply measuring this state.
 
 In this thesis we take a very direct approach.
@@ -42,7 +126,7 @@ Directly computing quantum dynamics is a computationally hard problem.
 In order to make a brute force solution to a quantum dynamics problem, you need to time evolve the wave function under a Hamiltonian.
 
 % TODO write the schrodinger equation
-The Exponentation of a matrix with linear dimension is scaling exponentially in the number of qubits, is intractible for even a few tens of qubits.
+The Exponentiation of a matrix with linear dimension is scaling exponentially in the number of qubits, is intractible for even a few tens of qubits.
 
 % Table Hilbert space size for N 2-level, and 3-level systems ... Maybe fixed photon etc. (Classical memory required)
 This is essentially what Feynman had in mind when he proposed using quantum resources to simulate quantum systems.
@@ -52,7 +136,7 @@ This is because, as discussed above, the Hilbert space of the system is growing 
 Classical methods rely on matrix exponentiation / exact diagonalization.
 Additionally, there are several.
 
-\section{Implementations of analog}
+\subsection{Implementations of analog}
 In principle any controllable and well isolated quantum system can be used as a platform for quantum computation.
 Indeed, early processors have been demonstrated in a variety of formats.
 
@@ -61,265 +145,37 @@ Indeed, early processors have been demonstrated in a variety of formats.
 - Lukin (Rydberg)
 - Cold atoms for quantum simulation
 - Superconducting qubits
+} %end indraftprogress
 
 \section{Challenges}
-Although there is great promise in quantum computing there are challenges that must be overcome before one can be realized.
+Although there is great promise in quantum computing, there are challenges that must be overcome before a quantum computer can be realized.
 Foremost among these challenges is that the information in a quantum computer is unstable.
-The errors arising from this instability can be roughly categorized into two main categories: relaxation and dephasing.
+The errors arising from this instability can be roughly categorized into two main categories: relaxation and dephasing.  These are illustrated in Fig.~\ref{schem relaxation dephasing}
 
 % TODO Add data for T1 and dephasing (p1 vs time, rho vs time for Ramsey experiments)
 \quickwidefig{\columnwidth}{./PDF/sch_relaxation_dephasing_190902_1238p.pdf}
 {
-a) Schematic of energy relaxation.  Over time the excited state of the qubit $\ket{1}$ tends to decay to the ground state $\ket{0}$ causing a logical error.
-b) Schematic of dephasing dephasing.  Over time uncertainty in the phase between the $\ket{1}$ and $\ket{0}$ states grows.
+a) Schematic of relaxation.  Over time the excited state of the qubit $\ket{1}$ tends to decay to the ground state $\ket{0}$ causing a logical error.
+b) Schematic of dephasing.  Over time uncertainty in the phase between the $\ket{1}$ and $\ket{0}$ states grows.
 }
-{}
+{schem relaxation dephasing}
 
+\draftcomment{
 In our effort to construct a quantum computer out of superconducting qubits measuring and mitigating these error mechanisms is a primary research direction.
-This is done by a variety of means.
 In this thesis we explore several aspects of this coherence engineering before demonstrating before providing an algorithm demonstration that where we
 use a supreconducting qubit system to address a modern question in condensed matter physics: Entanglement growth in the Manybody-localized phase.
 Material science (Chapter 3)
 Device design and fabrication (Chapter 4)
 Dephasing metrology (chapter 5)
-
-\section{gates vs analog}
-
-\chapter{Introduction to superconducting qubits}
-In this chapter we introduce the fundamental elements of superconducting circuits and summarize the basic theory that determines their dynamics.
-
-The derivations in this section follow closely those found in:
-Cite Jimmy's thesis, Dan's thesis, van Duzer, John's writeup.  Charles thesis, Koch transmon, Will Oliver's engineering handbook.
-For completeness, we reproduce the essential results needed to describe the experiments in this thesis.
-
-\section{Resonator}
-The linear resonator is a simple, critical element of many superconducting circuits.
-A common way to implement this device is to terminate a length of transmission line with a short circuit to the surounding ground plane.
-This is
-
-- It is valuable as a diagnostic tool for coherence engineering.
-It suffers from many of the same loss mechanisms as qubit devices, but is much simpler to fabricate.
-These loss mechanisms include dielectric loss, magnetic vortex loss, and quasiparticle loss.
-It's simplicity means that the resonator can be iterated rapidly.
-good tool to dissect problems, (fab complications not conflated with actual physics)
-\quickwidefig{\columnwidth}{./PDF/resonator_qubit_proxy.pdf}{
-a) an Xmon transmon qubit,
-b) The capacitive end of a $\lambda/4$ resonator.
-c) The full CPW resonator structure.
-}{}
-
-- Purcell filter
-
-- Readout resonators
-dispersive readout relies critically on the readout resonator.
-
-- Bus resonators.
-Some groups also use the linear resonator to mediate inter-qubit coupling.
-
-\subsection{Basic Physics}
-A workhorse of our lab is the quarter wave CPW transmission line resonator.
-
-It has a propagation velocity on chip of
-\qeqn{\nu = \frac{1}{\sqrt{LC}} } where the L and C are the inductance and capacitance per unit length.
-
-The CPW resonator is a simple electrical LC oscillator.
-The C is given by the capacitance to ground per unit length.
-TODO:  Equation from Gao or Rami
-The L has two contributions
-(1) geometric inductance.  is given by the inductance to ground per unit length.
-(2) kinetic (surface) inductance
-TODO:  Equation from Gao or Rami
-TODO:  Equation from Gao or Rami
-TODO:  Insert derivation of lambda/4 from frequency 1/sqrt(lc) ...
-TODO:  Quantization in the charge / flux basis
-
-\section{Josephson Junction}
-
-The Josephson Junction provides us with a lossless, nonlinear, tunable inductance.
-
-The Josephson Junction consists of two superconducting electrodes separated by a thin insulating barrier.
-\verify{We follow a derivation due to Van Duzer, cite Josephson}
-% TODO Give derivation of Josephson effect.
-\quickfig{6 in}{./PDF/JJ_image_190908_634p.pdf}{a) A Josephson Junction b) The circuit symbol for a Josephson Junction}{jj_image}
-% Figure
-In (year) Brian Josephson derived the following relations for (TODO: Cooper pair tunneling accross the junction)
-Nobel 1973
-The Josephson relations for the current through the junction $I_j$ and the voltage across the junction $V$ to the phase:
-\qeqn{I_j = I_c \sin \delta }
-and
-\qeqn{V = \frac{\phi_0}{2\pi}\frac{d\delta}{dt} }
-from these we can compute the Josephson inductance
-\qeqn{ V = L\frac{dI}{dt} \implies L_j = \frac{\phi_0}{2 \pi I_c \cos \delta} }
-
-Since the L is L(I), the inductance is nonlinear.
-
-The junction is an inductive element that stores energy in the magnetic field.  We do work against the junction to increase its energy.
-As the junction is dissipationless, work done against the junction is stored as energy within it.
-We can compute this energy from the current, voltage Josephson relations above.
-\qeqn{-\frac{dU}{dt} = I V = \left( I_c \sin \phi(t) \right) \left( \frac{\hbar}{2 e}\frac{d\phi}{dt} \right) }
-\qeqn{- \int dU = I_c \frac{\hbar}{2 e} \int \sin \phi d\phi }
-\qeqn{U = E_J \cos \phi, E_J = I_c \frac{ \hbar }{2e} }
-
-We can configure two Josephson junctions in parallel to form a DC squid.
-This device behaves as a tunable nonlinear inductor.
-%TODO DC SQUID equations
-
-The DC squid is a device with two Josephson junctions in a loop. This behaves as a single junction with a critical current that is tunable with magnetic flux.
-The effective critical current of the DC squid is
-\rd{\qeqn{I_{c}(\Phi_{ext}) = 2 I_c \abs{\cos{\frac{\pi \Phi_{ext}}{\phi_0}}}}, Tinkham or really anyone}
-where $\phi_0$ is again the flux quantum.
-
-The consequence of this nonlinearity is that when we make our harmonic oscillator the energy levels are no longer evenly spaced.
-This has at least two important consequences.
-1) For uncoupled qubits, we can address the 0-1 transition without exciting the 1-2 transition.
-2) When performing a multi-qubit analog algorithm (many qubits at the same time).
-The nonlinearity gives an interaction term in the Bose-Hubbard Hamiltonian.
-This interaction term is essential in breaking integrability (making the dynamics computationally complex) and leads to the many-body effects that we observe in the last chapter.
-
-\section{Transmon}
-The transmon is a Josephson junction with a large shunting capacitance.
-The large capacitance makes \verify{exponentially} surpresses charge noise.
-Cite the original transmon paper. Koch.
-The original transmons were made in 3d style at Yale.  These devices have demonstrated remarkable coherence properties.
-This makes sense because they are in the extreme limit where TLS surface loss is very small because most of the qubit mode energy is in the lossless vacuum.
-Challenges of this 3d implementation are that they are too large to scale easily,
-cannot be microfabricated,
-and it is difficult to retain the coherence properties when coupling two or more of these devices together.
-% TODO image of transmon qubit. Maybe image of 3d transmon qubit. Probably need to request permission
-In \verify{year, cite Julian and Rami} the UCSB team introduced a planar variant of the transmon.
-Future iterations saw the device incorporate tunable inter-qubit coupling (gmon).
-
-\subsection{Hamiltonian}
-Here we derive the Hamiltonian and energy spectrum for the transmon.  Later we will show how this is modified for the gmon.
-
-\section{gmon}
-The gmon is a variant of the transmon that features tunable inter-qubit coupling.
-In order to implement this, rather than directly grounding the junctions we place a long inductive wire in series with them.
-
-
-
-
-
-
-
-TODO derive Bose-Hubbard from circuit model.
-% \subsection{more_basic_physics}
-% - Rotating wave approximation
-% - How do we drive a pi pulse
-% - How do we do readout
-\subsection{Modelling the gmon}
-asdf
-%The derivations in this section closely follow those found in \verfiy{Cite Charles paper, charles thesis}.
-
-\section{coherence}
-The major shortcoming of the quantum bit is that they are inherently unstable.
-This instability can be subdivided into relaxation (T1) and dephasing (T2).
-\begin{itemize}
-    \item Let's show a swap spectroscopy in here.
-    \item Maybe also a Ramsey fringe.
-\end{itemize}
-\quickfig{1 in}{./PDF/LCO.pdf}{This is a simple LC oscillator (resonator)}{LCO}
-
-\section{quantum dynamics}
-The dynamics of our device are described by the Schrodinger equation.
-%\begin{equation}
-    %i \hbar \frac{d}{dt} \ket{\psi(t)} = H \ket{\psi}
-%\end{equation}
-%For our dynamics we use time independent Hamiltonians.
-%So we can use:
-%\begin{equation}
-%\ket{\psi(t)} = e^{-i H t / \hbar}
-%\end{equation}
-
-\section{Hamiltonians}
-\subsection{Linear Resonator}
-
-The LC oscillator is the electric analog to the simple harmonic oscillator.
-Whereas in the mass on a spring simple harmonic oscillator energy oscillates between potential and kinetic, in the LC oscillator energy oscilates between the electric and magnetic fields.
-
-The energy on the capacitor is $E_c = 1/2 C V^2$, and the inductor has an energy of $E = 1/2 L I^2$
-
-The Hamiltonian for and electrical LC oscillator can be written in terms of the charge and flux operators $\hat{Q} and \hat{\Phi}$:
-\begin{equation}
-    H = \frac{Q^2}{2C} + \frac{\Phi^2}{2L}
-\end{equation}
-We recognize this as the Hamiltonian of a harmonic oscillator in the charge and flux coordinates.
-Thus the device inherits the properties of a harmonic oscillator.
-
-The operators representing the conjugate variables obey the commutation relation
-\qeqn{ \left[ \hat{\Phi}, \hat{Q} \right] = i \hbar}
-Additionally, we get the familiar ladder of energy levels.
-\qeqn{E_n = \hbar \omega_0 \left( n + \frac{1}{2} \right) }
-
-We can also express the standard annihiliation and creation operators in terms of the charge and flux operators:
-\qeqn{ \hat{a} = }
-and
-\qeqn{ \hat{a^\dagger} = }
-
-Expressing the Hamiltonian in terms of the annihilation and creation operators:
-\qeqn{ H = \hbar \omega_0 \left( \hat{a^\dagger} \hat{a} + \frac{1}{2} \right) = \hbar \omega_0 \left( \hat{n} + \frac{1}{2} \right) }
-
-Where we have introduced the number operator $\hat{n} = \hat{a^\dagger} \hat{a}$ making it clear that the eigenstates of the system are Fock states corresponding to the number
-of photonic excitations in the oscillator.
-
-\subsection{Transmon}
-The transmon is a slightly anharmonic oscillator.
-The anharmonicity results from replacing the linear inductor of the LC oscillator with a Josephson junction, which provides a nonlinear inductance as described above.
-In order to operate the oscillator as a qubit it is essential to make the energy levels anharmonic so that rotations may be driven between specified levels on demand.
-The means by which we do this is to replace the linear inductance of our oscillator with a Josephson junction, which behaves like a nonlinear inductor.
-
-Having computed the Josephson energy above, we can modify our oscillator's Hamiltonian as follows:
-\qeqn{ \text{Transnsmon Hamiltonian} }
-
-As suggested in the original transmon paper \rd{cite koch}, the transmon can be thought of in magnetic and gravitational fields.
-In the limit where Ej/Ec >> 1, the gravitational energy dominates, keeping the reduced flux angle varphi small.
-For small varphi we can perform a perturbation expansion in varphi about varphi=0.
-With this expansion the potential energy is
-\qeqn{ \rd{U = - Ej + Ej varphi^2 / 2 - Ej varphi^4 / 24}}
-\rd{Koch makes a gauge transformation to eliminate ng after which the Hamiltonian is claimed to be
-\qeqn{ H = \sqrt{8 EcEj}(b^\dagger b +1/2)a - Ej - Ec/12(b+b^\dagger)^4 }
-Here the $b,b^\dagger$ are the standard harmonic oscillator operators.
-From perturbation theory then, the first order correction to the energies for level n is
-\qeqn{ Ec / 12 \bra{n}|(b + b^\dagger)^4|\ket{n} = }
-\qeqn{ \bra{n} | b^2 {b^{\dagger}}^2 + b^\dagger b b^\dagger b + b^\dagger b b b^\dagger + b b^\dagger b^\dagger b + b b^\dagger b b^\dagger + {b^{\dagger}}^2 b^2 | \ket{n}}
-\qeqn{ = 6n^2 +6n +3 }
 }
 
-\gn{In the next parts I show how the Hamiltonian is modified in cases}
-This is basically a todo list for this the next couple of days.
-
-\org{\subsection{XY control}
-Show how capacitive coupling results in the ability to do single qubit rotations.}
-\gn{In order to use the device as a qubit we must be able to perform rotations between the levels of the device.
-The standard way to do this is by coupling them together via the charge operator.
-TODO:  Insert figure with the circuit diagram showing a SEM with the uwave drive line labeled.}
-\org{\subsection{Sigma Z}
-Show how detuning generates sigma z, this should be easy since the charge and flux operators combine to give n
-The harmonic oscillator Hamiltonian $\hbar \omega \left( a^\dagger a + 1/2 \right)$
-generates phase accumulation of the $\ket{1}$ with respect to the $\ket{0}$ state.
-Using our bloch sphere convention, where $\ket{0}$ is at the North pole $\sigma{z} = 1 - 2 a^\dagger a$.
-}
-
-\org{\subsection{Dispersive shift from readout resonator}
-How does coupling to the readout resonator give a dispersive shift?  Why sigma z?}
-\org{\subsection{Dispersive readout}
-Why does the readout resonator frequency shift with photon number?}
-\rd{Now the more complicated gmon physics}
-\org{\subsection{How does changing the copuler bias change sigma z?}
-Why does the readout resonator frequency shift with photon number?}
-\org{\subsection{How does capacitive coupling give hopping}
-Why does the readout resonator frequency shift with photon number?}
-\org{\subsection{How does "mode" coupling give a hopping term?}
-What is mode coupling?}
-\org{\subsection{Inductive coupling}
-How does mutual inductance coupling give a hopping term?}
-\org{\subsection{Inductive tail}
-How does the inductive tail change the qubit frequency, anharmonicity, mode structure?}
-
-
-
-\section{additional topics}
-this section will probably just be deleted but perhaps I can comment on some of these areas if there is time.
-\begin{itemize}
-    \item Analog is challenging because requires so much clean frequency space.
-\end{itemize}
+In this thesis we share contributions to the development of a superconducting quantum processor
+and demonstrate the use one as a programable quantum simulator as we use it to probe the phenomenon of Many-body localization.
+In chapter 2, we summarize the essential theory to understand the experiments in the later chapters.
+In chapter 3, we contribute to the basic materials used to construct a quantum processor by investigating Titanium Nitride,
+a high kinetic inductance compound superconductor, excellent coherence properties if made correctly.
+In chapter 4, we contribute a device characterization where we isolate the excess dielectric loss due to the incorporation of flux trapping hole arrays.
+These flux traps are commonly used to protect from magnetic vortex loss, but may introduce excess dielectric loss.
+This is an important consideration as we strive for the longest coherence times posiible.
+Finally, in chapter 5, we contribute a system level algorithm demonstration where we use a $9$ qubit, nearest-neighbor coupled,
+linear chain device, featuring tunable qubit frequencies and tunable interqubit coupling to compute the entanglement dynamics of an interacting, localized system.

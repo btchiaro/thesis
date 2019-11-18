@@ -19,6 +19,1596 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{Schrodinger1926}{article}{}
+      \name{author}{1}{}{%
+        {{hash=86b3e1b87463065d6da6ca558e6541b3}{%
+           family={Schrödinger},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{86b3e1b87463065d6da6ca558e6541b3}
+      \strng{fullhash}{86b3e1b87463065d6da6ca558e6541b3}
+      \strng{bibnamehash}{86b3e1b87463065d6da6ca558e6541b3}
+      \strng{authorbibnamehash}{86b3e1b87463065d6da6ca558e6541b3}
+      \strng{authornamehash}{86b3e1b87463065d6da6ca558e6541b3}
+      \strng{authorfullhash}{86b3e1b87463065d6da6ca558e6541b3}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{12}
+      \field{title}{An Undulatory Theory of the Mechanics of Atoms and Molecules}
+      \field{volume}{28}
+      \field{year}{1926}
+      \field{pages}{1049\bibrangedash 1070}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1103/PhysRev.28.1049
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.28.1049
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.28.1049
+      \endverb
+    \endentry
+    \entry{Feynman1982}{article}{}
+      \name{author}{1}{}{%
+        {{hash=aac54ccf9c76aa4ba4310ed1334be7d8}{%
+           family={Feynman},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{fullhash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{bibnamehash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{authorbibnamehash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{authornamehash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{authorfullhash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1572-9575}
+      \field{journaltitle}{International Journal of Theoretical Physics}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Simulating physics with computers}
+      \field{volume}{21}
+      \field{year}{1982}
+      \field{pages}{467\bibrangedash 488}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/BF02650179
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF02650179
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF02650179
+      \endverb
+    \endentry
+    \entry{Martinis1985}{article}{}
+      \name{author}{3}{}{%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e8058e5558aad1aa312d8e4b39163aad}{%
+           family={Devoret},
+           familyi={D\bibinitperiod},
+           given={Michel\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=dc84cabc5b9484d22f1299e0b8eb6cdb}{%
+           family={Clarke},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f959223c27127fcba7d9460797e42505}
+      \strng{fullhash}{84e845bea71d755fdc480fc332b5aa20}
+      \strng{bibnamehash}{84e845bea71d755fdc480fc332b5aa20}
+      \strng{authorbibnamehash}{84e845bea71d755fdc480fc332b5aa20}
+      \strng{authornamehash}{f959223c27127fcba7d9460797e42505}
+      \strng{authorfullhash}{84e845bea71d755fdc480fc332b5aa20}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{15}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{10}
+      \field{title}{Energy-Level Quantization in the Zero-Voltage State of a Current-Biased Josephson Junction}
+      \field{volume}{55}
+      \field{year}{1985}
+      \field{pages}{1543\bibrangedash 1546}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.55.1543
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.55.1543
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.55.1543
+      \endverb
+    \endentry
+    \entry{Nakamura1999}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3261d68d2879cf714db71fcba9b8713b}{%
+           family={Nakamura},
+           familyi={N\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ede9807f7ab2dc73b0a231aad906d38d}{%
+           family={Pashkin},
+           familyi={P\bibinitperiod},
+           given={Yu.\bibnamedelimi A.},
+           giveni={Y\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=133bfff36d58667692dfbe7c0ef40937}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb40f7e94bfe3737c52743c4d3157674}
+      \strng{fullhash}{a04e145bfacae438c2567b560fdff714}
+      \strng{bibnamehash}{a04e145bfacae438c2567b560fdff714}
+      \strng{authorbibnamehash}{a04e145bfacae438c2567b560fdff714}
+      \strng{authornamehash}{fb40f7e94bfe3737c52743c4d3157674}
+      \strng{authorfullhash}{a04e145bfacae438c2567b560fdff714}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A nanometre-scale superconducting electrode connected to a reservoir via a Josephson junction constitutes an artificial two-level electronic system: a single-Cooper-pair box. The two levels consist of charge states (differing by 2e, where e is the electronic charge) that are coupled by tunnelling of Cooper pairs through the junction. Although the two-level system is macroscopic, containing a large number of electrons, the two charge states can be coherently superposed1,2,3,4. The Cooper-pair box has therefore been suggested5,6,7 as a candidate for a quantum bit or `qubit'---the basic component of a quantum computer. Here we report the observation of quantum oscillations in a single-Cooper-pair box. By applying a short voltage pulse via a gate electrode, we can control the coherent quantum state evolution: the pulse modifies the energies of the two charge states non-adiabatically, bringing them into resonance. The resulting state---a superposition of the two charge states---is detected by a tunnelling current through a probe junction. Our results demonstrate electrical coherent control of a qubit in a solid-state electronic device.}
+      \field{isbn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{number}{6730}
+      \field{title}{Coherent control of macroscopic quantum states in a single-Cooper-pair box}
+      \field{volume}{398}
+      \field{year}{1999}
+      \field{pages}{786\bibrangedash 788}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1038/19718
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/19718
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/19718
+      \endverb
+    \endentry
+    \entry{Arute2019}{article}{}
+      \name{author}{77}{}{%
+        {{hash=a0b41f4400dc855d7426a5f72cadaa6c}{%
+           family={Arute},
+           familyi={A\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0a2abe43325e0dd3690ccc47bfa6c6b7}{%
+           family={Arya},
+           familyi={A\bibinitperiod},
+           given={Kunal},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7bb1dcf8a93d1ecc6f9531ece93ef1fa}{%
+           family={Babbush},
+           familyi={B\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5ef37e7fe45a9ff23c761910726d5e4b}{%
+           family={Bacon},
+           familyi={B\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d831c1d824f8a4e2a69f6495b8fdc91b}{%
+           family={Bardin},
+           familyi={B\bibinitperiod},
+           given={Joseph\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=659b693e073fa93a83924447ea805d77}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={Rami},
+           giveni={R\bibinitperiod}}}%
+        {{hash=44196321323dfc67fdaa85c495168130}{%
+           family={Biswas},
+           familyi={B\bibinitperiod},
+           given={Rupak},
+           giveni={R\bibinitperiod}}}%
+        {{hash=915e31fc5958183d06275c3c3e811123}{%
+           family={Boixo},
+           familyi={B\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cfb6bdb1d0b7056322d56e3f4fad93a8}{%
+           family={Brandao},
+           familyi={B\bibinitperiod},
+           given={Fernando\bibnamedelimb G.\bibnamedelimi S.\bibnamedelimi L.},
+           giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=11aed4b55c11ca1030deddd80f15b620}{%
+           family={Buell},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fac8774f4c39c4cc9371a032e53c0fb6}{%
+           family={Burkett},
+           familyi={B\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1fac7e902845b1c2d0fd9ae4a0d00cc7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zijun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9cba836ac52ec45b3536ecac1ca0c4c4}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f16002805dc7f9d96346bda6700be931}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cf7e5385acaf82df7a53cd34a54e21e2}{%
+           family={Courtney},
+           familyi={C\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=ecea25363fad364a9f4a37613078f227}{%
+           family={Dunsworth},
+           familyi={D\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5e61ee12360fc49d9013fbf8fe18db89}{%
+           family={Farhi},
+           familyi={F\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f27112cd6eb82fab2bc9d0542c995ea9}{%
+           family={Foxen},
+           familyi={F\bibinitperiod},
+           given={Brooks},
+           giveni={B\bibinitperiod}}}%
+        {{hash=aa6e65cd6932f53db466e337a1cb6760}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Austin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0101a428978c8ddc038880b7a77afd98}{%
+           family={Gidney},
+           familyi={G\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ad64cecce98f1d14ae82dabfcaf7db86}{%
+           family={Giustina},
+           familyi={G\bibinitperiod},
+           given={Marissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8f816bc12e277c2a230aaab32148cef6}{%
+           family={Graff},
+           familyi={G\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ffd6b1344764207fb5b1cedb2b502a25}{%
+           family={Guerin},
+           familyi={G\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ac01d23b67bf69493082451323481b4c}{%
+           family={Habegger},
+           familyi={H\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fdafe36c75ea60b5e9310e5a98907464}{%
+           family={Harrigan},
+           familyi={H\bibinitperiod},
+           given={Matthew\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=d7ea6046bc62277e6e2c5fe7d61e78df}{%
+           family={Hartmann},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7a9ef4b5db5d57071194cc11995a6499}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5f670721dca24ae1337011719914a64c}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=33dfa81b00ac11936ef381208950305d}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Trent},
+           giveni={T\bibinitperiod}}}%
+        {{hash=963b22ba5e47cd073c7fc1a754ab2a55}{%
+           family={Humble},
+           familyi={H\bibinitperiod},
+           given={Travis\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5b1bc1fc6c73555d5af1db48cdbef9af}{%
+           family={Isakov},
+           familyi={I\bibinitperiod},
+           given={Sergei\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=9900c4e96164131afb8af307845df9b8}{%
+           family={Jeffrey},
+           familyi={J\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=67db50e40049bac70a6d264e681d86de}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Zhang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d2351f128f45cc307e110f1bf030fa0d}{%
+           family={Kafri},
+           familyi={K\bibinitperiod},
+           given={Dvir},
+           giveni={D\bibinitperiod}}}%
+        {{hash=399f6f0649872eb96c7b5d2253ac1654}{%
+           family={Kechedzhi},
+           familyi={K\bibinitperiod},
+           given={Kostyantyn},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6a2991ec48fc939b711eac2466cbcc68}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cbc1620351ea65d57c28a39c84b1ac30}{%
+           family={Klimov},
+           familyi={K\bibinitperiod},
+           given={Paul\bibnamedelima V.},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=84fa8eaf8054b75340e704427e2e7414}{%
+           family={Knysh},
+           familyi={K\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2290dc7590a4c730593624b7a1fdc40f}{%
+           family={Korotkov},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a7bde64895d0208e927e79c2755b9a83}{%
+           family={Kostritsa},
+           familyi={K\bibinitperiod},
+           given={Fedor},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0106e3d3d8629adc0639fb0388e51a73}{%
+           family={Landhuis},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1660c9b8c16952a4ec028c87eef3abc7}{%
+           family={Lindmark},
+           familyi={L\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1ca86a6dfd219877ce431f01a165a869}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=22d2522f63c4d1770eed3debd45fd8fa}{%
+           family={Lyakh},
+           familyi={L\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3f2ddf64c1ea271a8a2634bbbb68d254}{%
+           family={Mandr{à}},
+           familyi={M\bibinitperiod},
+           given={Salvatore},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a253ddc1c4c24cde70238bd45dc9aeff}{%
+           family={McClean},
+           familyi={M\bibinitperiod},
+           given={Jarrod\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7336ef3ca1b8bfadc8b89b8c7c59577b}{%
+           family={McEwen},
+           familyi={M\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1c6ec14427d690fa73b3021943d5439b}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9b445b45607e1e8e0672105779ea626b}{%
+           family={Mi},
+           familyi={M\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2338ed7a6906bd7cfdac98c5e56e45b6}{%
+           family={Michielsen},
+           familyi={M\bibinitperiod},
+           given={Kristel},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3660f6bf9d4821aa4c362d0abd316e4f}{%
+           family={Mohseni},
+           familyi={M\bibinitperiod},
+           given={Masoud},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5f06874711ade5e9c75656666220f803}{%
+           family={Mutus},
+           familyi={M\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4bda703a11fed621732b26896f391e85}{%
+           family={Naaman},
+           familyi={N\bibinitperiod},
+           given={Ofer},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6bcda02c5188bf25bad1475b8f30cecd}{%
+           family={Neeley},
+           familyi={N\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7e6d8fe85e636af42fba1f9d583e70e9}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ed18aa264c8650c491f53d6dc4118292}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Murphy\bibnamedelima Yuezhen},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=2d89c5708f0f2aa0a4f4358d53bfc901}{%
+           family={Ostby},
+           familyi={O\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b3e0589d3dfc4ccb2c20d9bae908ad5c}{%
+           family={Petukhov},
+           familyi={P\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b18cccf0f11300769fc4b01f5fe5f13a}{%
+           family={Platt},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d7e98df2b678f196d4696b116fb5edb6}{%
+           family={Quintana},
+           familyi={Q\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8ebda72545842e8ca358df12fd00edc6}{%
+           family={Rieffel},
+           familyi={R\bibinitperiod},
+           given={Eleanor\bibnamedelima G.},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ab67b0d3986106680d464532f25dc939}{%
+           family={Roushan},
+           familyi={R\bibinitperiod},
+           given={Pedram},
+           giveni={P\bibinitperiod}}}%
+        {{hash=79a0c3f2d2ac6a6e26b1e6e488c3b198}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Nicholas\bibnamedelima C.},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9c196f976101682c061efc0614f70fa6}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=640413903b4eab5258544e70c464cf91}{%
+           family={Satzinger},
+           familyi={S\bibinitperiod},
+           given={Kevin\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=087a4bb34bd0827f9235dede4eff2970}{%
+           family={Smelyanskiy},
+           familyi={S\bibinitperiod},
+           given={Vadim},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a912a72b8de08532c080010f87041bda}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Kevin\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=edb9b45c05af268e690b431177e285bb}{%
+           family={Trevithick},
+           familyi={T\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8c9c62d63da654e3e637727ef0ada9e9}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b483aa193391113d1234b6ae181e0dca}{%
+           family={Villalonga},
+           familyi={V\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=da61f207bd110c14a1e7e8fe213f33eb}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Theodore},
+           giveni={T\bibinitperiod}}}%
+        {{hash=473d08a31ed9fbf52d5baf436b7a809a}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Z.\bibnamedelimi Jamie},
+           giveni={Z\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e94b0ed312e1e2edcfe8a1b6bd1749d8}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e6df2c969e6e639ddd23909ad813034d}{%
+           family={Zalcman},
+           familyi={Z\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ddcc46c5456340da59be4077c7102a27}{%
+           family={Neven},
+           familyi={N\bibinitperiod},
+           given={Hartmut},
+           giveni={H\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5ee69b81bc21fd247bbaf0f432158b6}
+      \strng{fullhash}{9ed5ca9a711651574caed94b21c9e439}
+      \strng{bibnamehash}{b5ee69b81bc21fd247bbaf0f432158b6}
+      \strng{authorbibnamehash}{b5ee69b81bc21fd247bbaf0f432158b6}
+      \strng{authornamehash}{b5ee69b81bc21fd247bbaf0f432158b6}
+      \strng{authorfullhash}{9ed5ca9a711651574caed94b21c9e439}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The promise of quantum computers is that certain computational tasks might be executed exponentially faster on a quantum processor than on a classical processor1. A fundamental challenge is to build a high-fidelity processor capable of running quantum algorithms in an exponentially large computational space. Here we report the use of a processor with programmable superconducting qubits2--7 to create quantum states on 53 qubits, corresponding to a computational state-space of dimension 253 (about 1016). Measurements from repeated experiments sample the resulting probability distribution, which we verify using classical simulations. Our Sycamore processor takes about 200 seconds to sample one instance of a quantum circuit a million times---our benchmarks currently indicate that the equivalent task for a state-of-the-art classical supercomputer would take approximately 10,000 years. This dramatic increase in speed compared to all known classical algorithms is an experimental realization of quantum supremacy8--14 for this specific computational task, heralding a much-anticipated computing paradigm.}
+      \field{isbn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{number}{7779}
+      \field{title}{Quantum supremacy using a programmable superconducting processor}
+      \field{volume}{574}
+      \field{year}{2019}
+      \field{pages}{505\bibrangedash 510}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/s41586-019-1666-5
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41586-019-1666-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41586-019-1666-5
+      \endverb
+    \endentry
+    \entry{Pozar}{book}{}
+      \name{author}{1}{}{%
+        {{hash=df64b226e3f18eccce6db4f081edf21f}{%
+           family={Pozar},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hoboken , NJ, USA}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Inc.}%
+      }
+      \strng{namehash}{df64b226e3f18eccce6db4f081edf21f}
+      \strng{fullhash}{df64b226e3f18eccce6db4f081edf21f}
+      \strng{bibnamehash}{df64b226e3f18eccce6db4f081edf21f}
+      \strng{authorbibnamehash}{df64b226e3f18eccce6db4f081edf21f}
+      \strng{authornamehash}{df64b226e3f18eccce6db4f081edf21f}
+      \strng{authorfullhash}{df64b226e3f18eccce6db4f081edf21f}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-47144878-8}
+      \field{title}{Microwave Enginneering 3rd edition}
+      \field{year}{2005}
+    \endentry
+    \entry{GaoThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=f6a53c9969577587f5acdc92df740bf4}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jiansong},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {California Institute of Technology}%
+      }
+      \list{location}{1}{%
+        {Pasadena, CA}%
+      }
+      \strng{namehash}{f6a53c9969577587f5acdc92df740bf4}
+      \strng{fullhash}{f6a53c9969577587f5acdc92df740bf4}
+      \strng{bibnamehash}{f6a53c9969577587f5acdc92df740bf4}
+      \strng{authorbibnamehash}{f6a53c9969577587f5acdc92df740bf4}
+      \strng{authornamehash}{f6a53c9969577587f5acdc92df740bf4}
+      \strng{authorfullhash}{f6a53c9969577587f5acdc92df740bf4}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Physics of Superconducting Microwave Resonators}
+      \field{type}{phdthesis}
+      \field{year}{2008}
+    \endentry
+    \entry{RamiThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=659b693e073fa93a83924447ea805d77}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={Rami},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {TU Delft}%
+      }
+      \list{location}{1}{%
+        {Leiden, The Netherlands}%
+      }
+      \strng{namehash}{659b693e073fa93a83924447ea805d77}
+      \strng{fullhash}{659b693e073fa93a83924447ea805d77}
+      \strng{bibnamehash}{659b693e073fa93a83924447ea805d77}
+      \strng{authorbibnamehash}{659b693e073fa93a83924447ea805d77}
+      \strng{authornamehash}{659b693e073fa93a83924447ea805d77}
+      \strng{authorfullhash}{659b693e073fa93a83924447ea805d77}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Photon-detecting superconducting resonators}
+      \field{type}{phdthesis}
+      \field{year}{2009}
+    \endentry
+    \entry{MazinThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=a3ce16d31a29818f7e233fa79a337c84}{%
+           family={Mazin},
+           familyi={M\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {California Institute of Technology}%
+      }
+      \list{location}{1}{%
+        {Pasadena, CA}%
+      }
+      \strng{namehash}{a3ce16d31a29818f7e233fa79a337c84}
+      \strng{fullhash}{a3ce16d31a29818f7e233fa79a337c84}
+      \strng{bibnamehash}{a3ce16d31a29818f7e233fa79a337c84}
+      \strng{authorbibnamehash}{a3ce16d31a29818f7e233fa79a337c84}
+      \strng{authornamehash}{a3ce16d31a29818f7e233fa79a337c84}
+      \strng{authorfullhash}{a3ce16d31a29818f7e233fa79a337c84}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Microwave Kinetic Inductance Detectors}
+      \field{type}{phdthesis}
+      \field{year}{2004}
+    \endentry
+    \entry{DanThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=9c196f976101682c061efc0614f70fa6}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UC - Santa Barbara}%
+      }
+      \list{location}{1}{%
+        {Santa Barbara, CA}%
+      }
+      \strng{namehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{fullhash}{9c196f976101682c061efc0614f70fa6}
+      \strng{bibnamehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{authorbibnamehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{authornamehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{authorfullhash}{9c196f976101682c061efc0614f70fa6}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fast, Accurate State Measurement in Superconducting Qubits}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+    \endentry
+    \entry{JimmyThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=1fac7e902845b1c2d0fd9ae4a0d00cc7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zijun},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UC - Santa Barbara}%
+      }
+      \list{location}{1}{%
+        {Santa Barbara, CA}%
+      }
+      \strng{namehash}{1fac7e902845b1c2d0fd9ae4a0d00cc7}
+      \strng{fullhash}{1fac7e902845b1c2d0fd9ae4a0d00cc7}
+      \strng{bibnamehash}{1fac7e902845b1c2d0fd9ae4a0d00cc7}
+      \strng{authorbibnamehash}{1fac7e902845b1c2d0fd9ae4a0d00cc7}
+      \strng{authornamehash}{1fac7e902845b1c2d0fd9ae4a0d00cc7}
+      \strng{authorfullhash}{1fac7e902845b1c2d0fd9ae4a0d00cc7}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Metrology of Quantum Control and Measurement in Superconducting Qubits}
+      \field{type}{phdthesis}
+      \field{year}{2018}
+    \endentry
+    \entry{CharlesThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=7e6d8fe85e636af42fba1f9d583e70e9}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UC - Santa Barbara}%
+      }
+      \list{location}{1}{%
+        {Santa Barbara, CA}%
+      }
+      \strng{namehash}{7e6d8fe85e636af42fba1f9d583e70e9}
+      \strng{fullhash}{7e6d8fe85e636af42fba1f9d583e70e9}
+      \strng{bibnamehash}{7e6d8fe85e636af42fba1f9d583e70e9}
+      \strng{authorbibnamehash}{7e6d8fe85e636af42fba1f9d583e70e9}
+      \strng{authornamehash}{7e6d8fe85e636af42fba1f9d583e70e9}
+      \strng{authorfullhash}{7e6d8fe85e636af42fba1f9d583e70e9}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A path towards quantum supremacy with superconducting qubits}
+      \field{type}{phdthesis}
+      \field{year}{2017}
+    \endentry
+    \entry{vanDuzer1999}{book}{}
+      \name{author}{2}{}{%
+        {{hash=0571a5f51e322f4a0eeb6cb744598e08}{%
+           family={Duzer},
+           familyi={D\bibinitperiod},
+           given={Ted\bibnamedelima Van},
+           giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=caa588ffed576eb079a5a50884a09a70}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Charles\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, NJ, USA}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall PTR}%
+      }
+      \strng{namehash}{ad11495273af532f6b2ba746543c4ffc}
+      \strng{fullhash}{ad11495273af532f6b2ba746543c4ffc}
+      \strng{bibnamehash}{ad11495273af532f6b2ba746543c4ffc}
+      \strng{authorbibnamehash}{ad11495273af532f6b2ba746543c4ffc}
+      \strng{authornamehash}{ad11495273af532f6b2ba746543c4ffc}
+      \strng{authorfullhash}{ad11495273af532f6b2ba746543c4ffc}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-13-262742-6}
+      \field{title}{Principles of Superconductive Devices and Circuits, (Second Ed.)}
+      \field{year}{1999}
+    \endentry
+    \entry{Koch2007}{article}{}
+      \name{author}{10}{}{%
+        {{hash=1cfcd1c2a3fa4e4001bd362f97541505}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7614ba93925e3947b2f4dde793e3d193}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Terri\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=dd07d6ee7739fa90b725f435718d629b}{%
+           family={Gambetta},
+           familyi={G\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+        {{hash=09e23d974c34c287b2d42c393086b79b}{%
+           family={Houck},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1b246593ea40b6b422f3ff1528220b57}{%
+           family={Schuster},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=27536e493b0873584921876c816317cc}{%
+           family={Majer},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=760f3979cb2de6f22bc87f3ee4d52150}{%
+           family={Blais},
+           familyi={B\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0d9f84b792e96adb5dfcaa8565fc5c67}{%
+           family={Devoret},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=2fe7ce38663715919c6b1b7ff878347f}{%
+           family={Girvin},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=702489c1f664d1120cc37aafe7cdc98a}{%
+           family={Schoelkopf},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{993580a9e3b6954bbfda9403d1598227}
+      \strng{fullhash}{0c9ba52b1c3e6e3c24646f8b73ea4038}
+      \strng{bibnamehash}{993580a9e3b6954bbfda9403d1598227}
+      \strng{authorbibnamehash}{993580a9e3b6954bbfda9403d1598227}
+      \strng{authornamehash}{993580a9e3b6954bbfda9403d1598227}
+      \strng{authorfullhash}{0c9ba52b1c3e6e3c24646f8b73ea4038}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{10}
+      \field{title}{Charge-insensitive qubit design derived from the Cooper pair box}
+      \field{volume}{76}
+      \field{year}{2007}
+      \field{pages}{042319}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.76.042319
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.76.042319
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.76.042319
+      \endverb
+    \endentry
+    \entry{OliverQuantumEngineeringGuide}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f308862bfccbed9eb73f6e004737420c}{%
+           family={Krantz},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7dae605741f427baa846f1920689e9f2}{%
+           family={Kjaergaard},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=31f1bace77becf25e2a49f3da0549988}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e2f2f5c111eac0b6b16341d29977a91e}{%
+           family={Orlando},
+           familyi={O\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=2c90b19b0a5bb571e1cc70a54ce2d144}{%
+           family={Gustavsson},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=08396afedfdaeea2c74d31d11a5dd05b}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={W.\bibnamedelimi D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{1b97980b334f46171ec31f19842a90e7}
+      \strng{fullhash}{073fda5b41bc9649e5d2251fcbac3c72}
+      \strng{bibnamehash}{1b97980b334f46171ec31f19842a90e7}
+      \strng{authorbibnamehash}{1b97980b334f46171ec31f19842a90e7}
+      \strng{authornamehash}{1b97980b334f46171ec31f19842a90e7}
+      \strng{authorfullhash}{073fda5b41bc9649e5d2251fcbac3c72}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1931-9401}
+      \field{journaltitle}{Applied Physics Reviews}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{A quantum engineer’s guide to superconducting qubits}
+      \field{volume}{6}
+      \field{year}{2019}
+      \field{pages}{021318}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.5089550
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1063/1.5089550
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1063/1.5089550
+      \endverb
+    \endentry
+    \entry{RoushanSummerSchool}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ab67b0d3986106680d464532f25dc939}{%
+           family={Roushan},
+           familyi={R\bibinitperiod},
+           given={Pedram},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab67b0d3986106680d464532f25dc939}
+      \strng{fullhash}{ab67b0d3986106680d464532f25dc939}
+      \strng{bibnamehash}{ab67b0d3986106680d464532f25dc939}
+      \strng{authorbibnamehash}{ab67b0d3986106680d464532f25dc939}
+      \strng{authornamehash}{ab67b0d3986106680d464532f25dc939}
+      \strng{authorfullhash}{ab67b0d3986106680d464532f25dc939}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Unpublished}
+      \field{year}{2019}
+    \endentry
+    \entry{KherThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=7d9256e3b0d880291fc2213a5cd4ea08}{%
+           family={Kher},
+           familyi={K\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CALIFORNIA INSTITUTE OF TECHNOLOGY}%
+      }
+      \list{location}{1}{%
+        {Pasadena, CA}%
+      }
+      \strng{namehash}{7d9256e3b0d880291fc2213a5cd4ea08}
+      \strng{fullhash}{7d9256e3b0d880291fc2213a5cd4ea08}
+      \strng{bibnamehash}{7d9256e3b0d880291fc2213a5cd4ea08}
+      \strng{authorbibnamehash}{7d9256e3b0d880291fc2213a5cd4ea08}
+      \strng{authornamehash}{7d9256e3b0d880291fc2213a5cd4ea08}
+      \strng{authorfullhash}{7d9256e3b0d880291fc2213a5cd4ea08}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Superconducting Nonlinear Kinetic Inductance Devices}
+      \field{type}{phdthesis}
+      \field{year}{2016}
+    \endentry
+    \entry{Megrant2012}{article}{}
+      \name{author}{19}{}{%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=49ad05d570dcddac67f42c0abf3e3ba0}{%
+           family={Feigl},
+           familyi={F\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1ca86a6dfd219877ce431f01a165a869}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bdb44c753feea38b69ffdaeb660ee3fb}{%
+           family={Mariantoni},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=96fcb68450f28a59913f918bcce52221}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.\bibnamedelimi J.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7ea58a08978a1363797b293339adad82}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=01a783820fca905cdcff203f64caa39f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=326e7e67b0b4605a06b13d7b7d37ab75}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cb1f8a017f4f762c10e3169d4bdc88c3}{%
+           family={Palmstr{ø}m},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{efe95de29730982b1387bcaee27db749}
+      \strng{fullhash}{fa5a79222799fea6ce79801ed8916693}
+      \strng{bibnamehash}{efe95de29730982b1387bcaee27db749}
+      \strng{authorbibnamehash}{efe95de29730982b1387bcaee27db749}
+      \strng{authornamehash}{efe95de29730982b1387bcaee27db749}
+      \strng{authorfullhash}{fa5a79222799fea6ce79801ed8916693}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{11}
+      \field{title}{Planar superconducting resonators with internal quality factors above one million}
+      \field{volume}{100}
+      \field{year}{2012}
+      \field{pages}{113510}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.3693409
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.3693409
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3693409
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3693409
+      \endverb
+    \endentry
+    \entry{Josephson1962}{article}{}
+      \name{author}{1}{}{%
+        {{hash=446e16a9723f086ad3dc51b9c0ec8737}{%
+           family={Josephson},
+           familyi={J\bibinitperiod},
+           given={B.D.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{446e16a9723f086ad3dc51b9c0ec8737}
+      \strng{fullhash}{446e16a9723f086ad3dc51b9c0ec8737}
+      \strng{bibnamehash}{446e16a9723f086ad3dc51b9c0ec8737}
+      \strng{authorbibnamehash}{446e16a9723f086ad3dc51b9c0ec8737}
+      \strng{authornamehash}{446e16a9723f086ad3dc51b9c0ec8737}
+      \strng{authorfullhash}{446e16a9723f086ad3dc51b9c0ec8737}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-9163}
+      \field{journaltitle}{Physics Letters}
+      \field{number}{7}
+      \field{title}{Possible new effects in superconductive tunnelling}
+      \field{volume}{1}
+      \field{year}{1962}
+      \field{pages}{251\bibrangedash 253}
+      \range{pages}{3}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0031-9163(62)91369-0
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/0031916362913690
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0031916362913690
+      \endverb
+    \endentry
+    \entry{Ambegaokar1963}{article}{}
+      \name{author}{2}{}{%
+        {{hash=43f21fe22d7ac7db1070953f2d92f1e1}{%
+           family={Ambegaokar},
+           familyi={A\bibinitperiod},
+           given={Vinay},
+           giveni={V\bibinitperiod}}}%
+        {{hash=bb2b54150a4332b5acdc493e864aacdf}{%
+           family={Baratoff},
+           familyi={B\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{ade022127334255cb6cec98e0d0a44c6}
+      \strng{fullhash}{ade022127334255cb6cec98e0d0a44c6}
+      \strng{bibnamehash}{ade022127334255cb6cec98e0d0a44c6}
+      \strng{authorbibnamehash}{ade022127334255cb6cec98e0d0a44c6}
+      \strng{authornamehash}{ade022127334255cb6cec98e0d0a44c6}
+      \strng{authorfullhash}{ade022127334255cb6cec98e0d0a44c6}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{11}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{6}
+      \field{title}{Tunneling Between Superconductors}
+      \field{volume}{10}
+      \field{year}{1963}
+      \field{pages}{486\bibrangedash 489}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.10.486
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.10.486
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.10.486
+      \endverb
+    \endentry
+    \entry{Paik2011}{article}{}
+      \name{author}{13}{}{%
+        {{hash=4b69b69f9d1afede801f6a9b24967597}{%
+           family={Paik},
+           familyi={P\bibinitperiod},
+           given={Hanhee},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1b246593ea40b6b422f3ff1528220b57}{%
+           family={Schuster},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=1b3e8c12eb951bb269c85b45b91a44cc}{%
+           family={Bishop},
+           familyi={B\bibinitperiod},
+           given={Lev\bibnamedelima S.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=289343271284a5da5e4fc0c14fa3eff3}{%
+           family={Kirchmair},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=daf26a25b240634eeb7e51cf296ed21e}{%
+           family={Catelani},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b6c7f0d4aaf002950c50e077e762fc3a}{%
+           family={Sears},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=eea9c114d000c5986f227e3fb52f58f3}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={B.\bibnamedelimi R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d03f44d167b9a2ca2f0df76725e68d0c}{%
+           family={Reagor},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a8867a4ca5f2d405dae9f54225bc88cd}{%
+           family={Frunzio},
+           familyi={F\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=111ff865896fa07dad416536544eea09}{%
+           family={Glazman},
+           familyi={G\bibinitperiod},
+           given={L.\bibnamedelimi I.},
+           giveni={L\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=2fe7ce38663715919c6b1b7ff878347f}{%
+           family={Girvin},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0d9f84b792e96adb5dfcaa8565fc5c67}{%
+           family={Devoret},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=702489c1f664d1120cc37aafe7cdc98a}{%
+           family={Schoelkopf},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{bf434003fa4157a71a567ee47006b669}
+      \strng{fullhash}{a1623cdfad55903d73240b3481b1c904}
+      \strng{bibnamehash}{bf434003fa4157a71a567ee47006b669}
+      \strng{authorbibnamehash}{bf434003fa4157a71a567ee47006b669}
+      \strng{authornamehash}{bf434003fa4157a71a567ee47006b669}
+      \strng{authorfullhash}{a1623cdfad55903d73240b3481b1c904}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{24}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{12}
+      \field{title}{Observation of High Coherence in Josephson Junction Qubits Measured in a Three-Dimensional Circuit QED Architecture}
+      \field{volume}{107}
+      \field{year}{2011}
+      \field{pages}{240501}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.107.240501
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.107.240501
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.107.240501
+      \endverb
+    \endentry
+    \entry{Barends2013}{article}{}
+      \name{author}{16}{}{%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c100c55f6ebe8b06bf6ac7fe84162405}{%
+           family={Jeffrey},
+           familyi={J\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=01a783820fca905cdcff203f64caa39f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8303fdb222c36e017825e09dce34cafb}{%
+           family={Mutus},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=08f97d47f19bcf66b262db834049e96f}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1da87e45f27c6d9d57192ddcc39536eb}{%
+           family={Roushan},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{fullhash}{0e17145a4f47aa430b86c4ef9e690363}
+      \strng{bibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authorbibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
+      \strng{authorfullhash}{0e17145a4f47aa430b86c4ef9e690363}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{8}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{8}
+      \field{title}{Coherent Josephson Qubit Suitable for Scalable Quantum Integrated Circuits}
+      \field{volume}{111}
+      \field{year}{2013}
+      \field{pages}{080502}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.111.080502
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.111.080502
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.111.080502
+      \endverb
+    \endentry
+    \entry{Chen2014}{article}{}
+      \name{author}{23}{}{%
+        {{hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1da87e45f27c6d9d57192ddcc39536eb}{%
+           family={Roushan},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=709668f84b5943e603ae0c046d080417}{%
+           family={Leung},
+           familyi={L\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e12ee3c716095833e78f918f451c4086}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7186d1868d3f045c9620cda709fbac9f}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d90f53b6c47cfea3540b0fb9da23dbd7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=41e3b7df214ae8e20258fc5d1eb197eb}{%
+           family={Dunsworth},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c100c55f6ebe8b06bf6ac7fe84162405}{%
+           family={Jeffrey},
+           familyi={J\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5a77e82e7902840db5b1f11ad325b7aa}{%
+           family={Mutus},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Y.},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=96fcb68450f28a59913f918bcce52221}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.\bibnamedelimi J.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4f1ed6c1d54acc7a1e6ce9b6cda3547f}{%
+           family={Quintana},
+           familyi={Q\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7ea58a08978a1363797b293339adad82}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=63b924dc7f657278411b0a86b5a90e28}{%
+           family={Geller},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0effc2245a9f081ee2b2aa49f28ce2c4}
+      \strng{fullhash}{d1c6a394a95e4376dd2c4473eb25272f}
+      \strng{bibnamehash}{0effc2245a9f081ee2b2aa49f28ce2c4}
+      \strng{authorbibnamehash}{0effc2245a9f081ee2b2aa49f28ce2c4}
+      \strng{authornamehash}{0effc2245a9f081ee2b2aa49f28ce2c4}
+      \strng{authorfullhash}{d1c6a394a95e4376dd2c4473eb25272f}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{22}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Qubit Architecture with High Coherence and Fast Tunable Coupling}
+      \field{volume}{113}
+      \field{year}{2014}
+      \field{pages}{220502}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.113.220502
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.113.220502
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.113.220502
+      \endverb
+    \endentry
     \entry{Leduc2010}{article}{}
       \name{author}{13}{}{%
         {{hash=b02b6dc9df885e3ca732a43e4d322d0b}{%
@@ -93,8 +1683,8 @@
       \strng{authorbibnamehash}{0fa58cc30a0b9a4c8d32483148ec255f}
       \strng{authornamehash}{0fa58cc30a0b9a4c8d32483148ec255f}
       \strng{authorfullhash}{9942f45f86a925a651d46a5e16dcc0c6}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -167,8 +1757,8 @@
       \strng{authornamehash}{0edb7dfb4c3cd47596476604fca3916d}
       \strng{authorfullhash}{94e8a5a4c48f3c130ac5161e5e2d3a7c}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -225,8 +1815,8 @@
       \strng{authorbibnamehash}{af6377d297ccfe6d9cfe6845363dc6d3}
       \strng{authornamehash}{6ed04080e1c79f7723f60358a95e36a9}
       \strng{authorfullhash}{af6377d297ccfe6d9cfe6845363dc6d3}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}
@@ -284,8 +1874,8 @@
       \strng{authornamehash}{8415b492a4f8d61a1d114889092f758a}
       \strng{authorfullhash}{15ec3ace0856bf57d7e6d5c3a508f84e}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -342,8 +1932,8 @@
       \strng{authorbibnamehash}{765c7414d6aff813103f59dfaace2b06}
       \strng{authornamehash}{08cdd6f504de6ddb4873bdd7669078e7}
       \strng{authorfullhash}{765c7414d6aff813103f59dfaace2b06}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{To use highly resistive material for Kinetic Inductance Detectors (KID), new designs have to be done, in part due to the impedance match needed between the KID chip and the whole 50 $\Omega$ readout circuit. Chips from two new hybrid designs, with an aluminum throughline coupled to titanium nitride microresonators, have been measured and compared to a TiN only chip. In the hybrid chips, parasitic temperature dependent box resonances are absent. The dark KID properties have been measured in a large set of resonators. A surprisingly long lifetime, up to 5.6 ms is observed in a few KIDs. For the other more reproducible devices, the mean electrical Noise Equivalent Power is {\$}5.4 {\backslash}times 10^{\{}-19{\}}{\backslash} {\backslash}mathrm{\{}W{\}}{\backslash}sqrt{\{}{\backslash}mathrm{\{}Hz{\}}{\}}{\$}.}
@@ -409,8 +1999,8 @@
       \strng{authornamehash}{68e1e93d1ad9abda60d8a6f8a1a6a8d9}
       \strng{authorfullhash}{1fb7c70ca7eed7cbd8cdab2958e7b3ad}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Microwave Kinetic Inductance Detectors, or MKIDs, have proven to be a powerful cryogenic detector technology due to their sensitivity and the ease with which they can be multiplexed into large arrays. A MKID is an energy sensor based on a photon-variable superconducting inductance in a lithographed microresonator, and is capable of functioning as a photon detector across the electromagnetic spectrum as well as a particle detector. Here we describe the first successful effort to create a photon-counting, energy-resolving ultraviolet, optical, and near infrared MKID focal plane array. These new Optical Lumped Element (OLE) MKID arrays have significant advantages over semiconductor detectors like charge coupled devices (CCDs). They can count individual photons with essentially no false counts and determine the energy and arrival time of every photon with good quantum efficiency. Their physical pixel size and maximum count rate is well matched with large telescopes. These capabilities enable powerful new astrophysical instruments usable from the ground and space. MKIDs could eventually supplant semiconductor detectors for most astronomical instrumentation, and will be useful for other disciplines such as quantum optics and biological imaging.}
@@ -482,8 +2072,8 @@
       \strng{authorbibnamehash}{7eceb73a2b8d2192a07ffc53f0c11a5b}
       \strng{authornamehash}{7eceb73a2b8d2192a07ffc53f0c11a5b}
       \strng{authorfullhash}{0a374397b3d67315f02fa273453ce538}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The lack of efficient x-ray detectors is often the main factor limiting the effective use of ever more powerful synchrotron light sources. Spectroscopic X-ray detectors are used for a wide variety of synchrotron experiments including X-ray micro/nano-probes and X-ray absorption spectroscopy for biology and geophysical applications. The current state-of-art spectroscopic X-ray detectors are semiconductor devices, and their energy resolutions are approaching their theoretical limit of about 100eV at 6 keV. We describe a detector research and development program to develop the next-generation of high-resolution spectroscopic X-ray detectors using superconducting Kinetic Inductance Detectors (KIDs). With a required energy per charge carrier four orders of magnitude smaller than that of Si, superconducting detectors offer up to two orders of magnitude increase in energy resolution. In addition, KIDs can be optimized for detection of photons ranging in energy from hard X-ray to IR.}
@@ -540,8 +2130,8 @@
       \strng{authorbibnamehash}{94bdd3a50101ba16c22542d060b24e15}
       \strng{authornamehash}{0c5e7ef369e32184083d2095315fe7d7}
       \strng{authorfullhash}{94bdd3a50101ba16c22542d060b24e15}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -632,8 +2222,8 @@
       \strng{authorbibnamehash}{e4b4778baead5f10a7328d0b6d40ae78}
       \strng{authornamehash}{e4b4778baead5f10a7328d0b6d40ae78}
       \strng{authorfullhash}{40a041bcf36bd238f59a3ba6945c039e}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Microwave Kinetic Inductance Detectors (MKIDs) have recently drawn the attention of the low-temperature detectors community. Easy fabrication, high sensitivity, small time constants and most notably the intrinsic capability to frequency multiplexing open new possibilities to applications that need very large array sizes and/or high speed read-out. Lumped Element Kinetic Inductance Detectors (LEKIDs) designed and fabricated in our collaboration have already shown good on sky performances, but new developments are needed for future multi-thousands-pixels instruments. In this contribution we present such ongoing developments: a new LEKIDs design, optimized to be dual polarization sensitive; use of new materials such as TiN in order to reach better signal to noise ratios; new solutions to minimize the cross-talk between pixels in order to achieve a better control of the resonance positions in frequency space. We discuss present lab measurements of the optical performances and recent improvements of the read-out electronics.}
@@ -685,8 +2275,8 @@
       \strng{authorbibnamehash}{333992a7e5911d5f5932ee1747256fc0}
       \strng{authornamehash}{8a0b71b56b27fb1ed68c008b8437f7de}
       \strng{authorfullhash}{333992a7e5911d5f5932ee1747256fc0}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Physics}
@@ -699,6 +2289,59 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1038/nphys2356
+      \endverb
+    \endentry
+    \entry{Krockenberger2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6a4f2fb0812359d778d9fb78fd0fa52d}{%
+           family={Krockenberger},
+           familyi={K\bibinitperiod},
+           given={Yoshiharu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=74dc9e051eb905b362fedb2cc7795368}{%
+           family={Karimoto},
+           familyi={K\bibinitperiod},
+           given={Shin-ichi},
+           giveni={S\bibinithyphendelim i\bibinitperiod}}}%
+        {{hash=31f98005097cf4ee8b3617324155b515}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={Hideki},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1b62dbc2ec720b7ad9bf48ce1abf7679}{%
+           family={Semba},
+           familyi={S\bibinitperiod},
+           given={Kouich},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ecd084f954199ab213173ab9a7950423}
+      \strng{fullhash}{5df355e601ecebea59dad565d83b2cd1}
+      \strng{bibnamehash}{5df355e601ecebea59dad565d83b2cd1}
+      \strng{authorbibnamehash}{5df355e601ecebea59dad565d83b2cd1}
+      \strng{authornamehash}{ecd084f954199ab213173ab9a7950423}
+      \strng{authorfullhash}{5df355e601ecebea59dad565d83b2cd1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{8}
+      \field{title}{Coherent growth of superconducting TiN thin films by plasma enhanced molecular beam epitaxy}
+      \field{volume}{112}
+      \field{year}{2012}
+      \field{pages}{083920}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4759019
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1063/1.4759019
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.4759019
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.4759019
       \endverb
     \endentry
     \entry{Driessen2012}{article}{}
@@ -740,8 +2383,8 @@
       \strng{authorbibnamehash}{80de5210a6afaad390c557cfcd13f39c}
       \strng{authornamehash}{7360e2bbab2faf20c4f6d696efac6fe4}
       \strng{authorfullhash}{80de5210a6afaad390c557cfcd13f39c}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -944,8 +2587,8 @@
       \strng{authorbibnamehash}{fe7e98e8f15ee571a6f54938ba7247ee}
       \strng{authornamehash}{5eb8f98c661b6a29fa447e34bbe9cd24}
       \strng{authorfullhash}{fe7e98e8f15ee571a6f54938ba7247ee}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Materials Research}
@@ -998,8 +2641,8 @@
       \strng{authorbibnamehash}{4ce61fcfbb0aa62322e7b70602abfcbd}
       \strng{authornamehash}{4ce61fcfbb0aa62322e7b70602abfcbd}
       \strng{authorfullhash}{7a174b1be1cb685476df17cdf063627b}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{DC reactive sputtering was used to successfully make thin films of titanium oxynitride using titanium metallic target, argon as plasma gas and nitrogen and oxygen as reactive gases. The nitrogen partial pressure was kept constant during every deposition whereas oxygen flow rate was pulsed using a square pattern. The study consisted in analysing the influence of the shape of the pulsed rate on physical properties of these films. In order to adjust the metalloid concentration to get films with a wide range of oxygen-to-nitrogen ratios, the reactive gas pulsing process (RGPP) was used. In this process, the oxygen flow switches ``on'' and ``off'' periodically according to a duty cycle α=tON/T. Electrical conductivity of films measured against temperature was gradually modified from metallic (σ300K=4.42×104Sm−1) to semi-conducting behaviour (σ300K=7.14Sm−1) with an increasing duty cycle. Mechanical properties like nanohardness (Hn) and reduced Young's modulus (Er) of the films were investigated. Experimental values of Hn and Er obtained by nanoindentation at 10\% depth ranged from 15.8 to 5.2GPa and from 273 to 142GPa, respectively. Evolutions of Hn and E against duty cycle were similar. A regular decrease was observed for duty cycle α≤25\% corresponding to the occurrence of TiOxNy phase. Higher duty cycles led to the smallest values of Hn and E and correlated with TiO2 compound composition. At last, the colour variation of these titanium oxynitrides was investigated as a function of α in the L*a*b* colour space. It was related to the chemical composition of the films.}
@@ -1071,8 +2714,8 @@
       \strng{authorbibnamehash}{80f62fff6aad67c4bca1983642476832}
       \strng{authornamehash}{80f62fff6aad67c4bca1983642476832}
       \strng{authorfullhash}{4ea88b64b512fb8639db79e853dcd7f8}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Titanium oxynitride TiNxOy thin films have been deposited by DC-pulsed magnetron sputtering from Ti target in the Ar+N2+O2 reactive atmosphere controlled by plasma emission spectroscopy. Correlation between chemical composition and crystallographic structure of thin films has been determined and presented in the form of the pseudo-equilibrium ternary phase diagram. The atomic N/Ti and O/Ti ratios have been derived from Rutherford backscattering (RBS) measurements. X-ray diffraction at grazing incidence has revealed formation of defective TiN--TiO solid solutions. The surface roughness estimated from atomic force microscopy (AFM) surface images decreases with increasing oxygen content in the films, in accordance with the progressive sample amorphisation. Impedance spectroscopy measurements indicate that the electrical conductivity changes its character from metallic to semiconducting with increasing oxygen content in TiNxOy thin films.}
@@ -1163,9 +2806,9 @@
       \strng{authorbibnamehash}{f959223c27127fcba7d9460797e42505}
       \strng{authornamehash}{f959223c27127fcba7d9460797e42505}
       \strng{authorfullhash}{a1b46942836eff4c865eb72827083a30}
-      \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{21}
@@ -1225,8 +2868,8 @@
       \strng{authorbibnamehash}{4afea7a3340da750252bfc086d18994c}
       \strng{authornamehash}{4afea7a3340da750252bfc086d18994c}
       \strng{authorfullhash}{33cf1022561fba453542c553cf17741a}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Vacuum Science \& Technology B: Microelectronics Processing and Phenomena}
@@ -1273,8 +2916,8 @@
       \strng{authorbibnamehash}{75f34fefd291b142ddf6937a26357251}
       \strng{authornamehash}{45e0deba448e5884c6a0b083b56f622f}
       \strng{authorfullhash}{75f34fefd291b142ddf6937a26357251}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{TiN films were prepared by reactive sputtering of titanium in a gas mixture of argon and nitrogen using a sputter gun. The properties of the sputtered films were investigated with Rutherford backscattering spectrometry, electrical resistivity and optical reflectivity measurements, X-ray diffractometry and transmission electron microscopy. For a given input power to the sputter gun the film properties depend on the gas composition, the bias voltage applied to the substrates and oxygen contamination during sputtering. In addition, it was found that powering the sputter gun with r.f. causes an iron contamination in the films by material sputtered off the plasma confinement shield. This contamination is very much reduced when d.c. is employed to power the sputter gun.}
@@ -1308,8 +2951,8 @@
       \strng{authorbibnamehash}{15f66daaccab31e7f0e546d508dcc0cc}
       \strng{authornamehash}{1af38a484f397cb36d2e97f4e8104c49}
       \strng{authorfullhash}{15f66daaccab31e7f0e546d508dcc0cc}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{On the basis of previous investigations of the deposition rate, stoichiometry and refractive index of TiOx films we demonstrate the effects of the target mode, the target-to-substrate distance and the oxygen partial pressure on reactive high rate d.c. sputtering. The observed relationships are discussed in terms of the ratio of the impact numbers as well as the kinetic energy and the excitation state of the sputtered particles on the substrate. The characteristic change in the colour of TiNx films, which is observed as the nitrogen partial pressure is varied, is correlated with other interesting properties of the films.}
@@ -1365,8 +3008,8 @@
       \strng{authorbibnamehash}{de89eaf63b14abb32650786c5ae16b47}
       \strng{authornamehash}{4eaf2a615b7b19b869c2cdb9bdbc531d}
       \strng{authorfullhash}{de89eaf63b14abb32650786c5ae16b47}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Vacuum Science \& Technology A}
@@ -1408,8 +3051,8 @@
       \strng{authorbibnamehash}{8fd9477e3a516761261362b297cacc3a}
       \strng{authornamehash}{8fd9477e3a516761261362b297cacc3a}
       \strng{authorfullhash}{8fd9477e3a516761261362b297cacc3a}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0197-0216}
@@ -1476,8 +3119,8 @@
       \strng{authornamehash}{8415b492a4f8d61a1d114889092f758a}
       \strng{authorfullhash}{507ee4429d2ada439abe0cc019f2f4f9}
       \field{extraname}{3}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The structural and electrical properties of Ti--N films deposited by reactive sputtering depend on their growth parameters, in particular the Ar:N2 gas ratio. We show that the nitrogen percentage changes the crystallographic phase of the film progressively from pure α-Ti, through an α-Ti phase with interstitial nitrogen, to stoichiometric Ti2N, and through a substoichiometric TiNx to stoichiometric TiN. These changes also affect the superconducting transition temperature, TC, allowing, the superconducting properties to be tailored for specific applications. After decreasing from a TC of 0.4K for pure Ti down to below 50mK at the Ti2N point, the TC then increases rapidly up to nearly 5K over a narrow range of nitrogen incorporation. This very sharp increase of TC makes it difficult to control the properties of the film from wafer-to-wafer as well as across a given wafer to within acceptable margins for device fabrication. Here we show that the nitrogen composition and hence the superconductive properties are related to, and can be determined by, spectroscopic ellipsometry. Therefore, this technique may be used for process control and wafer screening prior to investing time in processing devices. Contribution of the U.S. government, not subject to copyright.}
@@ -1524,8 +3167,8 @@
       \strng{authorbibnamehash}{7cd576cfe0458b4a117925295b08854c}
       \strng{authornamehash}{7cd576cfe0458b4a117925295b08854c}
       \strng{authorfullhash}{7cd576cfe0458b4a117925295b08854c}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1687-4110}
@@ -1565,8 +3208,8 @@
       \strng{authorbibnamehash}{e4c41e6e99fe09d27d5b75cd34907c29}
       \strng{authornamehash}{e4c41e6e99fe09d27d5b75cd34907c29}
       \strng{authorfullhash}{e4c41e6e99fe09d27d5b75cd34907c29}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{During the sputtering process in Ar gas, the sputtered target atoms and the reflected Ar neutrals from the target have much higher energy than the background gas. In this study, the Thompson distribution and an updated Meyer model based on the elastic energy transfer between two colliding particles were used to obtain energy distributions and average energies for the sputtered metal atoms and the reflected Ar neutrals. An energy dependent elastic collision cross section was incorporated into Meyer's model and a thermalization criterion based on power balance was used. Under typical sputtering conditions (0.5 mTorr and 1000 K Ar, 400 eV incident Ar ion), the model predictions indicate that for Cu, Ti and Ta targets, the sputtered metal atoms have initial average energies from 15 to 22 eV and thermalize with the background Ar gas between 10 and 20 collisions. The reflected Ar neutrals thermalize after about 10 collisions. Depending on the number of collisions, the energy dependent mean free path values of the sputtered metal atoms range from 300 to 100 cm while the mean free path values for the reflected Ar neutrals range from 200 to 100 cm.}
@@ -1617,8 +3260,8 @@
       \strng{authorbibnamehash}{84332e98006542645987a8bdefcddb6c}
       \strng{authornamehash}{b12e31aa5b428f719229f7ceab658eae}
       \strng{authorfullhash}{84332e98006542645987a8bdefcddb6c}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Carbides and nitrides of transition metals such as Ti attract significant interest since they find a wide field of applications ranging from high-temperature structural materials to contact layers in solar cells. In the present study we report on the influence of the bias voltage on the development of TiCx, TiNy, and TiCxNy films (600--3000 {Å} thick) developed by magnetron sputtering. The TiCx films were deposited by r.f. magnetron sputtering from TiC targets, while the TiNy and TiCxNy films were deposited by d.c. and r.f. reactive sputtering from Ti and TiC targets, respectively. The bias voltage was varied from 0 to 200 V for all three types of film. In-situ spectroscopic ellipsometry (SE) was used in the energy region 1.5--5.5 eV to monitor film characteristics. Auger electron spectroscopy (AES), X-ray photoelectron spectroscopy (XPS), X-ray diffraction (XRD) and microhardness measurements were taken to characterize the composition, stoichiometry, structure, quality and integrity of the films as a function of the bias voltage. For the present deposition conditions, the substrate bias voltage was found to have a significant effect on the stoichiometry and structure of all three types of films. The results show that for TiNy, films the substrate bias can promote stoichiometry and structure refinement through resputtering effects. For TiCx and TiCxNy films, substrate bias can influence stoichiometry and structure by increasing reaction probabilities (of carbon and nitrogen, respectively) in the plasma through ionization and plasma activation effects. Mechanistic aspects of the film development process are discussed in view of the in-situ SE results and the post deposition AES, XPS, XRD and microhardness evaluation.}
@@ -1653,8 +3296,8 @@
       \strng{authorbibnamehash}{3e9467651b76ea1ac8cfda9b00cd7423}
       \strng{authornamehash}{3e9467651b76ea1ac8cfda9b00cd7423}
       \strng{authorfullhash}{3e9467651b76ea1ac8cfda9b00cd7423}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Vacuum Science \& Technology A}
@@ -1695,8 +3338,8 @@
       \strng{authorbibnamehash}{3102478754f2761be1b48d9d679956b1}
       \strng{authornamehash}{c1040dffe34fb2323f44e3bff6e6f0a4}
       \strng{authorfullhash}{3102478754f2761be1b48d9d679956b1}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The mechanical properties of titanium nitride (TiNx) thin films have been investigated using depth sensing nanoindentation tests. The effects of substrate temperature (Ts) and of substrate biasing (Vb) on the mechanical properties and the microstructure of the TiNx films were studied. Ts and Vb have strong effect on the film's microstructural characteristics such as density, grain size and orientation. It was found that deposition at high Ts and Vb promotes the growth of (002) oriented films with density close to the bulk density of stoichiometric TiN, indicating the absence of voids and the growth of stoichiometric TiN. The film hardness and elastic modulus were measured using the continuous stiffness measurements technique. It was found that there exists a direct correlation between the film's mechanical properties and microstructure. The films that exhibit the best mechanical performance are those grown along the (002) orientation and being denser and stoichiometric.}
@@ -1717,8 +3360,8 @@
       \keyw{Grain growth,Nano-indentation,Sputtering,Titanium nitride,X-ray diffraction}
     \endentry
     \entry{T-SComment}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{note}{Private communication with H. G. LeDuc and B. Bumble.}
     \endentry
     \entry{Sandberg2012}{article}{}
@@ -1765,8 +3408,8 @@
       \strng{authorbibnamehash}{431030cfd995eaf599327f11c996289b}
       \strng{authornamehash}{431030cfd995eaf599327f11c996289b}
       \strng{authorfullhash}{fb69a123f8c7696b6c9522cf4435d92c}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -1883,9 +3526,9 @@
       \strng{authorbibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
       \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
       \strng{authorfullhash}{afade78ae4a74227663a498403326b8e}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -1906,135 +3549,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1063/1.3638063
-      \endverb
-    \endentry
-    \entry{Megrant2012}{article}{}
-      \name{author}{19}{}{%
-        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
-           family={Megrant},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
-           family={Neill},
-           familyi={N\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
-           family={Barends},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
-           family={Chiaro},
-           familyi={C\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=5ffb5aba0d9858b862639d446d48f8eb}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Yu},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=49ad05d570dcddac67f42c0abf3e3ba0}{%
-           family={Feigl},
-           familyi={F\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
-           family={Kelly},
-           familyi={K\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=1ca86a6dfd219877ce431f01a165a869}{%
-           family={Lucero},
-           familyi={L\bibinitperiod},
-           given={Erik},
-           giveni={E\bibinitperiod}}}%
-        {{hash=bdb44c753feea38b69ffdaeb660ee3fb}{%
-           family={Mariantoni},
-           familyi={M\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=96fcb68450f28a59913f918bcce52221}{%
-           family={O'Malley},
-           familyi={O\bibinitperiod},
-           given={P.\bibnamedelimi J.\bibnamedelimi J.},
-           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=f04446b18aa4081121989c7b3a557778}{%
-           family={Sank},
-           familyi={S\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=7ea58a08978a1363797b293339adad82}{%
-           family={Vainsencher},
-           familyi={V\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
-           family={Wenner},
-           familyi={W\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d8e06b7053d365f509f13349d35954d0}{%
-           family={White},
-           familyi={W\bibinitperiod},
-           given={T.\bibnamedelimi C.},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=01a783820fca905cdcff203f64caa39f}{%
-           family={Yin},
-           familyi={Y\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=326e7e67b0b4605a06b13d7b7d37ab75}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=cb1f8a017f4f762c10e3169d4bdc88c3}{%
-           family={Palmstr{ø}m},
-           familyi={P\bibinitperiod},
-           given={C.\bibnamedelimi J.},
-           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
-           family={Martinis},
-           familyi={M\bibinitperiod},
-           given={John\bibnamedelima M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
-           family={Cleland},
-           familyi={C\bibinitperiod},
-           given={A.\bibnamedelimi N.},
-           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-      }
-      \strng{namehash}{efe95de29730982b1387bcaee27db749}
-      \strng{fullhash}{fa5a79222799fea6ce79801ed8916693}
-      \strng{bibnamehash}{efe95de29730982b1387bcaee27db749}
-      \strng{authorbibnamehash}{efe95de29730982b1387bcaee27db749}
-      \strng{authornamehash}{efe95de29730982b1387bcaee27db749}
-      \strng{authorfullhash}{fa5a79222799fea6ce79801ed8916693}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Physics Letters}
-      \field{number}{11}
-      \field{title}{Planar superconducting resonators with internal quality factors above one million}
-      \field{volume}{100}
-      \field{year}{2012}
-      \field{pages}{113510}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1063/1.3693409
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1063/1.3693409
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1063/1.3693409
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1063/1.3693409
       \endverb
     \endentry
     \entry{Gao2008}{article}{}
@@ -2092,8 +3606,8 @@
       \strng{authornamehash}{a9e37aac89a147d47c03493331bd5dd8}
       \strng{authorfullhash}{1c9c32f767f95967b4ef4912c7d62e6c}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -2150,8 +3664,8 @@
       \strng{authorbibnamehash}{567619d0da44fa6e276632712f4c80d1}
       \strng{authornamehash}{d9c9476aa2d0e41a8203245c24fc87d1}
       \strng{authorfullhash}{567619d0da44fa6e276632712f4c80d1}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Cryogenic detectors are extremely sensitive and have a wide variety of applications1,2,3 (particularly in astronomy4,5,6,7,8), but are difficult to integrate into large arrays like a modern CCD (charge-coupled device) camera. As current detectors of the cosmic microwave background (CMB) already have sensitivities comparable to the noise arising from the random arrival of CMB photons, the further gains in sensitivity needed to probe the very early Universe will have to arise from large arrays. A similar situation is encountered at other wavelengths. Single-pixel X-ray detectors now have a resolving power of ΔE < 5 eV for single 6-keV photons, and future X-ray astronomy missions7 anticipate the need for 1,000-pixel arrays. Here we report the demonstration of a superconducting detector that is easily fabricated and can readily be incorporated into such an array. Its sensitivity is already within an order of magnitude of that needed for CMB observations, and its energy resolution is similarly close to the targets required for future X-ray astronomy missions.}
@@ -2216,8 +3730,8 @@
       \strng{authornamehash}{68e1e93d1ad9abda60d8a6f8a1a6a8d9}
       \strng{authorfullhash}{1fb7c70ca7eed7cbd8cdab2958e7b3ad}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Microwave Kinetic Inductance Detectors, or MKIDs, have proven to be a powerful cryogenic detector technology due to their sensitivity and the ease with which they can be multiplexed into large arrays. A MKID is an energy sensor based on a photon-variable superconducting inductance in a lithographed microresonator, and is capable of functioning as a photon detector across the electromagnetic spectrum as well as a particle detector. Here we describe the first successful effort to create a photon-counting, energy-resolving ultraviolet, optical, and near infrared MKID focal plane array. These new Optical Lumped Element (OLE) MKID arrays have significant advantages over semiconductor detectors like charge coupled devices (CCDs). They can count individual photons with essentially no false counts and determine the energy and arrival time of every photon with good quantum efficiency. Their physical pixel size and maximum count rate is well matched with large telescopes. These capabilities enable powerful new astrophysical instruments usable from the ground and space. MKIDs could eventually supplant semiconductor detectors for most astronomical instrumentation, and will be useful for other disciplines such as quantum optics and biological imaging.}
@@ -2327,8 +3841,8 @@
       \strng{authorbibnamehash}{e503095e2717cf30b2c043133f2d2788}
       \strng{authornamehash}{e503095e2717cf30b2c043133f2d2788}
       \strng{authorfullhash}{b78df23f245a9b464ffa497e5dc3b15f}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Physics}
@@ -2438,9 +3952,9 @@
       \strng{authorbibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
       \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
       \strng{authorfullhash}{0e17145a4f47aa430b86c4ef9e690363}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{8}
@@ -2563,8 +4077,8 @@
       \strng{authorbibnamehash}{b0aad2d463432be67c3969a3b0f0ddf3}
       \strng{authornamehash}{b0aad2d463432be67c3969a3b0f0ddf3}
       \strng{authorfullhash}{c759e88b4f9773b245da0f1b81a2a1c3}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{19}
@@ -2635,8 +4149,8 @@
       \strng{authornamehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
       \strng{authorfullhash}{b63c292044cd32930757de22248a5cc5}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -2705,8 +4219,8 @@
       \strng{authorbibnamehash}{397cdb12aa6e8d00de2c71a77b22c6ec}
       \strng{authornamehash}{397cdb12aa6e8d00de2c71a77b22c6ec}
       \strng{authorfullhash}{d7d0d1516e36d864669114b9c1903502}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}
@@ -2782,8 +4296,8 @@
       \strng{authornamehash}{3008a8f8b7e644bef21271bb03597491}
       \strng{authorfullhash}{93ddb9fa425cb03113ff7a1fa7f8724b}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{17}
@@ -2877,8 +4391,8 @@
       \strng{authornamehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
       \strng{authorfullhash}{c095baf6d6297e9cb7fc8fb3c8019122}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Communications}
@@ -2918,8 +4432,8 @@
       \strng{authorbibnamehash}{23703e75f60ce94f4d5953bf58806155}
       \strng{authornamehash}{23703e75f60ce94f4d5953bf58806155}
       \strng{authorfullhash}{23703e75f60ce94f4d5953bf58806155}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{11}
@@ -3007,9 +4521,9 @@
       \strng{authorbibnamehash}{f959223c27127fcba7d9460797e42505}
       \strng{authornamehash}{f959223c27127fcba7d9460797e42505}
       \strng{authorfullhash}{a1b46942836eff4c865eb72827083a30}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{21}
@@ -3057,9 +4571,9 @@
       \strng{authorbibnamehash}{1669a15168ae2a6368a3503f065197af}
       \strng{authornamehash}{f959223c27127fcba7d9460797e42505}
       \strng{authorfullhash}{1669a15168ae2a6368a3503f065197af}
-      \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extraname}{4}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{9}
@@ -3135,8 +4649,8 @@
       \strng{authornamehash}{a9e37aac89a147d47c03493331bd5dd8}
       \strng{authorfullhash}{1c9c32f767f95967b4ef4912c7d62e6c}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -3193,8 +4707,8 @@
       \strng{authorbibnamehash}{6521ed163dc6109c84e38fe93742f92c}
       \strng{authornamehash}{2236993295c20a52d028a7be9f55eede}
       \strng{authorfullhash}{6521ed163dc6109c84e38fe93742f92c}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}
@@ -3247,8 +4761,8 @@
       \strng{authornamehash}{3008a8f8b7e644bef21271bb03597491}
       \strng{authorfullhash}{0d6fe51dd6fe1a0fb995dc9ea3dd4e43}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -3306,8 +4820,8 @@
       \strng{authornamehash}{5c93e9cf4bb492ef3a639191fc03bd93}
       \strng{authorfullhash}{148e6689e8e955456443e121911e0e49}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -3395,8 +4909,8 @@
       \strng{authornamehash}{5c93e9cf4bb492ef3a639191fc03bd93}
       \strng{authorfullhash}{b3aa4135b8f7fd89380c7496b7f5f624}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -3446,8 +4960,8 @@
       \strng{authorbibnamehash}{91b46d49739a662f299f602252e6a3fb}
       \strng{authornamehash}{793ca0532f3eae8b4c5edec8631524da}
       \strng{authorfullhash}{91b46d49739a662f299f602252e6a3fb}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{9}
@@ -3482,8 +4996,8 @@
       \strng{authorbibnamehash}{35bae14532c526b4a5ac004c663f3ce9}
       \strng{authornamehash}{35bae14532c526b4a5ac004c663f3ce9}
       \strng{authorfullhash}{35bae14532c526b4a5ac004c663f3ce9}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Introduction to superconductivity}
@@ -3583,8 +5097,8 @@
       \strng{authorbibnamehash}{155ac7307e2326ddb650ea6951e20012}
       \strng{authornamehash}{155ac7307e2326ddb650ea6951e20012}
       \strng{authorfullhash}{f91891c6bbd46a8872f13cda864ce846}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -3712,8 +5226,8 @@
       \strng{authornamehash}{efe95de29730982b1387bcaee27db749}
       \strng{authorfullhash}{fa5a79222799fea6ce79801ed8916693}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -3830,9 +5344,9 @@
       \strng{authorbibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
       \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
       \strng{authorfullhash}{afade78ae4a74227663a498403326b8e}
-      \field{extraname}{3}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{extraname}{4}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -3853,6 +5367,145 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1063/1.3638063
+      \endverb
+    \endentry
+    \entry{chiaro2015supp}{misc}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{note}{See supplementary material in the appendix.}
+    \endentry
+    \entry{ohya2013}{article}{}
+      \name{author}{21}{}{%
+        {{hash=69c60ec0bf10bac9c9b71df8c6338b3a}{%
+           family={Ohya},
+           familyi={O\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7386ecaeea7aaad908727225fc326995}{%
+           family={Low},
+           familyi={L\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8303fdb222c36e017825e09dce34cafb}{%
+           family={Mutus},
+           familyi={M\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=96fcb68450f28a59913f918bcce52221}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P\bibnamedelima J\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1da87e45f27c6d9d57192ddcc39536eb}{%
+           family={Roushan},
+           familyi={R\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7ea58a08978a1363797b293339adad82}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=01a783820fca905cdcff203f64caa39f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bbe63686c3255bf56077fe9b773496db}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={B\bibnamedelima D},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=cb1f8a017f4f762c10e3169d4bdc88c3}{%
+           family={Palmstr{ø}m},
+           familyi={P\bibinitperiod},
+           given={C\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=74e4fc116d03e9fb75f5c11218ac0091}{%
+           family={Mazin},
+           familyi={M\bibinitperiod},
+           given={B\bibnamedelima A},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A\bibnamedelima N},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{4f2a208a5f6c4af18c40ce80dbf4db8e}
+      \strng{fullhash}{112c43fe493d9c9257c5ce5de2511386}
+      \strng{bibnamehash}{4f2a208a5f6c4af18c40ce80dbf4db8e}
+      \strng{authorbibnamehash}{4f2a208a5f6c4af18c40ce80dbf4db8e}
+      \strng{authornamehash}{4f2a208a5f6c4af18c40ce80dbf4db8e}
+      \strng{authorfullhash}{112c43fe493d9c9257c5ce5de2511386}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a systematic study of the properties of room temperature deposited TiN films by varying the deposition conditions in an ultra-high-vacuum reactive magnetron sputtering chamber. By increasing the deposition pressure from 2 to 9 mTorr while keeping a nearly stoichiometric composition of Ti1−xNx (x = 0.5) without substrate heating, the film resistivity increases, the dominant crystal orientation changes from (100) to (111), grain boundaries become clearer, and the strong compressive in-plane strain changes to weak tensile in-plane strain. The TiN films absorb a high concentration of contaminants including hydrogen, carbon, and oxygen when they are exposed to air after deposition. With the target--substrate distance set to 88 mm the contaminant levels increase from ∼0.1\% to ∼10\% as the pressure is increased from 2 to 9 mTorr. The contaminant concentrations also correlate with in-plane distance from the center of the substrate and increase by roughly two orders of magnitude as the target--substrate distance is increased from 88 to 266 mm. These contaminants are found to strongly influence the properties of TiN thin films. For instance, the resistivity of stoichiometric films increases by around a factor of 5 as the oxygen content increases from 0.1\% to 11\%. These results strongly suggest that the energy of the sputtered TiN particles plays a crucial role in determining the TiN film properties, and that it is important to precisely control the energy of these particles to obtain high-quality TiN films. Superconducting coplanar waveguide resonators made from a series of nearly stoichiometric films grown at pressures from 2 to 7 mTorr show a substantial increase in intrinsic quality factor from ∼104 to ∼106 as the magnitude of the compressive strain decreases from nearly 3800 MPa to approximately 150 MPa and the oxygen content increases from 0.1\% to 8\%. Surprisingly, the films with a higher oxygen content exhibit lower loss, but care must be taken when depositing at room temperature to avoid nonuniform oxygen incorporation, which presents as a radially dependent resistivity and becomes a radially dependent surface inductance in the superconductor.}
+      \field{journaltitle}{Superconductor Science and Technology}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{Room temperature deposition of sputtered {TiN} films for superconducting coplanar waveguide resonators}
+      \field{volume}{27}
+      \field{year}{2013}
+      \field{pages}{015009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0953-2048/27/1/015009
       \endverb
     \endentry
     \entry{bruno2015}{article}{}
@@ -3898,8 +5551,8 @@
       \strng{authorbibnamehash}{b9f722a4597a654aa17bb1b517a55de2}
       \strng{authornamehash}{b9f722a4597a654aa17bb1b517a55de2}
       \strng{authorfullhash}{73fa0ead0323a922be09b0773900b6c8}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -3997,8 +5650,8 @@
       \strng{authornamehash}{dccaa1dcfd3e42125e7248467021e0d9}
       \strng{authorfullhash}{568a799d63688be3d93f1527371e7f9c}
       \field{extraname}{3}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -4044,8 +5697,8 @@
       \strng{authornamehash}{fc143894116d3ba51921be5f4142be88}
       \strng{authorfullhash}{fc143894116d3ba51921be5f4142be88}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{15}
@@ -4089,8 +5742,8 @@
       \strng{authornamehash}{fc143894116d3ba51921be5f4142be88}
       \strng{authorfullhash}{fc143894116d3ba51921be5f4142be88}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -4167,9 +5820,9 @@
       \strng{authorbibnamehash}{c31a1432f9249b8dfad5473b7a5050c2}
       \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
       \strng{authorfullhash}{5d04b409b70d5c4ab35c7182418801c8}
-      \field{extraname}{4}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{extraname}{5}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -4209,8 +5862,8 @@
       \strng{authorbibnamehash}{847b0698d138c139548ed0a7422a6a16}
       \strng{authornamehash}{847b0698d138c139548ed0a7422a6a16}
       \strng{authorfullhash}{847b0698d138c139548ed0a7422a6a16}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -4248,8 +5901,8 @@
       \strng{authorbibnamehash}{246985215718b90d10f3e01705cc3f8c}
       \strng{authornamehash}{246985215718b90d10f3e01705cc3f8c}
       \strng{authorfullhash}{246985215718b90d10f3e01705cc3f8c}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{50 Years of Anderson Localization}
@@ -4317,8 +5970,8 @@
       \strng{authorbibnamehash}{90ab7ddefd12a7388c4ec6694ee143e8}
       \strng{authornamehash}{90ab7ddefd12a7388c4ec6694ee143e8}
       \strng{authorfullhash}{f3c3a8b925a493321e924ea6104303a9}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -4350,8 +6003,8 @@
       \strng{authorbibnamehash}{59c44aa5471ad979f173b96c0fdeb5bb}
       \strng{authornamehash}{59c44aa5471ad979f173b96c0fdeb5bb}
       \strng{authorfullhash}{59c44aa5471ad979f173b96c0fdeb5bb}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Incoherent transport of ultrasound is studied in two dimensions in the sub-MegaHertz range in an inhomogeneous 30 centimeter square aluminum plate. The spectral energy density associated with the higher frequencies is found to be governed by a diffusion equation, in accordance with classical predictions. The elastodynamic energy at the lower frequencies, however, where wavelengths are comparable to microscale, is observed to be transported with greatly diminished efficiency. This absence of transport is ascribed to Anderson localization of the normal modes of vibration. Localization lengths at least as short as 10 cm, or about 20 times larger than the microscale are observed. An anomalous very slow transport over length scales beyond the localization length is also observed.}
@@ -4402,8 +6055,8 @@
       \strng{authorbibnamehash}{47efaa8b93828b18d4771c79225ad39a}
       \strng{authornamehash}{c41425155cce1ba9693f89e1b5f0a60e}
       \strng{authorfullhash}{47efaa8b93828b18d4771c79225ad39a}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Among the unusual transport properties predicted for disordered materials is the Anderson localization1 phenomenon. This is a disorder-induced phase transition in the electron-transport behaviour from the classical diffusion regime, in which the well-known Ohm's law holds, to a localized state in which the material behaves as an insulator. The effect finds its origin in the interference of electrons that have undergone multiple scattering by defects in the solid2,3,4,5,6,7,8,9,10. A similar phenomenon is anticipated for multiple scattering of electromagnetic waves, but with one important simplification: unlike electrons, photons do not interact with one another. This makes transport of photons in disordered materials an ideal model system in which to study Anderson localization10,11,12,13,14,15,16,17. Here we report direct experimental evidence for Anderson localization of light in optical experiments performed on very strongly scattering semiconductor powders.}
@@ -4457,8 +6110,8 @@
       \strng{authorbibnamehash}{3d3416b0a054b3650b1c48a935a73710}
       \strng{authornamehash}{b76b15880d077f38d9a7add6e0755c4e}
       \strng{authorfullhash}{3d3416b0a054b3650b1c48a935a73710}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -4500,8 +6153,8 @@
       \strng{authorbibnamehash}{b52ee633fb92ccdabc0270bce1416236}
       \strng{authornamehash}{19472b9eb6974aa3ffac6f1e8528b29b}
       \strng{authorfullhash}{b52ee633fb92ccdabc0270bce1416236}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -4539,8 +6192,8 @@
       \strng{authorbibnamehash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
       \strng{authornamehash}{c1d03229a94887763ba38203cb788257}
       \strng{authorfullhash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{20}
@@ -4578,8 +6231,8 @@
       \strng{authorbibnamehash}{99a3aaf626def3678d4d39088aba9e26}
       \strng{authornamehash}{99a3aaf626def3678d4d39088aba9e26}
       \strng{authorfullhash}{99a3aaf626def3678d4d39088aba9e26}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
@@ -4654,8 +6307,8 @@
       \strng{authorbibnamehash}{0c079ef085e2f039f9e36ae6daf54e34}
       \strng{authornamehash}{0c079ef085e2f039f9e36ae6daf54e34}
       \strng{authorfullhash}{ee7dade733e103c55455556a3e7d448b}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{349}
@@ -4697,8 +6350,8 @@
       \strng{authorbibnamehash}{d9a20d892ceb0946965996d6caf0202b}
       \strng{authornamehash}{5cc576a322abf55baff5005ce84df6ce}
       \strng{authorfullhash}{d9a20d892ceb0946965996d6caf0202b}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{8}
@@ -4776,8 +6429,8 @@
       \strng{authorbibnamehash}{6481e2653434fcfbf84535a6963a75ab}
       \strng{authornamehash}{6481e2653434fcfbf84535a6963a75ab}
       \strng{authorfullhash}{d2d84934c4e9bb633d71260009606459}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Physics}
@@ -4849,8 +6502,8 @@
       \strng{authorbibnamehash}{84faf6155d85a0141575b8be93186a33}
       \strng{authornamehash}{84faf6155d85a0141575b8be93186a33}
       \strng{authorfullhash}{3ae34b21d21088373393bd4e37eff86f}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science}
@@ -4904,8 +6557,8 @@
       \strng{authorbibnamehash}{691331cf8dbb8567efdfe2a08d303c18}
       \strng{authornamehash}{691331cf8dbb8567efdfe2a08d303c18}
       \strng{authorfullhash}{c068a3159d2e3d165c1a02b53d8fa48c}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Phys. Rev. X}
@@ -5061,8 +6714,8 @@
       \strng{authorbibnamehash}{460057e422e261ecc243891b76a03257}
       \strng{authornamehash}{460057e422e261ecc243891b76a03257}
       \strng{authorfullhash}{7ca602c8274e15805bd7af907211e96d}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Interacting quantum particles can behave in peculiar ways. To understand that behavior, physicists have turned to quantum simulation, in which a tunable and clean system can be monitored as it evolves under the influence of interactions. Roushan et al. used a chain of nine superconducting qubits to create effective interactions between normally noninteracting photons and directly measured the energy levels of their system. The interplay of interactions and disorder gave rise to a transition to a localized state. With an increase in the number of qubits, the technique should be able to tackle problems that are inaccessible to classical computers.Science, this issue p. 1175Quantized eigenenergies and their associated wave functions provide extensive information for predicting the physics of quantum many-body systems. Using a chain of nine superconducting qubits, we implement a technique for resolving the energy levels of interacting photons. We benchmark this method by capturing the main features of the intricate energy spectrum predicted for two-dimensional electrons in a magnetic field{—}the Hofstadter butterfly. We introduce disorder to study the statistics of the energy levels of the system as it undergoes the transition from a thermalized to a localized phase. Our work introduces a many-body spectroscopy technique to study quantum phases of matter.}
@@ -5144,8 +6797,8 @@
       \strng{authorbibnamehash}{12e515e4641e01e00d5f9ac2ec3f2f1f}
       \strng{authornamehash}{12e515e4641e01e00d5f9ac2ec3f2f1f}
       \strng{authorfullhash}{d23d65aefd7efdfcc0f1fe81186f98e5}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Some one-dimensional disordered interacting quantum systems have been theoretically predicted to display a property termed many-body localization (MBL), where the system retains the memory of its initial state and fails to thermalize. However, proving experimentally that something does not occur is tricky. Instead, physicists have proposed monitoring the entanglement entropy of the system, which should grow logarithmically with evolution time in an MBL system. Lukin et al. observed this characteristic logarithmic trend in a disordered chain of interacting atoms of rubidium-87. This method should be generalizable to other experimental platforms and higher dimensions.Science, this issue p. 256An interacting quantum system that is subject to disorder may cease to thermalize owing to localization of its constituents, thereby marking the breakdown of thermodynamics. The key to understanding this phenomenon lies in the system{’}s entanglement, which is experimentally challenging to measure. We realize such a many-body{–}localized system in a disordered Bose-Hubbard chain and characterize its entanglement properties through particle fluctuations and correlations. We observe that the particles become localized, suppressing transport and preventing the thermalization of subsystems. Notably, we measure the development of nonlocal correlations, whose evolution is consistent with a logarithmic growth of entanglement entropy, the hallmark of many-body localization. Our work experimentally establishes many-body localization as a qualitatively distinct phenomenon from localization in noninteracting, disordered systems.}
@@ -5192,8 +6845,8 @@
       \strng{authorbibnamehash}{261f3b3f6a870b54f185f1b2973c039f}
       \strng{authornamehash}{261f3b3f6a870b54f185f1b2973c039f}
       \strng{authorfullhash}{261f3b3f6a870b54f185f1b2973c039f}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{15}
@@ -5241,8 +6894,8 @@
       \strng{authorbibnamehash}{4edb797e27c2a722270ecc5d2fa5b7dd}
       \strng{authornamehash}{e96334f621cc63c833bafa8519f63fdc}
       \strng{authorfullhash}{4edb797e27c2a722270ecc5d2fa5b7dd}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -5291,8 +6944,8 @@
       \strng{authornamehash}{9829c8b51a7ddd42d9786762a66f0171}
       \strng{authorfullhash}{febd1360c2136f88e60e59aec1b6a241}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{26}
@@ -5337,8 +6990,8 @@
       \strng{authorbibnamehash}{f340057994f0935dc79158512df2aaf9}
       \strng{authornamehash}{bf0ba5863f3dd96b132266c00d4ce4be}
       \strng{authorfullhash}{f340057994f0935dc79158512df2aaf9}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Phys. Rev. B}
@@ -5378,8 +7031,8 @@
       \strng{authornamehash}{9829c8b51a7ddd42d9786762a66f0171}
       \strng{authorfullhash}{febd1360c2136f88e60e59aec1b6a241}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We construct a complete set of local integrals of motion that characterize the many-body localized ({MBL)} phase. Our approach relies on the assumption that local perturbations act locally on the eigenstates in the {MBL} phase, which is supported by numerical simulations of the random-field {XXZ} spin chain. We describe the structure of the eigenstates in the {MBL} phase and discuss the implications of local conservation laws for its nonequilibrium quantum dynamics. We argue that the many-body localization can be used to protect coherence in the system by suppressing relaxation between eigenstates with different local integrals of motion.}
@@ -5452,8 +7105,8 @@
       \strng{authornamehash}{596d899aa5c5883425e03ba8b0846a91}
       \strng{authorfullhash}{9f5aaece192b81997fd924a8fb60359d}
       \field{extraname}{3}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{14}
@@ -5498,8 +7151,8 @@
       \strng{authorbibnamehash}{1a7eaf105ea13547b2328989ff18a992}
       \strng{authornamehash}{878f0b54b7c4a7b129287202b0e01ea6}
       \strng{authorfullhash}{1a7eaf105ea13547b2328989ff18a992}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1521-3889}
@@ -5550,8 +7203,8 @@
       \strng{authornamehash}{9829c8b51a7ddd42d9786762a66f0171}
       \strng{authorfullhash}{1eb2f16ba64fd006041c329a62045b48}
       \field{extraname}{4}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{17}
@@ -5601,8 +7254,8 @@
       \strng{authorbibnamehash}{dd99f3b714c7593d97711ad51bd1d684}
       \strng{authornamehash}{e403424c150a0c6e68765abc8e42fd50}
       \strng{authorfullhash}{dd99f3b714c7593d97711ad51bd1d684}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Communications}
@@ -5654,8 +7307,8 @@
       \strng{authorbibnamehash}{99501b8bd7f5c3247a79c8accb8a9501}
       \strng{authornamehash}{99501b8bd7f5c3247a79c8accb8a9501}
       \strng{authorfullhash}{20b00e957b0dde331564bfa973ef3d40}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -5704,8 +7357,8 @@
       \strng{authornamehash}{9829c8b51a7ddd42d9786762a66f0171}
       \strng{authorfullhash}{febd1360c2136f88e60e59aec1b6a241}
       \field{extraname}{5}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
@@ -5745,8 +7398,8 @@
       \strng{authorbibnamehash}{6658fcd099ae5012345e1dc0e5464116}
       \strng{authornamehash}{6658fcd099ae5012345e1dc0e5464116}
       \strng{authorfullhash}{6658fcd099ae5012345e1dc0e5464116}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We survey the recent progress made in understanding nonequilibrium dynamics in closed random systems. The emphasis is on the important role played by concepts from quantum information theory and on the application of systematic renormalization group methods to capture universal aspects of the dynamics. Finally, we outline some outstanding open questions, which include the description of the many-body-localization phase transition and the identification of physical systems that allow systematic experimental study of these phenomena.}
@@ -5771,8 +7424,8 @@
       \endverb
     \endentry
     \entry{supplement}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{note}{See supplementary material.}
     \endentry
     \entry{Varma2019}{article}{}
@@ -5809,8 +7462,8 @@
       \strng{authorbibnamehash}{9ac9c25591df0dd716220c8e52226521}
       \strng{authornamehash}{766becfb5f10b6e538cec3670bffa3a1}
       \strng{authorfullhash}{9ac9c25591df0dd716220c8e52226521}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1901.02902}
@@ -5834,8 +7487,8 @@
       \strng{authorbibnamehash}{90fd2a692f9c20cf51f5e79165ae6446}
       \strng{authornamehash}{90fd2a692f9c20cf51f5e79165ae6446}
       \strng{authorfullhash}{90fd2a692f9c20cf51f5e79165ae6446}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
@@ -5888,8 +7541,8 @@
       \strng{authorbibnamehash}{b0f96924418c7a828416a89f9373cfc2}
       \strng{authornamehash}{c5e8414e25fefa6474459444de2c3377}
       \strng{authorfullhash}{b0f96924418c7a828416a89f9373cfc2}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{23}
@@ -5937,8 +7590,8 @@
       \strng{authorbibnamehash}{cccec6a10e1faf35b610e4b11f1d5eeb}
       \strng{authornamehash}{a9bbb00e505f7f9137718e6cfac3d3f8}
       \strng{authorfullhash}{cccec6a10e1faf35b610e4b11f1d5eeb}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{16}
@@ -6021,8 +7674,8 @@
       \strng{authorbibnamehash}{5de346c845fc328cda81c41209d759ab}
       \strng{authornamehash}{5de346c845fc328cda81c41209d759ab}
       \strng{authorfullhash}{b3017fefd5c0eb3cf411c01814c88a7c}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -6077,8 +7730,8 @@
       \strng{authorbibnamehash}{66d1fcb24bd736281e7eafadce735133}
       \strng{authornamehash}{9c8fe5bbc41623af89cc5baffda0c34f}
       \strng{authorfullhash}{66d1fcb24bd736281e7eafadce735133}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{At long times, residual couplings to the environment become relevant even in the most isolated experiments, a crucial difficulty for the study of fundamental aspects of many-body dynamics. A particular example is many-body localization in a cold-atom setting, where incoherent photon scattering introduces both dephasing and particle loss. Whereas dephasing has been studied in detail and is known to destroy localization already on the level of non-interacting particles, the effect of particle loss is less well understood. A difficulty arises due to the `non-local' nature of the loss process, complicating standard numerical tools using matrix product decomposition. Utilizing symmetries of the Lindbladian dynamics, we investigate the particle loss on both the dynamics of observables, as well as the structure of the density matrix and the individual states. We find that particle loss in the presence of interactions leads to dissipation and a strong suppression of the (operator space) entanglement entropy. Our approach allows for the study of the interplay of dephasing and loss for pure and mixed initial states to long times, which is important for future experiments using controlled coupling of the environment.}
@@ -6111,8 +7764,8 @@
       \strng{authorbibnamehash}{db3a2ac4bb7edc871a862059726651fe}
       \strng{authornamehash}{db3a2ac4bb7edc871a862059726651fe}
       \strng{authorfullhash}{db3a2ac4bb7edc871a862059726651fe}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -6160,8 +7813,8 @@
       \strng{authorbibnamehash}{9d5ae497f5ca77cf8ffaae413e4c9ab1}
       \strng{authornamehash}{1ec90f2abc3c15172cb730198d384e85}
       \strng{authorfullhash}{9d5ae497f5ca77cf8ffaae413e4c9ab1}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -6209,8 +7862,8 @@
       \strng{authorbibnamehash}{394b5a93db733791a9e8abe2e2cbbf87}
       \strng{authornamehash}{b5ceb853674af9e727c8d1986abdb8d0}
       \strng{authorfullhash}{394b5a93db733791a9e8abe2e2cbbf87}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{14}
@@ -6268,8 +7921,8 @@
       \strng{authorbibnamehash}{fe9901672fbf1770480226acf15d934b}
       \strng{authornamehash}{0fa6d8a8ced533f8b0a8b91af8edb36f}
       \strng{authorfullhash}{fe9901672fbf1770480226acf15d934b}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{17}
@@ -6289,6 +7942,285 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevB.96.174201
       \endverb
+    \endentry
+    \entry{Sank2012}{article}{}
+      \name{author}{19}{}{%
+        {{hash=9c196f976101682c061efc0614f70fa6}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=96915b48a6ff353a26c5d4aab56c137c}{%
+           family={Bialczak},
+           familyi={B\bibinitperiod},
+           given={Radoslaw\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=056672c3aeb542ee777de20bea78b2c5}{%
+           family={Lenander},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eff4026eb032033e709bde6174d3be9f}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bdb44c753feea38b69ffdaeb660ee3fb}{%
+           family={Mariantoni},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=75f3d78a932ed86386a2ef2bafd63f44}{%
+           family={Neeley},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=96fcb68450f28a59913f918bcce52221}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.\bibnamedelimi J.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7ea58a08978a1363797b293339adad82}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=39856f0439f35f79a8eed8b12d26166c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5467fb216200fc3ea3a9de29808aaec4}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2cf59a1132f7af54f186c7089833c893}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{942c4485f5523361161dbb0e287c2913}
+      \strng{fullhash}{1b67ab082004f1009f726b7d88e77600}
+      \strng{bibnamehash}{942c4485f5523361161dbb0e287c2913}
+      \strng{authorbibnamehash}{942c4485f5523361161dbb0e287c2913}
+      \strng{authornamehash}{942c4485f5523361161dbb0e287c2913}
+      \strng{authorfullhash}{1b67ab082004f1009f726b7d88e77600}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{8}
+      \field{title}{Flux Noise Probed with Real Time Qubit Tomography in a Josephson Phase Qubit}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{067001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.109.067001
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.067001
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.067001
+      \endverb
+    \endentry
+    \entry{Yan2012}{article}{}
+      \name{author}{10}{}{%
+        {{hash=baa638f6b17bc5c1b7566e35bd08fae4}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8cd2494be13405f2ec8b3c28a8335a84}{%
+           family={Bylander},
+           familyi={B\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0dc496bfe7bb780dacac78a79c352060}{%
+           family={Gustavsson},
+           familyi={G\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4a8da1757f37c7522ebc4b857980b41f}{%
+           family={Yoshihara},
+           familyi={Y\bibinitperiod},
+           given={Fumiki},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9961d3bc17c5f510fe5a7902a162bdf7}{%
+           family={Harrabi},
+           familyi={H\bibinitperiod},
+           given={Khalil},
+           giveni={K\bibinitperiod}}}%
+        {{hash=689d644eb252f6b0b7d33e07a33ba316}{%
+           family={Cory},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=dc1f1c0d0c86459353a756744a94074f}{%
+           family={Orlando},
+           familyi={O\bibinitperiod},
+           given={Terry\bibnamedelima P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=aed877e53561bb9b9ba9699ed08b3295}{%
+           family={Nakamura},
+           familyi={N\bibinitperiod},
+           given={Yasunobu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=77d027194eb821548c6c33f31b9c74e3}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Jaw-Shen},
+           giveni={J\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=7e0fdfb97a5d24e12cfe5768c4fcf567}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={William\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b64a8228ce3b129fc285ec1c87501cf0}
+      \strng{fullhash}{aa7df2fd64a4bb9a947585f72e008d3b}
+      \strng{bibnamehash}{b64a8228ce3b129fc285ec1c87501cf0}
+      \strng{authorbibnamehash}{b64a8228ce3b129fc285ec1c87501cf0}
+      \strng{authornamehash}{b64a8228ce3b129fc285ec1c87501cf0}
+      \strng{authorfullhash}{aa7df2fd64a4bb9a947585f72e008d3b}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{17}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{5}
+      \field{title}{Spectroscopy of low-frequency noise and its temperature dependence in a superconducting qubit}
+      \field{volume}{85}
+      \field{year}{2012}
+      \field{pages}{174521}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.85.174521
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.85.174521
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.85.174521
+      \endverb
+    \endentry
+    \entry{SankUnpublished}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9c196f976101682c061efc0614f70fa6}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{fullhash}{9c196f976101682c061efc0614f70fa6}
+      \strng{bibnamehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{authorbibnamehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{authornamehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{authorfullhash}{9c196f976101682c061efc0614f70fa6}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{8}
+      \field{title}{Internal note and discussions, unpublished}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{067001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.109.067001
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.067001
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.067001
+      \endverb
+    \endentry
+    \entry{YanThesis}{article}{}
+      \name{author}{1}{}{%
+        {{hash=baa638f6b17bc5c1b7566e35bd08fae4}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Massachusetts Institute of Technology. Department of Nuclear Science}%
+        {Engineering.}%
+      }
+      \strng{namehash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \strng{fullhash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \strng{bibnamehash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \strng{authorbibnamehash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \strng{authornamehash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \strng{authorfullhash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ph.D Thesis}
+      \field{title}{Coherence characterization with a superconducting flux qubit through NMR approaches}
+      \field{year}{2013}
     \endentry
     \entry{Neill2018}{article}{}
       \name{author}{32}{}{%
@@ -6462,8 +8394,8 @@
       \strng{authorbibnamehash}{ce16a008d7f5970cf9bac5cbba391382}
       \strng{authornamehash}{ce16a008d7f5970cf9bac5cbba391382}
       \strng{authorfullhash}{1a094371bbcd3832284dfff768179da6}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Quantum information scientists are getting closer to building a quantum computer that can perform calculations that a classical computer cannot. It has been estimated that such a computer would need around 50 qubits, but scaling up existing architectures to this number is tricky. Neill et al. explore how increasing the number of qubits from five to nine affects the quality of the output of their superconducting qubit device. If, as the number of qubits grows further, the error continues to increase at the same rate, a quantum computer with about 60 qubits and reasonable fidelity might be achievable with current technologies.Science, this issue p. 195A key step toward demonstrating a quantum system that can address difficult problems in physics and chemistry will be performing a computation beyond the capabilities of any classical computer, thus achieving so-called quantum supremacy. In this study, we used nine superconducting qubits to demonstrate a promising path toward quantum supremacy. By individually tuning the qubit parameters, we were able to generate thousands of distinct Hamiltonian evolutions and probe the output probabilities. The measured probabilities obey a universal distribution, consistent with uniformly sampling the full Hilbert space. As the number of qubits increases, the system continues to explore the exponentially growing number of states. Extending these results to a system of 50 qubits has the potential to address scientific questions that are beyond the capabilities of any classical computer.}
@@ -6510,8 +8442,8 @@
       \strng{authorbibnamehash}{d8b783b4609c032f78060254071d63eb}
       \strng{authornamehash}{d8b783b4609c032f78060254071d63eb}
       \strng{authorfullhash}{d8b783b4609c032f78060254071d63eb}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -6533,11 +8465,7 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Krocknberger2012}
   \missing{R}
-  \missing{chiaro2015supp}
-  \missing{ohya2014}
-  \missing{qiplotfn}
 \endrefsection
 \endinput
 

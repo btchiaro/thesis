@@ -1,4 +1,5 @@
 \chapter{Precision frequency noise metrology of a superconducting qubit}
+\label{ch:noise}
 
 \section{Statement of the problem}
 Relaxation processes characterized by $T_1$ represent one critical class of decoherence mechansims.
@@ -21,11 +22,11 @@ This power spectrum provides important information that can be used to identify 
 \end{figure}
 
 Time series methods are a common approach to measuring the PSD, which is obtained from the autocorrelation of the qubit frequency.
-An early and conceptually straight-forward implementation of this idea is the Ramsey tomography oscilloscope (RTO). \rd{Cite Dan}
+An early and conceptually straight-forward implementation of this idea is the Ramsey tomography oscilloscope (RTO).\cite{Sank2012}
 In this method, we ensemble average repeated trials of a Ramsey measurement at fixed Ramsey delay to make a time series of the accumulated phase $\theta$.
 The drawback of this implementation is that the large number of trials required to estimate $\theta$ results in a relatively low Nyquist frequency.
-An improvement on the (RTO) is the single shot Ramsey tomography oscilloscope (SSRTO) method \rd{Cite Fei Yan}
-which allows us to increase the Nyquist frequency of our spectrum to the reset time of our system.
+An improvement on the (RTO) is the single shot Ramsey tomography oscilloscope (SSRTO) method\cite{Yan2012}
+which allows us to increase the Nyquist frequency of our spectrum to the limit set by the reset time of our system.
 The work in this chapter improves on this technique by eliminating the reset portion of the algorithm entirely.
 This increases the Nyquist frequency of the single shot Ramsey technique by two orders of magnitude since the repetition rate is then limited by the duration of the readout pulse $\sim 1 \mu s$ rather than the qubit reset time $\sim 5 T_1 \approx 100 \mu s$.
 We also demonstrate the calibration of the technique and show that it is reliable at the 20\% level.
@@ -53,7 +54,8 @@ We also demonstrate the calibration of the technique and show that it is reliabl
     \label{SSRTO Schematic}
 \end{figure}
 
-\subsection{mathematical derivation \rd{cite Dan unpublished and Fei}}
+\subsection{mathematical derivation
+The derivation in this section follows those in \citep{SankUnpublished, Yan2012, YanThesis}}
 
 The magnetic flux threading the qubit loop is a continuous time random process $\phi (t)$.
 We model this as a wide-sense stationary process which has some useful mathematical properties.
@@ -61,8 +63,10 @@ The mean and variance of the distribution from which $\phi$ is drawn are time in
 Further, autocorrelation and autocovariance are functions only of the time delay and not the absolute position in time.
 
 We wish to estimate the power spectrum of $\phi (t)$ because for example this information can be used to clarify the source of the noise.
+In order to estimate $\phi (t)$ we use the qubit as a probabilistic one bit detector.
 
-The Weiner-Khinchin theorem states that the power spectrum of a WSS process is the Fourier Transform of its autocorrelation function.
+The Weiner-Khinchin theorem states that the power spectral density (PSD)
+of a wide-sense stationary process is equal to the Fourier transform of its autocorrelation function.
 
 \begin{equation}
     \mathcal{S}(f) = \int_{-\infty}^{\infty} r_{xx} (\Delta) e^{- i 2 \pi f \Delta} d\Delta

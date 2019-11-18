@@ -136,7 +136,7 @@
 
 
 % Packages from MBL_Submitted_Supplement
-\renewcommand{\thefigure}{\textbf{S\arabic{figure}}}
+%\renewcommand{\thefigure}{\textbf{S\arabic{figure}}}
 \usepackage{mathrsfs}
 \usepackage{fullpage}
 \usepackage{amssymb}
@@ -172,8 +172,8 @@
 \DeclareMathOperator{\erfc}{{erfc}}
 \DeclareMathOperator{\sign}{{sign}}
 
-%\let\Oldsection\section
-%\renewcommand{\section}{\FloatBarrier\Oldsection}
+\let\Oldsection\section
+\renewcommand{\section}{\FloatBarrier\Oldsection}
 
 \let\Oldsubsection\subsection
 \renewcommand{\subsection}{\FloatBarrier\Oldsubsection}

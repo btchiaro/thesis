@@ -1,20 +1,108 @@
 \chapter[Analog Control]{Analog Control}
 % This is copied out of:
 % devBenGreen/latex/xiy_notes.tex
+
+Applications to quantum simulation require the ability to generate Hamiltonians with programmable coefficients.
+We achieve this capability with a two step calibration process described in this appendix.
+In the first stage of the control model calibration, we use a series of single and two qubit measurements to measure
+the parameters of the circuit model describing the device.  The details of the effective circuit model for this tunably coupled device were first worked out in \cite{Neill2018}.
+The mapping of control voltages to Hamiltonian coefficients is referred to as a control model.
+In the second stage of the control model calibration, we use the many-body Ramsey technique to benchmark the collective
+dynamics of the circuit, with all qubits coupled and near resonance with one another.
+Next, we numerically optimize the control model to the benchmarking data to arrive at a final control model.
+This is the calibration procedure that was used to make the many-body localization measurements of chapter 5.
+
+\section{Spectroscopy \label{sec:spectroscopy}}
+
+In the first stage of calibration we use conventional probe tone spectroscopy to measure
+the $\ket{0} \rightarrow \ket{1}$ and $\ket{1} \rightarrow \ket{2}$ transition frequencies for each qubit.
+These measurements are made with all other qubits biased far off resonance.
+
+In order to make these measurements, we apply a bias voltage to the qubit's flux bias control
+and apply a variable frequency probe tone to the qubit's microwave control.
+Then we read out the qubit's $\ket{1}$ population.
+We identify the qubit's transition frequency as the probe frequency that gives maximum population transfer to the excited state.
+This procedure is repeated as a function of qubit bias.
+We similarly measure the $\ket{1} \rightarrow \ket{2}$ transition frequency,
+which captures the nonlinearity of the device and ultimately controls the "Hubbard U" interaction term of our Bose-Hubbard Hamiltonian.
+The resulting curves are fit parametrically to give circuit element values for our physical device model.
+This is shown in fig.~\ref{spectroscopy data}(a).
+
+It is important to note that the qubit is reactively loaded by the coupler.
+Specifically, the effective inductance of the qubit is strongly influenced by the inductance of the coupler.
+This backaction enables us to infer the circuit parameters of the coupler by measuring the qubit frequency as a function of coupler bias.
+Example data from this procedure is shown in fig.~\ref{spectroscopy data}(b).
+
+The direct qubit - qubit interaction strength cannot be characterized from single qubit measurements alone.
+In order to measure the direct interaction, we use a two qubit swapping experiment as shown in fig.~\ref{spectroscopy data}(c).
+The hopping strength is inferred from the on resonance hopping rate.
+
+\quickwidefig{0.95\columnwidth}{./PDF/circuit_modelling_thesis.pdf}
+{
+a) Qubit spectroscopy measurement circuit diagram, pulse sequence, and example data.
+The error plot in the example data corresponds to the difference between the data points and prediction from the parameterized control model.
+b) Coupler spectroscopy measurement circuit diagram, pulse sequence and example data.
+c) Direct interaction "Chevron" measurement.  The Hamiltonian hopping coefficient is obtained from the on resonance hopping rate.
+}
+{spectroscopy data}
+
+In the tables below we report our measured circuit model parameters.
+We find circuit model parameters in good agreement with previous characterizations of this device.\cite{Neill2018}
+\begin{table}
+    \caption{Measured qubit parameters}
+    \centering
+    \begin{tabular}{ c c c c c c c}
+        \hline \hline
+        Qubit & C & $Lj_{0}$ & $Lg_{total}$ & $V_{offset}$ & $V/ \Phi_{0}$ & $\text{readout}_{g}$ \\
+        \hline
+        $q_1$ & 8.70-14 & 6.28-09 & 9.95-10 & 0.037 & 0.756 & 95496194  \\
+        $q_2$ & 8.42-14 & 6.20-09 & 1.07-09 & 0.076 & 0.762 & 90614175  \\
+        $q_3$ & 8.44-14 & 6.27-09 & 1.02-09 & 0.073 & 0.764 & 92096391  \\
+        $q_4$ & 8.28-14 & 6.52-09 & 1.11-09 & 0.057 & 0.762 & 76041127  \\
+        $q_5$ & 8.50-14 & 6.14-09 & 9.68-10 & 0.095 & 0.763 & 93350116  \\
+        $q_6$ & 8.83-14 & 6.13-09 & 8.22-10 & 0.057 & 0.760 & 105148979 \\
+        $q_7$ & 8.07-14 & 6.58-09 & 1.25-09 & 0.054 & 0.747 & 76450012  \\
+        $q_8$ & 8.54-14 & 6.27-09 & 9.58-10 & 0.064 & 0.762 & 99173392  \\
+        $q_9$ & 8.56-14 & 6.38-09 & 9.54-10 & 0.044 & 0.785 & 97020320  \\
+        \hline
+    \end{tabular}
+    \label{table:Qubit Parameters}
+\end{table}
+
+\begin{table}
+    \caption{Measured coupler parameters}
+    \centering
+    \begin{tabular}{ c c c c c c c c}
+        \hline \hline
+        Coupler & $M_{left}$ & $M_{right}$ & $\beta_{max}$ & $f_{0}$ & $V_{offset}$ & $V / \Phi_{0}$ \\ % & fudge \\
+        \hline
+$c_{1,2}$ & 4.50-11 & 4.23-11 & 0.675 & 15.1 & 0.694 & 0.965\\ % & 479115.3163698823 \\
+$c_{2,3}$ & 4.54-11 & 4.16-11  & 0.678 & 14.9 & 0.683 & 0.964\\ % & 798459.7494982895 \\
+$c_{3,4}$ & 4.51-11  & 4.28-11 & 0.684 & 15.0 & 0.682 & 0.956\\ % & 430696.97482430335 \\
+$c_{4,5}$ & 4.61-11  & 4.13-11  & 0.681 & 14.9 & 0.685 & 0.961\\ % & -189375.77474641177\\
+$c_{5,6}$ & 4.29-11  & 3.75-11 & 0.669 & 14.4 & 0.682 & 0.963\\ % & -495103.36686547904 \\
+$c_{6,7}$ & 4.12-11 & 4.20-11 & 0.676 & 14.5 & 0.672 & 0.952\\ % & -832508.8345176188 \\
+$c_{7,8}$ & 4.70-11 & 4.09-11 & 0.691 & 14.9 & 0.676 & 0.963\\ % & -502200.6315507185 \\
+$c_{8,9}$ & 4.46-11 & 3.86-11 & 0.680 & 15.0 & 0.686 & 0.958\\ % & 1958451.7900973207 \\
+        \hline
+    \end{tabular}
+    \label{table:Coupler Parameters}
+\end{table}
+
+\section{Many-body Ramsey spectroscopy}
+\label{sec:mbr}
+
 Many-body Ramsey spectroscopy is the primary benchmarking technique for our multi-qubit, time-independent Hamiltonians\,\cite{Roushan2018}.
 This technique allows us to extract the eigenvalues of a time independent Hamiltonian.
 We can then compare the extracted eigenvalues with those predicted from our control model to establish a measure of fidelity.
 In this appendix we give a detailed discussion of many-body Ramsey spectroscopy and its use in validating and optimizing our control model.
-\section{Spectroscopy}
-
-\section{Many-body Ramsey spectroscopy}
 
 For a wavefunction $\ket{\psi}$ evolving under a time independent Hamiltonian $\mathcal{H}$ we can write down the time dependence of $\ket{\psi}$ by expanding it in the
 energy eigenbasis.
 
 \begin{equation}
-    \label{ti_schrodinger_eqn}
     \ket{\psi (t)} =e^{-i \mathcal{H} t} \ket{\psi_{0}} = \sum_{\alpha} C_{\alpha} e^{-i E_{\alpha} t} \ket{\phi_{\alpha}}
+    \label{ti_schrodinger_eqn}
 \end{equation}
 
 \noindent The coefficients $C_{\alpha}$ are given by the overlap of the initial state with the eigenstates of $\mathcal{H}$.
@@ -59,18 +147,19 @@ the above equation is still somewhat opaque because it describes the time depend
 Typically, however, we use the Fock basis for initialization and measurement.
 Thus, although the Hamiltonian evolution of the multi-qubit system is most naturally described in terms of the the eigenstates of $\mathcal{H}$,
 the initial state and measurement observable that we wish to engineer are best described in terms of a product of single qubit states.
-
+Schematically
 \begin{center}
 \begin{tikzpicture}[node distance=2in]
     \tikzstyle{process} = [rectangle, rounded corners, minimum width=0.5in, minimum height=0.5in,text centered, draw=black, fill=none]
     \tikzstyle{arrow} = [thick,->,>=stealth]
-    \node (p1_label) [process, label=below:\varphi] {Initialization};
-    \node (p2_label) [process, right of=p1_label, xshift=0cm, label=below:\phi] {Hamiltonian evolution};
-    \node (p3_label) [process, right of=p2_label, xshift=0cm, label=below:\varphi] {Measurement};
+    \node (p1_label) [process, label=below:$\{\ket{\varphi}\}$] {Initialization};
+    \node (p2_label) [process, right of=p1_label, xshift=0cm, label=below:$\{\ket{\phi}\}$] {Hamiltonian evolution};
+    \node (p3_label) [process, right of=p2_label, xshift=0cm, label=below:$\{\ket{\varphi}\}$] {Measurement};
     \draw [arrow] (p1_label) -- (p2_label);
     \draw [arrow] (p2_label) -- (p3_label);
 \end{tikzpicture}
 \end{center}
+Where $\varphi$ and $\phi$ represent the Fock basis and Hamiltonian eigenbasis.
 
 It is useful to work this out explicitly for extracting the eigenvalues of the single photon manifold for a small three qubit system.  % in the zero and one photon manifolds.
 %Consider the example of the vacuum + 1 photon subspace of a three qubit system.
@@ -78,13 +167,13 @@ The relevant Fock basis states are:
 \begin{equation}
     \{\varphi\} = \ket{000}, \ket{001}, \ket{010}, \ket{100}
 \end{equation}
-Initializing to a superposition state by doing a Y/2 rotation on a single qubit pulse we have:
+Initializing to a superposition state by doing a Y/2 rotation on a single qubit we have:
 \begin{equation*}
     \ket{\psi_0} = \frac{1}{\sqrt{2}} \left( \ket{000} + \ket{001} \right) = \frac{1}{\sqrt{2}} \left( \ket{\varphi_0} + \ket{\varphi_1} \right)
 \end{equation*}
 Let C be the matrix that changes basis from the Fock basis to the eigenbasis of H.
 \begin{equation}
-    \ket{\psi_0}_{phi} = \frac{1}{\sqrt{2}}
+    \ket{\psi_0}_{\phi} = \frac{1}{\sqrt{2}}
     \begin{bmatrix}
         1 & 0 & 0 & 0 \\
         0 & c_{11} & c_{12} & c_{13} \\
@@ -103,7 +192,7 @@ Let C be the matrix that changes basis from the Fock basis to the eigenbasis of 
         c_{11} \\
         c_{21} \\
         c_{31} \\
-    \end{bmatrix}_{\varphi}
+    \end{bmatrix}_{\phi}
 \end{equation}
 Where the subscripts indicate which basis we are working in.
 The time dependence of $\psi$ is
@@ -181,8 +270,9 @@ In this case we recover the eigenvalues of H because \qeqn{ FFT(...) = \delta(E_
 
 This calculation makes the roles of the initial state and measurement observable clear.
 It is essential that the initial state be a superposition of a reference state, and a state in the manifold that we wish to extract the eigenvalues of.
-it is critical that the reference state is member of a manifold with trivial internal dynamics, in this case $\ket{\psi}_{ref} = \ket{000}$.
-This state serves as an interference partner for our Ramsey experiment and its triviality assures that the spectrum of our interference pattern is exclusively due to the dynamics of the target manifold.
+It is critical that the reference state is member of a manifold with trivial internal dynamics, in this case $\ket{\psi}_{ref} = \ket{000}$.
+This state serves as an interference partner for our generalized Ramsey experiment,
+and its triviality assures that the spectrum of our interference pattern is exclusively due to the dynamics of the target manifold and not the internal dynamics of the reference manifold.
 
 The choice of $\hat{O} = \hat{a} = \hat{\sigma}^x + i \hat{\sigma}^y$ is also clarified by this calculation.
 This operator interfers the dynamic manifold with the reference state, isolating the eigenvalues.
@@ -241,7 +331,7 @@ The naive attempt of measuring the onsite population of qubit $\hat{n}_1$ yields
 The numerics below illustrate these points:
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=150 mm]{./PDF/mbr_numerics_3qubit_o_psi0.pdf}
+        \includegraphics[width=250 mm]{./PDF/mbr_numerics_3qubit_o_psi0.pdf}
     \end{center}
     \caption{
     The spectrum of $\hat{O} = \sigma^z$ is comprised of the differences of eigenvalues.
@@ -250,6 +340,8 @@ The numerics below illustrate these points:
     }
     \label{mbr_peaks_numerics}
 \end{figure}
+
+\section{Control model optimization}
 
 \begin{figure}[h]
     \begin{center}
@@ -263,53 +355,68 @@ The numerics below illustrate these points:
     }
     \label{mbr_peaks_data}
 \end{figure}
-
-Because the Many-body Ramsey extracts the eigenvalues of the Hamiltonian that was actually
-generated we can compare the extracted eignevalues with those predicted by our circuit parameterization as a control error metric.
+Because the Many-body Ramsey extracts the eigenvalues of the Hamiltonian that was actually generated in the experiment,
+we can compare the extracted eignevalues with those predicted by our circuit parameterization and use the difference as a control error metric.
 With this error metric established, we can optimize the parameters of our control model to give a more accurate parameterization of the circuit.
 
-The 5 qubit data below illustrates this process.
-After using
-\section{calibration data}
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=150 mm]{./PDF/fourier_amp_2d_tv_pre.pdf}
+    \end{center}
         \caption{
         Five qubit many-body Ramsey spectroscopy data overlayed with predictions from control model prior to optimization.
         }
-    \end{center}
+    \label{mbr_benchmark_pre_optimization}
 \end{figure}
+After using the conventional spectroscopy described in above in section \ref{sec:spectroscopy} to measure the circuit model parameters
+using a series of single and two qubit measurements we benchmark the collective dynamics of the system using the many-body Ramsey technique
+described in section~\ref{sec:mbr}
+
+The result is shown in fig.~\ref{mbr_benchmark_pre_optimization}.
+The 2D color plot is the raw Fourier data for each of 100 training instances.
+This data is overlayed with the control model predictions (red circles) and peak positions extracted with our analysis algorithm (black circles).
+The error per eigenvalue is extracted to be 9 MHz.
 
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=150 mm]{./PDF/tv_error_during_opt.pdf}
+    \end{center}
         \caption{
         Error per eigenvalue for the training and validation splits during optimization.
         Data shown is for five qubit Hamiltonians.
         }
-    \end{center}
+    \label{error_during_optimization_training_validation}
 \end{figure}
+%The 5 qubit data in fig.~\ref{error_during_optimization_training_validation} illustrates this process.
+Next, we follow the standard optimization procedure of dividing our full data set into training and validation subsets.
+We then optimize the control model by minimizing the average error per eigenvalue of the training data only.
+The error per eigenvalue at each iteration of the optimization process is shown in fig.~\ref{error_during_optimization_training_validation}.
 
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=150 mm]{./PDF/fourier_amp_2d_tv_post.pdf}
+    \end{center}
         \caption{
         Five qubit many-body Ramsey spectroscopy data overlayed with predictions from control model after optimization.
         }
-    \end{center}
+    \label{mbr_benchmark_post_optimization}
 \end{figure}
+The predictions from the optimized control model are overlayed on the original fourier data in fig.~\ref{mbr_benchmark_post_optimization}
 
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=150 mm]{./PDF/mbr_9q_validation.pdf}
+    \end{center}
         \caption{\textbf{Manybody Ramsey calibration data for a nine qubit linear chain}
         a) Raw Fourier data from Many-body Ramsey spectroscopy.  b) Histogram of errors for each eigenvalue.
         }
-    \end{center}
+    \label{9q manybody ramsey validation}
 \end{figure}
+In fig.~\ref{9q manybody ramsey validation} we show 9 qubit validation data with a validation error rate of 1.2 MHz per eigenvalue.
+This shows that the MHz level error rate can be maintained as we scale to larger numbers of qubits.
 
+\draftcomment{
 \section{Notes in progress}
-
 Because the Bose-Hubbard Hamiltonian that we evolve the system under is photon conserving it takes the following form:
 \begin{equation}
 H=
@@ -545,7 +652,9 @@ Now we can compare measurements with different operators on different initial st
 \begin{equation}
     \braket{\psi(t)|\hat{a}_1|\psi(t)} = a_{11} e^{-i E_1 t} + a_{12} e^{-i E_2 t} + a_{13} e^{-i E_3 t}
 \end{equation}
+} %end draftcomment
 
+\indraftprogress{
 \section{Doublon Spectroscopy}
 In the analog control project with the gmon we routinely work outside the qubit subspace.  It is necessary to find the eigenvalues of such states as $\ket{002}$ etc.
 In this case we must engineer a similar operator with only one element.
@@ -614,11 +723,16 @@ If we make an x rotation immediately before measuring x+iy our measurement opera
         0 & (1+i) & 0 \\
     \end{bmatrix}
 \end{equation}
+} % end indraftprogress
 
+\section{ Connection between many-body Ramsey spectroscopy and unitary tomography (2 qubit particle conserving evolution)}
+In the recent demonstration of quantum supremacy \cite{Arute2019} the two qubit gates were photon number conserving unitaries from the fsim class.
+The unitaries were parameters of the fsim gates were those that minimized the cross-entropy benchmarking fidelity.
+The initial guesses for this optimization process were provided by a technique we refer to as unitary tomography.
+This technique is deeply connected to the many-body Ramsey technique discussed in the previous section.
+In this section we highlight the simple, powerful unitary tomography.
 
-\section{Application to Unitary Tomography (2 qubit particle conserving evolution)}
 We wish to measure the matrix elements of a generic two qubit photon conserving unitary U.
-
 In order to probe U, we can apply the unitary to an initial state of our choice.  We can also perform tomographic rotations prior to measurement.
 % TODO Why
 \begin{equation}
@@ -657,6 +771,9 @@ The unitary for the chemistry gates (this is I believe a generic photon number c
         0 & 0 & 0 & U_{33} \\
     \end{bmatrix}
 \end{equation}
+
+We wish to ascertain the matrix elements of this unitary transformation.
+\quickwidefig{0.8\columnwidth}{./PDF/unitary_tomography_thesis.png}{A schematic diagram of the unitary tomography procedure for measuring the matrix elements of U}{unitary tomography schematic}
 
 
 The single photon subspace of U looks like
@@ -757,10 +874,6 @@ so that
         0 \\
     \end{bmatrix}
     \implies
-    \braket{\psi_{f}|\hat{O}|\psi_{f}} = U11
-\end{equation}
-or if you prefer:
-\begin{equation}
     \braket{\psi_{f}|\hat{O}|\psi_{f}} =
     \begin{bmatrix}
         1 & U_{11}^{*} & U_{21}^{*} & 0
@@ -780,8 +893,8 @@ or if you prefer:
     = U_{11}
 \end{equation}
 
-
 and for a measurement on qubit 2
+
 \begin{equation}
     \hat{O}=(\sigma^{x} + i\sigma^{y}) \otimes I=
     \begin{bmatrix}
@@ -811,10 +924,6 @@ so that
         0 \\
     \end{bmatrix}
     \implies
-    \braket{\psi_{f}|\hat{O}|\psi_{f}} = U21
-\end{equation}
-or if you prefer:
-\begin{equation}
     \braket{\psi_{f}|\hat{O}|\psi_{f}} =
     \begin{bmatrix}
         1 & U_{11}^{*} & U_{21}^{*} & 0
@@ -835,4 +944,4 @@ or if you prefer:
 \end{equation}
 
 We have succeeded in measuring a single matrix element of the unitary, by mapping it's magnitude and phase onto the single qubit magnitude and phase.
-
+This procedure generalizes trivially to the single photon manifold of multiqubit systems.

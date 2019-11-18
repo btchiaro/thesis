@@ -463,4 +463,70 @@
   \pagestyle{headings}
 }
 
+%%%%%%%%%%%%%%% Compile modes to make orderly progress.
 
+                              %%%%  draftmodetrue           draftmodefalse (formal output)
+
+% Finished work              no box formatting           no box formatting
+
+% inprogress                 green box                   no box formatting
+%(needs polish but close enough for now inlude in formal compile)
+
+% indraftprogress            blue box                    not shown
+% not ready for prime time,  but in progress.  Considered
+
+% draftcomment               red box                     not shown
+% very rough content likely to get cut.
+
+
+\newif\ifdraftmode
+\RequirePackage{mdframed}
+
+\definecolor{applegreen}{rgb}{0.55, 0.71, 0.0}
+\definecolor{almond}{rgb}{0.94, 0.87, 0.8}
+\mdfdefinestyle{inprogressstyle}{frametitle={},innertopmargin=5pt,innerrightmargin=0.5em,%
+linewidth=1pt,linecolor=applegreen,hidealllines=false,topline=true,leftline=true,
+linewidth=0.4em,backgroundcolor=almond!50}
+
+\DeclareRobustCommand{\inprogress}[1]{
+\ifdraftmode
+\begin{mdframed}[style=inprogressstyle]
+#1
+\end{mdframed}
+\else
+#1
+\fi
+}
+
+\definecolor{oceanboatblue}{rgb}{0.0, 0.47, 0.75}
+\mdfdefinestyle{inprogressstyle}{frametitle={},innertopmargin=5pt,innerrightmargin=0.5em,%
+linewidth=1pt,linecolor=oceanboatblue,hidealllines=false,topline=true,leftline=true,
+linewidth=0.4em,backgroundcolor=almond!50}
+\DeclareRobustCommand{\indraftprogress}[1]{
+\ifdraftmode
+\begin{mdframed}[style=indraftprogressstyle]
+#1
+\end{mdframed}
+\fi
+}
+
+\definecolor{atomictangerine}{rgb}{1.0, 0.6, 0.4}
+\definecolor{apricot}{rgb}{0.98, 0.81, 0.69}
+\mdfdefinestyle{draftstyle}{frametitle={},innertopmargin=5pt,innerrightmargin=0.5em,%
+linewidth=1pt,linecolor=red,hidealllines=false,topline=true,leftline=true,
+linewidth=0.4em, backgroundcolor=apricot!20}
+\DeclareRobustCommand{\draftcomment}[1]{
+\ifdraftmode
+\begin{mdframed}[style=draftstyle]
+#1
+\end{mdframed}
+\fi
+}
+
+%\DeclareRobustCommand*{\onlinecite}[1]{%
+%  \begingroup
+%    \romannumeral-`\x % remove space at the beginning of \setcitestyle
+%    \setcitestyle{numbers}%
+%    \cite{#1}%
+%  \endgroup
+%}
