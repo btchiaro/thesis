@@ -3051,8 +3051,8 @@
       \strng{authorbibnamehash}{8fd9477e3a516761261362b297cacc3a}
       \strng{authornamehash}{8fd9477e3a516761261362b297cacc3a}
       \strng{authorfullhash}{8fd9477e3a516761261362b297cacc3a}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0197-0216}
@@ -3119,8 +3119,8 @@
       \strng{authornamehash}{8415b492a4f8d61a1d114889092f758a}
       \strng{authorfullhash}{507ee4429d2ada439abe0cc019f2f4f9}
       \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The structural and electrical properties of Ti--N films deposited by reactive sputtering depend on their growth parameters, in particular the Ar:N2 gas ratio. We show that the nitrogen percentage changes the crystallographic phase of the film progressively from pure α-Ti, through an α-Ti phase with interstitial nitrogen, to stoichiometric Ti2N, and through a substoichiometric TiNx to stoichiometric TiN. These changes also affect the superconducting transition temperature, TC, allowing, the superconducting properties to be tailored for specific applications. After decreasing from a TC of 0.4K for pure Ti down to below 50mK at the Ti2N point, the TC then increases rapidly up to nearly 5K over a narrow range of nitrogen incorporation. This very sharp increase of TC makes it difficult to control the properties of the film from wafer-to-wafer as well as across a given wafer to within acceptable margins for device fabrication. Here we show that the nitrogen composition and hence the superconductive properties are related to, and can be determined by, spectroscopic ellipsometry. Therefore, this technique may be used for process control and wafer screening prior to investing time in processing devices. Contribution of the U.S. government, not subject to copyright.}
@@ -3167,8 +3167,8 @@
       \strng{authorbibnamehash}{7cd576cfe0458b4a117925295b08854c}
       \strng{authornamehash}{7cd576cfe0458b4a117925295b08854c}
       \strng{authorfullhash}{7cd576cfe0458b4a117925295b08854c}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1687-4110}
@@ -3527,8 +3527,8 @@
       \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
       \strng{authorfullhash}{afade78ae4a74227663a498403326b8e}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -6307,8 +6307,8 @@
       \strng{authorbibnamehash}{0c079ef085e2f039f9e36ae6daf54e34}
       \strng{authornamehash}{0c079ef085e2f039f9e36ae6daf54e34}
       \strng{authorfullhash}{ee7dade733e103c55455556a3e7d448b}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{349}
@@ -6350,8 +6350,8 @@
       \strng{authorbibnamehash}{d9a20d892ceb0946965996d6caf0202b}
       \strng{authornamehash}{5cc576a322abf55baff5005ce84df6ce}
       \strng{authorfullhash}{d9a20d892ceb0946965996d6caf0202b}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{8}
@@ -6429,8 +6429,8 @@
       \strng{authorbibnamehash}{6481e2653434fcfbf84535a6963a75ab}
       \strng{authornamehash}{6481e2653434fcfbf84535a6963a75ab}
       \strng{authorfullhash}{d2d84934c4e9bb633d71260009606459}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Physics}
@@ -6502,8 +6502,8 @@
       \strng{authorbibnamehash}{84faf6155d85a0141575b8be93186a33}
       \strng{authornamehash}{84faf6155d85a0141575b8be93186a33}
       \strng{authorfullhash}{3ae34b21d21088373393bd4e37eff86f}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science}
@@ -6557,8 +6557,8 @@
       \strng{authorbibnamehash}{691331cf8dbb8567efdfe2a08d303c18}
       \strng{authornamehash}{691331cf8dbb8567efdfe2a08d303c18}
       \strng{authorfullhash}{c068a3159d2e3d165c1a02b53d8fa48c}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Phys. Rev. X}
@@ -6714,8 +6714,8 @@
       \strng{authorbibnamehash}{460057e422e261ecc243891b76a03257}
       \strng{authornamehash}{460057e422e261ecc243891b76a03257}
       \strng{authorfullhash}{7ca602c8274e15805bd7af907211e96d}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Interacting quantum particles can behave in peculiar ways. To understand that behavior, physicists have turned to quantum simulation, in which a tunable and clean system can be monitored as it evolves under the influence of interactions. Roushan et al. used a chain of nine superconducting qubits to create effective interactions between normally noninteracting photons and directly measured the energy levels of their system. The interplay of interactions and disorder gave rise to a transition to a localized state. With an increase in the number of qubits, the technique should be able to tackle problems that are inaccessible to classical computers.Science, this issue p. 1175Quantized eigenenergies and their associated wave functions provide extensive information for predicting the physics of quantum many-body systems. Using a chain of nine superconducting qubits, we implement a technique for resolving the energy levels of interacting photons. We benchmark this method by capturing the main features of the intricate energy spectrum predicted for two-dimensional electrons in a magnetic field{—}the Hofstadter butterfly. We introduce disorder to study the statistics of the energy levels of the system as it undergoes the transition from a thermalized to a localized phase. Our work introduces a many-body spectroscopy technique to study quantum phases of matter.}
@@ -6797,8 +6797,8 @@
       \strng{authorbibnamehash}{12e515e4641e01e00d5f9ac2ec3f2f1f}
       \strng{authornamehash}{12e515e4641e01e00d5f9ac2ec3f2f1f}
       \strng{authorfullhash}{d23d65aefd7efdfcc0f1fe81186f98e5}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Some one-dimensional disordered interacting quantum systems have been theoretically predicted to display a property termed many-body localization (MBL), where the system retains the memory of its initial state and fails to thermalize. However, proving experimentally that something does not occur is tricky. Instead, physicists have proposed monitoring the entanglement entropy of the system, which should grow logarithmically with evolution time in an MBL system. Lukin et al. observed this characteristic logarithmic trend in a disordered chain of interacting atoms of rubidium-87. This method should be generalizable to other experimental platforms and higher dimensions.Science, this issue p. 256An interacting quantum system that is subject to disorder may cease to thermalize owing to localization of its constituents, thereby marking the breakdown of thermodynamics. The key to understanding this phenomenon lies in the system{’}s entanglement, which is experimentally challenging to measure. We realize such a many-body{–}localized system in a disordered Bose-Hubbard chain and characterize its entanglement properties through particle fluctuations and correlations. We observe that the particles become localized, suppressing transport and preventing the thermalization of subsystems. Notably, we measure the development of nonlocal correlations, whose evolution is consistent with a logarithmic growth of entanglement entropy, the hallmark of many-body localization. Our work experimentally establishes many-body localization as a qualitatively distinct phenomenon from localization in noninteracting, disordered systems.}

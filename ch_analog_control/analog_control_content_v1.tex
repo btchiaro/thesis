@@ -3,13 +3,14 @@
 % devBenGreen/latex/xiy_notes.tex
 
 Applications to quantum simulation require the ability to generate Hamiltonians with programmable coefficients.
+This requires us to develop a mapping between control voltages set by the experimentalist and the resultant Hamiltonian parameters.
+We refer to this mapping as a control model.
 We achieve this capability with a two step calibration process described in this appendix.
 In the first stage of the control model calibration, we use a series of single and two qubit measurements to measure
 the parameters of the circuit model describing the device.  The details of the effective circuit model for this tunably coupled device were first worked out in \cite{Neill2018}.
-The mapping of control voltages to Hamiltonian coefficients is referred to as a control model.
 In the second stage of the control model calibration, we use the many-body Ramsey technique to benchmark the collective
 dynamics of the circuit, with all qubits coupled and near resonance with one another.
-Next, we numerically optimize the control model to the benchmarking data to arrive at a final control model.
+Next, we numerically optimize the control model parameters using the difference between the benchmarking data and control model predictions as a cost function.
 This is the calibration procedure that was used to make the many-body localization measurements of chapter 5.
 
 \section{Spectroscopy \label{sec:spectroscopy}}
@@ -97,21 +98,21 @@ This technique allows us to extract the eigenvalues of a time independent Hamilt
 We can then compare the extracted eigenvalues with those predicted from our control model to establish a measure of fidelity.
 In this appendix we give a detailed discussion of many-body Ramsey spectroscopy and its use in validating and optimizing our control model.
 
-For a wavefunction $\ket{\psi}$ evolving under a time independent Hamiltonian $\mathcal{H}$ we can write down the time dependence of $\ket{\psi}$ by expanding it in the
+For a wavefunction $\ket{\psi}$ evolving under a time independent Hamiltonian $H$ we can write down the time dependence of $\ket{\psi}$ by expanding it in the
 energy eigenbasis.
 
 \begin{equation}
-    \ket{\psi (t)} =e^{-i \mathcal{H} t} \ket{\psi_{0}} = \sum_{\alpha} C_{\alpha} e^{-i E_{\alpha} t} \ket{\phi_{\alpha}}
+    \ket{\psi (t)} =e^{-i H t} \ket{\psi_{0}} = \sum_{\alpha} C_{\alpha} e^{-i E_{\alpha} t} \ket{\phi_{\alpha}}
     \label{ti_schrodinger_eqn}
 \end{equation}
 
-\noindent The coefficients $C_{\alpha}$ are given by the overlap of the initial state with the eigenstates of $\mathcal{H}$.
+\noindent The coefficients $C_{\alpha}$ are given by the overlap of the initial state with the eigenstates of $H$.
 
 \begin{equation}
     C_{\alpha} = \braket{\phi_{\alpha}|\psi_{0}}
 \end{equation}
 
-\noindent Looking at Eq.\,~\ref{ti_schrodinger_eqn}, it is clear that if we could simply Fourier transform the wavefunction, the task would be complete.
+\noindent Looking at Eq.\,~\ref{ti_schrodinger_eqn}, it is clear that if we could simply Fourier transform the wavefunction, the task ef extracting the eigenvalues of $H$ would be complete.
 Unfortunately, $\ket{\psi}$ is not an observable and our ability to interogate $\ket{\psi}$ is limited to sampling bitstrings which may be averaged
 to give the expectation values of Hermitian operators.  Such an observable $\hat{O}$ can be expanded in the energy basis as
 
@@ -138,14 +139,14 @@ to give the expectation values of Hermitian operators.  Such an observable $\hat
 \end{equation*}
 
 \noindent The time dependence of $O(t)$ exposes our central challenge.
-For a generic initial state and a generic $\hat{O}$ the time series $O(t)$ does not isolate the eigenvalues of $\mathcal{H}$.
+For a generic initial state and a generic $\hat{O}$ the time series $O(t)$ does not isolate the eigenvalues of $H$.
 Instead, the Fourier transform of $O(t)$ reports all energy differences in the spectrum.
 In order to isolate the eigenvalues we must engineer the initial state and measurement observables such that we keep only terms with $E_{\alpha^{\prime}}=0$.
 
 From an engineering perspective,
-the above equation is still somewhat opaque because it describes the time dependence of an observable only in terms of the eigenbasis of $\mathcal{H}$.
+the above equation is still somewhat opaque because it describes the time dependence of an observable only in terms of the eigenbasis of $H$.
 Typically, however, we use the Fock basis for initialization and measurement.
-Thus, although the Hamiltonian evolution of the multi-qubit system is most naturally described in terms of the the eigenstates of $\mathcal{H}$,
+Thus, although the Hamiltonian evolution of the multi-qubit system is most naturally described in terms of the the eigenstates of $H$,
 the initial state and measurement observable that we wish to engineer are best described in terms of a product of single qubit states.
 Schematically
 \begin{center}
@@ -726,11 +727,11 @@ If we make an x rotation immediately before measuring x+iy our measurement opera
 } % end indraftprogress
 
 \section{ Connection between many-body Ramsey spectroscopy and unitary tomography (2 qubit particle conserving evolution)}
-In the recent demonstration of quantum supremacy \cite{Arute2019} the two qubit gates were photon number conserving unitaries from the fsim class.
-The unitaries were parameters of the fsim gates were those that minimized the cross-entropy benchmarking fidelity.
+In the recent demonstration of quantum supremacy \cite{Arute2019} the two qubit gates were photon number conserving unitaries from the FSim class.
+The matrix elements for the two qubit unitaries were discovered by optimizing the gate parameters to the cross-entropy benchmarking fidelity.
 The initial guesses for this optimization process were provided by a technique we refer to as unitary tomography.
-This technique is deeply connected to the many-body Ramsey technique discussed in the previous section.
-In this section we highlight the simple, powerful unitary tomography.
+This technique is now widely used for two qubit gate calibration in the Martinis group / Google AI Quantum lab.
+Here we highlight the deep connection between the many-body Ramsey technique discussed in the previous section and the simple, powerful unitary tomography technique.
 
 We wish to measure the matrix elements of a generic two qubit photon conserving unitary U.
 In order to probe U, we can apply the unitary to an initial state of our choice.  We can also perform tomographic rotations prior to measurement.
