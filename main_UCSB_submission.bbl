@@ -1609,6 +1609,204 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.113.220502
       \endverb
     \endentry
+    \entry{Neill2018}{article}{}
+      \name{author}{32}{}{%
+        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1da87e45f27c6d9d57192ddcc39536eb}{%
+           family={Roushan},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ecdb5c081413df029cbe5c5d5704b815}{%
+           family={Kechedzhi},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=41bfc74e4b7c73f53902662b6f3dd8af}{%
+           family={Boixo},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d8c3307f54bf0b08d429490ee7dec2b8}{%
+           family={Isakov},
+           familyi={I\bibinitperiod},
+           given={S.\bibnamedelimi V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=ce2fabfc39376c52915712e24f1ec9ee}{%
+           family={Smelyanskiy},
+           familyi={S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=41e3b7df214ae8e20258fc5d1eb197eb}{%
+           family={Dunsworth},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=78c4c62af83e6ebf07b77759f298cd89}{%
+           family={Arya},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b88b81188ba6c64293e9d8f8cc881750}{%
+           family={Burkett},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d90f53b6c47cfea3540b0fb9da23dbd7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=2c11a24d77752d139c596ea42b66e6ae}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=645313ab4043fd5e5817b9eef4a1634a}{%
+           family={Foxen},
+           familyi={F\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=bf558983da8a0a1b14c925a2751fc816}{%
+           family={Giustina},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d08b1d6038d3c85f98358677d8e22f5d}{%
+           family={Graff},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c100c55f6ebe8b06bf6ac7fe84162405}{%
+           family={Jeffrey},
+           familyi={J\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c8e3c06d29519f4220d0a0bde8acdbf6}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=95ff3569354a8d89b55edabf80c423e7}{%
+           family={Klimov},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=eff4026eb032033e709bde6174d3be9f}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8303fdb222c36e017825e09dce34cafb}{%
+           family={Mutus},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=75f3d78a932ed86386a2ef2bafd63f44}{%
+           family={Neeley},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6bbdfeb8cf2208c5732783731b39da6e}{%
+           family={Quintana},
+           familyi={Q\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f04446b18aa4081121989c7b3a557778}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7ea58a08978a1363797b293339adad82}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=805e7a7a2621962b09d3ad6eb37f3ae0}{%
+           family={Neven},
+           familyi={N\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9f2ac509b63af11f2f6e3ccb91b0fd50}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{ce16a008d7f5970cf9bac5cbba391382}
+      \strng{fullhash}{1a094371bbcd3832284dfff768179da6}
+      \strng{bibnamehash}{ce16a008d7f5970cf9bac5cbba391382}
+      \strng{authorbibnamehash}{ce16a008d7f5970cf9bac5cbba391382}
+      \strng{authornamehash}{ce16a008d7f5970cf9bac5cbba391382}
+      \strng{authorfullhash}{1a094371bbcd3832284dfff768179da6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantum information scientists are getting closer to building a quantum computer that can perform calculations that a classical computer cannot. It has been estimated that such a computer would need around 50 qubits, but scaling up existing architectures to this number is tricky. Neill et al. explore how increasing the number of qubits from five to nine affects the quality of the output of their superconducting qubit device. If, as the number of qubits grows further, the error continues to increase at the same rate, a quantum computer with about 60 qubits and reasonable fidelity might be achievable with current technologies.Science, this issue p. 195A key step toward demonstrating a quantum system that can address difficult problems in physics and chemistry will be performing a computation beyond the capabilities of any classical computer, thus achieving so-called quantum supremacy. In this study, we used nine superconducting qubits to demonstrate a promising path toward quantum supremacy. By individually tuning the qubit parameters, we were able to generate thousands of distinct Hamiltonian evolutions and probe the output probabilities. The measured probabilities obey a universal distribution, consistent with uniformly sampling the full Hilbert space. As the number of qubits increases, the system continues to explore the exponentially growing number of states. Extending these results to a system of 50 qubits has the potential to address scientific questions that are beyond the capabilities of any classical computer.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{number}{6385}
+      \field{title}{A blueprint for demonstrating quantum supremacy with superconducting qubits}
+      \field{volume}{360}
+      \field{year}{2018}
+      \field{pages}{195\bibrangedash 199}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.aao4309
+      \endverb
+      \verb{eprint}
+      \verb https://science.sciencemag.org/content/360/6385/195.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://science.sciencemag.org/content/360/6385/195
+      \endverb
+      \verb{url}
+      \verb https://science.sciencemag.org/content/360/6385/195
+      \endverb
+    \endentry
     \entry{Leduc2010}{article}{}
       \name{author}{13}{}{%
         {{hash=b02b6dc9df885e3ca732a43e4d322d0b}{%
@@ -3008,8 +3206,8 @@
       \strng{authorbibnamehash}{de89eaf63b14abb32650786c5ae16b47}
       \strng{authornamehash}{4eaf2a615b7b19b869c2cdb9bdbc531d}
       \strng{authorfullhash}{de89eaf63b14abb32650786c5ae16b47}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Vacuum Science \& Technology A}
@@ -3408,8 +3606,8 @@
       \strng{authorbibnamehash}{431030cfd995eaf599327f11c996289b}
       \strng{authornamehash}{431030cfd995eaf599327f11c996289b}
       \strng{authorfullhash}{fb69a123f8c7696b6c9522cf4435d92c}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -4996,8 +5194,8 @@
       \strng{authorbibnamehash}{35bae14532c526b4a5ac004c663f3ce9}
       \strng{authornamehash}{35bae14532c526b4a5ac004c663f3ce9}
       \strng{authorfullhash}{35bae14532c526b4a5ac004c663f3ce9}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Introduction to superconductivity}
@@ -5370,8 +5568,8 @@
       \endverb
     \endentry
     \entry{chiaro2015supp}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{note}{See supplementary material in the appendix.}
     \endentry
     \entry{ohya2013}{article}{}
@@ -6153,8 +6351,8 @@
       \strng{authorbibnamehash}{b52ee633fb92ccdabc0270bce1416236}
       \strng{authornamehash}{19472b9eb6974aa3ffac6f1e8528b29b}
       \strng{authorfullhash}{b52ee633fb92ccdabc0270bce1416236}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{5}
@@ -6192,8 +6390,8 @@
       \strng{authorbibnamehash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
       \strng{authornamehash}{c1d03229a94887763ba38203cb788257}
       \strng{authorfullhash}{d9f79b947f9b7b5a391d9e9f4ccfcc67}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{20}
@@ -6231,8 +6429,8 @@
       \strng{authorbibnamehash}{99a3aaf626def3678d4d39088aba9e26}
       \strng{authornamehash}{99a3aaf626def3678d4d39088aba9e26}
       \strng{authorfullhash}{99a3aaf626def3678d4d39088aba9e26}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
@@ -7764,8 +7962,8 @@
       \strng{authorbibnamehash}{db3a2ac4bb7edc871a862059726651fe}
       \strng{authornamehash}{db3a2ac4bb7edc871a862059726651fe}
       \strng{authorfullhash}{db3a2ac4bb7edc871a862059726651fe}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -8222,204 +8420,6 @@
       \field{title}{Coherence characterization with a superconducting flux qubit through NMR approaches}
       \field{year}{2013}
     \endentry
-    \entry{Neill2018}{article}{}
-      \name{author}{32}{}{%
-        {{hash=055121e953a2e053bab0c98fa64b82a0}{%
-           family={Neill},
-           familyi={N\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=1da87e45f27c6d9d57192ddcc39536eb}{%
-           family={Roushan},
-           familyi={R\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=ecdb5c081413df029cbe5c5d5704b815}{%
-           family={Kechedzhi},
-           familyi={K\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-        {{hash=41bfc74e4b7c73f53902662b6f3dd8af}{%
-           family={Boixo},
-           familyi={B\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=d8c3307f54bf0b08d429490ee7dec2b8}{%
-           family={Isakov},
-           familyi={I\bibinitperiod},
-           given={S.\bibnamedelimi V.},
-           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=ce2fabfc39376c52915712e24f1ec9ee}{%
-           family={Smelyanskiy},
-           familyi={S\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
-           family={Megrant},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8da373af8ff3d58997c2ed6f4993faca}{%
-           family={Chiaro},
-           familyi={C\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=41e3b7df214ae8e20258fc5d1eb197eb}{%
-           family={Dunsworth},
-           familyi={D\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=78c4c62af83e6ebf07b77759f298cd89}{%
-           family={Arya},
-           familyi={A\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
-           family={Barends},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=b88b81188ba6c64293e9d8f8cc881750}{%
-           family={Burkett},
-           familyi={B\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=d90f53b6c47cfea3540b0fb9da23dbd7}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=2c11a24d77752d139c596ea42b66e6ae}{%
-           family={Fowler},
-           familyi={F\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=645313ab4043fd5e5817b9eef4a1634a}{%
-           family={Foxen},
-           familyi={F\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=bf558983da8a0a1b14c925a2751fc816}{%
-           family={Giustina},
-           familyi={G\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d08b1d6038d3c85f98358677d8e22f5d}{%
-           family={Graff},
-           familyi={G\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=c100c55f6ebe8b06bf6ac7fe84162405}{%
-           family={Jeffrey},
-           familyi={J\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=c8e3c06d29519f4220d0a0bde8acdbf6}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
-           family={Kelly},
-           familyi={K\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=95ff3569354a8d89b55edabf80c423e7}{%
-           family={Klimov},
-           familyi={K\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=eff4026eb032033e709bde6174d3be9f}{%
-           family={Lucero},
-           familyi={L\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=8303fdb222c36e017825e09dce34cafb}{%
-           family={Mutus},
-           familyi={M\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=75f3d78a932ed86386a2ef2bafd63f44}{%
-           family={Neeley},
-           familyi={N\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=6bbdfeb8cf2208c5732783731b39da6e}{%
-           family={Quintana},
-           familyi={Q\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=f04446b18aa4081121989c7b3a557778}{%
-           family={Sank},
-           familyi={S\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=7ea58a08978a1363797b293339adad82}{%
-           family={Vainsencher},
-           familyi={V\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
-           family={Wenner},
-           familyi={W\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d8e06b7053d365f509f13349d35954d0}{%
-           family={White},
-           familyi={W\bibinitperiod},
-           given={T.\bibnamedelimi C.},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=805e7a7a2621962b09d3ad6eb37f3ae0}{%
-           family={Neven},
-           familyi={N\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=9f2ac509b63af11f2f6e3ccb91b0fd50}{%
-           family={Martinis},
-           familyi={M\bibinitperiod},
-           given={J.\bibnamedelimi M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Association for the Advancement of Science}%
-      }
-      \strng{namehash}{ce16a008d7f5970cf9bac5cbba391382}
-      \strng{fullhash}{1a094371bbcd3832284dfff768179da6}
-      \strng{bibnamehash}{ce16a008d7f5970cf9bac5cbba391382}
-      \strng{authorbibnamehash}{ce16a008d7f5970cf9bac5cbba391382}
-      \strng{authornamehash}{ce16a008d7f5970cf9bac5cbba391382}
-      \strng{authorfullhash}{1a094371bbcd3832284dfff768179da6}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Quantum information scientists are getting closer to building a quantum computer that can perform calculations that a classical computer cannot. It has been estimated that such a computer would need around 50 qubits, but scaling up existing architectures to this number is tricky. Neill et al. explore how increasing the number of qubits from five to nine affects the quality of the output of their superconducting qubit device. If, as the number of qubits grows further, the error continues to increase at the same rate, a quantum computer with about 60 qubits and reasonable fidelity might be achievable with current technologies.Science, this issue p. 195A key step toward demonstrating a quantum system that can address difficult problems in physics and chemistry will be performing a computation beyond the capabilities of any classical computer, thus achieving so-called quantum supremacy. In this study, we used nine superconducting qubits to demonstrate a promising path toward quantum supremacy. By individually tuning the qubit parameters, we were able to generate thousands of distinct Hamiltonian evolutions and probe the output probabilities. The measured probabilities obey a universal distribution, consistent with uniformly sampling the full Hilbert space. As the number of qubits increases, the system continues to explore the exponentially growing number of states. Extending these results to a system of 50 qubits has the potential to address scientific questions that are beyond the capabilities of any classical computer.}
-      \field{issn}{0036-8075}
-      \field{journaltitle}{Science}
-      \field{number}{6385}
-      \field{title}{A blueprint for demonstrating quantum supremacy with superconducting qubits}
-      \field{volume}{360}
-      \field{year}{2018}
-      \field{pages}{195\bibrangedash 199}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1126/science.aao4309
-      \endverb
-      \verb{eprint}
-      \verb https://science.sciencemag.org/content/360/6385/195.full.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://science.sciencemag.org/content/360/6385/195
-      \endverb
-      \verb{url}
-      \verb https://science.sciencemag.org/content/360/6385/195
-      \endverb
-    \endentry
     \entry{Vidal2002}{article}{}
       \name{author}{2}{}{%
         {{hash=f62d54d12f1933af26fb09ba7084c940}{%
@@ -8442,8 +8442,8 @@
       \strng{authorbibnamehash}{d8b783b4609c032f78060254071d63eb}
       \strng{authornamehash}{d8b783b4609c032f78060254071d63eb}
       \strng{authorfullhash}{d8b783b4609c032f78060254071d63eb}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}

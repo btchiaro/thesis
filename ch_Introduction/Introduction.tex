@@ -80,7 +80,7 @@ where $a$ = $[\sigma^x, \sigma^y, \sigma^z]$ is a vector of Pauli matrices and $
 Points on the surface of the sphere correspond to pure states and can be written in the form:
 \qeqn{ \hat{\rho} = \ket{\psi} \bra{\psi} }
 Points on the inside of the sphere correspond with mixed states and can be written as:
-\qeqn{  \sum_i p_i \ket{\psi_i} \bra{\psi_i} }
+\qeqn{ \hat{\rho} = \sum_i p_i \ket{\psi_i} \bra{\psi_i} }
 
 The distinction between pure states and mixed states is best thought of in terms of von Neumann entropy
 \qeqn{S_{vN} = - \text{Tr} \, \rho \, \text{log} \, \rho}
@@ -91,7 +91,7 @@ while mixed states of $N$ qubits have a von Neumann entropy $\leq N \log 2$.
 Further discussion of entanglement entropy is at the heart of chapter 5.
 
 The ability to encode superposition and mixed states in a single quantum bit suggests that quantum bits provide a means for higher density information encoding than is possible with their classical counterparts.
-After all the complete description a pure qubit state requires the specification of $\theta$ and $\phi$, two continuous variables,
+After all, the complete description a pure qubit state requires the specification of $\theta$ and $\phi$, two continuous variables,
 rather than the simple one or zero description of a classical bit.
 However, the true power of a quantum processor comes from the way that multiple qubits combine.
 For a system of qubits each in a pure state, the state of the composite system is described by the tensor product of the constituent wave vectors.
@@ -103,9 +103,9 @@ $\ket{\psi_{ab}} = \ket{\psi_a} \otimes \ket{\psi_b} = \frac{1}{2} \left( \ket{0
 The fact that quantum systems combine in this way leads directly to the exponential scaling of the power of a quantum processor.
 Whereas a two bit classical processor can represent one of the states $\ket{00}$, $\ket{01}$, $\ket{10}$, or $\ket{11}$,
 the quantum processor is able to represent them all simultaineously, each with a relative amplitude and phase!
-The straight forward, but amazing, result is that, roughly speaking, in order to double the capacity of a classical processor you would need to double the number of classical bits.
+The straight-forward, but amazing, consequence is that, roughly speaking, in order to double the capacity of a classical processor you would need to double the number of classical bits.
 In contrast, if you wish to double the capacity of the quantum processor you only need to add one more qubit.
-The advantages of the quantum computer over it's classical counterpart arise from this ability to store and process exponentially more information in an intrinsically parallel way.
+The advantages of the quantum computer over its classical counterpart arise from this ability to store and process exponentially more information in an intrinsically parallel way.
 
 %In fact, the capacity of the quantum register is scaling exponentially in the number of qubits in contrast to the classical processor which is scaling linearly.
 
@@ -150,8 +150,8 @@ Indeed, early processors have been demonstrated in a variety of formats.
 
 \section{Challenges}
 Although there is great promise in quantum computing, there are challenges that must be overcome before a quantum computer can be realized.
-Foremost among these challenges is that the information in a quantum computer is unstable.
-The errors arising from this instability can be roughly categorized into two main categories: relaxation and dephasing.
+Foremost among these challenges is that the information in a quantum computer is unstable and prone to degradation.
+The errors arising from this instability can be roughly divided into two main categories: relaxation and dephasing.
 These are illustrated in Fig.~\ref{schem relaxation dephasing}
 Relaxation events as illustrated in Fig.~\ref{schem relaxation dephasing}(a), arise when energy is lost from the qubit system.
 Errors of this variety arise, for example, when a computational photon is absorbed by a parasitic two-level system (TLS).
@@ -161,7 +161,7 @@ results from an increasing uncertainty in the relative phase between the $\ket{0
 Errors of this variety arise, for example, as the energy difference between $\ket{0}$ state and $\ket{1}$ state fluctuates in response to random,
 time varying, magnetic fields.
 \rd{An example of characterizing these qubit energy fluctuations is found in the appendix}
-
+Reducing the noise and dissipation of superconducting qubit devices is a primary research direction and will continue to be for the forseeable future.
 
 % TODO Add data for T1 and dephasing (p1 vs time, rho vs time for Ramsey experiments)
 \quickwidefig{\columnwidth}{./PDF/sch_relaxation_dephasing_190902_1238p.pdf}
@@ -184,8 +184,8 @@ Dephasing metrology (chapter 5)
 In this thesis we share contributions to the development of a superconducting quantum processor
 and demonstrate the use of one as a programmable quantum simulator as we use it to probe the phenomenon of Many-body localization.
 In chapter 2, we summarize the essential theory necessary to understand the experiments in the later chapters.
-In chapter 3, we contribute to the basic materials used to construct a quantum processor by investigating Titanium Nitride,
-a high kinetic inductance compound superconductor, with excellent coherence properties if made correctly.
+In chapter 3, we offer a contribution to the basic materials science used to construct a quantum processor, by investigating Titanium Nitride,
+a high kinetic inductance compound superconductor, with excellent coherence properties, if made correctly.
 In chapter 4, we contribute a device characterization where we isolate the excess dielectric loss due to the incorporation of flux trapping hole arrays.
 These flux traps are commonly used to protect from magnetic vortex loss, but may introduce excess dielectric loss.
 This is an important consideration as we strive for the longest coherence times posiible.

@@ -10,160 +10,160 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Overview of this thesis}{7}{section.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Superconducting circuits for quantum computation}{8}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Superconducting circuits for quantum computation}{9}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Coplanar waveguide (CPW) resonator}{8}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}Coplanar waveguide (CPW) resonator}{9}{section.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}The CPW resonator as an LC oscillator}{8}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.1}The CPW resonator as an LC oscillator}{9}{subsection.2.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Coherence metrology with CPW resonators}{12}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.2}Coherence metrology with CPW resonators}{13}{subsection.2.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Resonator qubit relationship}{12}{subsubsection*.6}% 
+\contentsline {subsubsection}{Resonator qubit relationship}{13}{subsubsection*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Quality factor}{13}{subsubsection*.8}% 
+\contentsline {subsubsection}{Quality factor}{14}{subsubsection*.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Quantum LC Oscillator}{14}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Quantum LC Oscillator}{16}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Coupled resonators}{18}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Coupled resonators}{20}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Capacitive coupling}{19}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.1}Capacitive coupling}{20}{subsection.2.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Inductive coupling}{22}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.2}Inductive coupling}{24}{subsection.2.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Josephson junction}{24}{section.2.4}% 
+\contentsline {section}{\numberline {2.4}Josephson junction}{26}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Transmon superconducting qubits}{26}{section.2.5}% 
+\contentsline {section}{\numberline {2.5}Transmon superconducting qubits}{28}{section.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Hamiltonian of the transmon}{27}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.1}Hamiltonian of the transmon}{29}{subsection.2.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Nonlinearity of the transmon}{28}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.2}Nonlinearity of the transmon}{29}{subsection.2.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Composite gmon Hamiltonian.}{29}{section.2.6}% 
+\contentsline {section}{\numberline {2.6}Composite gmon Hamiltonian.}{31}{section.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Titanium nitride resonators with internal quality factors $>10^6$}{31}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Titanium nitride resonators with internal quality factors $>10^6$}{32}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{31}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Introduction}{32}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Film preparation}{32}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}Film preparation}{33}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Basic properties}{34}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Basic properties}{35}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Properties of stoichiometric films}{37}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Properties of stoichiometric films}{38}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}In-plane distribution}{44}{section.3.5}% 
+\contentsline {section}{\numberline {3.5}In-plane distribution}{45}{section.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}T-S distance dependence}{47}{section.3.6}% 
+\contentsline {section}{\numberline {3.6}T-S distance dependence}{48}{section.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Properties of the scpw resonators}{48}{section.3.7}% 
+\contentsline {section}{\numberline {3.7}Properties of the scpw resonators}{49}{section.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Summary}{53}{section.3.8}% 
+\contentsline {section}{\numberline {3.8}Summary}{54}{section.3.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Dielectric loss in resonators with anti-vortex ground plane hole arrays}{56}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Dielectric loss in resonators with anti-vortex ground plane hole arrays}{57}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Growth and preservation of entanglement in a many-body localized system}{66}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}Growth and preservation of entanglement in a many-body localized system}{67}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{67}{section.5.1}% 
+\contentsline {section}{\numberline {5.1}Introduction}{68}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Breakdown of ergodicity}{70}{section.5.2}% 
+\contentsline {section}{\numberline {5.2}Breakdown of ergodicity}{71}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Interferometric methods}{72}{section.5.3}% 
+\contentsline {section}{\numberline {5.3}Interferometric methods}{73}{section.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Entanglement entropy}{75}{section.5.4}% 
+\contentsline {section}{\numberline {5.4}Entanglement entropy}{76}{section.5.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Growth and preservation of entanglement}{78}{section.5.5}% 
+\contentsline {section}{\numberline {5.5}Growth and preservation of entanglement}{79}{section.5.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}Supplementary information for "Dielectric surface loss in superconducting resonators with flux-trapping holes"}{82}{Appendix.a.A}% 
+\contentsline {chapter}{Appendix \numberline {A}Supplementary information for "Dielectric surface loss in superconducting resonators with flux-trapping holes"}{83}{Appendix.a.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}quality factor extraction}{83}{section.a.A.1}% 
+\contentsline {section}{\numberline {A.1}quality factor extraction}{84}{section.a.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Residual magnetic loss}{85}{section.a.A.2}% 
+\contentsline {section}{\numberline {A.2}Residual magnetic loss}{86}{section.a.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Hole pattern design rules}{86}{section.a.A.3}% 
+\contentsline {section}{\numberline {A.3}Hole pattern design rules}{87}{section.a.A.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Dielectric loss estimate}{88}{section.a.A.4}% 
+\contentsline {section}{\numberline {A.4}Dielectric loss estimate}{89}{section.a.A.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {B}Precision frequency noise metrology of a superconducting qubit}{90}{Appendix.a.B}% 
+\contentsline {chapter}{Appendix \numberline {B}Precision frequency noise metrology of a superconducting qubit}{91}{Appendix.a.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Statement of the problem}{90}{section.a.B.1}% 
+\contentsline {section}{\numberline {B.1}Statement of the problem}{91}{section.a.B.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}The single shot Ramsey technique}{92}{section.a.B.2}% 
+\contentsline {section}{\numberline {B.2}The single shot Ramsey technique}{93}{section.a.B.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.1}March meeting slides}{92}{subsection.a.B.2.1}% 
+\contentsline {subsection}{\numberline {B.2.1}March meeting slides}{93}{subsection.a.B.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.2}mathematical derivation The derivation in this section follows those in \citep {SankUnpublished, Yan2012, YanThesis}}{94}{subsection.a.B.2.2}% 
+\contentsline {subsection}{\numberline {B.2.2}mathematical derivation The derivation in this section follows those in \citep {SankUnpublished, Yan2012, YanThesis}}{95}{subsection.a.B.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}microwave bias T design}{101}{section.a.B.3}% 
+\contentsline {section}{\numberline {B.3}microwave bias T design}{102}{section.a.B.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.1}Schematic}{101}{subsection.a.B.3.1}% 
+\contentsline {subsection}{\numberline {B.3.1}Schematic}{102}{subsection.a.B.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.2}Physical Implementation}{103}{subsection.a.B.3.2}% 
+\contentsline {subsection}{\numberline {B.3.2}Physical Implementation}{104}{subsection.a.B.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.3}SPICE Simulation}{104}{subsection.a.B.3.3}% 
+\contentsline {subsection}{\numberline {B.3.3}SPICE Simulation}{105}{subsection.a.B.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {C}Analog Control}{110}{Appendix.a.C}% 
+\contentsline {chapter}{Appendix \numberline {C}Analog Control}{111}{Appendix.a.C}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Spectroscopy }{111}{section.a.C.1}% 
+\contentsline {section}{\numberline {C.1}Spectroscopy }{112}{section.a.C.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}Many-body Ramsey spectroscopy}{114}{section.a.C.2}% 
+\contentsline {section}{\numberline {C.2}Many-body Ramsey spectroscopy}{115}{section.a.C.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.3}Control model optimization}{119}{section.a.C.3}% 
+\contentsline {section}{\numberline {C.3}Control model optimization}{120}{section.a.C.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.4} Connection between many-body Ramsey spectroscopy and unitary tomography (2 qubit particle conserving evolution)}{123}{section.a.C.4}% 
+\contentsline {section}{\numberline {C.4} Connection between many-body Ramsey spectroscopy and unitary tomography (2 qubit particle conserving evolution)}{124}{section.a.C.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {D}Supplemental information for Growth and preservation of entanglement in a many-body localized system}{128}{Appendix.a.D}% 
+\contentsline {chapter}{Appendix \numberline {D}Supplemental information for Growth and preservation of entanglement in a many-body localized system}{129}{Appendix.a.D}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Device and calibration, Figs.\tmspace +\thinmuskip {.1667em}S1-S3}{128}{section.a.D.1}% 
+\contentsline {section}{\numberline {D.1}Device and calibration, Figs.\tmspace +\thinmuskip {.1667em}S1-S3}{129}{section.a.D.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.1.1}Circuit schematic}{128}{subsection.a.D.1.1}% 
+\contentsline {subsection}{\numberline {D.1.1}Circuit schematic}{129}{subsection.a.D.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.1.2}Single qubit gate error rate}{130}{subsection.a.D.1.2}% 
+\contentsline {subsection}{\numberline {D.1.2}Single qubit gate error rate}{131}{subsection.a.D.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.1.3}Manybody Hamiltonian benchmarking}{130}{subsection.a.D.1.3}% 
+\contentsline {subsection}{\numberline {D.1.3}Manybody Hamiltonian benchmarking}{131}{subsection.a.D.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.2}Transport measurements, Figs.\tmspace +\thinmuskip {.1667em}S4-S6}{132}{section.a.D.2}% 
+\contentsline {section}{\numberline {D.2}Transport measurements, Figs.\tmspace +\thinmuskip {.1667em}S4-S6}{133}{section.a.D.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.2.1}Transport measurement instances}{132}{subsection.a.D.2.1}% 
+\contentsline {subsection}{\numberline {D.2.1}Transport measurement instances}{133}{subsection.a.D.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.2.2}Decoherence effects}{133}{subsection.a.D.2.2}% 
+\contentsline {subsection}{\numberline {D.2.2}Decoherence effects}{134}{subsection.a.D.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.2.3}Two state occupation}{136}{subsection.a.D.2.3}% 
+\contentsline {subsection}{\numberline {D.2.3}Two state occupation}{137}{subsection.a.D.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.3}Interferometric protocols, Figs.\tmspace +\thinmuskip {.1667em}S7-S10}{137}{section.a.D.3}% 
+\contentsline {section}{\numberline {D.3}Interferometric protocols, Figs.\tmspace +\thinmuskip {.1667em}S7-S10}{138}{section.a.D.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.3.1}Echo pulse sequences}{137}{subsection.a.D.3.1}% 
+\contentsline {subsection}{\numberline {D.3.1}Echo pulse sequences}{138}{subsection.a.D.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.3.2}Maximum local occupation}{139}{subsection.a.D.3.2}% 
+\contentsline {subsection}{\numberline {D.3.2}Maximum local occupation}{140}{subsection.a.D.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.3.3}Comparison with numerics for echo experiments}{140}{subsection.a.D.3.3}% 
+\contentsline {subsection}{\numberline {D.3.3}Comparison with numerics for echo experiments}{141}{subsection.a.D.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.3.4}Extended data}{142}{subsection.a.D.3.4}% 
+\contentsline {subsection}{\numberline {D.3.4}Extended data}{143}{subsection.a.D.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.4}Entanglement measures}{144}{section.a.D.4}% 
+\contentsline {section}{\numberline {D.4}Entanglement measures}{145}{section.a.D.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.5}Density matrix evolution numerics comparison, Figs.\tmspace +\thinmuskip {.1667em}S11 - S15}{145}{section.a.D.5}% 
+\contentsline {section}{\numberline {D.5}Density matrix evolution numerics comparison, Figs.\tmspace +\thinmuskip {.1667em}S11 - S15}{146}{section.a.D.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.5.1}Comparison with numerics for superposition initial state.}{145}{subsection.a.D.5.1}% 
+\contentsline {subsection}{\numberline {D.5.1}Comparison with numerics for superposition initial state.}{146}{subsection.a.D.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.5.2}Comparison with numerics for bell initial state.}{147}{subsection.a.D.5.2}% 
+\contentsline {subsection}{\numberline {D.5.2}Comparison with numerics for bell initial state.}{148}{subsection.a.D.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.5.3}Comparison with numerics for superposition initial state.}{147}{subsection.a.D.5.3}% 
+\contentsline {subsection}{\numberline {D.5.3}Comparison with numerics for superposition initial state.}{148}{subsection.a.D.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.5.4}Comparison with numerics for bell initial state.}{149}{subsection.a.D.5.4}% 
+\contentsline {subsection}{\numberline {D.5.4}Comparison with numerics for bell initial state.}{150}{subsection.a.D.5.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.5.5}Long time numerics for superposition initial state.}{150}{subsection.a.D.5.5}% 
+\contentsline {subsection}{\numberline {D.5.5}Long time numerics for superposition initial state.}{151}{subsection.a.D.5.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.6}Sensitivity to nonlinearity $U$, Figs.\tmspace +\thinmuskip {.1667em}S16-S18}{152}{section.a.D.6}% 
+\contentsline {section}{\numberline {D.6}Sensitivity to nonlinearity $U$, Figs.\tmspace +\thinmuskip {.1667em}S16-S18}{153}{section.a.D.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.6.1}Sensitivity of $S_{\text {vN}}^{\text {AB}}$ to nonlinearity $U$}{152}{subsection.a.D.6.1}% 
+\contentsline {subsection}{\numberline {D.6.1}Sensitivity of $S_{\text {vN}}^{\text {AB}}$ to nonlinearity $U$}{153}{subsection.a.D.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.6.2}Sensitivity of entanglement of formation to nonlinearity $U$}{154}{subsection.a.D.6.2}% 
+\contentsline {subsection}{\numberline {D.6.2}Sensitivity of entanglement of formation to nonlinearity $U$}{155}{subsection.a.D.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.6.3}Sensitivity of $\sigma ^z$ to nonlinearity $U$}{154}{subsection.a.D.6.3}% 
+\contentsline {subsection}{\numberline {D.6.3}Sensitivity of $\sigma ^z$ to nonlinearity $U$}{155}{subsection.a.D.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.7}Extended data for 1D qubit array, Fig.\tmspace +\thinmuskip {.1667em}S19}{155}{section.a.D.7}% 
+\contentsline {section}{\numberline {D.7}Extended data for 1D qubit array, Fig.\tmspace +\thinmuskip {.1667em}S19}{156}{section.a.D.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.7.1}Distillable entanglement in MBL and diffusive regimes}{155}{subsection.a.D.7.1}% 
+\contentsline {subsection}{\numberline {D.7.1}Distillable entanglement in MBL and diffusive regimes}{156}{subsection.a.D.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.8}Extended data for 2D qubit arrays, Fig.\tmspace +\thinmuskip {.1667em}S20}{159}{section.a.D.8}% 
+\contentsline {section}{\numberline {D.8}Extended data for 2D qubit arrays, Fig.\tmspace +\thinmuskip {.1667em}S20}{160}{section.a.D.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.8.1}Onsite population for 2D qubit arrays}{159}{subsection.a.D.8.1}% 
+\contentsline {subsection}{\numberline {D.8.1}Onsite population for 2D qubit arrays}{160}{subsection.a.D.8.1}% 

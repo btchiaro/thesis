@@ -40,7 +40,7 @@ and g is a geometric factor that can be calculated analyticaly for the CPW geome
 g &=& \frac{1}{4 a K^2(k)(1-k^2)} \left( \pi \log \frac{4 \pi a}{t} - k \log \frac{1 + k}{1 - k} \right) + \\
   &=& \frac{1}{4 a K^2(k)(1-k^2)} \left( \pi \log \frac{4 \pi b}{t} - k \log \frac{1 + k}{1 - k} \right) \\
 } % end qeqnarray
-For high resistivity superconductors, such as titanium nitride considered in Chapter 3 $L_k$, can be significant and even dominate $L_l$.
+For high resistivity superconductors, such as titanium nitride considered in Chapter 3, $L_k$ can be significant and even dominate $L_l$.
 
 \quickwidefig{\columnwidth}{./PDF/cpw_resonator.pdf}{
 a) An optical micrograph of a CPW resonator.
@@ -51,13 +51,13 @@ e) The circuit representation of an LC oscillator capacitively coupled to a tran
 }{cpw_resonator}
 
 We can construct a quarter wave resonator by terminating a segment of the transmission line in a short circuit to the ground plane.
-This is illustrated in fig.~\ref{cpw_resonator}
+This is illustrated in Fig.~\ref{cpw_resonator}
 The resonance condition for the quarter wave resonator can be found from the relation $v_p = f \lambda$.
 \qeqn{
 f_0 = \frac{1}{4 l }\frac{1}{\sqrt{L_l C_l}}
 \label{f0_resonator}
 }
-A consequence of eq.~\ref{f0_resonator} is that high kinetic inductance materials can make resonators smaller in size for a constant frequency resonator.
+A consequence of eq.~\ref{f0_resonator} is that high kinetic inductance materials can make resonators smaller in size while maintaining a constant frequency resonator.
 %A drawback is of sensitivity of $L_k$ is that if the materials properties such as $\rho_2$ are not well controlled,
 
 %From Pozar (eqn 6.28 we find that the input resistance of a segment of lossy transmission line that is terminated in a short circuit is)
@@ -90,6 +90,9 @@ This is not surprising given the similarity of their construction.
 Fig.~\ref{qubit_resonator}(a) shows an Xmon transmon superconducting qubit.
 It can be thought of as two intersecting strips of CPW transmission line,
 such as those that create the CPW resonator in Fig.~\ref{qubit_resonator}(c).
+However, the resonator has the virtue of being much simpler than the qubit.
+This permits rapid fabrication iterations and protects against performance degradation that sometimes results from complex multi-step fabrication sequence.
+For both of these reasons, the resonator is widely used in the material science and fabrication of superconducting quantum circuits.
 
 \quickwidefig{\columnwidth}{./PDF/resonator_qubit_proxy.pdf}{
 a) an Xmon transmon qubit,
@@ -108,8 +111,9 @@ The rate at which which energy is lost from the resonator depends both on its co
 where $Q_c$ and $Q_i$ refer to the coupling and internal quality factors respectively.
 Note that the quality factors sum in reciprocal since the energy loss rates are additive.
 
-For a quarter wave resonator capacitively coupled to a transmission line, the internal quality factor $Q_i$ and $Q_c$ can be extracted
-separately from transmission measurements.
+For a quarter wave resonator capacitively coupled to a transmission line, the internal quality factor $Q_i$
+and the coupling quality factor $Q_c$ can be extracted
+separately from simple transmission measurements.
 This is done by parametrically fitting measurements of transmission S - parameter $S_{21}$ vs frequency.\cite{Megrant2012}
 \qeqn{ \tilde{S}_{21}^{-1} = 1 + \frac{Q_i}{Q_c^*}\,\frac{1}{1 + i 2 Q_i \left( \frac{f - f_0}{f_0} \right) } }
 In chapters 3 and 4 of this thesis we focus on minimizing the internal dissipation $\frac{1}{Q_i}$ to improve the relaxation times of our qubits.
@@ -194,7 +198,9 @@ can be suppressed by using light tight shielding for the operating environment a
 %%%%%%%%%%%%%%%%%%%%%%
 
 \section{Quantum LC Oscillator}
-\quickfig{1 in}{./PDF/LCO.pdf}{This is a simple LC oscillator (resonator), maybe add the wavefunction or potential as a subfigure.}{LCO}
+\quickfig{1 in}{./PDF/LCO.pdf}{This is a simple LC oscillator (resonator) with position and momentum coordinates $\Phi$ and $Q$}{LCO}
+The linear LC harmonic oscillator is closely related to the more complicated qubit circuits
+and provides an excellent starting point for understanding superconducting qubits.
 \verify{At low temperatures and small energies} the LC oscillator behaves quantum mechanically.
 As such it's dynamics in this regime are described by the Schr\"odinger equation
 \begin{equation}
@@ -204,7 +210,7 @@ Here we derive the Hamiltonian and show that the LC oscillator behaves as a harm
 
 The instantaneous power dissipated by a circuit element is
 \qeqn{P=IV}
-and therefore the energy stored within the element can be written as
+and therefore the energy stored within a lossless element can be written as
 \qeqn{ E = \int_{t^\prime = t_0}^{t^\prime=t} I(t^\prime) V(t^\prime) dt^\prime }
 $t_0$ is normally taken to be $- \infty$, at which time $I(- \infty)=0$ and $V(- \infty)=0$.
 
@@ -482,7 +488,7 @@ H =
 This Hamiltonian is the Hamiltonian of two harmonic oscillators with increased effective capacitances and the addition of a charge - charge interaction.
 The third term $C^{-1}_{12} Q_1 Q_2$ is the charge - charge interaction that permits excitations to transfer (swap)
 between qubits.
-Using the Harmonic oscillator relations in eqns~\ref{ho_cre_op} and \ref{ho_ann_op}
+Using the Harmonic oscillator relations in eqns~\ref{ho_ann_op} and \ref{ho_cre_op}
 %\qeqn{
 %Q_1 Q_2 = - Q0_1 Q0_2 (a_1 - a^\dagger_1)(a_2 - a^\dagger_2) =
 %- Q0_1 Q0_2 (a_1 a_2 + a^\dagger_1  a^\dagger_2 - a_1 a_2^\dagger - a_2 a_1^\dagger)
@@ -572,9 +578,8 @@ I = L^{-1} \Phi = \frac{1}{L_1 L_2 - M^2}
 \end{bmatrix}
 }
 
-The energy in the inductors is
+The energy in the inductors is written in terms of the flux variable is
 \qeqn{E_{inductor} = \half \mathbf{I}^T \mathbf{L} \mathbf{I} = \half \Phi^T L^{-1} \Phi}
-Which we write in terms of the flux variable.
 
 The energy in the capacitors is the same as in the uncoupled case:
 
@@ -599,11 +604,13 @@ L^{-1}_{11} \Phi^2_1 + 2 * L^{-1}_{12} \Phi_1 \Phi_2 + L^{-1}_{22} \Phi_2^2
 
 This is again the Hamiltonian for a harmonic oscillator, but this time with a flux - flux coupling term $L^{-1}_{12} \Phi_1 \Phi_2$
 Since $\Phi = 2 \sqrt{\frac{\hslash Z_0}{2}}(a^{\dagger} + a)$ and involking the RWA again, we find
-\qeqn{\Phi_1 \Phi_2 \sim (a_1 a_2^\dagger + a_2 a_1^\dagger)}
+\qeqn{\Phi_1 \Phi_2 \sim (a_1 a_2^\dagger + a_1^\dagger a_2)}
 so that the flux - flux coupling also generates a hopping term in the Hamiltonian.
 
 
 \section{Josephson junction}
+As noted above the linear LC oscillator is not suitable for use as a qubit because of its ladder of equally spaced energy levels.
+This challenge is addressed by using the nonlinear inductance of a josephson junction
 \quickfig{6 in}{./PDF/JJ_image_190908_634p.pdf}{a) A Josephson junction b) The circuit symbol for a Josephson junction}{jj_image}
 The Josephson junction provides us with a lossless, nonlinear inductance.\cite{Josephson1962}
 The Josephson junction consists of two superconducting electrodes separated by a thin insulating barrier.
@@ -647,13 +654,12 @@ Such frequency and coupling tunability are essential capabilities for quantum si
 \section{Transmon superconducting qubits}
 
 The transmon is a variety of superconducting qubit that is realized by replacing the linear inductance of an LC oscillator with a Josephson junction.
-The resulting device can be thought of as a Josephson junction with a large shunting capacitance.
-This makes the transmon a weakly anharmonic LC oscillator.
-The idea behind the transmon is that the shunting capacitance \verify{exponentially} surpresses charge noise by trading away anharmonicity\cite{Koch2007}.
+The resulting device can be thought of as a Josephson junction with a large shunting capacitance, making it a weakly anharmonic LC oscillator.
+The idea behind the transmon is that the shunting capacitance exponentially surpresses charge noise by trading away anharmonicity\cite{Koch2007}.
 
 In 2011 a 3D version of the transmon was developed at Yale and demonstrated remarkable coherence properties.\cite{Paik2011}
-This is due to the fact that the geometry of the device made it possible to store most of the most of the qubit mode energy in the lossless vacuum.
-Challenges of this 3d implementation are that they are too large to scale easily, cannot be microfabricated,
+This is due to the fact that the geometry of the device made it possible to store most of the most of the qubit mode energy in the lossless vacuum, reducing dissipation.
+Challenges of this 3D implementation are that they are too large to scale easily, cannot be microfabricated,
 and it is difficult to retain the coherence properties when coupling two or more of these devices together.
 % TODO image of transmon qubit. Maybe image of 3d transmon qubit. Probably need to request permission
 In 2013 planar variant of the transmon,
@@ -667,7 +673,7 @@ This design is the basis for the processor used in the quantum simulation of cha
 
 \subsection{Hamiltonian of the transmon}
 
-We can obtain the transmon Hamiltonian by substituting the Josephson junction energy from Eq.~\ref{jj_energy} into the LC oscillator Hamiltonian
+We obtain the transmon Hamiltonian by substituting the Josephson junction energy from Eq.~\ref{jj_energy} into the LC oscillator Hamiltonian
 Eq.~\ref{H_lc_n_phi} in place of the linear inductor energy.
 \qeqn{H = 4 E_c \hat{n}^2 - E_j \cos{\hat{\phi}} \label{H_transmon} }
 \inprogress{
@@ -676,15 +682,17 @@ Thus by forming the oscillator with a large capacitor the device is less sensiti
 } % end inprogress
 
 \inprogress{
+\draftcomment{
 In order to operate the oscillator as a qubit, it is essential to make the energy levels anharmonic so that rotations may be driven between specified levels on demand.
-The means by which we do this is to replace the linear inductance of our oscillator with a Josephson junction, which behaves like a nonlinear inductor.
+The means by which we do this is to replace the linear inductance of our oscillator with a Josephson junction, which behaves like a nonlinear inductor.}
 
-The consequence of this nonlinearity is that when we make our harmonic oscillator the energy levels are no longer evenly spaced.
+The nonlinear Josephason inductance slightly modifies the level structure of our (nearly) harmonic oscillator so that the energy levels are no longer evenly spaced.
 This has at least two important consequences.
-1) For uncoupled qubits, we can address the 0-1 transition without exciting the 1-2 transition.
-2) When performing a multi-qubit analog algorithm (many qubits at the same time).
-The nonlinearity gives an interaction term in the Bose-Hubbard Hamiltonian.
-This interaction term is essential in breaking integrability (making the dynamics computationally complex) and leads to the many-body effects that we observe in the last chapter.
+1) For uncoupled qubits, we can drive the 0-1 transition without exciting the 1-2 transition.
+2) The nonlinearity gives rise to a Hubbard interaction term in the Hamiltonian.
+This interaction is fundamental to the design of entangling gates between transmon qubits,
+is essential to integrability breaking in analog algorithms,
+and leads directly to the many-body entanglement propagation in the localized phase that we observe in the last chapter.
 }% end inprogress
 \draftcomment{
 \subsection{Nonlinearity of the transmon old}
@@ -738,10 +746,11 @@ c) The resulting Bose-Hubbard Hamiltonian that describes the gmon dynamics.
 }{gmon_schematic}
 
 More complex devices, such as the gmon circuit employed in Chapter~\ref{ch:MBL}, can be understood by combining the concepts in the preceding sections.
+\cite{Neill2018}
 A circuit schematic for the gmon is shown in fig.~\ref{gmon_schematic}.
 The term $h_i n_i$ can be understood as the energy of an $LC$ harmonic oscillator with frequency $h_i$.
 The correction to the harmonic oscillator Hamiltonian due to the nonlinearity of the Josephson junctions is represented by term $\frac{U}{2} n (n-1)$.
-It should be noted that this can be though of as a single term in an expansion, it gives $0$ for $n_i = 1, 2$ and $U$ for $n=2$.
+It should be noted that this can be thought of as a single term in an expansion, it gives $0$ for $n_i = 1, 2$ and $U$ for $n=2$.
 This expression is not valid for higher occupations.
 Finally, the hopping term $J (a_i a_{i+1}^\dagger + a_i^\dagger a_{i+1})$
 arises from the sum of direct capacitive coupling between the qubits and inductive coupling mediated by the coupler circuit shown in green.

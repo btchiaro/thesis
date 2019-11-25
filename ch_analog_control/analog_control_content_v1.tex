@@ -5,8 +5,8 @@
 Applications to quantum simulation require the ability to generate Hamiltonians with programmable coefficients.
 This requires us to develop a mapping between control voltages set by the experimentalist and the resultant Hamiltonian parameters.
 We refer to this mapping as a control model.
-We achieve this capability with a two step calibration process described in this appendix.
-In the first stage of the control model calibration, we use a series of single and two qubit measurements to measure
+We arrive at a control model with a two step calibration process described in this appendix.
+In the first stage of the control model calibration, we use a series of single and two qubit measurements to infer
 the parameters of the circuit model describing the device.  The details of the effective circuit model for this tunably coupled device were first worked out in \cite{Neill2018}.
 In the second stage of the control model calibration, we use the many-body Ramsey technique to benchmark the collective
 dynamics of the circuit, with all qubits coupled and near resonance with one another.
@@ -27,15 +27,15 @@ This procedure is repeated as a function of qubit bias.
 We similarly measure the $\ket{1} \rightarrow \ket{2}$ transition frequency,
 which captures the nonlinearity of the device and ultimately controls the "Hubbard U" interaction term of our Bose-Hubbard Hamiltonian.
 The resulting curves are fit parametrically to give circuit element values for our physical device model.
-This is shown in fig.~\ref{spectroscopy data}(a).
+This is shown in Fig.~\ref{spectroscopy data}(a).
 
 It is important to note that the qubit is reactively loaded by the coupler.
 Specifically, the effective inductance of the qubit is strongly influenced by the inductance of the coupler.
 This backaction enables us to infer the circuit parameters of the coupler by measuring the qubit frequency as a function of coupler bias.
-Example data from this procedure is shown in fig.~\ref{spectroscopy data}(b).
+Example data from this procedure is shown in Fig.~\ref{spectroscopy data}(b).
 
 The direct qubit - qubit interaction strength cannot be characterized from single qubit measurements alone.
-In order to measure the direct interaction, we use a two qubit swapping experiment as shown in fig.~\ref{spectroscopy data}(c).
+In order to measure the direct interaction, we use a two qubit swapping experiment as shown in Fig.~\ref{spectroscopy data}(c).
 The hopping strength is inferred from the on resonance hopping rate.
 
 \quickwidefig{0.95\columnwidth}{./PDF/circuit_modelling_thesis.pdf}
@@ -166,7 +166,7 @@ It is useful to work this out explicitly for extracting the eigenvalues of the s
 %Consider the example of the vacuum + 1 photon subspace of a three qubit system.
 The relevant Fock basis states are:
 \begin{equation}
-    \{\varphi\} = \ket{000}, \ket{001}, \ket{010}, \ket{100}
+    \{\ket{\varphi\}} = \ket{000}, \ket{001}, \ket{010}, \ket{100}
 \end{equation}
 Initializing to a superposition state by doing a Y/2 rotation on a single qubit we have:
 \begin{equation*}
@@ -196,7 +196,7 @@ Let C be the matrix that changes basis from the Fock basis to the eigenbasis of 
     \end{bmatrix}_{\phi}
 \end{equation}
 Where the subscripts indicate which basis we are working in.
-The time dependence of $\psi$ is
+The time dependence of $\ket{\psi}$ is
 \begin{equation}
     \ket{\psi(t)}_{\phi} =
     \begin{bmatrix}
@@ -207,7 +207,7 @@ The time dependence of $\psi$ is
     \end{bmatrix}_{\phi}
 \end{equation}
 
-We can apply the inverse transformation $C^{-1}$ to recover the time dependence of $\psi$ in the Fock (measurement) basis.
+We can apply the inverse transformation $C^{-1}$ to recover the time dependence of $\ket{\psi}$ in the Fock (measurement) basis.
 \begin{equation*}
     \begin{aligned}
     \ket{\psi(t)}_{\varphi} =
@@ -237,7 +237,7 @@ We can apply the inverse transformation $C^{-1}$ to recover the time dependence 
 \end{aligned}
 \end{equation*}
 
-If we measure $\sigma^x + i \sigma^y$ on site 1, then we have
+If we measure $\langle \sigma^x + i \sigma^y \rangle$ on site 1, then we have
 \begin{equation}
 \begin{bmatrix}
 1 & (\ldots)^* & 0 & 0
@@ -310,7 +310,7 @@ If we had instead chosen  $\hat{O} = \hat{\sigma}^x$ we would observe both posit
 \end{equation}
 This is intuitive because for a single qubit precessing on the equator of the Bloch sphere measuring $<\sigma^x>$ alone does not indicate which direction the Bloch vector is precessing!
 
-The naive attempt of measuring the onsite population of qubit $\hat{n}_1$ yields the eigenvalue differences since
+The naive attempt of measuring the on-site population of qubit 1 $\hat{n}_1$ yields the eigenvalue differences since
 \begin{equation}
     \begin{bmatrix}
         1 & (\ldots)^* & 0 & 0
@@ -369,14 +369,17 @@ With this error metric established, we can optimize the parameters of our contro
         }
     \label{mbr_benchmark_pre_optimization}
 \end{figure}
-After using the conventional spectroscopy described in above in section \ref{sec:spectroscopy} to measure the circuit model parameters
-using a series of single and two qubit measurements we benchmark the collective dynamics of the system using the many-body Ramsey technique
+After using the conventional spectroscopy, described in above in section \ref{sec:spectroscopy}, to measure the circuit model parameters
+using a series of single and two qubit measurements we benchmark the collective dynamics of the full system using the many-body Ramsey technique
 described in section~\ref{sec:mbr}
 
 The result is shown in fig.~\ref{mbr_benchmark_pre_optimization}.
 The 2D color plot is the raw Fourier data for each of 100 training instances.
 This data is overlayed with the control model predictions (red circles) and peak positions extracted with our analysis algorithm (black circles).
-The error per eigenvalue is extracted to be 9 MHz.
+The error per eigenvalue is extracted to be $9$ MHz.
+This is a large error, primarily resulting from the fact that the control bias conditions are different when we characterize
+the single and two qubit systems and when we characterize the full system collective dynamics.
+
 
 \begin{figure}[h]
     \begin{center}
@@ -392,7 +395,6 @@ The error per eigenvalue is extracted to be 9 MHz.
 Next, we follow the standard optimization procedure of dividing our full data set into training and validation subsets.
 We then optimize the control model by minimizing the average error per eigenvalue of the training data only.
 The error per eigenvalue at each iteration of the optimization process is shown in fig.~\ref{error_during_optimization_training_validation}.
-
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=150 mm]{./PDF/fourier_amp_2d_tv_post.pdf}
@@ -414,7 +416,7 @@ The predictions from the optimized control model are overlayed on the original f
     \label{9q manybody ramsey validation}
 \end{figure}
 In fig.~\ref{9q manybody ramsey validation} we show 9 qubit validation data with a validation error rate of 1.2 MHz per eigenvalue.
-This shows that the MHz level error rate can be maintained as we scale to larger numbers of qubits.
+This shows that the MHz level error rate is maintained as we scale to larger numbers of qubits.
 
 \draftcomment{
 \section{Notes in progress}
@@ -740,8 +742,8 @@ In order to probe U, we can apply the unitary to an initial state of our choice.
     \left< \hat{O} \right> = \braket{\psi_0 | U^{\dagger} \hat{O} U | \psi_0 }
     %\hat{O}
 \end{equation}
-
-The unitary U has a matrix representation as below
+where teh experimenter has control over $\ket{\psi_0}$ and $\hat{O}$
+A generic two qubit unitary U has a matrix representation as below using the basis $\ket{00}, \ket{01}, \ket{10}, \ket{11}$
 \begin{equation}
     U =
     \begin{bmatrix}
@@ -751,9 +753,9 @@ The unitary U has a matrix representation as below
         U_{30} & U_{31} & U_{32} & U_{33} \\
     \end{bmatrix}
 \end{equation}
-
+which can be simplified for the FSim class.
+\draftcomment{
 The unitary for the chemistry gates (this is I believe a generic photon number conserving unitary) has a very specific form that we can take advantage of:
-
 \begin{equation}
     U=
     \begin{bmatrix}
@@ -763,6 +765,7 @@ The unitary for the chemistry gates (this is I believe a generic photon number c
         0 & 0 & 0 & e^{i (\phi_{3}-\phi_{0})} \\
     \end{bmatrix}
 \end{equation}=
+}
 \begin{equation}
     U=
     \begin{bmatrix}
@@ -772,11 +775,18 @@ The unitary for the chemistry gates (this is I believe a generic photon number c
         0 & 0 & 0 & U_{33} \\
     \end{bmatrix}
 \end{equation}
-
 We wish to ascertain the matrix elements of this unitary transformation.
+
+The procedure for doing this is exactly the same as for manybody Ramsey spectroscopy and is illustrated in Fig.~\ref{unitary tomography schematic}
+It consists of preparing a qubit in the superposition state with a $\pi / 2$ pulse,
+acting on the two qubit system with the unitary of interest,
+and measuring the observable $\langle \sigma^x \rangle + i \langle \sigma^y \rangle$.
+In this case our choice of which qubits were initialized and measured determines which unitary matrix element is extracted.
+Also in contrast with manybody Ramsey spectroscopy, we do not need to measure a full time series, but rather obtain our answer by analyzing a single application of the Unitary.
+
 \quickwidefig{0.8\columnwidth}{./PDF/unitary_tomography_thesis.png}{A schematic diagram of the unitary tomography procedure for measuring the matrix elements of U}{unitary tomography schematic}
 
-
+\draftcomment{
 The single photon subspace of U looks like
 \begin{equation}
     U=
@@ -785,9 +795,10 @@ The single photon subspace of U looks like
         e^{ i (\phi{1} - \phi{2} - \phi{3})}\sin{\theta} & e^{ i (\phi{1} + \phi{2} - \phi{3})}\cos{\theta} \\
     \end{bmatrix}
 \end{equation}
+}
 
-
-if we initialize the left qubit
+The mechanics of this method are best clarified by working a simple example.
+If we initialize the left qubit
 
 \begin{equation}
     \ket{\psi_0}=\frac{1}{\sqrt{2}}
@@ -819,9 +830,8 @@ then
         0 \\
     \end{bmatrix}
 \end{equation}
-
-If we initialize the second qubit then we select the corresponding column of the unitary
-
+So that it is clear we are selecting elements from the first column of the single photon subspace.
+On the other hand, if we initialize the second qubit then we select the corresponding column of the unitary
 \begin{equation}
     \ket{\psi_0}=\frac{1}{\sqrt{2}}
     \begin{bmatrix}
@@ -840,13 +850,14 @@ If we initialize the second qubit then we select the corresponding column of the
         0 \\
     \end{bmatrix}
 \end{equation}
-
+\draftcomment{
 Measuring the amplitude of $U_{ij}$ follows directly from z basis measurements.
 Measuring the phase can be done by measuring $\left< \sigma^{x} + i\sigma^{y} \right>$
 The phase of the unitary matrix element can be measured by directly measuring the single qubit phase.
+}
 
-Explicitly the measurement operator for a measurement on qubit 1 is :
-
+Isolating a particular row of the unitary is achieved through the choice of which qubit is used to measure $\left< \sigma^{x} + i\sigma^{y} \right>$.
+Explicitly, the measurement operator for a measurement on qubit 1 is :
 \begin{equation}
     \hat{O}=I \otimes (\sigma^{x} + i\sigma^{y}) =
     \begin{bmatrix}
@@ -893,9 +904,7 @@ so that
     \end{bmatrix}
     = U_{11}
 \end{equation}
-
-and for a measurement on qubit 2
-
+For a measurement on qubit 2
 \begin{equation}
     \hat{O}=(\sigma^{x} + i\sigma^{y}) \otimes I=
     \begin{bmatrix}
