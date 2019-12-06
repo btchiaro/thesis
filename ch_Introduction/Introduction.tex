@@ -12,7 +12,7 @@ numerical methods have become among the most important of these approximation sc
 The challenge is that for all but the simplest systems the computational resources required are immense.
 
 For this reason, people have long considered how to efficiently simulate quantum systems using computers.
-In 1982, in a lecture that could be considered the birth of quantum simulation,
+In a 1982 lecture that is often considered the birth of quantum simulation
 Richard Feynman suggested that quantum systems could be efficiently simulatable using quantum computational resources.\cite{Feynman1982}
 \draftcomment{
 This is the first and most obvious motivation for developing a quantum computer,
@@ -22,7 +22,7 @@ Numerous teams have demonstrated great progress toward that goal using such phys
 defect spins, neutral atoms, among others.
 } % end draftcomment
 An insight that arose not long after Feynman's was that the relevance of quantum mechanics is not limited to microscopic objects.
-John Martinis observed that macroscopic electrical circuits can also behave quantum mechanically and thus form the basis of a superconducting quantum processor.\cite{Martinis1985}
+In 1985, Martinis et al. demonstrated that macroscopic electrical circuits can also behave quantum mechanically and thus form the basis of a superconducting quantum processor.\cite{Martinis1985}
 The superconducting quantum bit (qubit), a controllable, macroscopic two level system was demonstrated in 1999. \cite{Nakamura1999}
 
 Since that demonstration superconducting qubit architectures have continuously improved qubit performance and increased the number of qubits in a processor.
@@ -62,6 +62,72 @@ Quantum suppremacy \cite{Arute2019}
 Whereas one classical bit of information can be represented as either 0 or 1, the state of a single ideal qubit can be represented as a vector pointing to the surface of a sphere.
 This sphere is referred to as the Bloch sphere, and provides excellent physical intuition for the behavior of a qubit.
 % TODO Graphic of Bloch sphere
+%\quickwidefig{0.8\columnwidth}{./PDF/sch_bloch_sphere_190902_1237p.pdf}
+\quickwidefig{0.8\columnwidth}{./PDF/sch_bloch_sphere_psi_191203_153p.pdf}
+{\textbf{Bloch sphere representation of the single qubit density matrix}.
+The states $\ket{\psi} = \cos \left( \frac{\theta}{2} \right) \ket{0} + e^{i \phi} \sin \left( \frac{\theta}{2} \right)\ket{1}$ for
+$\theta \in [0, \pi]$ and $\phi \in [0, 2 \pi]$ are on the surface of the Bloch sphere.
+The ground state $\ket{0}$ and excited state $\ket{1}$ are located at the North and South poles.
+}
+{SchemBlochSphere}
+
+The points at the North and South poles of the Block sphere correspond to the logical $\ket{0}$ and $\ket{1}$.
+The points away from the poles have amplitude in both the $\ket{0}$ state and the $\ket{1}$ state and are said to be "in superposition".
+A generic pure state of a single qubit $\ket{\psi}$ can thus be written in terms of the single qubit basis states $\ket{0}$ and $\ket{1}$ as
+\qeqn{ \ket{\psi} = \cos \left( \frac{\theta}{2} \right) \ket{0} + e^{i \phi} \sin \left( \frac{\theta}{2} \right)\ket{1} }
+where the angle $\theta$ characterizes the relative amplitude between the $\ket{0}$ state and the $\ket{1}$ state, while $\phi$ characterizes the relative phase between the single qubit basis states.
+
+The ability to encode superposition states in a single qubit suggests that quantum bits provide a mechanism for higher density information encoding than is possible with their classical counterparts.
+After all, the complete description a pure qubit state requires the specification of $\theta$ and $\phi$, two continuous variables,
+rather than the simple one or zero description of a classical bit.
+However, the true power of a quantum processor comes from the way that multiple qubits combine.
+For a system of $N$ qubits, the state of the composite system is described by $2^N$ complex amplitudes.
+For instance, the state of a two qubit system can be written as
+\qeqn{ \ket{\psi_{2q}} = c_{00} \ket{00} + c_{01} \ket{01} + c_{10} \ket{10} + c_{11} \ket{11} }
+
+The fact that quantum systems combine in this way leads directly to the exponential scaling of the power of a quantum processor.
+Whereas a classical processor requires four times the physical resources to represent the amplitudes $c_{00}$, $c_{01}$, $c_{10}$, $c_{11}$ as it would to represent any one of them,
+the quantum processor is able to represent them all simultaineously on the same physical qubits.
+The straight-forward - but amazing - consequence is that, roughly speaking, in order to double the capacity of a classical processor you would need to double the number of classical bits.
+In contrast, if you wish to double the capacity of the quantum processor you only need to add one more qubit.
+The advantages of the quantum computer over its classical counterpart arise from this ability to store and process exponentially more information in an intrinsically parallel way.
+
+
+\draftcomment{
+
+The Bloch sphere is in fact the graphic representation of the single qubit Hilbert space.
+The Bloch vector is a vector pointing from the center of the sphere and represents the single qubit density matrix.
+The Bloch vector is commonly decomposed as
+\qeqn{ \rho = \frac{1}{2} \left( I + \vec{a} \cdot \vec{\sigma} \right) }
+where $a$ = $[\sigma^x, \sigma^y, \sigma^z]$ is a vector of Pauli matrices and $a  = \left[\expect{\sigma^x}, \expect{\sigma^y}, \expect{\sigma^z} \right]$ is a vector of their expectation values.
+Points on the surface of the sphere correspond to pure states and can be written in the form:
+\qeqn{ \hat{\rho} = \ket{\psi} \bra{\psi} }
+Points on the inside of the sphere correspond with mixed states and can be written as:
+\qeqn{ \hat{\rho} = \sum_i p_i \ket{\psi_i} \bra{\psi_i} }
+
+The distinction between pure states and mixed states is quantified by the von Neumann entropy
+\qeqn{S_{vN} = - \text{Tr} \, \rho \, \text{log} \, \rho}
+
+The von Neumann entropy quantifies the degree of entanglement with all external degrees of freedom.
+Pure states are those that have zero von Neumann entropy indicating a lack of entanglement with their environment,
+while mixed states of $N$ qubits have a von Neumann entropy $\leq N \log 2$.
+Further discussion of entanglement entropy is at the heart of chapter 5.
+}
+
+
+
+
+
+
+
+
+%In fact, the capacity of the quantum register is scaling exponentially in the number of qubits in contrast to the classical processor which is scaling linearly.
+
+\indraftprogress{
+\section{What is a qubit and why is it powerful Old?}
+Whereas one classical bit of information can be represented as either 0 or 1, the state of a single ideal qubit can be represented as a vector pointing to the surface of a sphere.
+This sphere is referred to as the Bloch sphere, and provides excellent physical intuition for the behavior of a qubit.
+% TODO Graphic of Bloch sphere
 \quickwidefig{0.8\columnwidth}{./PDF/sch_bloch_sphere_190902_1237p.pdf}
 {\textbf{Bloch sphere representation of the single qubit density matrix}.
 The states $\ket{\psi} = \cos \left( \frac{\theta}{2} \right) \ket{0} + e^{i \phi} \sin \left( \frac{\theta}{2} \right)\ket{1}$ for
@@ -82,7 +148,7 @@ Points on the surface of the sphere correspond to pure states and can be written
 Points on the inside of the sphere correspond with mixed states and can be written as:
 \qeqn{ \hat{\rho} = \sum_i p_i \ket{\psi_i} \bra{\psi_i} }
 
-The distinction between pure states and mixed states is best thought of in terms of von Neumann entropy
+The distinction between pure states and mixed states is quantified by the von Neumann entropy
 \qeqn{S_{vN} = - \text{Tr} \, \rho \, \text{log} \, \rho}
 
 The von Neumann entropy quantifies the degree of entanglement with all external degrees of freedom.
@@ -90,7 +156,7 @@ Pure states are those that have zero von Neumann entropy indicating a lack of en
 while mixed states of $N$ qubits have a von Neumann entropy $\leq N \log 2$.
 Further discussion of entanglement entropy is at the heart of chapter 5.
 
-The ability to encode superposition and mixed states in a single quantum bit suggests that quantum bits provide a means for higher density information encoding than is possible with their classical counterparts.
+The ability to encode superposition and mixed states in a single qubit suggests that qubit bits provide a means for higher density information encoding than is possible with their classical counterparts.
 After all, the complete description a pure qubit state requires the specification of $\theta$ and $\phi$, two continuous variables,
 rather than the simple one or zero description of a classical bit.
 However, the true power of a quantum processor comes from the way that multiple qubits combine.
@@ -102,12 +168,17 @@ $\ket{\psi_{ab}} = \ket{\psi_a} \otimes \ket{\psi_b} = \frac{1}{2} \left( \ket{0
 
 The fact that quantum systems combine in this way leads directly to the exponential scaling of the power of a quantum processor.
 Whereas a two bit classical processor can represent one of the states $\ket{00}$, $\ket{01}$, $\ket{10}$, or $\ket{11}$,
-the quantum processor is able to represent them all simultaineously, each with a relative amplitude and phase!
+the quantum processor is able to represent them all simultaineously, each with a relative amplitude and phase.
 The straight-forward, but amazing, consequence is that, roughly speaking, in order to double the capacity of a classical processor you would need to double the number of classical bits.
 In contrast, if you wish to double the capacity of the quantum processor you only need to add one more qubit.
 The advantages of the quantum computer over its classical counterpart arise from this ability to store and process exponentially more information in an intrinsically parallel way.
+}
 
-%In fact, the capacity of the quantum register is scaling exponentially in the number of qubits in contrast to the classical processor which is scaling linearly.
+
+
+
+
+
 
 \indraftprogress{
 \section{applications}
@@ -155,16 +226,18 @@ The errors arising from this instability can be roughly divided into two main ca
 These are illustrated in Fig.~\ref{schem relaxation dephasing}
 Relaxation events as illustrated in Fig.~\ref{schem relaxation dephasing}(a), arise when energy is lost from the qubit system.
 Errors of this variety arise, for example, when a computational photon is absorbed by a parasitic two-level system (TLS).
+Relaxation events manifest as unintended downward transistions from the logical $\ket{1}$ state to the $\ket{0}$ state.
 An example of characterizing this type of dissipation is provided in chapter 4.
 Dephasing, as illustrated in Fig.~\ref{schem relaxation dephasing}(b),
 results from an increasing uncertainty in the relative phase between the $\ket{0}$ state and $\ket{1}$ state of the qubit.
 Errors of this variety arise, for example, as the energy difference between $\ket{0}$ state and $\ket{1}$ state fluctuates in response to random,
 time varying, magnetic fields.
-\rd{An example of characterizing these qubit energy fluctuations is found in the appendix}
+An example of characterizing these qubit energy fluctuations is found in appendix~\ref{ch:noise}.
 Reducing the noise and dissipation of superconducting qubit devices is a primary research direction and will continue to be for the forseeable future.
 
 % TODO Add data for T1 and dephasing (p1 vs time, rho vs time for Ramsey experiments)
-\quickwidefig{\columnwidth}{./PDF/sch_relaxation_dephasing_190902_1238p.pdf}
+%\quickwidefig{\columnwidth}{./PDF/sch_relaxation_dephasing_190902_1238p.pdf}
+\quickwidefig{\columnwidth}{./PDF/sch_relaxation_dephasing_psi_191203_159p.pdf}
 {
 a) Schematic of relaxation.  Over time the excited state of the qubit $\ket{1}$ tends to decay to the ground state $\ket{0}$ causing a logical error.
 b) Schematic of dephasing.  Over time uncertainty in the phase between the $\ket{1}$ and $\ket{0}$ states grows.
@@ -182,12 +255,12 @@ Dephasing metrology (chapter 5)
 
 \section{Overview of this thesis}
 In this thesis we share contributions to the development of a superconducting quantum processor
-and demonstrate the use of one as a programmable quantum simulator as we use it to probe the phenomenon of Many-body localization.
+and demonstrate the use of one as a programmable quantum simulator to probe the phenomenon of Many-body localization.
 In chapter 2, we summarize the essential theory necessary to understand the experiments in the later chapters.
-In chapter 3, we offer a contribution to the basic materials science used to construct a quantum processor, by investigating Titanium Nitride,
-a high kinetic inductance compound superconductor, with excellent coherence properties, if made correctly.
-In chapter 4, we contribute a device characterization where we isolate the excess dielectric loss due to the incorporation of flux trapping hole arrays.
+In chapter 3, we share a contribution to the basic materials science underlying the construction of a quantum processor by investigating Titanium Nitride,
+a high kinetic inductance compound superconductor with excellent coherence properties - if made correctly.
+In chapter 4, we discuss a device characterization where we isolate the excess dielectric loss due to the incorporation of flux trapping hole arrays.
 These flux traps are commonly used to protect from magnetic vortex loss, but may introduce excess dielectric loss.
 This is an important consideration as we strive for the longest coherence times posiible.
-Finally, in chapter 5, we contribute a system level algorithm demonstration where we use a $9$ qubit, nearest-neighbor coupled,
+Finally, in chapter 5, we perform a system level algorithm demonstration where we use a $9$ qubit, nearest-neighbor coupled,
 linear chain device, featuring tunable qubit frequencies and tunable interqubit coupling to compute the entanglement dynamics of an interacting, localized system.

@@ -1,0 +1,232 @@
+% arara: lualatex
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\usepackage{fontspec}
+%\setmainfont{latin modern sans}
+%\setmainfont{helvetica}
+%\usepackage{helvet}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+%% Old
+%\newcommand{\resumeItem}[2]{
+%\item\small{
+%\textbf{#1}{: #2 \vspace{-2pt}}
+%}
+%}
+
+\newcommand{\resumeItem}[2]{
+\item \small{#1{#2 \vspace{-2pt} }
+}
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#3} & #4 \\
+    {\small#1} & {\small #2} \\
+\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multicol}
+
+\begin{document}
+
+%----------HEADING-----------------
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%\textbf{\href{http://btchiaro.com/}{\Large Benjamin T. Chiaro}} & Email : \href{mailto:btchiaro@gmail.com}{btchiaro@gmail.com}\\
+%\href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-608-279-5444 \\
+\textbf{\href{http://btchiaro.com/}{\Large Benjamin T. Chiaro}} & Email  : \href{mailto:btchiaro@gmail.com}{btchiaro@gmail.com}\\
+{\Large Quantum computing researcher - superconducting qubits} & Mobile : +1-608-279-5444 \\
+\end{tabular*}
+\renewcommand{\arraystretch}{1.0}
+
+%Core qualifications
+\section{
+Core qualifications
+}
+%\setlength{\columnsep}{2.1in}
+%\begin{multicols}{2}
+\resumeItemListStart
+\resumeItem{Scientific programming}{}
+\resumeItem{RF test and measurement}{}
+\resumeItem{Cryogenics}{}
+\resumeItem{Materials science and device fabrication}{}
+\resumeItem{Public presentation}{}
+\resumeItem{Technical collaboration and teamwork}{}
+\resumeItemListEnd
+%\end{multicols}
+%\end{itemize}
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of California - Santa Barbara}{Santa Barbara, CA}
+{Graduate Student Researcher - On site at Google quantum hardware lab}{2017 - Present}
+\resumeItemListStart
+\resumeItem{Development and execution of multi-qubit quantum algorithms}{}
+\resumeItem{Calibration and characterization of large scale quantum systems}{}
+\resumeItem{Maintenance, configuration, and operation of experimental apparatus}{}
+\resumeItem{Interface with theory collaborators}{}
+\resumeItemListEnd
+
+\resumeSubheading
+{University of California - Santa Barbara}{Santa Barbara, CA}
+{Graduate Student Researcher}{2011 - 2017}
+\resumeItemListStart
+\resumeItem{Benchmarking two-qubit logic gates}{}
+\resumeItem{Precision metrology of frequency noise in superconducting qubits}{}
+\resumeItem{Dissipation metrology of superconducting coplanar waveguide resonators}{}
+\resumeItem{Materials science and device fabrication}{}
+\resumeItemListEnd
+
+\resumeSubheading
+{University of California - Santa Barbara}{Santa Barbara, CA}
+{Teaching Assistant - Honors experimental physics}{2010 - 2011}
+\resumeItemListStart
+\resumeItem{Provided laboratory instruction}{}
+\resumeItem{Performed grading of lab reports}{}
+\resumeItemListEnd
+
+\resumeSubheading
+{Opticomp Corporation}{Zephyr Cove, NV}
+{Junior Test Engineer}{2007 - 2010}
+\resumeItemListStart
+\resumeItem{Wafer level device testing}{}
+\resumeItem{Assembeled measurement systems}{}
+\resumeItem{Wrote automated test and analysis code}{}
+\resumeItem{Reliability testing}{}
+\resumeItem{Summarize and report results}{}
+\resumeItem{Interface with fabrication and packaging teams}{}
+\resumeItem{Assisted with backend processing and packaging}{}
+\resumeItemListEnd
+
+\resumeSubheading
+{University of Wisconsin - Madison}{Madison, WI}
+{Student Research Assistant - Atomic Collisions Group}{2003-2006}
+\resumeItemListStart
+\resumeItem{Michaelson Interferometry}{}
+\resumeItem{Magneto-optical atom trap}{}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%\item{Room temperature deposition of sputtered TiN films for superconducting coplanar waveguide resonators
+%SUST 27, 015009 (2014).   arXiv:1306.2966
+%Demonstrated highest quality factor coplanar waveguide resonators in the literature at that time.}
+
+%\item{Dielectric surface loss in superconducting resonators with flux-trapping holes
+%Publication:  \textit{SUST 29, 10 (2016). arXiv:1607.05841}
+%Article awarded "SUST highlights of 2016"}
+
+%\item{Precision noise metrology of a quantum system:  Increased measurement band by two orders of magnitude}
+%\item{Developed high-fidelity, two-qubit adiabatic controlled-Z gate with tunable coupling}
+%\resumeItemListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of California - Santa Barbara}{Santa Barbara, CA}
+{Ph.D. in Physics, Advisor John Martinis}{Expected 2020}
+\resumeSubheading
+{University of California - Santa Barbara}{Santa Barbara, CA}
+{Master of Science in Physics, Advisor: John Martinis}{2015}
+\resumeSubheading
+{University of Wisconsin - Madison}{Madison, WI}
+{Bachelor of Science in Physics, Advisor: Chun Lin}{2006}
+\resumeSubHeadingListEnd
+
+%-----------Presentations-----------------
+\section{Public Presentations}
+\resumeSubHeadingListStart
+\resumeSubItem{Contributed presentations:  APS March Meeting 2012 - 2020}{}
+\resumeSubItem{Invited presentation:  Quantum Science Symposium Europe 2018 \\}
+{Title:  ``gmon superconducting qubits: a programmable, high fidelity quantum simulation platform"}
+\resumeSubHeadingListEnd
+
+%-----------Publications-----------------
+\section{Publications}
+\resumeSubHeadingListStart
+\resumeSubItem{\textbf{B. Chiaro}, et al.  “Growth and preservation of entanglement in a many-body localized system” Submitted (2019).}{}
+\resumeSubItem{\textbf{B. Chiaro}, et al.  “Dielectric surface loss in superconducting resonators with flux-trapping holes.” Superconductor Science and Technology \textbf{29}, 10 (2016).}{}
+\resumeSubItem{S. Ohya, \textbf{B. Chiaro}, et al. “Room temperature deposition of sputtered TiN films for superconducting coplanar waveguide resonators”, Superconductor Science and Technology \textbf{27}, 1 (2014).}{}
+\resumeSubHeadingListEnd
+
+
+\begin{comment}
+%-----------Technical Skills-----------------
+\section{Technical Skills}
+\resumeSubHeadingListStart
+\item{
+\textbf{Scientific programming}{:  python, numpy, scipy, pandas, matplotlib, git \\
+- data acquisition, analysis, and presentation. \\
+- Numerical simulations of quantum dynamics}
+%\hfill
+%\textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+}
+\item{\textbf{Electronic test and measurement} }
+\item{\textbf{Materials science and device fabrication}, Reactive UHV sputter deposition, Inductively coupled plasma etching, optical lithography}
+\item{\textbf{Cryogenics}: Adiabatic demagnetization refridgerator, Dilution refridgerator}
+\resumeSubHeadingListEnd
+\end{comment}
+
+
+
+\end{document}
+
+
+
+
+

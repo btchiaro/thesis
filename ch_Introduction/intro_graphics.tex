@@ -1,0 +1,42 @@
+
+% arara: lualatex
+\documentclass{article}
+\usepackage[italic]{mathastext}
+% 'isomath' sets upper case greek letters italic in accordance with
+% the International Standard ISO 80000-2
+\usepackage{isomath}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{helvet}
+
+\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amstext}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb}
+\usepackage{verbatim}
+\usepackage{braket}
+%\usepackage{float}
+%\pagestyle{empty}
+\usepackage{mathtools}
+
+\usepackage[T1]{fontenc}% http://ctan.org/pkg/fontenc
+\usepackage[outline]{contour}% http://ctan.org/pkg/contour
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{anyfontsize}
+
+\makeatletter
+\newcommand\thefontsize[1]{{#1 The current font size is: \f@size pt\par}}
+\makeatother
+
+\begin{document}
+    \begin{equation}
+        \ket{\psi} = \cos \left( \frac{\theta}{2} \right) \ket{0} + e^{i \phi} \sin \left( \frac{\theta}{2} \right)\ket{1}
+    \end{equation}
+\end{document}
+
+
+
+

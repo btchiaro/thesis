@@ -1,4 +1,5 @@
 \chapter[Analog Control]{Analog Control}
+\label{ch:analog_control}
 % This is copied out of:
 % devBenGreen/latex/xiy_notes.tex
 
@@ -29,9 +30,8 @@ which captures the nonlinearity of the device and ultimately controls the "Hubba
 The resulting curves are fit parametrically to give circuit element values for our physical device model.
 This is shown in Fig.~\ref{spectroscopy data}(a).
 
-It is important to note that the qubit is reactively loaded by the coupler.
-Specifically, the effective inductance of the qubit is strongly influenced by the inductance of the coupler.
-This backaction enables us to infer the circuit parameters of the coupler by measuring the qubit frequency as a function of coupler bias.
+It is important to note that the effective inductance qubit is sensitive to the inductance of the coupler.
+This enables us to infer the circuit parameters of the coupler by measuring the qubit frequency as a function of coupler bias.
 Example data from this procedure is shown in Fig.~\ref{spectroscopy data}(b).
 
 The direct qubit - qubit interaction strength cannot be characterized from single qubit measurements alone.
@@ -113,8 +113,9 @@ energy eigenbasis.
 \end{equation}
 
 \noindent Looking at Eq.\,~\ref{ti_schrodinger_eqn}, it is clear that if we could simply Fourier transform the wavefunction, the task ef extracting the eigenvalues of $H$ would be complete.
-Unfortunately, $\ket{\psi}$ is not an observable and our ability to interogate $\ket{\psi}$ is limited to sampling bitstrings which may be averaged
-to give the expectation values of Hermitian operators.  Such an observable $\hat{O}$ can be expanded in the energy basis as
+Unfortunately, $\ket{\psi}$ is not an observable and our ability to interogate $\ket{\psi}$ is limited to measuring the expectation values of Hermitian operators.
+\draftcomment{is limited to sampling bitstrings which may be averaged to give the expectation values of certain Hermitian operators.}
+Such an observable $\hat{O}$ can be expanded in the energy basis as
 
 \begin{equation}
     \label{observable}
@@ -266,8 +267,8 @@ If we measure $\langle \sigma^x + i \sigma^y \rangle$ on site 1, then we have
 \end{bmatrix}
 = (...)
 \end{equation}
-
-In this case we recover the eigenvalues of H because \qeqn{ FFT(...) = \delta(E_1) + \delta(E_2) + \delta(E_3) }
+In this case we recover the eigenvalues of H because \qeqn{ FFT(...) = a_1 \delta(E_1) + a_2 \delta(E_2) + a_3 \delta(E_3) }
+where the $a_i$ are the coefficients coming from change of basis and normalization of the FFT.
 
 This calculation makes the roles of the initial state and measurement observable clear.
 It is essential that the initial state be a superposition of a reference state, and a state in the manifold that we wish to extract the eigenvalues of.
@@ -729,7 +730,8 @@ If we make an x rotation immediately before measuring x+iy our measurement opera
 } % end indraftprogress
 
 \section{ Connection between many-body Ramsey spectroscopy and unitary tomography (2 qubit particle conserving evolution)}
-In the recent demonstration of quantum supremacy \cite{Arute2019} the two qubit gates were photon number conserving unitaries from the FSim class.
+In the recent demonstration of quantum supremacy \cite{Arute2019} the two qubit gates were photon number conserving unitaries from a class of unitaries
+known as the FSim class.
 The matrix elements for the two qubit unitaries were discovered by optimizing the gate parameters to the cross-entropy benchmarking fidelity.
 The initial guesses for this optimization process were provided by a technique we refer to as unitary tomography.
 This technique is now widely used for two qubit gate calibration in the Martinis group / Google AI Quantum lab.

@@ -25,7 +25,16 @@ END
 
 function compile_thesis(){
 cleanup_thesis_build_files
+arara -v ~/Google\ Drive/thesis/cv_btc.tex
 arara -v ~/Google\ Drive/thesis/main_UCSB_submission.tex
+}
+
+function compile_cv(){
+arara -v ~/Google\ Drive/thesis/cv_btc.tex
+}
+
+function compile_cv2(){
+arara -v ~/Google\ Drive/thesis/cv_btc2.tex
 }
 
 echo 'Loaded thesis bash functions'
@@ -49,5 +58,10 @@ print(os.path.expanduser(full_input_tex_path_and_fn))
 import subprocess
 subprocess.run(['arara -v {}'.format(os.path.expanduser(full_input_tex_path_and_fn))], shell=True)
 #subprocess.run(['ls'])
+
+########### need to add these steps in programatically.
+#latex $mbl_graphics_fn$tex_ext
+#dvisvgm --no-fonts --page=1- $mbl_graphics_fn$dvi_ext $mbl_graphics_fn$svg_ext
+
 END
 }

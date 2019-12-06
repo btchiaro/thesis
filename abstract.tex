@@ -1,4 +1,173 @@
 \begin{abstract}
+    In many-body localized (MBL) systems, entanglement propagates throughout the system despite the absence of transport.
+    Early experiments have relied on population measurements to indirectly probe these entanglement dynamics.
+    However, because the entanglement results from phase relationships between localized orbitals, it is more naturally probed with phase sensitive algorithms and measurement.
+    In this thesis, we use an array of nearest neighbor coupled superconducting qubits to introduce phase sensitive protocols to the experimental study of MBL systems.
+    We establish that system is MBL by demonstrating disorder induced ergodicity breaking and the presence of effective nonlocal interactions.
+    We then use density matrix reconstructions to observe the hallmark slow growth of entanglement and provide a site-resolved spatial and temporal map of the developing entanglement.
+    We also inspect the capacity of the MBL phase to preserve quantum correlations by observing the decay of distillable entanglment when Bell pair embedded in an MBL environment and dephased by remote excitation.
+
+    In superconducting quantum processors, such as that used in the MBL study above, dissipation leads to computational errors and must be minimized.
+    To that end, we also describe coherence engineering experiments in terms of the low power internal quality factor $Q_i$ of coplanar waveguide (CPW) resonators,
+    a figure of merit characterizing dissipation in the quantum computing regime.
+    We investigate titanium nitride as a superconducting base metal for quantum circuits.
+    By optimizing the deposition conditions, we achieve a record low-power $Q_i$ in CPW resonators.
+    We also characterize the dielectric loss due to flux trapping hole arrays.
+    Since flux traps are commonly used to prevent magnetic vortex formation and dielectric loss is a limiting dissipation mechanism,
+    it is important to estimate the contribution of flux traps to the dielectric dissipation budget.
+    We find that for reasonable hole patterns the dielectric loss can be small while preventing vortex formation.
+
+
+\draftcomment{
+    In many-body localized (MBL) systems, transport of excitations is absent but entanglement propagates throughout the system.
+    Early experiments have relied on measurements of population to infer the entanglement dynamics of MBL systems indirectly.
+    However, because entanglement primarily results from phase relationships between the lattice sites,
+    it is more naturally probed with phase sensitive algorithms and measurement.
+    We introduce phase sensitive protocols and provide a comprehensive survey of entanglement dynamics in the MBL phase.
+    We first use transport measurements to demonstrate disorder induced ergodicity breaking in a Bose-Hubbard lattice.
+    Next, we use interferometric techniques to demonstrate the presence of effective nonlocal interactions, and probe the structure of the local integrals of motion.
+    Beyond establishing these foundational properties we reconstruct the evolution of two qubit density matrices to observe the hallmark slow growth of entanglement in our localized system.
+    Further, we use the entanglement of formation to provide a site-resolved spatial and temporal map of the developing entanglement.
+    The correlated, affirmative nature of this entanglement measure provides strong evidence that the observed entanglement entropy results from the internal dynamics of our qubit system.
+
+    In superconducting quantum processors, such as used in the simulation above, dissipation leads to computational errors and must therefore be minimized.
+    %Dielectric loss is a leading source of dissipation in superconducting quantum circuits.%, arises from the absorption of computational photons by parasitic two-level systems.
+    To that end we also discuss experiments in support of coherence engineering.
+    First, we investigate the use of titanium nitride TiN as a superconductor for quantum circuits.
+    By optimizing the deposition conditions,
+    we achieve a record low-power internal quality factor for coplanar waveguide resonators,
+    a figure of merit characterizing dissipation in the quantum computing regime.
+
+    We also characterize the dielectric loss that it introduced when magnetic flux trapping hole arrays are added to superconducting devices.
+    Flux traps are commonly used to prevent magnetic vortex formation, however they add additional surfaces which promotes dielectric loss.
+    Since dielectric loss is a limiting source of dissipation in quantum circuits, we quantify the excess dielectric loss from flux trapping holes.
+    We find that for reasonable hole patterns the dielectric loss can be small while preventing vortex formation.
+}
+
+\draftcomment{
+    The Many-body localized phase is presently the subject of vibrant theoretical and experimental research activity.
+    This is due to its surprising, nontrivial dynamics and its relevance to the foundations of statistical mechanics,
+    quantum thermalization, and quantum information processing.
+    In MBL systems, entanglement propagates despite the localization of excitations.
+    Early experiments have relied on measurements of population to infer the entanglement dynamics of MBL systems.
+    However, because entanglement primarily results from phase relationships between the lattice sites,
+    it is more naturally probed with phase sensitive algorithms and measurement.
+    We introduce phase sensitive protocols and provide a comprehensive survey of entanglement dynamics in the MBL phase.
+    We first use transport measurements to demonstrate disorder induced ergodicity breaking in a Bose-Hubbard lattice.
+    Next, we use interferometric techniques to demonstrate the presence of effective nonlocal interactions, and probe the structure of the local integrals of motion.
+    Beyond establishing these foundational properties we reconstruct the evolution of two qubit density matrices to observe the hallmark slow growth of entanglement in our localized system.
+    Further, we use the entanglement of formation to provide a site-resolved spatial and temporal map of the developing entanglement.
+    The correlated, affirmative nature of this entanglement measure provides strong evidence that the observed entanglement entropy results from the internal dynamics of our qubit system.
+
+    In superconducting quantum processors, such as used in the simulation above, dissipation leads to computational errors and must therefore be minimized.
+    %Dielectric loss is a leading source of dissipation in superconducting quantum circuits.%, arises from the absorption of computational photons by parasitic two-level systems.
+    To that end we also discuss experiments in support of coherence engineering.
+    First, we investigate the use of titanium nitride TiN as a superconductor for quantum circuits.
+    By optimizing the deposition conditions,
+    we achieve a record low-power internal quality factor for coplanar waveguide resonators,
+    a figure of merit characterizing dissipation in the quantum computing regime.
+
+    We also characterize the dielectric loss that it introduced when magnetic flux trapping hole arrays are added to superconducting devices.
+    Flux traps are commonly used to prevent magnetic vortex formation, however they add additional surfaces which promotes dielectric loss.
+    Since dielectric loss is a limiting source of dissipation in quantum circuits, we quantify the excess dielectric loss from flux trapping holes.
+    We find that for reasonable hole patterns the dielectric loss can be small while preventing vortex formation.
+}
+
+
+\draftcomment{
+    Quantum computers have the potential to revolutionize the study of non-equilibrium quantum dynamics.  %  our ability to investigate the dynamics of quantum systems.
+    In order to realize a large scale quantum computer significant advances in materials science and coherence engineering are required.
+    In this thesis we demonstrate progress toward resolving these engineering challenges and use a $9$
+    qubit quantum processor to provide a study of entanglement dynamics in the many-body localized (MBL) phase.
+
+    A primary source of logical errors in a quantum computer is energy relaxation occurs when computational photons are lost to the environment.
+    In superconducting quantum processors an important source of energy relaxation is dielectric loss.
+    Dielectric loss arises from the absorption of computational photons by parasitic two-level systems in the amorphous dielectric on the surface of the superconducting electrodes.
+    We use the internal quality factor $Q_i$ of coplanar waveguide (CPW) resonators to characterize this dielectric loss.
+    We show that for resonators made from thin films of titanium nitride $Q_i$ is strongly dependant on the thin film deposition conditions.
+    We achieve a new record for the low power $Q_i$, the figure of merit relevant to quantum computing, by optimizing the deposition conditions.
+
+    Energy relaxation is also caused by magnetic vortices, which can form when a superconductor is cooled through it's critical temperature in a magnetic field.
+    Flux trapping hole arrays are often added to superconducting electrodes to protect against the formation of magnetic vortices and the concomitant energy dissipation.
+    Since minimization of the total dissipation is required to achieve optimal device performance and flux trapping hole patterns introduce additional surfaces that may add dielectric loss,
+    it is important to quantify the excess dielectric loss that results from the introduction of these hole patterns.
+    We provide this characterization and show that for reasonable hole densities and placement,
+    the excess dielectric loss can be made small while maintaining protection from magnetic vortices.
+}
+
+
+
+
+    \draftcomment{
+    \textbf{Long version}
+    %Quantum computers have the potential to revolutionize our ability to investigate the dynamics of quantum systems.
+    Quantum computers have the potential to revolutionize the study of non-equilibrium quantum dynamics.  %  our ability to investigate the dynamics of quantum systems.
+In order to realize a large scale quantum computer significant advances in materials science and coherence engineering are required.
+In this thesis we demonstrate progress toward resolving these engineering challenges and use a $9$
+qubit quantum processor to provide a study of entanglement dynamics in the many-body localized (MBL) phase.
+
+A primary source of logical errors in a quantum computer is energy relaxation occurs when computational photons are lost to the environment.
+In superconducting quantum processors an important source of energy relaxation is dielectric loss.
+Dielectric loss arises from the absorption of computational photons by parasitic two-level systems in the amorphous dielectric on the surface of the superconducting electrodes.
+We use the internal quality factor $Q_i$ of coplanar waveguide (CPW) resonators to characterize this dielectric loss.
+We show that for resonators made from thin films of titanium nitride $Q_i$ is strongly dependant on the thin film deposition conditions.
+We achieve a new record for the low power $Q_i$, the figure of merit relevant to quantum computing, by optimizing the deposition conditions.
+
+Energy relaxation is also caused by magnetic vortices, which can form when a superconductor is cooled through it's critical temperature in a magnetic field.
+Flux trapping hole arrays are often added to superconducting electrodes to protect against the formation of magnetic vortices and the concomitant energy dissipation.
+Since minimization of the total dissipation is required to achieve optimal device performance and flux trapping hole patterns introduce additional surfaces that may add dielectric loss,
+it is important to quantify the excess dielectric loss that results from the introduction of these hole patterns.
+We provide this characterization and show that for reasonable hole densities and placement,
+the excess dielectric loss can be made small while maintaining protection from magnetic vortices.
+
+Finally, we demonstrate the use of a $9$ qubit quantum processor to simulate the dynamics of a many-body localized system.
+The Many-body localized phase is presently the subject of viberant theoretical and experimental research activity.
+This is due to its surprising, nontrivial dynamics as well as its relevance to the foundations of statistical mechanics, quantum thermalization, and quantum information processing.
+In the MBL phase entanglement propagates throughout the system despite the fact the photonic excitations are localized.
+Early experimental works of the MBL phase have relied on measurements of on-site population to infer the entanglement dynamics.
+However, because the entanglement is primarily due to a phase relationship that develops between the lattice sites,
+it is more natural to use phase sensitive algorithms and measurement to probe it.
+We first use traditional transport measurements to demonstrate disorder induced ergodicity breaking in a Bose-Hubbard lattice.
+Next, we use interferometric techniques to demonstrate the presence of effective nonlocal interactions,
+and probe the structure of the local integrals of motion.
+Beyond establishing these foundational properties we reconstruct the evolution of two qubit density matrices to observe the hallmark slow growth on entanglement in our localized system.
+Further, we use the entanglement of formation to provide a site resolved spatial and temporal map of the developing entanglement.
+The correlated, affirmative nature of this entanglement measure provides strong evidence that the observed entanglement entropy results from the internal dynamics of our qubit system.
+    }
+
+\draftcomment{
+%First, we demonstrate that the dissipation in coplanar waveguide (CPW) resonators made from stoichiometric titanium nitride TiN can be reduced
+%by reducing the strain of the TiN thin film.
+%By increasing the deposition pressure we reduced the film strain and achieved the highest low power quality factor CPW resonators reported in the literature at that time.
+Next, we provide an estimate of the dielectric loss that is introduced by adding magnetic flux trapping holes to the ground plane of CPW resonators for the purpose of
+making them insensitive to magnetic vortex loss.
+Since flux trapping holes are common features in superconducting circuits and the relaxation time of superconducting qubits is often limited by dielectric loss,
+it is important to quantify this source of dissipation to achieve optimal device performance.
+
+
+
+we explore titanium nitride and demonstrate that we can fabricate superconducting coplanar waveguide resonators with reduced dissipaiton
+
+In pursuit of
+In this thesis, we explore titanium nitride TiN and show how the materials properties vary with the deposition conditions.
+In particular, we demonstrate that we can fabricate superconducting coplanar waveguide (CPW) resonators with reduced dissipation
+stoichiometric TiN with reduced strain by higher deposition pressure
+by making them with.
+
+
+there are many challenges to be overcome in the development of full scale quantum computers.
+withe path to constructing a viable quantum computational device
+
+One of the primary motivations for developing a quantum computer is its potential to facilitate studies of quantum dynamics.
+However
+
+One of the challenges is
+A specific topic that is of wide interest today is how quantum systems approach thermalization.
+Manybody localized systems are an interesting class of interacting quantum systems that fail to thermalize.
+}
+
+
+    \draftcomment{
 Quantum computers hold great promise for enhanced information processing, with potential applications as diverse as factorization, optimization and the simulation of quantum dynamics.
 The past decade has seen quantum processors scale from single quantum bits to devices with tens of qubits
 that are able to out-perform advanced classical supercomputers for certain applications. \rd{cite quantum supremacy paper}
@@ -36,4 +205,5 @@ Specifically, we use transport measurements to distinguish localized and diffusi
 To complement this, we use echo techniques to characterize the propagation of entanglement these regimes.
 This shows qualitative differences between how energy and entropy flow in the system.
 
+    } % end draftcomment
 \end{abstract}

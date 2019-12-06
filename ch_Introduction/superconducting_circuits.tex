@@ -11,14 +11,16 @@ For completeness we summarize the essential results from these sources as necess
 } %end inprogress
 
 \section{Coplanar waveguide (CPW) resonator}
+The CPW resonator is a ubiquitious resource in superconducting circuits.
+Here we state the basic physics of CPW transmission lines, show that an oscillator can be made from a terminated strip of transmission line, and outline the relationship of this device with coherence metrology.
 \subsection{The CPW resonator as an LC oscillator}
-\quickfig{6 in}{./PDF/CPW_sw_schem.pdf}{A schematic diagram of a coplanar waveguide (CPW), shown in cross section}{CPW}
+\quickfig{6 in}{./PDF/CPW_sw_schem_3d.pdf}{A schematic diagram of a coplanar waveguide (CPW), shown in cross section}{CPW}
 A coplanar waveguide (CPW) transmission line consists of a signal electrode that is isolated from a surrounding ground plane.
 A cross sectional view of the basic CPW geometry is shown in cross section in fig.~\ref{CPW}.
 This device supports a propagating transverse electromagnetic (TEM) mode  with phase velocity \cite{Pozar}
 \qeqn{v_p = \frac{1}{\sqrt{C_l L_l}}}
 
-The capacitance per unit length $C_l$ is due to the geometry of the electrodes and the relative dielectric constant of the substrate $\epsilon_r$.
+The capacitance per unit length $C_l$ between the signal electrode and the ground plane is due to the geometry of the electrodes and the relative dielectric constant of the substrate $\epsilon_r$.
 $C_l$ can be calculated from Schwarz-Christoffel conformal mapping \cite{GaoThesis}, the result is:
 \qeqn{
 C_l = \left( \frac{1 + \epsilon_r}{2} \right) \epsilon_0 \frac{4 K(k)}{K(k^\prime)}
@@ -35,10 +37,10 @@ The kinetic inductance, due to the inertia of superconducting Cooper pairs, is d
 \qeqn{ L_k = g L_s }
 The surface inductance of the superconductor $L_s$ depends on the normal metal resistivity and the thickness of the electrode. \cite{KherThesis}
 \qeqn{L_s = \frac{ \hslash \rho_n }{ \pi \Delta_0 t} } % Equation 2.13
-and g is a geometric factor that can be calculated analyticaly for the CPW geometry \cite{GaoThesis}
+The geometric factor g can be estimated analyticaly for the CPW geometry \cite{RamiThesis, GaoThesis}
 \qeqnarray{
-g &=& \frac{1}{4 a K^2(k)(1-k^2)} \left( \pi \log \frac{4 \pi a}{t} - k \log \frac{1 + k}{1 - k} \right) + \\
-  &=& \frac{1}{4 a K^2(k)(1-k^2)} \left( \pi \log \frac{4 \pi b}{t} - k \log \frac{1 + k}{1 - k} \right) \\
+g &=& \frac{1}{4 S (1-k^2) K^2(k)} \left( \pi + \log \frac{4 \pi S}{t} - k \log \frac{1 + k}{1 - k} \right) + \\
+  &\phantom{=}& \frac{k}{4 S (1-k^2) K^2(k)} \left( \pi + \log \frac{4 \pi (S + 2 W)}{t} - \frac{1}{k} \log \frac{1 + k}{1 - k} \right) \\
 } % end qeqnarray
 For high resistivity superconductors, such as titanium nitride considered in Chapter 3, $L_k$ can be significant and even dominate $L_l$.
 
@@ -58,10 +60,12 @@ f_0 = \frac{1}{4 l }\frac{1}{\sqrt{L_l C_l}}
 \label{f0_resonator}
 }
 A consequence of eq.~\ref{f0_resonator} is that high kinetic inductance materials can make resonators smaller in size while maintaining a constant frequency resonator.
+However, eq.~\ref{f0_resonator} also implies that in high kinetic inductance devices,
+the materials parameters (thin film resistivity) must be tightly controlled to prevent inductance variability.
 %A drawback is of sensitivity of $L_k$ is that if the materials properties such as $\rho_2$ are not well controlled,
 
 %From Pozar (eqn 6.28 we find that the input resistance of a segment of lossy transmission line that is terminated in a short circuit is)
-It is apparent that a terminated segment of lossy transmission line should behave like a damped parallel RLC oscillator by inspecting the input impedance of such a line \cite{Pozar}
+Following  \cite{Pozar}, it is apparent that a terminated segment of lossy transmission line should behave like a damped parallel RLC oscillator by inspecting the input impedance of such a line
 \qeqn{
 Z_{in} = Z_0 \tanh \left( \alpha + i \beta \right) l = Z_0 \frac{1 - i \tanh \alpha l \cot \beta l}{\tanh \alpha l - i \cot \beta l}
 }
@@ -70,8 +74,7 @@ For a transmisssion line with small loss and near resonance so that $\omega = \o
 \qeqn{
 Z_{in} = \frac{1}{1/R + 2 i \Delta \omega / 2 \omega_0}
 }
-Which has the same form as $Z_{in}$ for a parallel RLC oscillator.
-
+which has the same form as $Z_{in}$ for a parallel RLC oscillator.
 
 \subsection{Coherence metrology with CPW resonators}
 
@@ -85,13 +88,14 @@ which in turn contribute to the qubit's logical error rate.
 Thus, in order to achieve the best qubit performance the dissipation must be minimized.
 
 Throughout the history of superconducting qubits the resonator has been used for coherence engineering.
-This is because superconducting qubits and resonators are subject to many of the same dissipation mechanisms.
+This is because superconducting qubits and resonators are subject to many of the same dissipation mechanisms,
+including quasiparticle loss, magnetic vortex loss, and dielectric loss.
 This is not surprising given the similarity of their construction.
 Fig.~\ref{qubit_resonator}(a) shows an Xmon transmon superconducting qubit.
 It can be thought of as two intersecting strips of CPW transmission line,
 such as those that create the CPW resonator in Fig.~\ref{qubit_resonator}(c).
 However, the resonator has the virtue of being much simpler than the qubit.
-This permits rapid fabrication iterations and protects against performance degradation that sometimes results from complex multi-step fabrication sequence.
+This permits rapid fabrication iterations and protects against the performance degradation that sometimes results from complex multi-step fabrication sequence.
 For both of these reasons, the resonator is widely used in the material science and fabrication of superconducting quantum circuits.
 
 \quickwidefig{\columnwidth}{./PDF/resonator_qubit_proxy.pdf}{
@@ -99,6 +103,7 @@ a) an Xmon transmon qubit,
 b) The capacitive end of a $\lambda/4$ resonator.
 c) The full CPW resonator structure.
 }{qubit_resonator}
+\vspace*{2em}
 
 \subsubsection{Quality factor}
 The figure of merit describing resonator dissipation is the quality factor $Q$,
@@ -110,14 +115,16 @@ The rate at which which energy is lost from the resonator depends both on its co
 \qeqn{1/Q_{total} = 1/Q_{c} + 1/Q_{i}}
 where $Q_c$ and $Q_i$ refer to the coupling and internal quality factors respectively.
 Note that the quality factors sum in reciprocal since the energy loss rates are additive.
+The internal quality factor $Q_i$ may be further decomposed in terms of the constituent loss mechanisms.
+\qeqn{1/Q_{i} = 1/Q_{quasiparticle} + 1/Q_{vortex} + 1/Q_{dielectric}}
 
 For a quarter wave resonator capacitively coupled to a transmission line, the internal quality factor $Q_i$
 and the coupling quality factor $Q_c$ can be extracted
 separately from simple transmission measurements.
 This is done by parametrically fitting measurements of transmission S - parameter $S_{21}$ vs frequency.\cite{Megrant2012}
-\qeqn{ \tilde{S}_{21}^{-1} = 1 + \frac{Q_i}{Q_c^*}\,\frac{1}{1 + i 2 Q_i \left( \frac{f - f_0}{f_0} \right) } }
+\qeqn{ S_{21}^{-1} = 1 + \frac{Q_i}{Q_c}\,\frac{1}{1 + i 2 Q_i \left( \frac{f - f_0}{f_0} \right) } }
 In chapters 3 and 4 of this thesis we focus on minimizing the internal dissipation $\frac{1}{Q_i}$ to improve the relaxation times of our qubits.
-Further discussion of the setup of such an experiment can be found in chapter 4.
+Further discussion of the setup of such an experiment can be found in chapter 4 and appendix\,\ref{ch:Vortex-supp}.
 %When using the resonator for coherence engineering, the primary performance metric is the internal quality factor $Q_i$.
 %We characterize the dissipation of the resonator by its internal quality factor.
 \draftcomment{
@@ -198,10 +205,10 @@ can be suppressed by using light tight shielding for the operating environment a
 %%%%%%%%%%%%%%%%%%%%%%
 
 \section{Quantum LC Oscillator}
-\quickfig{1 in}{./PDF/LCO.pdf}{This is a simple LC oscillator (resonator) with position and momentum coordinates $\Phi$ and $Q$}{LCO}
+\quickwidefig{1 in}{./PDF/LCO.pdf}{An LC oscillator with position and momentum coordinates $\Phi$ and $Q$}{LCO}
 The linear LC harmonic oscillator is closely related to the more complicated qubit circuits
 and provides an excellent starting point for understanding superconducting qubits.
-\verify{At low temperatures and small energies} the LC oscillator behaves quantum mechanically.
+At low temperatures the LC oscillator behaves quantum mechanically.
 As such it's dynamics in this regime are described by the Schr\"odinger equation
 \begin{equation}
     i \hbar \frac{d}{dt} \ket{\psi(t)} = H \ket{\psi}
@@ -215,7 +222,7 @@ and therefore the energy stored within a lossless element can be written as
 $t_0$ is normally taken to be $- \infty$, at which time $I(- \infty)=0$ and $V(- \infty)=0$.
 
 The customary approach for deriving the Hamiltonian $H$ is to write down the Lagrangian for a generalized coordinate of the circuit and compute $H$ via the Lagendre transformation.
-\verify{This approach ensures that we arrive at a Hamiltonian in terms of a generalized coordinate and it's conjugate momentum (i.e. described in terms of the normal modes.) .}
+This approach ensures that we arrive at a Hamiltonian in terms of a generalized coordinate and it's conjugate momentum.
 We choose the flux $\Phi$, indicated in Fig.~\ref{LCO}, as our generalized coordinate.  $\Phi$ is also known as the node flux or branch flux.  $\Phi$ is defined in terms of the voltage across the inductor.
 \qeqn{\Phi(t) = \int_{-\infty}^{t} V(t^\prime) dt^\prime}
 
@@ -279,10 +286,11 @@ The Hamiltonian is often expressed in terms of the annihilation and creation ope
 \noindent
 The use of the number operator $\hat{n} = \hat{a}^\dagger \hat{a}$ makes it clear that the eigenstates of the system are Fock states corresponding to the number
 of photonic excitations in the oscillator.
-The equal spacing of the energy levels makes the linear harmonic oscillator unusable as a qubit because we cannot address a target transition.
+The equal spacing of the energy levels makes the linear harmonic oscillator unusable as a qubit because we cannot drive the
+$\ket{0} \rightarrow \ket{1}$ transition independently of the $\ket{1} \rightarrow \ket{2}$ and higher transitions since all of the transitions are at the same frequency.
 This challenge is resolved by introducing nonlinearity into the circuit by incorporating a Josephson inductance.
 
-It is convenient to write $H$ in terms of the number of charges on the island $\hat{n}$ and \rd{the phase across the inductor $\hat{\phi}$}.
+It is convenient to write $H$ in terms of the number of charges on the island $\hat{n}$ and the phase across the inductor $\hat{\phi}$.
 
 \qeqn{ \hat{n} = \frac{\hat{Q}}{2 e} }
 
@@ -314,7 +322,7 @@ The energy on the capacitor is $E_c = 1/2 C V^2$, and the inductor has an energy
 } % end draftcomment
 
 \section{Coupled resonators}
-The advantages of quantum computing stem from the exponential scaling of Hilbert space dimension as we combine quantum systems.
+The advantages of quantum computing stem from the exponential scaling of the Hilbert space dimension as we combine quantum systems.
 Useful quantum circuits, therefore, must provide a means for multiple qubits to interact.
 For superconducting qubits the coupling mechanism may be either capacitive or inductive in nature.
 In this section we show how these coupling mechanisms lead to a hopping term in the Hamiltonian.
@@ -610,7 +618,8 @@ so that the flux - flux coupling also generates a hopping term in the Hamiltonia
 
 \section{Josephson junction}
 As noted above the linear LC oscillator is not suitable for use as a qubit because of its ladder of equally spaced energy levels.
-This challenge is addressed by using the nonlinear inductance of a josephson junction
+This challenge is addressed by using the nonlinear inductance of a josephson junction in place of the linear inductance considered above.
+This nonlinearity creates an unevenly spaced ladder of energy levels and gives rise to an interaction term in the Hamiltonian.
 \quickfig{6 in}{./PDF/JJ_image_190908_634p.pdf}{a) A Josephson junction b) The circuit symbol for a Josephson junction}{jj_image}
 The Josephson junction provides us with a lossless, nonlinear inductance.\cite{Josephson1962}
 The Josephson junction consists of two superconducting electrodes separated by a thin insulating barrier.
@@ -628,14 +637,14 @@ and
 from these we can compute the Josephson inductance
 \qeqn{ V = L\frac{dI}{dt} \implies L_j = \frac{\phi_0}{2 \pi I_c \cos \delta} }
 
-Since the L is L(I), the inductance is nonlinear.
+%Since the L is L(I), the inductance is nonlinear.
 
 The parameter $I_c$ is known as the critical current, which is related to the normal resistance of the junction via the
 Ambegaokar - Baratoff Relation \cite{Ambegaokar1963}
 \qeqn{I_c R_n = \frac{\pi \Delta}{2 e} \text{tanh} \left( \frac{\Delta}{2 k_b T} \right)}
 
-The junction is an inductive element that stores energy in the magnetic field.  We do work against the junction to increase its energy.
-As the junction is dissipationless, work done against the junction is stored as energy within it.
+The junction is a primarily inductive element that stores energy in the magnetic field.  %  We do work against the junction to increase its energy.
+As the Josephson junction is dissipationless, work done on the junction is stored as energy within it.
 We can compute this energy from the current, voltage Josephson relations above.
 \qeqn{-\frac{dU}{dt} = I V = \left( I_c \sin \phi(t) \right) \left( \frac{\hbar}{2 e}\frac{d\phi}{dt} \right) }
 \qeqn{- \int dU = I_c \frac{\hbar}{2 e} \int \sin \phi d\phi }
@@ -739,22 +748,22 @@ This design choice is to trade away nonlinearity to gain charge noise insensitiv
 
 
 \section{Composite gmon Hamiltonian.}
+
 \quickfig{6 in}{./PDF/fs1_190916_1029a.pdf}{
 a) An optical micrograph of a gmon device.
 b) Circuit schematic for 3 qubit subsection of the gmon.
 c) The resulting Bose-Hubbard Hamiltonian that describes the gmon dynamics.
 }{gmon_schematic}
 
-More complex devices, such as the gmon circuit employed in Chapter~\ref{ch:MBL}, can be understood by combining the concepts in the preceding sections.
-\cite{Neill2018}
+More complex devices, such as the gmon circuit employed in Chapter~\ref{ch:MBL}, can be understood by combining the concepts in the preceding sections \cite{Neill2018}.
 A circuit schematic for the gmon is shown in fig.~\ref{gmon_schematic}.
-The term $h_i n_i$ can be understood as the energy of an $LC$ harmonic oscillator with frequency $h_i$.
+The frequency detuning term $h_i n_i$ can be understood as the energy of an $LC$ harmonic oscillator with frequency $h_i$.
 The correction to the harmonic oscillator Hamiltonian due to the nonlinearity of the Josephson junctions is represented by term $\frac{U}{2} n (n-1)$.
-It should be noted that this can be thought of as a single term in an expansion, it gives $0$ for $n_i = 1, 2$ and $U$ for $n=2$.
+It should be noted that this can be thought of as a single term in an expansion, it gives $0$ for $n_i = 0, 1$ and $U$ for $n=2$.
 This expression is not valid for higher occupations.
 Finally, the hopping term $J (a_i a_{i+1}^\dagger + a_i^\dagger a_{i+1})$
 arises from the sum of direct capacitive coupling between the qubits and inductive coupling mediated by the coupler circuit shown in green.
-
+In Appendix \ref{ch:analog_control}, we provide benchmarking data confirming that the dynamics of the gmon circuit are described by the Bose-Hubbard Hamiltonian shown in fig.~\ref{gmon_schematic}.
 
 
 \draftcomment{

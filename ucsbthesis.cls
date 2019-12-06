@@ -405,9 +405,9 @@
     {\fmheader \vitaename}\par
     \vspace{1em}
     {\large \@author}
-    \vspace{1.5em}
+    \vspace{0.5em}
   \end{center}
-  \begin{list}{}{\leftmargin 0in \itemsep 2em}
+  \begin{list}{}{\leftmargin 0in \itemsep 1.0em}
 }{
   \end{list}
 \end{alwaysonecol}
@@ -420,7 +420,7 @@
 
 \newenvironment{vitaesection}[1]{
 \item {\vitaesecttitle #1}
-\begin{list}{}{\leftmargin 1.2in \parsep 1em
+\begin{list}{}{\leftmargin 1.2in \parsep 0.8em
                \labelwidth 1.0in \labelsep 0.2in
                \let\makelabel\vitaelabels}
 }{
@@ -429,8 +429,8 @@
 
 \newenvironment{vitaesectnodate}[1]{
 \item {\vitaesecttitle #1}
-\begin{list}{}{\leftmargin 0in \parsep 1em
-               \labelwidth 1.2in \labelsep 0.2in
+\begin{list}{}{\leftmargin 0in \parsep 0.8em
+               \labelwidth 1.0in \labelsep 0.2in
                \let\makelabel\vitaelabels}
 }{
 \end{list}
