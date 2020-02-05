@@ -1,0 +1,288 @@
+% arara: lualatex
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\usepackage{fontspec}
+%%\setmainfont{Kurier Cond Light}
+%\setmainfont{Quattrocento Sans}
+%\setmainfont{Carlito}
+%\setmainfont{Clear Sans}
+%\setmainfont{Gothic Uralic}
+%\usepackage{helvet}
+%\setmainfont{latin modern sans}
+%\setmainfont{helvetica}
+%\setmainfont{PT Sans}
+\setmainfont{source sans pro}
+%\setmainfont{CMU Bright}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+\vspace{-4pt}\scshape \raggedright \Large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+%% Old
+%\newcommand{\resumeItem}[2]{
+%\item\small{
+%\textbf{#1}{: #2 \vspace{-2pt}}
+%}
+%}
+
+\newcommand{\resumeItem}[2]{
+\item \small{#1{#2 \vspace{-2pt} }
+}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \large{#3} & \small{#4} \\
+    {\small#1} & {\small #2} \\
+\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\vspace{-4pt}\resumeItem{#1}{#2}}
+
+\renewcommand{\labelitemii}{{\small $\circ$}}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multicol}
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{comment}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%\textbf{\href{http://btchiaro.com/}{\Large Benjamin T. Chiaro}} & Email : \href{mailto:btchiaro@gmail.com}{btchiaro@gmail.com}\\
+%\href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-608-279-5444 \\
+\textbf{\href{http://btchiaro.com/}{\LARGE Benjamin T. Chiaro}} & Email: \href{mailto:btchiaro@gmail.com}{\textbf{\large btchiaro@gmail.com}}\\
+\end{tabular*}
+\begin{center}
+{\Large ``Full stack" quantum computing experimentalist - superconducting qubits} \\%& Mobile : +1-608-279-5444 \\
+\end{center}
+\renewcommand{\arraystretch}{1.0}
+\end{comment}
+
+\begin{center}
+\textbf{{\LARGE Benjamin T. Chiaro}}\\
+\vspace{7pt}
+Email: \href{mailto:btchiaro@gmail.com}{btchiaro@gmail.com}\\
+\vspace{7pt}
+{\Large ``Full stack" quantum computing experimentalist - superconducting qubits} \\%& Mobile : +1-608-279-5444 \\
+\end{center}
+
+%Core qualifications
+\section{Core qualifications}
+%\setlength{\columnsep}{2.1in}
+%\begin{multicols}{2}
+\resumeSubHeadingListStart
+\resumeSubheading{}{}{Development and execution of multi-qubit quantum algorithms:  }{}
+\resumeItemListStart
+\vspace{-17pt}
+\resumeItem{Calibration and characterization of large-scale quantum systems}{}
+\resumeItem{Maintenance, configuration, and operation of experimental apparatus}{}
+\resumeItem{Acquire, analyze, summarize, and report measurement results}{}
+\resumeItem{Productive interaction with theory collaborators}{}
+\resumeItemListEnd
+
+\resumeSubheading{}{}{Characterization of quantum circuit elements:  }{}{}{}
+\resumeItemListStart
+\vspace{-17pt}
+\resumeItem{Benchmarking two-qubit logic gates}{}
+\resumeItem{Precision metrology of frequency noise in superconducting qubits}{}
+\resumeItem{Dissipation metrology of superconducting coplanar waveguide resonators}{}
+\resumeItemListEnd
+
+\resumeSubheading{}{}{Scientific programming:  }{}
+\resumeItemListStart
+\vspace{-17pt}
+\resumeItem{Python, NumPy, SciPy, Matplotlib, Git}{}
+\resumeItem{Automated data acquisition, analysis, and visualization}{}
+\resumeItem{Numerical simulation of quantum dynamics}{}
+\resumeItemListEnd
+
+\resumeSubheading{}{}{RF test and measurement:  }{}
+\resumeItemListStart
+\vspace{-17pt}
+\resumeItem{Use of custom FPGA based RF system for qubit operation (sideband mixed, homodyne detection)}{}
+\resumeItem{Use of RF characterization tools: VNA, oscilloscope, spectrum analyzer}{}
+\resumeItem{Familiarity with RF components: amplifiers, attenuators, filters, circulators, terminators, bias-T}{}
+\resumeItemListEnd
+
+\resumeSubheading{}{}{Low temperature physics equipment:  }{}
+\resumeItemListStart
+\vspace{-17pt}
+\resumeItem{Dilution refrigerator and adiabatic demagnetization refrigerator}{}
+\resumeItem{Vacuum equipment}{}
+\resumeItemListEnd
+
+\resumeSubheading{}{}{Materials science and device fabrication:  }{}
+\resumeItemListStart
+\vspace{-17pt}
+\resumeItem{Process development: UHV reactive sputter}{}
+\resumeItem{Additional tools used: ICP etching, e-beam deposition, MBE,  optical lithography, wet processing, e-beam lithography}{}
+\resumeItem{Materials characterization: AFM, SEM, XRD, wafer bow, SIMS, resistivity, RBS}{}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%\end{multicols}
+%\end{itemize}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of California - Santa Barbara}{Santa Barbara, CA}
+{Graduate Student Researcher - on site at Google quantum hardware lab}{2017 - Present}
+
+\resumeSubheading
+{University of California - Santa Barbara}{Santa Barbara, CA}
+{Graduate Student Researcher}{2011 - 2017}
+
+\resumeSubheading
+{University of California - Santa Barbara}{Santa Barbara, CA}
+{Teaching Assistant - honors experimental physics}{2010 - 2011}
+
+\resumeSubheading
+{Opticomp Corporation}{Zephyr Cove, NV}
+{Junior Test Engineer}{2008 - 2010}
+
+\resumeSubheading
+{University of Wisconsin - Madison}{Madison, WI}
+{Student Research Assistant - atomic collisions group}{2003-2006}
+\resumeSubHeadingListEnd
+
+%\item{Room temperature deposition of sputtered TiN films for superconducting coplanar waveguide resonators
+%SUST 27, 015009 (2014).   arXiv:1306.2966
+%Demonstrated highest quality factor coplanar waveguide resonators in the literature at that time.}
+
+%\item{Dielectric surface loss in superconducting resonators with flux-trapping holes
+%Publication:  \textit{SUST 29, 10 (2016). arXiv:1607.05841}
+%Article awarded "SUST highlights of 2016"}
+
+%\item{Precision noise metrology of a quantum system:  Increased measurement band by two orders of magnitude}
+%\item{Developed high-fidelity, two-qubit adiabatic controlled-Z gate with tunable coupling}
+%\resumeItemListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of California - Santa Barbara}{Santa Barbara, CA}
+{Ph.D. in Physics, Advisor: John Martinis}{Expected 2020}
+\resumeSubheading
+{University of California - Santa Barbara}{Santa Barbara, CA}
+{Master of Arts in Physics, Advisor: John Martinis}{2014}
+\resumeSubheading
+{University of Wisconsin - Madison}{Madison, WI}
+{Bachelor of Science in Physics, Advisor: Chun Lin}{2006}
+\resumeSubHeadingListEnd
+
+%-----------Publications-----------------
+\section{Selected Publications}
+\vspace{5pt}
+\resumeSubHeadingListStart
+\resumeSubItem{
+\textbf{B. Chiaro}, et al.  “Growth and preservation of entanglement in a many-body localized system” Submitted to \textit{Science}, (2019).
+}{}
+\vspace{-5pt}
+\begin{itemize}
+\item Introduced phase-sensitive measurement techniques to the experimental study of many-body localization
+\item Lead the experiment, performed the measurements, analyzed and summarized the data, lead manuscript preparation, communicated and iterated with theory collaborators\\
+\end{itemize}
+
+\resumeSubItem{
+F. Arute, et al. ``Quantum supremacy using a programmable superconducting processor" \textit{Nature} 574, (2019).
+}{}
+\vspace{-5pt}
+\begin{itemize}
+\item{Contributed to experimental infrastructure and unitary tomography}
+\end{itemize}
+
+\resumeSubItem{
+\textbf{B. Chiaro}, et al.  “Dielectric surface loss in superconducting resonators with flux-trapping holes” \textit{Supercond. Sci. Technol.} 29, 10 (2016).
+}{}
+\vspace{-5pt}
+\begin{itemize}
+\item Article included in the ``Highlights of 2016" collection of Superconductor Science and Technology
+\item Article included in focus issue on ``Materials for high coherence quantum circuits"
+\item Designed the devices, performed the mask layout, fabricated the devices, made and analyzed the measurements, and wrote the manuscript
+\end{itemize}
+
+\resumeSubItem{S. Ohya, \textbf{B. Chiaro}, et al. “Room temperature deposition of sputtered TiN films for superconducting coplanar waveguide resonators”, \textit{Supercond. Sci. Technol.} 27, 1 (2014).
+}{}
+\vspace{-5pt}
+\begin{itemize}
+\item Achieved record low-power CPW resonator quality factors
+\item Assisted with the planning of the experiment, thin film depositions, device fabrication, materials characterization, and lead the resonator measurements
+\end{itemize}
+\resumeSubHeadingListEnd
+
+%-----------Presentations-----------------
+\section{Public Presentations}
+\vspace{5pt}
+\resumeSubHeadingListStart
+\resumeSubItem{Contributed presentations:  APS March Meeting 2012 - 2019}{}
+\resumeSubItem{Invited presentation:  Quantum Science Symposium Europe 2018 \\}
+{Title:  ``gmon superconducting qubits: a programmable, high fidelity quantum simulation platform"}
+\resumeSubHeadingListEnd
+
+\begin{comment}
+%-----------Technical Skills-----------------
+\section{Technical Skills}
+\resumeSubHeadingListStart
+\item{
+\textbf{Scientific programming}{:  python, numpy, scipy, pandas, matplotlib, git \\
+- data acquisition, analysis, and presentation. \\
+- Numerical simulations of quantum dynamics}}
+
+\item{\textbf{Electronic test and measurement} }
+\item{\textbf{Materials science and device fabrication}, Reactive UHV sputter deposition, Inductively coupled plasma etching, optical lithography}
+\item{\textbf{Cryogenics}: Adiabatic demagnetization refridgerator, Dilution refridgerator}
+\resumeSubHeadingListEnd
+\end{comment}
+
+\end{document}
+
+
+
+
+

@@ -1,0 +1,84 @@
+% arara: lualatex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amstext}
+\usepackage{graphicx}
+\usepackage{commath}
+
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb}
+\usepackage{verbatim}
+\usepackage{braket}
+%\usepackage{float}
+%\pagestyle{empty}
+\usepackage{mathtools}
+\DeclareRobustCommand{\qeqn}[1]{
+\begin{equation}
+    #1
+\end{equation}
+}
+
+\begin{document}
+\section{Comparison of analog dynamics and Trotter expansion on a gate based processor}
+We define a few variables and summarize the note from Kostya regarding the gate count.
+let
+\qeqn{r \text{ be the number of Trotter steps}}
+\qeqn{\epsilon \text{ the final error}}
+\qeqn{n \text{ the number of qubits}}
+
+We wish to answer the question:
+\textit{``How many single and two qubit gates would be required to perform our analog evolution if decomposed into a Trotter expansion?"}
+
+\subsection{XY model}
+
+The simplest case is an XY model without local $Z$ fields
+\qeqn{H = J \sum_i^n X_i X_{i+1} + Y_i Y_{i+1} }
+We make several assumptions favorable to gates:
+\begin{itemize}
+\item Rather than using a ``Textbook" gate set, we take our two qubit gate to be a small angle Givens rotion.
+\item We omit local $Z$ fields from the Hamiltonian.
+\item We consider only $\ket{0}$ and $\ket{1}$ on each qubit.
+\end{itemize}
+Under these assumptions and assuming \textbf{perfect} gates Kostya computes:
+\qeqn{\text{Total Trotter Error $\epsilon_{T}$ } =
+\norm{
+\left(
+\prod_{k=1}^{\frac{n}{2}-1} e^{i \frac{t}{r} H_{2k,2k+1} }
+\prod_{k=1}^{\frac{n}{2}-1} e^{i \frac{t}{r} H_{2k-1,2k} }
+\right)^{r}
+- e^{- i H t}
+\leq
+\frac{n t^2}{r}
+}
+}
+
+In our experiment $J = 40 \text{MHz}$ so that $1/J = 25\text{ns}$.
+Thus for 100 ns of evolution $t=4$ and $n=9$.
+Therefore in order to achieve a Trotter error of 0.1 for 100 ns evolution we require a gate depth of
+\qeqn{ r = \frac{9 (4)^2}{0.1} = 1440}
+
+\subsection{XY model with decoherence}
+If we assume error from decoherence is nonzero and equal per qubit per unit time in both the analog and gate case.
+Kostya shows that:
+\begin{itemize}
+\item The optimal decomposition has decoherence error equal to Trotter error.
+\item The error in the analog case is lower than the gate decomposition by at least a factor of 14.
+\end{itemize}
+
+\subsection{Including the $\ket{2}$ }
+\begin{itemize}
+    \item You need ancilla qubits to track the dynamics of the higher levels
+    \item For a simple nearest neighbor system where the Ancilla are ideally placed we estimate the ``shuffeling" overhead to be a factor of 15
+    \item Shuffeling overhead gets worse in full 2D systems
+\end{itemize}
+
+
+
+
+
+
+\section{Measuring nonlocal interactions with a conditional phase experiment}
+\end{document}

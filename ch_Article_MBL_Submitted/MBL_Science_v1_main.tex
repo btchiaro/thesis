@@ -41,12 +41,20 @@ Various experimental studies show that some characteristics of the MBL phase res
 
 Using an array of superconducting qubits, we realize a bosonic lattice and study the dynamics of photon excitations as a function of disorder. The Hamiltonian of the chain is described by the Bose-Hubbard model
 %\vspace{-10pt}
-\begin{eqnarray}
-H_{BH} &=& \underbrace{\sum\limits_{i}^{n_Q} h_i a^{\dagger}_{i}a_{i}}_{\text{on-site detuning}} +
-\underbrace{\frac{U}{2}\sum\limits_{i}^{n_Q} \,a^{\dagger}_{i}a_i(a^{\dagger}_{i}a_i-1)}_{\text{Hubbard interaction}} \nonumber \\
-&+& \underbrace{J \sum_{\left< i, j \right>}\left( a^{\dagger}_{i}a_j+a_{i}a^{\dagger}_{j} \right) }_{\text{NN coupling / hopping}},
-\end{eqnarray}
+%\begin{eqnarray}
+%H_{BH} &=& \underbrace{\sum\limits_{i}^{n_Q} h_i a^{\dagger}_{i}a_{i}}_{\text{on-site detuning}} +
+%\underbrace{\frac{U}{2}\sum\limits_{i}^{n_Q} \,a^{\dagger}_{i}a_i(a^{\dagger}_{i}a_i-1)}_{\text{Hubbard interaction}} \nonumber \\
+%&+& \underbrace{J \sum_{\left< i, j \right>}\left( a^{\dagger}_{i}a_j+a_{i}a^{\dagger}_{j} \right) }_{\text{NN coupling / hopping}},
+%\end{eqnarray}
 %\vspace{-10pt}
+\qeqn{
+H_{BH} = \underbrace{\sum\limits_{i}^{n_Q} h_i a^{\dagger}_{i}a_{i}}_{\text{on-site detuning}} +
+\underbrace{\frac{U}{2}\sum\limits_{i}^{n_Q} \,a^{\dagger}_{i}a_i(a^{\dagger}_{i}a_i-1)}_{\text{Hubbard interaction}} \\
++ \underbrace{J \sum_{\left< i, j \right>}\left( a^{\dagger}_{i}a_j+a_{i}a^{\dagger}_{j} \right) }_{\text{NN coupling / hopping}}
+}
+
+
+
 \noindent
 where $a^{\dagger}$ ($a$) denotes the bosonic creation (annihilation) operator, $h_i\in \left[ -w, w \right]$ is the random on-site detuning drawn from a uniform distribution of width $2w$, $J$ is the hopping rate between nearest neighbour lattice sites, $U$ is the on-site Hubbard interaction, and $n_Q$ is the number of qubits\,\cite{supplement}. The qubit frequency, the nearest neighbor coupling, and nonlinearity set $h_i$, $J$, and $U$, respectively. We are able to tune the $h_i$ and $J$ independently at a fixed nonlinearity $U=160$ MHz.
 

@@ -741,6 +741,7 @@
       \strng{authorbibnamehash}{9c196f976101682c061efc0614f70fa6}
       \strng{authornamehash}{9c196f976101682c061efc0614f70fa6}
       \strng{authorfullhash}{9c196f976101682c061efc0614f70fa6}
+      \field{extraname}{1}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
@@ -8140,6 +8141,285 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.96.174201
       \endverb
     \endentry
+    \entry{Sank2012}{article}{}
+      \name{author}{19}{}{%
+        {{hash=9c196f976101682c061efc0614f70fa6}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ff7bbdd7f761aa7d9ca7fb671835ab9b}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=96915b48a6ff353a26c5d4aab56c137c}{%
+           family={Bialczak},
+           familyi={B\bibinitperiod},
+           given={Radoslaw\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=52ce271eaf95f32dd23df21155d474bd}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=056672c3aeb542ee777de20bea78b2c5}{%
+           family={Lenander},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eff4026eb032033e709bde6174d3be9f}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bdb44c753feea38b69ffdaeb660ee3fb}{%
+           family={Mariantoni},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2ee914f9dca607e0f4e833bf3e2b845d}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=75f3d78a932ed86386a2ef2bafd63f44}{%
+           family={Neeley},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=96fcb68450f28a59913f918bcce52221}{%
+           family={O'Malley},
+           familyi={O\bibinitperiod},
+           given={P.\bibnamedelimi J.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7ea58a08978a1363797b293339adad82}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=39856f0439f35f79a8eed8b12d26166c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a168067f5e198f743b38d92fd0b74c4b}{%
+           family={Wenner},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8e06b7053d365f509f13349d35954d0}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5467fb216200fc3ea3a9de29808aaec4}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2cf59a1132f7af54f186c7089833c893}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bf6390c6d3a244e3af87604b90dc5b30}{%
+           family={Cleland},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{942c4485f5523361161dbb0e287c2913}
+      \strng{fullhash}{1b67ab082004f1009f726b7d88e77600}
+      \strng{bibnamehash}{942c4485f5523361161dbb0e287c2913}
+      \strng{authorbibnamehash}{942c4485f5523361161dbb0e287c2913}
+      \strng{authornamehash}{942c4485f5523361161dbb0e287c2913}
+      \strng{authorfullhash}{1b67ab082004f1009f726b7d88e77600}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{8}
+      \field{title}{Flux Noise Probed with Real Time Qubit Tomography in a Josephson Phase Qubit}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{067001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.109.067001
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.067001
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.067001
+      \endverb
+    \endentry
+    \entry{Yan2012}{article}{}
+      \name{author}{10}{}{%
+        {{hash=baa638f6b17bc5c1b7566e35bd08fae4}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8cd2494be13405f2ec8b3c28a8335a84}{%
+           family={Bylander},
+           familyi={B\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0dc496bfe7bb780dacac78a79c352060}{%
+           family={Gustavsson},
+           familyi={G\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4a8da1757f37c7522ebc4b857980b41f}{%
+           family={Yoshihara},
+           familyi={Y\bibinitperiod},
+           given={Fumiki},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9961d3bc17c5f510fe5a7902a162bdf7}{%
+           family={Harrabi},
+           familyi={H\bibinitperiod},
+           given={Khalil},
+           giveni={K\bibinitperiod}}}%
+        {{hash=689d644eb252f6b0b7d33e07a33ba316}{%
+           family={Cory},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=dc1f1c0d0c86459353a756744a94074f}{%
+           family={Orlando},
+           familyi={O\bibinitperiod},
+           given={Terry\bibnamedelima P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=aed877e53561bb9b9ba9699ed08b3295}{%
+           family={Nakamura},
+           familyi={N\bibinitperiod},
+           given={Yasunobu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=77d027194eb821548c6c33f31b9c74e3}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Jaw-Shen},
+           giveni={J\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=7e0fdfb97a5d24e12cfe5768c4fcf567}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={William\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b64a8228ce3b129fc285ec1c87501cf0}
+      \strng{fullhash}{aa7df2fd64a4bb9a947585f72e008d3b}
+      \strng{bibnamehash}{b64a8228ce3b129fc285ec1c87501cf0}
+      \strng{authorbibnamehash}{b64a8228ce3b129fc285ec1c87501cf0}
+      \strng{authornamehash}{b64a8228ce3b129fc285ec1c87501cf0}
+      \strng{authorfullhash}{aa7df2fd64a4bb9a947585f72e008d3b}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{17}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{5}
+      \field{title}{Spectroscopy of low-frequency noise and its temperature dependence in a superconducting qubit}
+      \field{volume}{85}
+      \field{year}{2012}
+      \field{pages}{174521}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.85.174521
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.85.174521
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.85.174521
+      \endverb
+    \endentry
+    \entry{SankUnpublished}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9c196f976101682c061efc0614f70fa6}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{fullhash}{9c196f976101682c061efc0614f70fa6}
+      \strng{bibnamehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{authorbibnamehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{authornamehash}{9c196f976101682c061efc0614f70fa6}
+      \strng{authorfullhash}{9c196f976101682c061efc0614f70fa6}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{8}
+      \field{title}{Internal note and discussions, unpublished}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{pages}{067001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.109.067001
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.067001
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.109.067001
+      \endverb
+    \endentry
+    \entry{YanThesis}{article}{}
+      \name{author}{1}{}{%
+        {{hash=baa638f6b17bc5c1b7566e35bd08fae4}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Massachusetts Institute of Technology. Department of Nuclear Science}%
+        {Engineering.}%
+      }
+      \strng{namehash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \strng{fullhash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \strng{bibnamehash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \strng{authorbibnamehash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \strng{authornamehash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \strng{authorfullhash}{baa638f6b17bc5c1b7566e35bd08fae4}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ph.D Thesis}
+      \field{title}{Coherence characterization with a superconducting flux qubit through NMR approaches}
+      \field{year}{2013}
+    \endentry
     \entry{Vidal2002}{article}{}
       \name{author}{2}{}{%
         {{hash=f62d54d12f1933af26fb09ba7084c940}{%
@@ -8162,8 +8442,8 @@
       \strng{authorbibnamehash}{d8b783b4609c032f78060254071d63eb}
       \strng{authornamehash}{d8b783b4609c032f78060254071d63eb}
       \strng{authorfullhash}{d8b783b4609c032f78060254071d63eb}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}

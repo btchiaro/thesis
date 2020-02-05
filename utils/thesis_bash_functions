@@ -37,6 +37,18 @@ function compile_cv2(){
 arara -v ~/Google\ Drive/thesis/cv_btc2.tex
 }
 
+function compile_cv3(){
+arara -v ~/Google\ Drive/thesis/cv_btc3.tex
+}
+
+function compile_resume(){
+arara -v ~/Google\ Drive/thesis/Ben_Chiaro_resume.tex
+}
+
+function compile_trotter_mbl_cphase(){
+arara -v ~/Google\ Drive/thesis/trotter_and_mbl_cphase.tex
+}
+
 echo 'Loaded thesis bash functions'
 
 function compile_tex_svg {
