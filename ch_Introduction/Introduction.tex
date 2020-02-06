@@ -12,7 +12,7 @@ numerical methods have become among the most important of these approximation sc
 The challenge is that for all but the simplest systems the computational resources required are immense.
 
 For this reason, people have long considered how to efficiently simulate quantum systems using computers.
-In a 1982 lecture that is often considered the birth of quantum simulation
+In a 1982 lecture that is often considered the birth of quantum simulation,
 Richard Feynman suggested that quantum systems could be efficiently simulatable using quantum computational resources.\cite{Feynman1982}
 \draftcomment{
 This is the first and most obvious motivation for developing a quantum computer,
@@ -21,7 +21,8 @@ In principle, any quantum mechanical system could serve as the basis for a quant
 Numerous teams have demonstrated great progress toward that goal using such physical systems as trapped ions,
 defect spins, neutral atoms, among others.
 } % end draftcomment
-An insight that arose not long after Feynman's was that the relevance of quantum mechanics is not limited to microscopic objects.
+An insight that arose around the same time Feynman's was that the relevance of quantum mechanics is not limited to microscopic objects.
+In particular, SQUIDs were identified as likely candidates for the observation of macroscoptic quantum tunneling.\cite{Leggett1980}
 In 1985, Martinis et al. demonstrated that macroscopic electrical circuits can also behave quantum mechanically and thus form the basis of a superconducting quantum processor.\cite{Martinis1985}
 The superconducting quantum bit (qubit), a controllable, macroscopic two level system was demonstrated in 1999. \cite{Nakamura1999}
 
@@ -86,7 +87,7 @@ For instance, the state of a two qubit system can be written as
 \qeqn{ \ket{\psi_{2q}} = c_{00} \ket{00} + c_{01} \ket{01} + c_{10} \ket{10} + c_{11} \ket{11} }
 
 The fact that quantum systems combine in this way leads directly to the exponential scaling of the power of a quantum processor.
-Whereas a classical processor requires four times the physical resources to represent the amplitudes $c_{00}$, $c_{01}$, $c_{10}$, $c_{11}$ as it would to represent any one of them,
+Whereas a classical processor requires four times the physical resources to represent the complex amplitudes $c_{00}$, $c_{01}$, $c_{10}$, $c_{11}$ as it would to represent any one of them,
 the quantum processor is able to represent them all simultaineously on the same physical qubits.
 The straight-forward - but amazing - consequence is that, roughly speaking, in order to double the capacity of a classical processor you would need to double the number of classical bits.
 In contrast, if you wish to double the capacity of the quantum processor you only need to add one more qubit.
@@ -223,9 +224,10 @@ Indeed, early processors have been demonstrated in a variety of formats.
 Although there is great promise in quantum computing, there are challenges that must be overcome before a quantum computer can be realized.
 Foremost among these challenges is that the information in a quantum computer is unstable and prone to degradation.
 The errors arising from this instability can be roughly divided into two main categories: relaxation and dephasing.
-These are illustrated in Fig.~\ref{schem relaxation dephasing}
+These are illustrated in Fig.~\ref{schem relaxation dephasing}.
+
 Relaxation events as illustrated in Fig.~\ref{schem relaxation dephasing}(a), arise when energy is lost from the qubit system.
-Errors of this variety arise, for example, when a computational photon is absorbed by a parasitic two-level system (TLS).
+Errors of this variety arise, for example, when a computational photon is absorbed by a parasitic two-level system (TLS)\cite{Martinis2005}.
 Relaxation events manifest as unintended downward transistions from the logical $\ket{1}$ state to the $\ket{0}$ state.
 An example of characterizing this type of dissipation is provided in chapter 4.
 Dephasing, as illustrated in Fig.~\ref{schem relaxation dephasing}(b),
@@ -261,6 +263,6 @@ In chapter 3, we share a contribution to the basic materials science underlying 
 a high kinetic inductance compound superconductor with excellent coherence properties - if made correctly.
 In chapter 4, we discuss a device characterization where we isolate the excess dielectric loss due to the incorporation of flux trapping hole arrays.
 These flux traps are commonly used to protect from magnetic vortex loss, but may introduce excess dielectric loss.
-This is an important consideration as we strive for the longest coherence times posiible.
+This is an important consideration as we strive for the longest coherence times possible.
 Finally, in chapter 5, we perform a system level algorithm demonstration where we use a $9$ qubit, nearest-neighbor coupled,
 linear chain device, featuring tunable qubit frequencies and tunable interqubit coupling to compute the entanglement dynamics of an interacting, localized system.

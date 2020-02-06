@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.2.18)  16 DEC 2019 18:17
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.2.18)  5 FEB 2020 16:38
  restricted system commands enabled.
 **main_UCSB_submission.tex
 (./main_UCSB_submission.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.065 seconds
+luaotfload | main : initialization completed in 0.067 seconds
 (./ucsbthesis.cls
 Document Class: ucsbthesis 2014/09/11 UCSB thesis
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/book.cls
@@ -2095,7 +2095,7 @@ File: ch_Introduction/./PDF/sch_bloch_sphere_psi_191203_153p.pdf Graphic file (t
 ype pdf)
 <use ch_Introduction/./PDF/sch_bloch_sphere_psi_191203_153p.pdf>
 Package luatex.def Info: ch_Introduction/./PDF/sch_bloch_sphere_psi_191203_153p.
-pdf  used on input line 72.
+pdf  used on input line 73.
 (luatex.def)             Requested size: 375.80544pt x 168.19646pt.
  [2] [3<./ch_Introduction/./PDF/sch_bloch_sphere_psi_191203_153p.pdf>]
 [4]
@@ -2105,7 +2105,7 @@ File: ch_Introduction/./PDF/sch_relaxation_dephasing_psi_191203_159p.pdf Graphic
  file (type pdf)
 <use ch_Introduction/./PDF/sch_relaxation_dephasing_psi_191203_159p.pdf>
 Package luatex.def Info: ch_Introduction/./PDF/sch_relaxation_dephasing_psi_1912
-03_159p.pdf  used on input line 245.
+03_159p.pdf  used on input line 247.
 (luatex.def)             Requested size: 469.75502pt x 355.15556pt.
 
 
@@ -2135,7 +2135,7 @@ line 53.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10] [11<./ch_Introduction/./PDF/cpw_resonator.pdf>] [12]
-<ch_Introduction/./PDF/resonator_qubit_proxy.pdf, id=632, 580.80489pt x 233.139p
+<ch_Introduction/./PDF/resonator_qubit_proxy.pdf, id=631, 580.80489pt x 233.139p
 t>
 File: ch_Introduction/./PDF/resonator_qubit_proxy.pdf Graphic file (type pdf)
 <use ch_Introduction/./PDF/resonator_qubit_proxy.pdf>
@@ -2143,7 +2143,7 @@ Package luatex.def Info: ch_Introduction/./PDF/resonator_qubit_proxy.pdf  used o
 n input line 105.
 (luatex.def)             Requested size: 469.75502pt x 188.56763pt.
  [13<./ch_Introduction/./PDF/resonator_qubit_proxy.pdf>]
-<ch_Introduction/./PDF/LCO.pdf, id=670, 89.65866pt x 123.29062pt>
+<ch_Introduction/./PDF/LCO.pdf, id=669, 89.65866pt x 123.29062pt>
 File: ch_Introduction/./PDF/LCO.pdf Graphic file (type pdf)
 <use ch_Introduction/./PDF/LCO.pdf>
 Package luatex.def Info: ch_Introduction/./PDF/LCO.pdf  used on input line 208.
@@ -2185,7 +2185,7 @@ Package luatex.def Info: ch_Introduction/./PDF/JJ_image_190908_634p.pdf  used on
 File: ch_Introduction/./PDF/fs1_190916_1029a.pdf Graphic file (type pdf)
 <use ch_Introduction/./PDF/fs1_190916_1029a.pdf>
 Package luatex.def Info: ch_Introduction/./PDF/fs1_190916_1029a.pdf  used on inp
-ut line 756.
+ut line 757.
 (luatex.def)             Requested size: 433.62pt x 233.03925pt.
  [29])
 (./ch_Article_TiN_arxiv/arXiv-TiN-Submission_thesis.tex [30<./ch_Introduction/./
@@ -2239,13 +2239,13 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <29.86> not available
 File: ch_Article_TiN_arxiv/BasicProperties.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/BasicProperties.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/BasicProperties.jpg  used on input
- line 99.
+ line 98.
 (luatex.def)             Requested size: 355.65944pt x 367.95938pt.
  [35] [36<./ch_Article_TiN_arxiv/BasicProperties.jpg>] [37]
 <ch_Article_TiN_arxiv/SEM2-9.jpg, id=990, 242.26738pt x 94.4698pt>
 File: ch_Article_TiN_arxiv/SEM2-9.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/SEM2-9.jpg>
-Package luatex.def Info: ch_Article_TiN_arxiv/SEM2-9.jpg  used on input line 120
+Package luatex.def Info: ch_Article_TiN_arxiv/SEM2-9.jpg  used on input line 119
 .
 (luatex.def)             Requested size: 355.65944pt x 138.6945pt.
 
@@ -2254,7 +2254,7 @@ Package luatex.def Info: ch_Article_TiN_arxiv/SEM2-9.jpg  used on input line 120
 File: ch_Article_TiN_arxiv/Stress-XRD.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/Stress-XRD.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/Stress-XRD.jpg  used on input line
- 133.
+ 132.
 (luatex.def)             Requested size: 355.65944pt x 167.75967pt.
  [39<./ch_Article_TiN_arxiv/SEM2-9.jpg>] [40<./ch_Article_TiN_arxiv/Stress-XRD.j
 pg>]
@@ -2262,13 +2262,13 @@ pg>]
 File: ch_Article_TiN_arxiv/Texture.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/Texture.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/Texture.jpg  used on input line 14
-7.
+6.
 (luatex.def)             Requested size: 355.65944pt x 528.12904pt.
 <ch_Article_TiN_arxiv/SIMS2-9.jpg, id=1022, 242.8272pt x 314.1336pt>
 File: ch_Article_TiN_arxiv/SIMS2-9.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/SIMS2-9.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/SIMS2-9.jpg  used on input line 15
-5.
+4.
 (luatex.def)             Requested size: 355.65944pt x 460.12195pt.
  [41] [42<./ch_Article_TiN_arxiv/Texture.jpg>] [43<./ch_Article_TiN_arxiv/SIMS2-
 9.jpg>] [44] [45]
@@ -2276,20 +2276,20 @@ Package luatex.def Info: ch_Article_TiN_arxiv/SIMS2-9.jpg  used on input line 15
 File: ch_Article_TiN_arxiv/InPlaneDist.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/InPlaneDist.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/InPlaneDist.jpg  used on input lin
-e 198.
+e 197.
 (luatex.def)             Requested size: 355.65944pt x 356.58498pt.
  [46<./ch_Article_TiN_arxiv/InPlaneDist.jpg>]
 <ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg, id=1063, 241.42282pt x 210.29485pt>
 File: ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg  used on inpu
-t line 208.
+t line 207.
 (luatex.def)             Requested size: 355.65944pt x 309.81958pt.
 <ch_Article_TiN_arxiv/TS-change.jpg, id=1065, 212.82852pt x 166.61916pt>
 File: ch_Article_TiN_arxiv/TS-change.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/TS-change.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/TS-change.jpg  used on input line 
-219.
+218.
 (luatex.def)             Requested size: 355.65944pt x 278.45638pt.
 
 [47<./ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg>] [48] [49<./ch_Article_TiN_arxi
@@ -2298,8 +2298,8 @@ v/TS-change.jpg>] [50] [51]
 File: ch_Article_TiN_arxiv/Qi-Np-Strain.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/Qi-Np-Strain.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/Qi-Np-Strain.jpg  used on input li
-ne 235.
-(luatex.def)             Requested size: 355.65944pt x 245.37694pt.
+ne 234.
+(luatex.def)             Requested size: 455.24408pt x 314.08034pt.
  [52] [53<./ch_Article_TiN_arxiv/Qi-Np-Strain.jpg>] [54] [55]) (./ch_Article_Vo
 rtex_arxiv/DielectricFluxTrap_arxiv_thesis.tex
 [56]
@@ -3132,7 +3132,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `main_UCSB_submission.out' has not changed.
-(rerunfilecheck)             Checksum: DB45DE9A267A8D30ED6159B9275B2585;7065.
+(rerunfilecheck)             Checksum: DBE3CAA3854502DF1D5BE94C1F0EBB1D;7088.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3147,16 +3147,16 @@ Package logreq Info: Writing requests to 'main_UCSB_submission.run.xml'.
 ))
 
 Here is how much of LuaTeX's memory you used:
- 51497 strings out of 494383
+ 51499 strings out of 494383
  100000,1977958 words of node,token memory allocated
  2748 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 33 sub_mlist, 1 glyph, 361 attribut
 e, 115 glue_spec, 361 attribute_list, 2 shape, 1 write, 65 pdf_action nodes
-   avail lists: 1:4,2:4367,3:1066,4:267,5:307,6:18,7:5298,8:182,9:572,10:31,11:3
+   avail lists: 1:4,2:4368,3:1066,4:269,5:307,6:18,7:5298,8:182,9:572,10:31,11:3
 87,12:4
- 52962 multiletter control sequences out of 65536+600000
+ 52964 multiletter control sequences out of 65536+600000
  143 fonts using 13443583 bytes
- 59i,15n,100p,2442b,2133s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 59i,15n,100p,2443b,2133s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/tex
 live/2018/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-
@@ -3181,7 +3181,7 @@ blic/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri1
 ve/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main_UCSB_submission.pdf (191 pages, 27312094 bytes).
+Output written on main_UCSB_submission.pdf (191 pages, 27312711 bytes).
 
 PDF statistics: 5992 PDF objects out of 6186 (max. 8388607)
  4122 compressed objects within 42 object streams

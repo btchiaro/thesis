@@ -52,7 +52,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}In-plane distribution}{45}{section.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}T-S distance dependence}{48}{section.3.6}% 
+\contentsline {section}{\numberline {3.6}Target - Substrate (T-S) distance dependence}{48}{section.3.6}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.7}Properties of the scpw resonators}{49}{section.3.7}% 
 \defcounter {refsection}{0}\relax 
