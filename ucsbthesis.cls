@@ -149,7 +149,8 @@
 \newcommand{\campus}[1]{\gdef\@campus{#1}}
 
 \newcommand{\chair}[1]{\gdef\@chair{#1}}
-\newcommand{\experimentalmember}[1]{\gdef\@experimentalmember{#1}}
+\newcommand{\experimentalmembera}[1]{\gdef\@experimentalmembera{#1}}
+\newcommand{\experimentalmemberb}[1]{\gdef\@experimentalmemberb{#1}}
 \newcommand{\theorymember}[1]{\gdef\@theorymember{#1}}
 \newcommand{\othermembers}[1]{\gdef\@othermembers{#1}}
 
@@ -238,7 +239,8 @@
         \begin{quote}
           \begin{center}
           \@chair, Chair \\
-          \@experimentalmember \\
+          \@experimentalmembera \\
+          \@experimentalmemberb \\
           \@theorymember
           \end{center}
         \end{quote}
@@ -281,7 +283,8 @@
     \vspace{.25in}
   \end{center}
 
-  \@signatureline{\@experimentalmember}
+  \@signatureline{\@experimentalmembera}
+  \@signatureline{\@experimentalmemberb}
   \@signatureline{\@theorymember}
   \@signatureline{\@chair, Chair}
 

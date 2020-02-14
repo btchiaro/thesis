@@ -3,7 +3,7 @@
 % This is copied out of:
 % devBenGreen/latex/xiy_notes.tex
 
-Applications to quantum simulation require the ability to generate Hamiltonians with programmable coefficients.
+Using a quantum computer to simulate quantum dynamics requires the ability to generate Hamiltonians with programmable coefficients.
 This requires us to develop a mapping between control voltages set by the experimentalist and the resultant Hamiltonian parameters.
 We refer to this mapping as a control model.
 We arrive at a control model with a two step calibration process described in this appendix.
@@ -54,17 +54,17 @@ We find circuit model parameters in good agreement with previous characterizatio
     \centering
     \begin{tabular}{ c c c c c c c}
         \hline \hline
-        Qubit & C & $Lj_{0}$ & $Lg_{total}$ & $V_{offset}$ & $V/ \Phi_{0}$ & $\text{readout}_{g}$ \\
+        Qubit & $C$\,(fF) & $Lj_{0}$\,(nH)& $Lg_{total}$\,(nH)& $V_{offset}$\,(A.U.)& $V/ \Phi_{0}$\,(A.U.) & $g_{\text{readout}}$\,(MHz) \\
         \hline
-        $q_1$ & 8.70-14 & 6.28-09 & 9.95-10 & 0.037 & 0.756 & 95496194  \\
-        $q_2$ & 8.42-14 & 6.20-09 & 1.07-09 & 0.076 & 0.762 & 90614175  \\
-        $q_3$ & 8.44-14 & 6.27-09 & 1.02-09 & 0.073 & 0.764 & 92096391  \\
-        $q_4$ & 8.28-14 & 6.52-09 & 1.11-09 & 0.057 & 0.762 & 76041127  \\
-        $q_5$ & 8.50-14 & 6.14-09 & 9.68-10 & 0.095 & 0.763 & 93350116  \\
-        $q_6$ & 8.83-14 & 6.13-09 & 8.22-10 & 0.057 & 0.760 & 105148979 \\
-        $q_7$ & 8.07-14 & 6.58-09 & 1.25-09 & 0.054 & 0.747 & 76450012  \\
-        $q_8$ & 8.54-14 & 6.27-09 & 9.58-10 & 0.064 & 0.762 & 99173392  \\
-        $q_9$ & 8.56-14 & 6.38-09 & 9.54-10 & 0.044 & 0.785 & 97020320  \\
+        $q_1$ & 87.0 & 6.28 & 1.00 & 0.037 & 0.756 & 95.5 \\
+        $q_2$ & 84.2 & 6.20 & 1.07 & 0.076 & 0.762 & 90.6  \\
+        $q_3$ & 84.4 & 6.27 & 1.02 & 0.073 & 0.764 & 92.1  \\
+        $q_4$ & 82.8 & 6.52 & 1.11 & 0.057 & 0.762 & 76.0  \\
+        $q_5$ & 85.0 & 6.14 & 0.97 & 0.095 & 0.763 & 93.3  \\
+        $q_6$ & 88.3 & 6.13 & 0.82 & 0.057 & 0.760 & 105.1 \\
+        $q_7$ & 80.7 & 6.58 & 1.25 & 0.054 & 0.747 & 76.4  \\
+        $q_8$ & 85.4 & 6.27 & 0.96 & 0.064 & 0.762 & 99.2  \\
+        $q_9$ & 85.6 & 6.38 & 0.95 & 0.044 & 0.785 & 97.0  \\
         \hline
     \end{tabular}
     \label{table:Qubit Parameters}
@@ -75,20 +75,63 @@ We find circuit model parameters in good agreement with previous characterizatio
     \centering
     \begin{tabular}{ c c c c c c c c}
         \hline \hline
-        Coupler & $M_{left}$ & $M_{right}$ & $\beta_{max}$ & $f_{0}$ & $V_{offset}$ & $V / \Phi_{0}$ \\ % & fudge \\
+        Coupler & $M_{left}$\,(pH) & $M_{right}$\,(pH) & $\beta_{max}$ & $f_{0}$\,(GHz) & $V_{offset}$\,(A.U.) & $V / \Phi_{0}$\,(A.U.) \\ % & fudge \\
         \hline
-$c_{1,2}$ & 4.50-11 & 4.23-11 & 0.675 & 15.1 & 0.694 & 0.965\\ % & 479115.3163698823 \\
-$c_{2,3}$ & 4.54-11 & 4.16-11  & 0.678 & 14.9 & 0.683 & 0.964\\ % & 798459.7494982895 \\
-$c_{3,4}$ & 4.51-11  & 4.28-11 & 0.684 & 15.0 & 0.682 & 0.956\\ % & 430696.97482430335 \\
-$c_{4,5}$ & 4.61-11  & 4.13-11  & 0.681 & 14.9 & 0.685 & 0.961\\ % & -189375.77474641177\\
-$c_{5,6}$ & 4.29-11  & 3.75-11 & 0.669 & 14.4 & 0.682 & 0.963\\ % & -495103.36686547904 \\
-$c_{6,7}$ & 4.12-11 & 4.20-11 & 0.676 & 14.5 & 0.672 & 0.952\\ % & -832508.8345176188 \\
-$c_{7,8}$ & 4.70-11 & 4.09-11 & 0.691 & 14.9 & 0.676 & 0.963\\ % & -502200.6315507185 \\
-$c_{8,9}$ & 4.46-11 & 3.86-11 & 0.680 & 15.0 & 0.686 & 0.958\\ % & 1958451.7900973207 \\
+$c_{1,2}$ & 45.0 & 42.3 & 0.675 & 15.1 & 0.694 & 0.965\\ % & 479115.3163698823 \\
+$c_{2,3}$ & 45.4 & 41.6 & 0.678 & 14.9 & 0.683 & 0.964\\ % & 798459.7494982895 \\
+$c_{3,4}$ & 45.1 & 42.8 & 0.684 & 15.0 & 0.682 & 0.956\\ % & 430696.97482430335 \\
+$c_{4,5}$ & 46.1 & 41.3 & 0.681 & 14.9 & 0.685 & 0.961\\ % & -189375.77474641177\\
+$c_{5,6}$ & 42.9 & 37.5 & 0.669 & 14.4 & 0.682 & 0.963\\ % & -495103.36686547904 \\
+$c_{6,7}$ & 41.2 & 42.0 & 0.676 & 14.5 & 0.672 & 0.952\\ % & -832508.8345176188 \\
+$c_{7,8}$ & 47.0 & 40.9 & 0.691 & 14.9 & 0.676 & 0.963\\ % & -502200.6315507185 \\
+$c_{8,9}$ & 44.6 & 38.6 & 0.680 & 15.0 & 0.686 & 0.958\\ % & 1958451.7900973207 \\
         \hline
     \end{tabular}
     \label{table:Coupler Parameters}
 \end{table}
+
+
+%\begin{table}
+%    \caption{Measured qubit parameters}
+%    \centering
+%    \begin{tabular}{ c c c c c c c}
+%        \hline \hline
+%        Qubit & C & $Lj_{0}$ & $Lg_{total}$ & $V_{offset}$ & $V/ \Phi_{0}$ & $\text{readout}_{g}$ \\
+%        \hline
+%        $q_1$ & 8.70-14 & 6.28-09 & 9.95-10 & 0.037 & 0.756 & 95496194  \\
+%        $q_2$ & 8.42-14 & 6.20-09 & 1.07-09 & 0.076 & 0.762 & 90614175  \\
+%        $q_3$ & 8.44-14 & 6.27-09 & 1.02-09 & 0.073 & 0.764 & 92096391  \\
+%        $q_4$ & 8.28-14 & 6.52-09 & 1.11-09 & 0.057 & 0.762 & 76041127  \\
+%        $q_5$ & 8.50-14 & 6.14-09 & 9.68-10 & 0.095 & 0.763 & 93350116  \\
+%        $q_6$ & 8.83-14 & 6.13-09 & 8.22-10 & 0.057 & 0.760 & 105148979 \\
+%        $q_7$ & 8.07-14 & 6.58-09 & 1.25-09 & 0.054 & 0.747 & 76450012  \\
+%        $q_8$ & 8.54-14 & 6.27-09 & 9.58-10 & 0.064 & 0.762 & 99173392  \\
+%        $q_9$ & 8.56-14 & 6.38-09 & 9.54-10 & 0.044 & 0.785 & 97020320  \\
+%        \hline
+%    \end{tabular}
+%    \label{table:Qubit Parameters}
+%\end{table}
+%
+%\begin{table}
+%    \caption{Measured coupler parameters}
+%    \centering
+%    \begin{tabular}{ c c c c c c c c}
+%        \hline \hline
+%        Coupler & $M_{left}$ & $M_{right}$ & $\beta_{max}$ & $f_{0}$ & $V_{offset}$ & $V / \Phi_{0}$ \\ % & fudge \\
+%        \hline
+%        $c_{1,2}$ & 4.50-11 & 4.23-11 & 0.675 & 15.1 & 0.694 & 0.965\\ % & 479115.3163698823 \\
+%        $c_{2,3}$ & 4.54-11 & 4.16-11  & 0.678 & 14.9 & 0.683 & 0.964\\ % & 798459.7494982895 \\
+%        $c_{3,4}$ & 4.51-11  & 4.28-11 & 0.684 & 15.0 & 0.682 & 0.956\\ % & 430696.97482430335 \\
+%        $c_{4,5}$ & 4.61-11  & 4.13-11  & 0.681 & 14.9 & 0.685 & 0.961\\ % & -189375.77474641177\\
+%        $c_{5,6}$ & 4.29-11  & 3.75-11 & 0.669 & 14.4 & 0.682 & 0.963\\ % & -495103.36686547904 \\
+%        $c_{6,7}$ & 4.12-11 & 4.20-11 & 0.676 & 14.5 & 0.672 & 0.952\\ % & -832508.8345176188 \\
+%        $c_{7,8}$ & 4.70-11 & 4.09-11 & 0.691 & 14.9 & 0.676 & 0.963\\ % & -502200.6315507185 \\
+%        $c_{8,9}$ & 4.46-11 & 3.86-11 & 0.680 & 15.0 & 0.686 & 0.958\\ % & 1958451.7900973207 \\
+%        \hline
+%    \end{tabular}
+%    \label{table:Coupler Parameters}
+%\end{table}
+
 
 \section{Many-body Ramsey spectroscopy}
 \label{sec:mbr}
@@ -127,7 +170,7 @@ Such an observable $\hat{O}$ can be expanded in the energy basis as
 \begin{equation*}
     \label{derive_energy_differences}
     \begin{aligned}
-        O(t) =\braket{\psi(t)|\hat{O}|\psi(t)} = \\[2.0ex]
+        O(t) \equiv \langle \hat{O}(t) \rangle =\braket{\psi(t)|\hat{O}|\psi(t)} = \\[2.0ex]
         \left( \sum_{\beta} C^{*}_{\beta} e^{i E_{\beta} t} \ket{\phi_{\beta}} \right)
         \left( \sum_{\alpha,\alpha^{\prime}} O_{\alpha,\alpha^{\prime}} \ket{\phi_{\alpha^{\prime}}} \bra{\phi_{\alpha}} \right)
         \left( \sum_{\beta^{\prime}} C_{\beta^{\prime}} e^{- i E_{\beta^{\prime}} t} \ket{\phi_{\beta^{\prime}}} \right) = \\[2.0ex]
@@ -141,15 +184,16 @@ Such an observable $\hat{O}$ can be expanded in the energy basis as
 
 \noindent The time dependence of $O(t)$ exposes our central challenge.
 For a generic initial state and a generic $\hat{O}$ the time series $O(t)$ does not isolate the eigenvalues of $H$.
-Instead, the Fourier transform of $O(t)$ reports all energy differences in the spectrum.
-In order to isolate the eigenvalues we must engineer the initial state and measurement observables such that we keep only terms with $E_{\alpha^{\prime}}=0$.
+Instead, the Fourier transform of $O(t)$ reports all \textit{energy differences} in the spectrum.
+In order to isolate the eigenvalues, we must engineer the initial state and measurement observables such that we keep only terms with $E_{\alpha^{\prime}}=0$.
 
 From an engineering perspective,
 the above equation is still somewhat opaque because it describes the time dependence of an observable only in terms of the eigenbasis of $H$.
 Typically, however, we use the Fock basis for initialization and measurement.
 Thus, although the Hamiltonian evolution of the multi-qubit system is most naturally described in terms of the the eigenstates of $H$,
 the initial state and measurement observable that we wish to engineer are best described in terms of a product of single qubit states.
-Schematically
+Schematically, we can diagram our algorithm as follows:
+
 \begin{center}
 \begin{tikzpicture}[node distance=2in]
     \tikzstyle{process} = [rectangle, rounded corners, minimum width=0.5in, minimum height=0.5in,text centered, draw=black, fill=none]
@@ -161,10 +205,13 @@ Schematically
     \draw [arrow] (p2_label) -- (p3_label);
 \end{tikzpicture}
 \end{center}
-Where $\varphi$ and $\phi$ represent the Fock basis and Hamiltonian eigenbasis.
+where $\varphi$ and $\phi$ represent the Fock basis and Hamiltonian eigenbasis.
 
-It is useful to work this out explicitly for extracting the eigenvalues of the single photon manifold for a small three qubit system.  % in the zero and one photon manifolds.
+It is useful to work this out explicitly for the many-body Ramsey algorithm,
+demonstrating the extraction of Hamiltonian eigenvalues
+from the single photon manifold of a small three qubit system.  % in the zero and one photon manifolds.
 %Consider the example of the vacuum + 1 photon subspace of a three qubit system.
+
 The relevant Fock basis states are:
 \begin{equation}
     \{\ket{\varphi\}} = \ket{000}, \ket{001}, \ket{010}, \ket{100}
@@ -189,6 +236,7 @@ Let C be the matrix that changes basis from the Fock basis to the eigenbasis of 
         0 \\
     \end{bmatrix}_{\varphi}
     =
+    \frac{1}{\sqrt{2}}
     \begin{bmatrix}
         1 \\
         c_{11} \\
@@ -211,8 +259,8 @@ The time dependence of $\ket{\psi}$ is
 We can apply the inverse transformation $C^{-1}$ to recover the time dependence of $\ket{\psi}$ in the Fock (measurement) basis.
 \begin{equation*}
     \begin{aligned}
-    \ket{\psi(t)}_{\varphi} =
-    C^{-1}\ket{\psi(t)}= \\
+    \ket{\psi(t)}_{\varphi} & =
+    C^{-1}\ket{\psi(t)}=
     \frac{1}{\sqrt{2}}
     \renewcommand*{\arraystretch}{1.5}
     \begin{bmatrix}
@@ -227,21 +275,29 @@ We can apply the inverse transformation $C^{-1}$ to recover the time dependence 
         c_{21} e^{-i E_2 t} \\
         c_{31} e^{-i E_3 t}\\
     \end{bmatrix}_{\phi}
-    =
+    \\ & =
     \frac{1}{\sqrt{2}}
     \begin{bmatrix}
         1 \\
         c^{-1}_{11} c_{11} e^{-i E_1 t} +  c^{-1}_{12} c_{21} e^{-i E_2 t} + c^{-1}_{13} c_{31} e^{-i E_3 t} \\
-        \ldots \\
-        \ldots \\
+        c^{-1}_{21} c_{11} e^{-i E_1 t} +  c^{-1}_{22} c_{21} e^{-i E_2 t} + c^{-1}_{23} c_{31} e^{-i E_3 t} \\
+        c^{-1}_{31} c_{11} e^{-i E_1 t} +  c^{-1}_{32} c_{21} e^{-i E_2 t} + c^{-1}_{33} c_{31} e^{-i E_3 t} \\
     \end{bmatrix}_{\varphi}
+    \equiv
+    \frac{1}{\sqrt{2}}
+    \begin{bmatrix}
+    1 \\
+    \varphi_{001}\\
+    \varphi_{010}\\
+    \varphi_{100}
+    \end{bmatrix}
 \end{aligned}
 \end{equation*}
 
 If we measure $\langle \sigma^x + i \sigma^y \rangle$ on site 1, then we have
 \begin{equation}
 \begin{bmatrix}
-1 & (\ldots)^* & 0 & 0
+1 & \varphi_{001}^* & \varphi_{010}^* & \varphi_{100}^*
 \end{bmatrix}
 \begin{bmatrix}
 0 & 1 & 0 & 0 \\
@@ -251,21 +307,21 @@ If we measure $\langle \sigma^x + i \sigma^y \rangle$ on site 1, then we have
 \end{bmatrix}
 \begin{bmatrix}
 1 \\
-(\ldots) \\
+\varphi_{001} \\
 0 \\
 0 \\
 \end{bmatrix}
 =
 \begin{bmatrix}
-1 & (\ldots)^* & 0 & 0
+1 & \varphi_{001}^* & \varphi_{010}^* & \varphi_{100}^*
 \end{bmatrix}
 \begin{bmatrix}
-(\ldots) \\
+\varphi_{001} \\
 0 \\
 0 \\
 0 \\
 \end{bmatrix}
-= (...)
+= \varphi_{001}
 \end{equation}
 In this case we recover the eigenvalues of H because \qeqn{ FFT(...) = a_1 \delta(E_1) + a_2 \delta(E_2) + a_3 \delta(E_3) }
 where the $a_i$ are the coefficients coming from change of basis and normalization of the FFT.
@@ -283,7 +339,7 @@ If we had instead chosen  $\hat{O} = \hat{\sigma}^x$ we would observe both posit
 
 \begin{equation}
     \begin{bmatrix}
-        1 & (\ldots)^* & 0 & 0
+        1 & \varphi_{001}^* & \varphi_{010}^* & \varphi_{100}^{*}
     \end{bmatrix}
     \begin{bmatrix}
         0 & 1 & 0 & 0 \\
@@ -293,42 +349,42 @@ If we had instead chosen  $\hat{O} = \hat{\sigma}^x$ we would observe both posit
     \end{bmatrix}
     \begin{bmatrix}
         1 \\
-        (\ldots) \\
-        0 \\
-        0 \\
+        \varphi_{001} \\
+        \varphi_{010} \\
+        \varphi_{100} \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-        1 & (\ldots)^* & 0 & 0
+        1 & \varphi_{001}^* & \varphi_{010}^* & \varphi_{100}^*
     \end{bmatrix}
     \begin{bmatrix}
-        (\ldots) \\
+         \varphi_{001}\\
         1 \\
         0 \\
         0 \\
     \end{bmatrix}
-    = (...) + (...)^*
+    =  \varphi_{001} + \varphi_{001}^*
 \end{equation}
 This is intuitive because for a single qubit precessing on the equator of the Bloch sphere measuring $<\sigma^x>$ alone does not indicate which direction the Bloch vector is precessing!
 
 The naive attempt of measuring the on-site population of qubit 1 $\hat{n}_1$ yields the eigenvalue differences since
 \begin{equation}
     \begin{bmatrix}
-        1 & (\ldots)^* & 0 & 0
+        1 & \varphi_{001}^* & 0 & 0
     \end{bmatrix}
     \begin{bmatrix}
         0 & 0 & 0 & 0 \\
         0 & 1 & 0 & 0 \\
         0 & 0 & 0 & 0 \\
         0 & 0 & 0 & 0 \\
-    \, \end{bmatrix}
+    \end{bmatrix}
     \begin{bmatrix}
         1 \\
-        (\ldots) \\
+        \varphi_{001} \\
         0 \\
         0 \\
     \end{bmatrix}
-    = \mid (\ldots) \mid^{2}
+    = \mid \varphi_{001} \mid^{2}
 \end{equation}
 The numerics below illustrate these points:
 \begin{figure}[h]
@@ -351,7 +407,7 @@ The numerics below illustrate these points:
     \end{center}
     \caption{\textbf{Many-body Ramsey five qubit data.}
     The fourier domain data for measurement observables
-    $\hat{O}=\sigma^z$, $\hat{O}=\sigma^x + i \sigma^y$.
+    $\langle \hat{O} \rangle =\langle \sigma^z \rangle$ (red) and $\langle \sigma^x + i \sigma^y \rangle$ (blue).
     The spectrum of $\left< \sigma^z (t) \right>$ is composed of artifacts from eigenvalue differences.
     The spectrum of $\left< \sigma^x (t) \right> + i \left< \sigma^y (t) \right>$ recovers the eigenvalues of $H$.
     }
@@ -363,7 +419,7 @@ With this error metric established, we can optimize the parameters of our contro
 
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=150 mm]{./PDF/fourier_amp_2d_tv_pre.pdf}
+        \includegraphics[width=150 mm]{./PDF/fourier_amp_2d_tv_pre_v2.pdf}
     \end{center}
         \caption{
         Five qubit many-body Ramsey spectroscopy data overlayed with predictions from control model prior to optimization.
@@ -381,6 +437,15 @@ The error per eigenvalue is extracted to be $9$ MHz.
 This is a large error, primarily resulting from the fact that the control bias conditions are different when we characterize
 the single and two qubit systems and when we characterize the full system collective dynamics.
 
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150 mm]{./PDF/bias_configurations.pdf}
+    \end{center}
+    \caption{
+    Schematic illustrating the qubit frequency configurations for the modelling spectroscopy experiments \textbf{(a)} and the Many-body Ramsey benchmarking experiments \textbf{(b)}.
+    }
+    \label{bias_configurations}
+\end{figure}
 
 \begin{figure}[h]
     \begin{center}
@@ -398,7 +463,7 @@ We then optimize the control model by minimizing the average error per eigenvalu
 The error per eigenvalue at each iteration of the optimization process is shown in fig.~\ref{error_during_optimization_training_validation}.
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=150 mm]{./PDF/fourier_amp_2d_tv_post.pdf}
+        \includegraphics[width=150 mm]{./PDF/fourier_amp_2d_tv_post_v2.pdf}
     \end{center}
         \caption{
         Five qubit many-body Ramsey spectroscopy data overlayed with predictions from control model after optimization.
@@ -731,21 +796,21 @@ If we make an x rotation immediately before measuring x+iy our measurement opera
 
 \section{ Connection between many-body Ramsey spectroscopy and unitary tomography (2 qubit particle conserving evolution)}
 In the recent demonstration of quantum supremacy \cite{Arute2019} the two qubit gates were photon number conserving unitaries from a class of unitaries
-known as the FSim class.
-The matrix elements for the two qubit unitaries were discovered by optimizing the gate parameters to the cross-entropy benchmarking fidelity.
+known as the Fermionic Simulation or FSim class\cite{Kivlichan2018}.
+The matrix elements for the two qubit unitaries were inferred by optimizing the gate parameters to the cross-entropy benchmarking fidelity.
 The initial guesses for this optimization process were provided by a technique we refer to as unitary tomography.
 This technique is now widely used for two qubit gate calibration in the Martinis group / Google AI Quantum lab.
-Here we highlight the deep connection between the many-body Ramsey technique discussed in the previous section and the simple, powerful unitary tomography technique.
+Here we highlight the connection between the many-body Ramsey technique discussed in the previous section and the simple, powerful unitary tomography technique.
 
-We wish to measure the matrix elements of a generic two qubit photon conserving unitary U.
-In order to probe U, we can apply the unitary to an initial state of our choice.  We can also perform tomographic rotations prior to measurement.
+We wish to measure the matrix elements of a generic two qubit photon conserving unitary $U$.
+In order to probe $U$, we can apply the unitary to an initial state of our choice.  We can also perform tomographic rotations prior to measurement.
 % TODO Why
 \begin{equation}
     \left< \hat{O} \right> = \braket{\psi_0 | U^{\dagger} \hat{O} U | \psi_0 }
     %\hat{O}
 \end{equation}
-where teh experimenter has control over $\ket{\psi_0}$ and $\hat{O}$
-A generic two qubit unitary U has a matrix representation as below using the basis $\ket{00}, \ket{01}, \ket{10}, \ket{11}$
+where the experimenter has control over $\ket{\psi_0}$ and $\hat{O}$
+A generic two qubit unitary $U$ has a matrix representation as below using the basis $\ket{00}, \ket{01}, \ket{10}, \ket{11}$
 \begin{equation}
     U =
     \begin{bmatrix}
@@ -779,17 +844,17 @@ The unitary for the chemistry gates (this is I believe a generic photon number c
 \end{equation}
 We wish to ascertain the matrix elements of this unitary transformation.
 
-The procedure for doing this is exactly the same as for manybody Ramsey spectroscopy and is illustrated in Fig.~\ref{unitary tomography schematic}
+The procedure for doing this is exactly the same as for many-body Ramsey spectroscopy and is illustrated in Fig.~\ref{unitary tomography schematic}.
 It consists of preparing a qubit in the superposition state with a $\pi / 2$ pulse,
 acting on the two qubit system with the unitary of interest,
 and measuring the observable $\langle \sigma^x \rangle + i \langle \sigma^y \rangle$.
 In this case our choice of which qubits were initialized and measured determines which unitary matrix element is extracted.
-Also in contrast with manybody Ramsey spectroscopy, we do not need to measure a full time series, but rather obtain our answer by analyzing a single application of the Unitary.
+Also in contrast with many-body Ramsey spectroscopy, we do not need to measure a full time series, but rather obtain our answer by analyzing a single application of the Unitary.
 
-\quickwidefig{0.8\columnwidth}{./PDF/unitary_tomography_thesis.png}{A schematic diagram of the unitary tomography procedure for measuring the matrix elements of U}{unitary tomography schematic}
+\quickwidefig{0.8\columnwidth}{./PDF/unitary_tomography_method.PDF}{A schematic diagram of the unitary tomography procedure for measuring the matrix elements of U}{unitary tomography schematic}
 
 \draftcomment{
-The single photon subspace of U looks like
+The single photon subspace of $U$ looks like
 \begin{equation}
     U=
     \begin{bmatrix}
@@ -955,5 +1020,5 @@ so that
     = U_{21}
 \end{equation}
 
-We have succeeded in measuring a single matrix element of the unitary, by mapping it's magnitude and phase onto the single qubit magnitude and phase.
-This procedure generalizes trivially to the single photon manifold of multiqubit systems.
+We have succeeded in measuring a single matrix element of the unitary, by mapping its magnitude and phase onto the single qubit magnitude and phase.
+This procedure generalizes trivially to the single photon manifold of multi-qubit systems.

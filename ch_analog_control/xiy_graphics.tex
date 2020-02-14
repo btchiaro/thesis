@@ -1,0 +1,250 @@
+% arara: lualatex
+\documentclass{article}
+\usepackage[italic]{mathastext}
+% 'isomath' sets upper case greek letters italic in accordance with
+% the International Standard ISO 80000-2
+\usepackage{isomath}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{helvet}
+
+\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amstext}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb}
+\usepackage{verbatim}
+\usepackage{braket}
+%\usepackage{float}
+%\pagestyle{empty}
+\usepackage{mathtools}
+
+\usepackage[T1]{fontenc}% http://ctan.org/pkg/fontenc
+\usepackage[outline]{contour}% http://ctan.org/pkg/contour
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{anyfontsize}
+
+\makeatletter
+\newcommand\thefontsize[1]{{#1 The current font size is: \f@size pt\par}}
+\makeatother
+
+\begin{document}
+    Example: Measure $U_{21}$
+
+    Choose $\ket{\psi_0}$\\
+    Choose $\hat{O}$\\
+
+    $\bra{00}$\\
+    $\bra{01}$\\
+    $\bra{10}$\\
+    $\bra{11}$\\
+    $q_{init}$\\
+    $q_{measure}$\\
+
+    \section{ Connection between many-body Ramsey spectroscopy and unitary tomography (2 qubit particle conserving evolution)}
+    In the recent demonstration of quantum supremacy \cite{Arute2019} the two qubit gates were photon number conserving unitaries from a class of unitaries
+    known as the Fermionic Simulation or FSim class\cite{Kivlichan2018}.
+    The matrix elements for the two qubit unitaries were inferred by optimizing the gate parameters to the cross-entropy benchmarking fidelity.
+    The initial guesses for this optimization process were provided by a technique we refer to as unitary tomography.
+    This technique is now widely used for two qubit gate calibration in the Martinis group / Google AI Quantum lab.
+    Here we highlight the connection between the many-body Ramsey technique discussed in the previous section and the simple, powerful unitary tomography technique.
+
+    We wish to measure the matrix elements of a generic two qubit photon conserving unitary $U$.
+    In order to probe $U$, we can apply the unitary to an initial state of our choice.  We can also perform tomographic rotations prior to measurement.
+% TODO Why
+    \begin{equation}
+        \left< \hat{O} \right> = \braket{\psi_0 | U^{\dagger} \hat{O} U | \psi_0 }
+        %\hat{O}
+    \end{equation}
+    where the experimenter has control over $\ket{\psi_0}$ and $\hat{O}$
+    A generic two qubit unitary $U$ has a matrix representation as below using the basis $\ket{00}, \ket{01}, \ket{10}, \ket{11}$
+    \begin{equation}
+        U =
+        \begin{bmatrix}
+            U_{00} & U_{01} & U_{02} & U_{03} \\
+            U_{10} & U_{11} & U_{12} & U_{13} \\
+            U_{20} & U_{21} & U_{22} & U_{23} \\
+            U_{30} & U_{31} & U_{32} & U_{33} \\
+        \end{bmatrix}
+    \end{equation}
+    which can be simplified for the FSim class.
+
+    \begin{equation}
+        U=
+        \begin{bmatrix}
+            1 & 0 & 0 & 0 \\
+            0 & U_{11} & U_{12} & 0 \\
+            0 & U_{21} & U_{22} & 0 \\
+            0 & 0 & 0 & U_{33} \\
+        \end{bmatrix}
+    \end{equation}
+    We wish to ascertain the matrix elements of this unitary transformation.
+
+    The procedure for doing this is exactly the same as for many-body Ramsey spectroscopy and is illustrated in Fig.~\ref{unitary tomography schematic}.
+    It consists of preparing a qubit in the superposition state with a $\pi / 2$ pulse,
+    acting on the two qubit system with the unitary of interest,
+    and measuring the observable $\langle \sigma^x \rangle + i \langle \sigma^y \rangle$.
+    In this case our choice of which qubits were initialized and measured determines which unitary matrix element is extracted.
+    Also in contrast with many-body Ramsey spectroscopy, we do not need to measure a full time series, but rather obtain our answer by analyzing a single application of the Unitary.
+
+    %\quickwidefig{0.8\columnwidth}{./PDF/unitary_tomography_thesis.png}{A schematic diagram of the unitary tomography procedure for measuring the matrix elements of U}{unitary tomography schematic}
+
+
+    The mechanics of this method are best clarified by working a simple example.
+    If we initialize the left qubit
+
+    \begin{equation}
+        \ket{\psi_0}=\frac{1}{\sqrt{2}}
+        \begin{bmatrix}
+            1 \\
+            1 \\
+            0 \\
+            0 \\
+        \end{bmatrix}
+    \end{equation}
+
+    then
+
+    \begin{equation}
+        U\ket{\psi_0} =
+        \frac{1}{\sqrt{2}}
+        \begin{bmatrix}
+            U00 + U01 \\
+            U10 + U11 \\
+            U20 + U21 \\
+            U30 + U31 \\
+        \end{bmatrix}
+        =
+        \frac{1}{\sqrt{2}}
+        \begin{bmatrix}
+            1 \\
+            U_{11} \\
+            U_{21} \\
+            0 \\
+        \end{bmatrix}
+    \end{equation}
+    So that it is clear we are selecting elements from the first column of the single photon subspace.
+    On the other hand, if we initialize the second qubit then we select the corresponding column of the unitary
+    \begin{equation}
+        \ket{\psi_0}=\frac{1}{\sqrt{2}}
+        \begin{bmatrix}
+            1 \\
+            0 \\
+            1 \\
+            0 \\
+        \end{bmatrix}
+        \implies
+        \ket{\psi_{f}}=
+        \frac{1}{\sqrt{2}}
+        \begin{bmatrix}
+            1 \\
+            U_{12} \\
+            U_{22} \\
+            0 \\
+        \end{bmatrix}
+    \end{equation}
+
+    Isolating a particular row of the unitary is achieved through the choice of which qubit is used to measure $\left< \sigma^{x} + i\sigma^{y} \right>$.
+    Explicitly, the measurement operator for a measurement on qubit 1 is :
+    \begin{equation}
+        \hat{O}=I \otimes (\sigma^{x} + i\sigma^{y}) =
+        \begin{bmatrix}
+            1 & 0\\
+            0 & 1\\
+        \end{bmatrix}
+        \otimes
+        \begin{bmatrix}
+            0 & 1\\
+            0 & 0\\
+        \end{bmatrix}=
+        \begin{bmatrix}
+            0 & 1 & 0 & 0\\
+            0 & 0 & 0 & 0\\
+            0 & 0 & 0 & 1\\
+            0 & 0 & 0 & 0\\
+        \end{bmatrix}
+    \end{equation}
+    so that
+    \begin{equation}
+        \psi_{f}=
+        \begin{bmatrix}
+            1 \\
+            U_{11} \\
+            U_{21} \\
+            0 \\
+        \end{bmatrix}
+        \implies
+        \braket{\psi_{f}|\hat{O}|\psi_{f}} =
+        \begin{bmatrix}
+            1 & U_{11}^{*} & U_{21}^{*} & 0
+        \end{bmatrix}
+        \begin{bmatrix}
+            0 & 1 & 0 & 0\\
+            0 & 0 & 0 & 0\\
+            0 & 0 & 0 & 1\\
+            0 & 0 & 0 & 0\\
+        \end{bmatrix}
+        \begin{bmatrix}
+            1 \\
+            U_{11} \\
+            U_{21} \\
+            0 \\
+        \end{bmatrix}
+        = U_{11}
+    \end{equation}
+    For a measurement on qubit 2
+    \begin{equation}
+        \hat{O}=(\sigma^{x} + i\sigma^{y}) \otimes I=
+        \begin{bmatrix}
+            0 & 1\\
+            0 & 0\\
+        \end{bmatrix}
+        \otimes
+        \begin{bmatrix}
+            1 & 0\\
+            0 & 1\\
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            0 & 0 & 1 & 0\\
+            0 & 0 & 0 & 1\\
+            0 & 0 & 0 & 0\\
+            0 & 0 & 0 & 0\\
+        \end{bmatrix}
+    \end{equation}
+    so that
+    \begin{equation}
+        \psi_{f}=
+        \begin{bmatrix}
+            1 \\
+            U_{11} \\
+            U_{21} \\
+            0 \\
+        \end{bmatrix}
+        \implies
+        \braket{\psi_{f}|\hat{O}|\psi_{f}} =
+        \begin{bmatrix}
+            1 & U_{11}^{*} & U_{21}^{*} & 0
+        \end{bmatrix}
+        \begin{bmatrix}
+            0 & 0 & 1 & 0\\
+            0 & 0 & 0 & 1\\
+            0 & 0 & 0 & 0\\
+            0 & 0 & 0 & 0\\
+        \end{bmatrix}
+        \begin{bmatrix}
+            1 \\
+            U_{11} \\
+            U_{21} \\
+            0 \\
+        \end{bmatrix}
+        = U_{21}
+    \end{equation}
+
+    We have succeeded in measuring a single matrix element of the unitary, by mapping it's magnitude and phase onto the single qubit magnitude and phase.
+    This procedure generalizes trivially to the single photon manifold of multi-qubit systems.
+
+\end{document}
+

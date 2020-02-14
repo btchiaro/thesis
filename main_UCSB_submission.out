@@ -17,7 +17,7 @@
 \BOOKMARK [2][-]{subsection.2.5.1}{Hamiltonian of the transmon}{section.2.5}% 17
 \BOOKMARK [2][-]{subsection.2.5.2}{Nonlinearity of the transmon}{section.2.5}% 18
 \BOOKMARK [1][-]{section.2.6}{Composite gmon Hamiltonian.}{chapter.2}% 19
-\BOOKMARK [0][-]{chapter.3}{Titanium nitride resonators with internal quality factors >106}{}% 20
+\BOOKMARK [0][-]{chapter.3}{Room temperature deposition of sputtered TiN films for superconducting coplanar waveguide resonators}{}% 20
 \BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 21
 \BOOKMARK [1][-]{section.3.2}{Film preparation}{chapter.3}% 22
 \BOOKMARK [1][-]{section.3.3}{Basic properties}{chapter.3}% 23
@@ -26,7 +26,7 @@
 \BOOKMARK [1][-]{section.3.6}{Target - Substrate \(T-S\) distance dependence}{chapter.3}% 26
 \BOOKMARK [1][-]{section.3.7}{Properties of the scpw resonators}{chapter.3}% 27
 \BOOKMARK [1][-]{section.3.8}{Summary}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Dielectric loss in resonators with anti-vortex ground plane hole arrays}{}% 29
+\BOOKMARK [0][-]{chapter.4}{Dielectric surface loss in superconducting resonators with flux-trapping holes}{}% 29
 \BOOKMARK [0][-]{chapter.5}{Growth and preservation of entanglement in a many-body localized system}{}% 30
 \BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 31
 \BOOKMARK [1][-]{section.5.2}{Breakdown of ergodicity}{chapter.5}% 32
@@ -38,46 +38,37 @@
 \BOOKMARK [1][-]{section.a.A.2}{Residual magnetic loss}{Appendix.a.A}% 38
 \BOOKMARK [1][-]{section.a.A.3}{Hole pattern design rules}{Appendix.a.A}% 39
 \BOOKMARK [1][-]{section.a.A.4}{Dielectric loss estimate}{Appendix.a.A}% 40
-\BOOKMARK [0][-]{Appendix.a.B}{Appendix Precision frequency noise metrology of a superconducting qubit}{}% 41
-\BOOKMARK [1][-]{section.a.B.1}{Statement of the problem}{Appendix.a.B}% 42
-\BOOKMARK [1][-]{section.a.B.2}{The single shot Ramsey technique}{Appendix.a.B}% 43
-\BOOKMARK [2][-]{subsection.a.B.2.1}{March meeting slides}{section.a.B.2}% 44
-\BOOKMARK [2][-]{subsection.a.B.2.2}{mathematical derivation The derivation in this section follows those in SankUnpublished, Yan2012, YanThesis}{section.a.B.2}% 45
-\BOOKMARK [1][-]{section.a.B.3}{microwave bias T design}{Appendix.a.B}% 46
-\BOOKMARK [2][-]{subsection.a.B.3.1}{Schematic}{section.a.B.3}% 47
-\BOOKMARK [2][-]{subsection.a.B.3.2}{Physical Implementation}{section.a.B.3}% 48
-\BOOKMARK [2][-]{subsection.a.B.3.3}{SPICE Simulation}{section.a.B.3}% 49
-\BOOKMARK [0][-]{Appendix.a.C}{Appendix Analog Control}{}% 50
-\BOOKMARK [1][-]{section.a.C.1}{Spectroscopy }{Appendix.a.C}% 51
-\BOOKMARK [1][-]{section.a.C.2}{Many-body Ramsey spectroscopy}{Appendix.a.C}% 52
-\BOOKMARK [1][-]{section.a.C.3}{Control model optimization}{Appendix.a.C}% 53
-\BOOKMARK [1][-]{section.a.C.4}{ Connection between many-body Ramsey spectroscopy and unitary tomography \(2 qubit particle conserving evolution\)}{Appendix.a.C}% 54
-\BOOKMARK [0][-]{Appendix.a.D}{Appendix Supplemental information for Growth and preservation of entanglement in a many-body localized system}{}% 55
-\BOOKMARK [1][-]{section.a.D.1}{Device and calibration, Figs.S1-S3}{Appendix.a.D}% 56
-\BOOKMARK [2][-]{subsection.a.D.1.1}{Circuit schematic}{section.a.D.1}% 57
-\BOOKMARK [2][-]{subsection.a.D.1.2}{Single qubit gate error rate}{section.a.D.1}% 58
-\BOOKMARK [2][-]{subsection.a.D.1.3}{Manybody Hamiltonian benchmarking}{section.a.D.1}% 59
-\BOOKMARK [1][-]{section.a.D.2}{Transport measurements, Figs.S4-S6}{Appendix.a.D}% 60
-\BOOKMARK [2][-]{subsection.a.D.2.1}{Transport measurement instances}{section.a.D.2}% 61
-\BOOKMARK [2][-]{subsection.a.D.2.2}{Decoherence effects}{section.a.D.2}% 62
-\BOOKMARK [2][-]{subsection.a.D.2.3}{Two state occupation}{section.a.D.2}% 63
-\BOOKMARK [1][-]{section.a.D.3}{Interferometric protocols, Figs.S7-S10}{Appendix.a.D}% 64
-\BOOKMARK [2][-]{subsection.a.D.3.1}{Echo pulse sequences}{section.a.D.3}% 65
-\BOOKMARK [2][-]{subsection.a.D.3.2}{Maximum local occupation}{section.a.D.3}% 66
-\BOOKMARK [2][-]{subsection.a.D.3.3}{Comparison with numerics for echo experiments}{section.a.D.3}% 67
-\BOOKMARK [2][-]{subsection.a.D.3.4}{Extended data}{section.a.D.3}% 68
-\BOOKMARK [1][-]{section.a.D.4}{Entanglement measures}{Appendix.a.D}% 69
-\BOOKMARK [1][-]{section.a.D.5}{Density matrix evolution numerics comparison, Figs.S11 - S15}{Appendix.a.D}% 70
-\BOOKMARK [2][-]{subsection.a.D.5.1}{Comparison with numerics for superposition initial state.}{section.a.D.5}% 71
-\BOOKMARK [2][-]{subsection.a.D.5.2}{Comparison with numerics for bell initial state.}{section.a.D.5}% 72
-\BOOKMARK [2][-]{subsection.a.D.5.3}{Comparison with numerics for superposition initial state.}{section.a.D.5}% 73
-\BOOKMARK [2][-]{subsection.a.D.5.4}{Comparison with numerics for bell initial state.}{section.a.D.5}% 74
-\BOOKMARK [2][-]{subsection.a.D.5.5}{Long time numerics for superposition initial state.}{section.a.D.5}% 75
-\BOOKMARK [1][-]{section.a.D.6}{Sensitivity to nonlinearity U, Figs.S16-S18}{Appendix.a.D}% 76
-\BOOKMARK [2][-]{subsection.a.D.6.1}{Sensitivity of SvNAB to nonlinearity U}{section.a.D.6}% 77
-\BOOKMARK [2][-]{subsection.a.D.6.2}{Sensitivity of entanglement of formation to nonlinearity U}{section.a.D.6}% 78
-\BOOKMARK [2][-]{subsection.a.D.6.3}{Sensitivity of z to nonlinearity U}{section.a.D.6}% 79
-\BOOKMARK [1][-]{section.a.D.7}{Extended data for 1D qubit array, Fig.S19}{Appendix.a.D}% 80
-\BOOKMARK [2][-]{subsection.a.D.7.1}{Distillable entanglement in MBL and diffusive regimes}{section.a.D.7}% 81
-\BOOKMARK [1][-]{section.a.D.8}{Extended data for 2D qubit arrays, Fig.S20}{Appendix.a.D}% 82
-\BOOKMARK [2][-]{subsection.a.D.8.1}{Onsite population for 2D qubit arrays}{section.a.D.8}% 83
+\BOOKMARK [0][-]{Appendix.a.B}{Appendix Analog Control}{}% 41
+\BOOKMARK [1][-]{section.a.B.1}{Spectroscopy }{Appendix.a.B}% 42
+\BOOKMARK [1][-]{section.a.B.2}{Many-body Ramsey spectroscopy}{Appendix.a.B}% 43
+\BOOKMARK [1][-]{section.a.B.3}{Control model optimization}{Appendix.a.B}% 44
+\BOOKMARK [1][-]{section.a.B.4}{ Connection between many-body Ramsey spectroscopy and unitary tomography \(2 qubit particle conserving evolution\)}{Appendix.a.B}% 45
+\BOOKMARK [0][-]{Appendix.a.C}{Appendix Supplemental information for Growth and preservation of entanglement in a many-body localized system}{}% 46
+\BOOKMARK [1][-]{section.a.C.1}{Device and calibration, Figs.S1-S3}{Appendix.a.C}% 47
+\BOOKMARK [2][-]{subsection.a.C.1.1}{Circuit schematic}{section.a.C.1}% 48
+\BOOKMARK [2][-]{subsection.a.C.1.2}{Single qubit gate error rate}{section.a.C.1}% 49
+\BOOKMARK [2][-]{subsection.a.C.1.3}{Manybody Hamiltonian benchmarking}{section.a.C.1}% 50
+\BOOKMARK [1][-]{section.a.C.2}{Transport measurements, Figs.S4-S6}{Appendix.a.C}% 51
+\BOOKMARK [2][-]{subsection.a.C.2.1}{Transport measurement instances}{section.a.C.2}% 52
+\BOOKMARK [2][-]{subsection.a.C.2.2}{Decoherence effects}{section.a.C.2}% 53
+\BOOKMARK [2][-]{subsection.a.C.2.3}{Two state occupation}{section.a.C.2}% 54
+\BOOKMARK [1][-]{section.a.C.3}{Interferometric protocols, Figs.S7-S10}{Appendix.a.C}% 55
+\BOOKMARK [2][-]{subsection.a.C.3.1}{Echo pulse sequences}{section.a.C.3}% 56
+\BOOKMARK [2][-]{subsection.a.C.3.2}{Maximum local occupation}{section.a.C.3}% 57
+\BOOKMARK [2][-]{subsection.a.C.3.3}{Comparison with numerics for echo experiments}{section.a.C.3}% 58
+\BOOKMARK [2][-]{subsection.a.C.3.4}{Extended data}{section.a.C.3}% 59
+\BOOKMARK [1][-]{section.a.C.4}{Entanglement measures}{Appendix.a.C}% 60
+\BOOKMARK [1][-]{section.a.C.5}{Density matrix evolution numerics comparison, Figs.S11 - S15}{Appendix.a.C}% 61
+\BOOKMARK [2][-]{subsection.a.C.5.1}{Comparison with numerics for superposition initial state.}{section.a.C.5}% 62
+\BOOKMARK [2][-]{subsection.a.C.5.2}{Comparison with numerics for bell initial state.}{section.a.C.5}% 63
+\BOOKMARK [2][-]{subsection.a.C.5.3}{Comparison with numerics for superposition initial state.}{section.a.C.5}% 64
+\BOOKMARK [2][-]{subsection.a.C.5.4}{Comparison with numerics for bell initial state.}{section.a.C.5}% 65
+\BOOKMARK [2][-]{subsection.a.C.5.5}{Long time numerics for superposition initial state.}{section.a.C.5}% 66
+\BOOKMARK [1][-]{section.a.C.6}{Sensitivity to nonlinearity U, Figs.S16-S18}{Appendix.a.C}% 67
+\BOOKMARK [2][-]{subsection.a.C.6.1}{Sensitivity of SvNAB to nonlinearity U}{section.a.C.6}% 68
+\BOOKMARK [2][-]{subsection.a.C.6.2}{Sensitivity of entanglement of formation to nonlinearity U}{section.a.C.6}% 69
+\BOOKMARK [2][-]{subsection.a.C.6.3}{Sensitivity of z to nonlinearity U}{section.a.C.6}% 70
+\BOOKMARK [1][-]{section.a.C.7}{Extended data for 1D qubit array, Fig.S19}{Appendix.a.C}% 71
+\BOOKMARK [2][-]{subsection.a.C.7.1}{Distillable entanglement in MBL and diffusive regimes}{section.a.C.7}% 72
+\BOOKMARK [1][-]{section.a.C.8}{Extended data for 2D qubit arrays, Fig.S20}{Appendix.a.C}% 73
+\BOOKMARK [2][-]{subsection.a.C.8.1}{Onsite population for 2D qubit arrays}{section.a.C.8}% 74
