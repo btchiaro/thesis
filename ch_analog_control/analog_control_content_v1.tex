@@ -277,6 +277,7 @@ We can apply the inverse transformation $C^{-1}$ to recover the time dependence 
     \end{bmatrix}_{\phi}
     \\ & =
     \frac{1}{\sqrt{2}}
+    \renewcommand*{\arraystretch}{1.5}
     \begin{bmatrix}
         1 \\
         c^{-1}_{11} c_{11} e^{-i E_1 t} +  c^{-1}_{12} c_{21} e^{-i E_2 t} + c^{-1}_{13} c_{31} e^{-i E_3 t} \\
@@ -290,11 +291,22 @@ We can apply the inverse transformation $C^{-1}$ to recover the time dependence 
     \varphi_{001}\\
     \varphi_{010}\\
     \varphi_{100}
-    \end{bmatrix}
+    \end{bmatrix}_{\varphi}
 \end{aligned}
 \end{equation*}
 
-If we measure $\langle \sigma^x + i \sigma^y \rangle$ on site 1, then we have
+In the zero and one photon manifolds of the 3 qubit system
+\qeqn{
+\hat{I} \otimes \hat{I} \otimes \left( \hat{\sigma}^x + i \hat{\sigma}^y \right) =
+\begin{bmatrix}
+    0 & 2 & 0 & 0 \\
+    0 & 0 & 0 & 0 \\
+    0 & 0 & 0 & 0 \\
+    0 & 0 & 0 & 0 \\
+\end{bmatrix},
+}
+and therefore,
+if we measure $\langle \sigma^x + i \sigma^y \rangle (t)$ on the rightmost site, then we have
 \begin{equation}
 \begin{bmatrix}
 1 & \varphi_{001}^* & \varphi_{010}^* & \varphi_{100}^*
@@ -321,10 +333,12 @@ If we measure $\langle \sigma^x + i \sigma^y \rangle$ on site 1, then we have
 0 \\
 0 \\
 \end{bmatrix}
-= \varphi_{001}
+= \varphi_{001}.
 \end{equation}
-In this case we recover the eigenvalues of H because \qeqn{ FFT(...) = a_1 \delta(E_1) + a_2 \delta(E_2) + a_3 \delta(E_3) }
-where the $a_i$ are the coefficients coming from change of basis and normalization of the FFT.
+In this case we can recover the eigenvalues of $H$ because the Fourier transform of $\varphi_{001}(t)$ reports tones only at the eigenfrequencies,
+since $\varphi_{001} = c^{-1}_{11} c_{11} e^{-i E_1 t} +  c^{-1}_{12} c_{21} e^{-i E_2 t} + c^{-1}_{13} c_{31} e^{-i E_3 t}$.
+%In this case we recover the eigenvalues of H because \qeqn{ FFT(...) = a_1 \delta(E_1) + a_2 \delta(E_2) + a_3 \delta(E_3) }
+%where the $a_i$ are the coefficients coming from change of basis and normalization of the FFT.
 
 This calculation makes the roles of the initial state and measurement observable clear.
 It is essential that the initial state be a superposition of a reference state, and a state in the manifold that we wish to extract the eigenvalues of.
@@ -333,7 +347,7 @@ This state serves as an interference partner for our generalized Ramsey experime
 and its triviality assures that the spectrum of our interference pattern is exclusively due to the dynamics of the target manifold and not the internal dynamics of the reference manifold.
 
 The choice of $\hat{O} = \hat{a} = \hat{\sigma}^x + i \hat{\sigma}^y$ is also clarified by this calculation.
-This operator interfers the dynamic manifold with the reference state, isolating the eigenvalues.
+This operator interferes the dynamic manifold with the reference state, isolating the eigenvalues.
 
 If we had instead chosen  $\hat{O} = \hat{\sigma}^x$ we would observe both positive and negative eigenvalues since
 
@@ -413,8 +427,10 @@ The numerics below illustrate these points:
     }
     \label{mbr_peaks_data}
 \end{figure}
-Because the Many-body Ramsey extracts the eigenvalues of the Hamiltonian that was actually generated in the experiment,
+Because the many-body Ramsey extracts the eigenvalues of the Hamiltonian that was actually generated in the experiment,
 we can compare the extracted eignevalues with those predicted by our circuit parameterization and use the difference as a control error metric.
+A comparison of predicted eigenvalues for a single Hamiltonian instance
+and observed Fourier domain data from the Many-body Ramsey technique is the subject of Fig.~\ref{mbr_peaks_data}.
 With this error metric established, we can optimize the parameters of our control model to give a more accurate parameterization of the circuit.
 
 \begin{figure}[h]
@@ -434,8 +450,9 @@ The result is shown in fig.~\ref{mbr_benchmark_pre_optimization}.
 The 2D color plot is the raw Fourier data for each of 100 training instances.
 This data is overlayed with the control model predictions (red circles) and peak positions extracted with our analysis algorithm (black circles).
 The error per eigenvalue is extracted to be $9$ MHz.
-This is a large error, primarily resulting from the fact that the control bias conditions are different when we characterize
-the single and two qubit systems and when we characterize the full system collective dynamics.
+This large error results primarily from the fact that the control bias conditions are different in the case that we characterize
+the single and two qubit systems from the case that we characterize the full system collective dynamics with many-body Ramsey.
+This idea is sketched in Fig.~\ref{bias_configurations}.
 
 \begin{figure}[h]
     \begin{center}
@@ -457,10 +474,17 @@ the single and two qubit systems and when we characterize the full system collec
         }
     \label{error_during_optimization_training_validation}
 \end{figure}
+
 %The 5 qubit data in fig.~\ref{error_during_optimization_training_validation} illustrates this process.
+We can improve the control model by numerically optimizing the circuit parameters, using the error per eigenvalue as a cost function.
+In this optimization step we only allow physically justified parameters to vary.
+That is,
+the flux offsets are expected to benefit from optimization because the control bias currents are different in the spectroscopic modelling configuration and the many-body Ramsey benchmarking configuration.
+In contrast,
+parameters such as the capacitance and geometric inductance are not expected to have changed between bias configurations and are held fixed during the optimization.
 Next, we follow the standard optimization procedure of dividing our full data set into training and validation subsets.
 We then optimize the control model by minimizing the average error per eigenvalue of the training data only.
-The error per eigenvalue at each iteration of the optimization process is shown in fig.~\ref{error_during_optimization_training_validation}.
+The error per eigenvalue at each iteration of the optimization process is shown in Fig.~\ref{error_during_optimization_training_validation}.
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=150 mm]{./PDF/fourier_amp_2d_tv_post_v2.pdf}
@@ -470,7 +494,7 @@ The error per eigenvalue at each iteration of the optimization process is shown 
         }
     \label{mbr_benchmark_post_optimization}
 \end{figure}
-The predictions from the optimized control model are overlayed on the original fourier data in fig.~\ref{mbr_benchmark_post_optimization}
+The predictions from the optimized control model are overlayed on the original fourier data in Fig.~\ref{mbr_benchmark_post_optimization}
 
 \begin{figure}[h]
     \begin{center}
@@ -481,7 +505,7 @@ The predictions from the optimized control model are overlayed on the original f
         }
     \label{9q manybody ramsey validation}
 \end{figure}
-In fig.~\ref{9q manybody ramsey validation} we show 9 qubit validation data with a validation error rate of 1.2 MHz per eigenvalue.
+In Fig.~\ref{9q manybody ramsey validation} we show 9 qubit validation data with a validation error rate of 1.2 MHz per eigenvalue.
 This shows that the MHz level error rate is maintained as we scale to larger numbers of qubits.
 
 \draftcomment{
@@ -926,7 +950,7 @@ The phase of the unitary matrix element can be measured by directly measuring th
 Isolating a particular row of the unitary is achieved through the choice of which qubit is used to measure $\left< \sigma^{x} + i\sigma^{y} \right>$.
 Explicitly, the measurement operator for a measurement on qubit 1 is :
 \begin{equation}
-    \hat{O}=I \otimes (\sigma^{x} + i\sigma^{y}) =
+    \hat{O} = \frac{1}{2} I \otimes (\sigma^{x} + i\sigma^{y}) =
     \begin{bmatrix}
         1 & 0\\
         0 & 1\\
@@ -973,7 +997,7 @@ so that
 \end{equation}
 For a measurement on qubit 2
 \begin{equation}
-    \hat{O}=(\sigma^{x} + i\sigma^{y}) \otimes I=
+    \hat{O} = \frac{1}{2} (\sigma^{x} + i\sigma^{y}) \otimes I=
     \begin{bmatrix}
         0 & 1\\
         0 & 0\\

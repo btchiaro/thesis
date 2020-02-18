@@ -1,7 +1,7 @@
 \chapter{Superconducting circuits for quantum computation}
 \label{ch:sc_circuits}
 \inprogress{
-In this section we give a practical introduction to superconducting circuits for quantum computing applications.
+In this chapter we give a practical introduction to superconducting circuits for quantum computing applications.
 % introduce the fundamental elements of superconducting circuits and summarize the basic theory that determines their dynamics.
 The derivations here follow closely those found in
 refs~\cite{Pozar, GaoThesis, RamiThesis, MazinThesis, DanThesis, JimmyThesis, CharlesThesis, vanDuzer1999, Koch2007,
@@ -116,7 +116,7 @@ The rate at which energy is lost from the resonator depends both on its coupling
 where $Q_c$ and $Q_i$ refer to the coupling and internal quality factors respectively.
 Note that the quality factors sum in reciprocal since the energy loss rates are additive.
 The internal quality factor $Q_i$ may be further decomposed in terms of the constituent loss mechanisms.
-\qeqn{1/Q_{i} = 1/Q_{quasiparticle} + 1/Q_{vortex} + 1/Q_{dielectric}}
+\qeqn{1/Q_{i} = 1/Q_{quasiparticle} + 1/Q_{vortex} + 1/Q_{dielectric} + ...}
 
 For a quarter wave resonator capacitively coupled to a transmission line, the internal quality factor $Q_i$
 and the coupling quality factor $Q_c$ can be extracted
@@ -214,6 +214,7 @@ As such it's dynamics in this regime are described by the Schr\"odinger equation
     i \hbar \frac{d}{dt} \ket{\psi(t)} = H \ket{\psi}.
 \end{equation}
 Here we derive the Hamiltonian and show that the LC oscillator behaves as a harmonic oscillator.
+The derivations here follow closely those found in refs~\cite{DanThesis, JimmyThesis, CharlesThesis, vanDuzer1999, Koch2007, OliverQuantumEngineeringGuide, RoushanSummerSchool}.
 
 The instantaneous power dissipated by a circuit element is
 \qeqn{P=IV, }
@@ -326,6 +327,7 @@ The advantages of quantum computing stem from the exponential scaling of the Hil
 Useful quantum circuits, therefore, must provide a means for multiple qubits to interact.
 For superconducting qubits the coupling mechanism may be either capacitive or inductive in nature.
 In this section we show how these coupling mechanisms lead to a hopping term in the Hamiltonian.
+The derivations here follow closely those found in refs~\cite{DanThesis, JimmyThesis, CharlesThesis, vanDuzer1999, Koch2007, OliverQuantumEngineeringGuide, RoushanSummerSchool}.
 
 %\FloatBarrier
 \subsection{Capacitive coupling}
@@ -633,9 +635,9 @@ Nobel 1973
 The Josephson relations for the current through the junction $I_j$ and the voltage across the junction $V$ to the phase:
 \qeqn{I_j = I_c \sin \delta }
 and
-\qeqn{V = \frac{\phi_0}{2\pi}\frac{d\delta}{dt} }
+\qeqn{V = \frac{\Phi_0}{2\pi}\frac{d\delta}{dt} }
 from these we can compute the Josephson inductance
-\qeqn{ V = L\frac{dI}{dt} \implies L_j = \frac{\phi_0}{2 \pi I_c \cos \delta} }
+\qeqn{ V = L\frac{dI}{dt} \implies L_j = \frac{\Phi_0}{2 \pi I_c \cos \delta} }
 
 %Since the L is L(I), the inductance is nonlinear.
 

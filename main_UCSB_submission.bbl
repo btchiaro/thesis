@@ -3088,8 +3088,8 @@
       \strng{authorbibnamehash}{4afea7a3340da750252bfc086d18994c}
       \strng{authornamehash}{4afea7a3340da750252bfc086d18994c}
       \strng{authorfullhash}{33cf1022561fba453542c553cf17741a}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Vacuum Science \& Technology B: Microelectronics Processing and Phenomena}
@@ -3558,8 +3558,8 @@
       \strng{authorbibnamehash}{3102478754f2761be1b48d9d679956b1}
       \strng{authornamehash}{c1040dffe34fb2323f44e3bff6e6f0a4}
       \strng{authorfullhash}{3102478754f2761be1b48d9d679956b1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The mechanical properties of titanium nitride (TiNx) thin films have been investigated using depth sensing nanoindentation tests. The effects of substrate temperature (Ts) and of substrate biasing (Vb) on the mechanical properties and the microstructure of the TiNx films were studied. Ts and Vb have strong effect on the film's microstructural characteristics such as density, grain size and orientation. It was found that deposition at high Ts and Vb promotes the growth of (002) oriented films with density close to the bulk density of stoichiometric TiN, indicating the absence of voids and the growth of stoichiometric TiN. The film hardness and elastic modulus were measured using the continuous stiffness measurements technique. It was found that there exists a direct correlation between the film's mechanical properties and microstructure. The films that exhibit the best mechanical performance are those grown along the (002) orientation and being denser and stoichiometric.}
@@ -4369,8 +4369,8 @@
       \strng{authornamehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
       \strng{authorfullhash}{b63c292044cd32930757de22248a5cc5}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -4439,8 +4439,8 @@
       \strng{authorbibnamehash}{397cdb12aa6e8d00de2c71a77b22c6ec}
       \strng{authornamehash}{397cdb12aa6e8d00de2c71a77b22c6ec}
       \strng{authorfullhash}{d7d0d1516e36d864669114b9c1903502}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}
@@ -4516,8 +4516,8 @@
       \strng{authornamehash}{3008a8f8b7e644bef21271bb03597491}
       \strng{authorfullhash}{93ddb9fa425cb03113ff7a1fa7f8724b}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{17}
@@ -4611,8 +4611,8 @@
       \strng{authornamehash}{caea4315ae6c5a830fe17ea8a86ffdbc}
       \strng{authorfullhash}{c095baf6d6297e9cb7fc8fb3c8019122}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Communications}
@@ -4652,8 +4652,8 @@
       \strng{authorbibnamehash}{23703e75f60ce94f4d5953bf58806155}
       \strng{authornamehash}{23703e75f60ce94f4d5953bf58806155}
       \strng{authorfullhash}{23703e75f60ce94f4d5953bf58806155}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{11}
@@ -4742,8 +4742,8 @@
       \strng{authornamehash}{f959223c27127fcba7d9460797e42505}
       \strng{authorfullhash}{a1b46942836eff4c865eb72827083a30}
       \field{extraname}{3}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{21}
@@ -4792,8 +4792,8 @@
       \strng{authornamehash}{f959223c27127fcba7d9460797e42505}
       \strng{authorfullhash}{1669a15168ae2a6368a3503f065197af}
       \field{extraname}{4}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{9}
@@ -4869,8 +4869,8 @@
       \strng{authornamehash}{a9e37aac89a147d47c03493331bd5dd8}
       \strng{authorfullhash}{1c9c32f767f95967b4ef4912c7d62e6c}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -4927,8 +4927,8 @@
       \strng{authorbibnamehash}{6521ed163dc6109c84e38fe93742f92c}
       \strng{authornamehash}{2236993295c20a52d028a7be9f55eede}
       \strng{authorfullhash}{6521ed163dc6109c84e38fe93742f92c}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Physics}
@@ -5565,8 +5565,8 @@
       \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
       \strng{authorfullhash}{afade78ae4a74227663a498403326b8e}
       \field{extraname}{4}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -7707,8 +7707,8 @@
       \strng{authorbibnamehash}{90fd2a692f9c20cf51f5e79165ae6446}
       \strng{authornamehash}{90fd2a692f9c20cf51f5e79165ae6446}
       \strng{authorfullhash}{90fd2a692f9c20cf51f5e79165ae6446}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
@@ -7761,8 +7761,8 @@
       \strng{authorbibnamehash}{b0f96924418c7a828416a89f9373cfc2}
       \strng{authornamehash}{c5e8414e25fefa6474459444de2c3377}
       \strng{authorfullhash}{b0f96924418c7a828416a89f9373cfc2}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{23}
@@ -7810,8 +7810,8 @@
       \strng{authorbibnamehash}{cccec6a10e1faf35b610e4b11f1d5eeb}
       \strng{authornamehash}{a9bbb00e505f7f9137718e6cfac3d3f8}
       \strng{authorfullhash}{cccec6a10e1faf35b610e4b11f1d5eeb}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{16}
@@ -7894,8 +7894,8 @@
       \strng{authorbibnamehash}{5de346c845fc328cda81c41209d759ab}
       \strng{authornamehash}{5de346c845fc328cda81c41209d759ab}
       \strng{authorfullhash}{b3017fefd5c0eb3cf411c01814c88a7c}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -7950,8 +7950,8 @@
       \strng{authorbibnamehash}{66d1fcb24bd736281e7eafadce735133}
       \strng{authornamehash}{9c8fe5bbc41623af89cc5baffda0c34f}
       \strng{authorfullhash}{66d1fcb24bd736281e7eafadce735133}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{At long times, residual couplings to the environment become relevant even in the most isolated experiments, a crucial difficulty for the study of fundamental aspects of many-body dynamics. A particular example is many-body localization in a cold-atom setting, where incoherent photon scattering introduces both dephasing and particle loss. Whereas dephasing has been studied in detail and is known to destroy localization already on the level of non-interacting particles, the effect of particle loss is less well understood. A difficulty arises due to the `non-local' nature of the loss process, complicating standard numerical tools using matrix product decomposition. Utilizing symmetries of the Lindbladian dynamics, we investigate the particle loss on both the dynamics of observables, as well as the structure of the density matrix and the individual states. We find that particle loss in the presence of interactions leads to dissipation and a strong suppression of the (operator space) entanglement entropy. Our approach allows for the study of the interplay of dephasing and loss for pure and mixed initial states to long times, which is important for future experiments using controlled coupling of the environment.}
@@ -8181,8 +8181,8 @@
       \strng{authorbibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
       \strng{authornamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
       \strng{authorfullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{{ISBN} 3-900051-07-0}
