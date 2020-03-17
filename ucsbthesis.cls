@@ -11,11 +11,17 @@
 % derive from the book class
 \LoadClassWithOptions{book}
 
+\RequirePackage[usenames, dvipsnames, hyperref]{xcolor} %from mk
+
+% BC, since I'm compiling with lua and using Geometry
+\RequirePackage{luatex85}
+
 % set up the page geometry per UCSB thesis guidelines
-\RequirePackage[top=1.0in,bottom=1.0in,
-                inner=1.25in,outer=1.0in,
+\RequirePackage[top=1.0in, bottom=1.0in,
+                inner=1.25in, outer=1.25in,
                 includehead,footskip=0.25in,
-                marginparwidth=1.0in, marginparsep=0.1in]{geometry}
+                margin=1.25in,
+                marginparwidth=2.25in, marginparsep=0.1in]{geometry}
 
 % "intelligent" double-spacing
 \RequirePackage{setspace}
@@ -23,7 +29,6 @@
 % make sure that equation* and eqnarray* environments are defined
 \RequirePackage{amsmath}
 
-\RequirePackage[usenames, dvipsnames, hyperref]{xcolor} %from mk
 
 % command that lets us patch existing environments, so they can be used with the standard names
 % an environment called 'env' is implemented internally by defining two commands,

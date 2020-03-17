@@ -14,7 +14,7 @@ For completeness we summarize the essential results from these sources as necess
 The CPW resonator is a ubiquitious resource in superconducting circuits.
 Here we state the basic physics of CPW transmission lines, show that an oscillator can be made from a terminated strip of transmission line, and outline the relationship of this device with coherence metrology.
 \subsection{The CPW resonator as an LC oscillator}
-\quickfig{6 in}{./PDF/CPW_sw_schem_3d.pdf}{A schematic diagram of a coplanar waveguide (CPW), shown in cross section}{CPW}
+\quickfig{6 in}{./PDF/CPW_sw_schem_3d.pdf}{A schematic diagram of a coplanar waveguide (CPW), shown in cross section.}{CPW}
 A coplanar waveguide (CPW) transmission line consists of a signal electrode that is isolated from a surrounding ground plane.
 A cross sectional view of the basic CPW geometry is shown in cross section in fig.~\ref{CPW}.
 This device supports a propagating transverse electromagnetic (TEM) mode  with phase velocity \cite{Pozar}
@@ -74,7 +74,7 @@ For a transmisssion line with small loss and near resonance so that $\omega = \o
 \qeqn{
 Z_{in} = \frac{1}{1/R + 2 i \Delta \omega / 2 \omega_0}
 }
-which has the same form as $Z_{in}$ for a parallel RLC oscillator.
+which has the same form as $Z_{in}$ for a "lumped circuit" parallel RLC oscillator.
 
 \subsection{Coherence metrology with CPW resonators}
 
@@ -209,7 +209,7 @@ can be suppressed by using light tight shielding for the operating environment a
 The linear LC harmonic oscillator is closely related to the more complicated qubit circuits
 and provides an excellent starting point for understanding superconducting qubits.
 At low temperatures the LC oscillator behaves quantum mechanically.
-As such it's dynamics in this regime are described by the Schr\"odinger equation
+As such its dynamics in this regime are described by the Schr\"odinger equation
 \begin{equation}
     i \hbar \frac{d}{dt} \ket{\psi(t)} = H \ket{\psi}.
 \end{equation}
@@ -646,12 +646,12 @@ The critical current is related to the normal resistance of the junction via the
 Ambegaokar - Baratoff Relation \cite{Ambegaokar1963}
 \qeqn{I_c R_n = \frac{\pi \Delta}{2 e} \text{tanh} \left( \frac{\Delta}{2 k_b T} \right)}
 
-The junction is a primarily inductive element that stores energy in the magnetic field.  %  We do work against the junction to increase its energy.
+%The junction is a primarily inductive element that stores energy in the magnetic field.  %  We do work against the junction to increase its energy.
 As the Josephson junction is dissipationless, work done on the junction is stored as energy within it.
 We can compute this energy from the Josephson relations above.
 \qeqn{-\frac{dU}{dt} = I V = \left( I_c \sin \phi(t) \right) \left( \frac{\hbar}{2 e}\frac{d\phi}{dt} \right) }
 \qeqn{- \int dU = I_c \frac{\hbar}{2 e} \int \sin \phi d\phi }
-\qeqn{U = E_J \cos \phi, E_J = I_c \frac{ \hbar }{2e} \label{jj_energy}}
+\qeqn{U = E_J \cos \phi, \quad E_J = I_c \frac{ \hbar }{2e} \label{jj_energy}}
 
 We can configure two Josephson junctions in parallel to form a DC squid.
 This device behaves as a Josephson junction with a critical current that is tunable with magnetic flux.
@@ -725,8 +725,8 @@ From perturbation theory, the first order correction to the energies for level n
 \qeqn{ \bra{n} | b^2 {b^{\dagger}}^2 + b^\dagger b b^\dagger b + b^\dagger b b b^\dagger + b b^\dagger b^\dagger b + b b^\dagger b b^\dagger + {b^{\dagger}}^2 b^2 | \ket{n}}
 \qeqn{ \delta E_n = Ec / 12 \left( 6n^2 + 6n + 3 \right) }
 
-Note that the anharmonicity decreases as we decrease the charging energy by increasing the capacitance.
-This design choice is to trade away nonlinearity to gain charge noise insensitivity.
+%Note that the anharmonicity decreases as we decrease the charging energy by increasing the capacitance.
+%This design choice is to trade away nonlinearity to gain charge noise insensitivity.
 } % end draftcomment
 
 \subsection{Nonlinearity of the transmon}
@@ -746,8 +746,8 @@ From perturbation theory, the first order correction to the energies for level n
 \qeqn{\delta E_n =\bra{n} \delta_H \ket{n} =  E_c / 12 \bra{n}|(a + a^\dagger)^4|\ket{n}}
 \qeqn{ \bra{n} | a^2 {a^{\dagger}}^2 + a^\dagger a a^\dagger a + a^\dagger a a a^\dagger + a a^\dagger a^\dagger a + a a^\dagger a a^\dagger + {a^{\dagger}}^2 a^2 | \ket{n}}
 \qeqn{ \delta E_n = E_c / 12 \left( 6n^2 + 6n + 3 \right) }
-Note that the anharmonicity decreases as we decrease the charging energy by increasing the capacitance.
-This design choice is to trade away nonlinearity to gain charge noise insensitivity.
+%Note that the anharmonicity decreases as we decrease the charging energy by increasing the capacitance.
+%This design choice is to trade away nonlinearity to gain charge noise insensitivity.
 
 
 \section{Composite gmon Hamiltonian.}
@@ -760,8 +760,8 @@ c) The resulting Bose-Hubbard Hamiltonian that describes the gmon dynamics.
 
 More complex devices, such as the gmon circuit employed in Chapter~\ref{ch:MBL}, can be understood by combining the concepts in the preceding sections \cite{Neill2018}.
 A circuit schematic for the gmon is shown in fig.~\ref{gmon_schematic}.
-The frequency detuning term $h_i n_i$ can be understood as the energy of an $LC$ harmonic oscillator with frequency $h_i$.
-The correction to the harmonic oscillator Hamiltonian due to the nonlinearity of the Josephson junctions is represented by term $\frac{U}{2} n (n-1)$.
+The frequency detuning term $h_i \hat{n}_i$ can be understood as the energy of an $LC$ harmonic oscillator with frequency $h_i$.
+The correction to the harmonic oscillator Hamiltonian due to the nonlinearity of the Josephson junctions is represented by term $\frac{U}{2} \hat{n} (\hat{n}-1)$.
 It should be noted that this can be thought of as a single term in an expansion, it gives $0$ for $n_i = 0, 1$ and $U$ for $n=2$.
 This expression is not valid for higher occupations.
 Finally, the hopping term $J (a_i a_{i+1}^\dagger + a_i^\dagger a_{i+1})$
