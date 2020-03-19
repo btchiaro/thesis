@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.2.18)  16 MAR 2020 17:44
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.2.18)  19 MAR 2020 02:22
  restricted system commands enabled.
 **main_UCSB_submission.tex
 (./main_UCSB_submission.tex
@@ -1734,11 +1734,15 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen341
 \titlewidthlast=\dimen342
 \titlewidthfirst=\dimen343
-))
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/cases/cases.sty
 Package: cases 2002/05/02 ver 2.5 
-) (./macros.tex)
-(./bib_files.tex) (./front_matter.tex)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styl
+es
+))
+(./macros.tex) (./bib_files.tex) (./front_matter.tex)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1752,7 +1756,11 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 LaTeX Warning: Unused global option(s):
     [oneside].
 
-(./main_UCSB_submission.aux)
+(./main_UCSB_submission.aux
+
+LaTeX Warning: Label `decoherence_effects' multiply defined.
+
+)
 \openout1 = main_UCSB_submission.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1771,8 +1779,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 6.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 6.
@@ -2141,13 +2148,13 @@ File: ch_Introduction/./PDF/lco_cap_coupled.pdf Graphic file (type pdf)
 Package luatex.def Info: ch_Introduction/./PDF/lco_cap_coupled.pdf  used on inpu
 t line 336.
 (luatex.def)             Requested size: 216.81pt x 150.80684pt.
- [21]
+ [21<./ch_Introduction/./PDF/lco_cap_coupled.pdf>]
 Overfull \hbox (43.92963pt too wide) detected at line 430
 [] \T1/lmr/m/n/12 = \OT1/cmr/bx/n/12 C[]Q \T1/lmr/m/n/12 = [] [] [] = [] []  []
 
  []
 
-[22<./ch_Introduction/./PDF/lco_cap_coupled.pdf>] [23]
+[22] [23]
 <ch_Introduction/./PDF/lco_ind_coupled.pdf, id=774, 220.72763pt x 146.28752pt>
 File: ch_Introduction/./PDF/lco_ind_coupled.pdf Graphic file (type pdf)
 <use ch_Introduction/./PDF/lco_ind_coupled.pdf>
@@ -2162,7 +2169,8 @@ File: ch_Introduction/./PDF/JJ_image_190908_634p.pdf Graphic file (type pdf)
 Package luatex.def Info: ch_Introduction/./PDF/JJ_image_190908_634p.pdf  used on
  input line 625.
 (luatex.def)             Requested size: 433.62pt x 230.08885pt.
- [27] [28<./ch_Introduction/./PDF/JJ_image_190908_634p.pdf>] [29] [30] [31]
+ [27]
+[28<./ch_Introduction/./PDF/JJ_image_190908_634p.pdf>] [29] [30] [31]
 <ch_Introduction/./PDF/fs1_190916_1029a.pdf, id=878, 1128.1046pt x 606.29208pt>
 File: ch_Introduction/./PDF/fs1_190916_1029a.pdf Graphic file (type pdf)
 <use ch_Introduction/./PDF/fs1_190916_1029a.pdf>
@@ -2173,66 +2181,34 @@ ut line 759.
 (./ch_Article_TiN_arxiv/arXiv-TiN-Submission_thesis.tex [33<./ch_Introduction/./
 PDF/fs1_190916_1029a.pdf>]
 Chapter 3.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 1.
-
 [34
 
 
-]
-Overfull \vbox (105.37988pt too high) has occurred while \output is active []
-
-
-[35] [36] [37]
-<ch_Article_TiN_arxiv/BasicProperties.jpg, id=938, 237.80328pt x 246.00757pt>
+] [35] [36]
+<ch_Article_TiN_arxiv/BasicProperties.jpg, id=934, 237.80328pt x 246.00757pt>
 File: ch_Article_TiN_arxiv/BasicProperties.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/BasicProperties.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/BasicProperties.jpg  used on input
  line 98.
 (luatex.def)             Requested size: 355.65944pt x 367.95938pt.
- [38] [39] [40<./ch_Article_TiN_arxiv/BasicProperties.jpg>]
-[41]
-<ch_Article_TiN_arxiv/SEM2-9.jpg, id=970, 242.26738pt x 94.4698pt>
+ [37] [38] [39<./ch_Article_TiN_arxiv/BasicProperties.jpg>]
+[40]
+<ch_Article_TiN_arxiv/SEM2-9.jpg, id=966, 242.26738pt x 94.4698pt>
 File: ch_Article_TiN_arxiv/SEM2-9.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/SEM2-9.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/SEM2-9.jpg  used on input line 119
 .
 (luatex.def)             Requested size: 355.65944pt x 138.6945pt.
- [42]
-<ch_Article_TiN_arxiv/Stress-XRD.jpg, id=981, 244.55975pt x 115.34244pt>
+ [41]
+<ch_Article_TiN_arxiv/Stress-XRD.jpg, id=977, 244.55975pt x 115.34244pt>
 File: ch_Article_TiN_arxiv/Stress-XRD.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/Stress-XRD.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/Stress-XRD.jpg  used on input line
  132.
 (luatex.def)             Requested size: 355.65944pt x 167.75967pt.
- [43<./ch_Article_TiN_arxiv/SEM2-9.jpg>] [44<./ch_Article_TiN_arxiv/Stress-XRD.j
-pg>] [45]
-<ch_Article_TiN_arxiv/Texture.jpg, id=1007, 194.6102pt x 288.95935pt>
+ [42<./ch_Article_TiN_arxiv/SEM2-9.jpg>] [43<./ch_Article_TiN_arxiv/Stress-XRD.j
+pg>] [44]
+<ch_Article_TiN_arxiv/Texture.jpg, id=1003, 194.6102pt x 288.95935pt>
 File: ch_Article_TiN_arxiv/Texture.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/Texture.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/Texture.jpg  used on input line 14
@@ -2242,7 +2218,7 @@ Package luatex.def Info: ch_Article_TiN_arxiv/Texture.jpg  used on input line 14
 
 LaTeX Warning: Float too large for page by 26.70782pt on input line 150.
 
-<ch_Article_TiN_arxiv/SIMS2-9.jpg, id=1008, 242.8272pt x 314.1336pt>
+<ch_Article_TiN_arxiv/SIMS2-9.jpg, id=1004, 242.8272pt x 314.1336pt>
 File: ch_Article_TiN_arxiv/SIMS2-9.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/SIMS2-9.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/SIMS2-9.jpg  used on input line 15
@@ -2251,31 +2227,31 @@ Package luatex.def Info: ch_Article_TiN_arxiv/SIMS2-9.jpg  used on input line 15
 
 LaTeX Warning: Float too large for page by 45.70073pt on input line 159.
 
-[46] [47<./ch_Article_TiN_arxiv/Texture.jpg>] [48<./ch_Article_TiN_arxiv/SIMS2-9
-.jpg>] [49]
-<ch_Article_TiN_arxiv/InPlaneDist.jpg, id=1035, 242.74998pt x 243.35324pt>
+[45] [46<./ch_Article_TiN_arxiv/Texture.jpg>] [47<./ch_Article_TiN_arxiv/SIMS2-9
+.jpg>] [48]
+<ch_Article_TiN_arxiv/InPlaneDist.jpg, id=1031, 242.74998pt x 243.35324pt>
 File: ch_Article_TiN_arxiv/InPlaneDist.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/InPlaneDist.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/InPlaneDist.jpg  used on input lin
 e 197.
 (luatex.def)             Requested size: 355.65944pt x 356.58498pt.
- [50]
-<ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg, id=1044, 241.42282pt x 210.29485pt>
+ [49]
+<ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg, id=1039, 241.42282pt x 210.29485pt>
 File: ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/InPlaneDist-SIMS.jpg  used on inpu
 t line 207.
 (luatex.def)             Requested size: 355.65944pt x 309.81958pt.
- [51] [52<./ch_Article_TiN_arxiv/InPlaneDist.jpg>] [53<./ch_Article_TiN_arxiv/In
+ [50] [51<./ch_Article_TiN_arxiv/InPlaneDist.jpg>] [52<./ch_Article_TiN_arxiv/In
 PlaneDist-SIMS.jpg>]
-<ch_Article_TiN_arxiv/TS-change.jpg, id=1060, 212.82852pt x 166.61916pt>
+<ch_Article_TiN_arxiv/TS-change.jpg, id=1056, 212.82852pt x 166.61916pt>
 File: ch_Article_TiN_arxiv/TS-change.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/TS-change.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/TS-change.jpg  used on input line 
 218.
 (luatex.def)             Requested size: 355.65944pt x 278.45638pt.
- [54] [55<./ch_Article_TiN_arxiv/TS-change.jpg>] [56] [57] [58]
-<ch_Article_TiN_arxiv/Qi-Np-Strain.jpg, id=1092, 241.48148pt x 166.5948pt>
+ [53] [54<./ch_Article_TiN_arxiv/TS-change.jpg>] [55] [56] [57]
+<ch_Article_TiN_arxiv/Qi-Np-Strain.jpg, id=1088, 241.48148pt x 166.5948pt>
 File: ch_Article_TiN_arxiv/Qi-Np-Strain.jpg Graphic file (type jpg)
 <use ch_Article_TiN_arxiv/Qi-Np-Strain.jpg>
 Package luatex.def Info: ch_Article_TiN_arxiv/Qi-Np-Strain.jpg  used on input li
@@ -2286,14 +2262,14 @@ Overfull \hbox (21.62407pt too wide) in paragraph at lines 234--235
  [] 
  []
 
-[59] [60<./ch_Article_TiN_arxiv/Qi-Np-Strain.jpg>] [61] [62])
-(./ch_Article_Vortex_arxiv/DielectricFluxTrap_arxiv_thesis.tex [63]
+[58] [59<./ch_Article_TiN_arxiv/Qi-Np-Strain.jpg>] [60])
+(./ch_Article_Vortex_arxiv/DielectricFluxTrap_arxiv_thesis.tex [61] [62]
 Chapter 4.
-[64
+[63
 
 
-] [65] [66]
-<ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpSchematic_arxiv_Rev2.pdf, id=1138
+] [64] [65]
+<ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpSchematic_arxiv_Rev2.pdf, id=1134
 , 412.54124pt x 950.55125pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpSchematic_arxiv_Rev2.pdf Gra
 phic file (type pdf)
@@ -2305,10 +2281,10 @@ _arxiv_Rev2.pdf  used on input line 86.
 
 LaTeX Warning: Float too large for page by 2.90703pt on input line 92.
 
-[67] [68<./ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpSchematic_arxiv_Rev2.pd
+[66] [67<./ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpSchematic_arxiv_Rev2.pd
 f>]
 <ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpData_arxiv_Rev2c_proof_revision1.
-pdf, id=1153, 728.7225pt x 604.2575pt>
+pdf, id=1149, 728.7225pt x 604.2575pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpData_arxiv_Rev2c_proof_revis
 ion1.pdf Graphic file (type pdf)
 <use ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpData_arxiv_Rev2c_proof_revisi
@@ -2316,74 +2292,78 @@ on1.pdf>
 Package luatex.def Info: ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpData_arxi
 v_Rev2c_proof_revision1.pdf  used on input line 104.
 (luatex.def)             Requested size: 400.0pt x 331.6788pt.
- [69] [70<./ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpData_arxiv_Rev2c_proof
-_revision1.pdf>] [71] [72] [73] [74])
+ [68] [69<./ch_Article_Vortex_arxiv/DielectricFluxTrap_ExpData_arxiv_Rev2c_proof
+_revision1.pdf>] [70] [71] [72] [73])
 (./ch_Article_MBL_Submitted/MBL_Science_v1_main.tex
 Chapter 5.
-[75
+[74
 
 
 
 ]
-<ch_Article_MBL_Submitted/./PDF/fig_1.pdf, id=2561, 253.33847pt x 273.06717pt>
+<ch_Article_MBL_Submitted/./PDF/fig_1.pdf, id=2558, 253.33847pt x 273.06717pt>
 File: ch_Article_MBL_Submitted/./PDF/fig_1.pdf Graphic file (type pdf)
 <use ch_Article_MBL_Submitted/./PDF/fig_1.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/./PDF/fig_1.pdf  used on input
  line 34.
 (luatex.def)             Requested size: 312.9803pt x 337.38728pt.
- [76
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[75
 Missing character: There is no “ (U+201C) in font ec-lmr12!
 Missing character: There is no ” (U+201D) in font ec-lmr12!
-] [77<./ch_Article_MBL_Submitted/./PDF/fig_1.pdf>] [78]
+] [76<./ch_Article_MBL_Submitted/./PDF/fig_1.pdf>] [77]
 <ch_Article_MBL_Submitted/./PDF/fig_2.pdf, id=3115, 517.8045pt x 143.40576pt>
 File: ch_Article_MBL_Submitted/./PDF/fig_2.pdf Graphic file (type pdf)
 <use ch_Article_MBL_Submitted/./PDF/fig_2.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/./PDF/fig_2.pdf  used on input
- line 72.
+ line 73.
 (luatex.def)             Requested size: 455.24408pt x 126.08365pt.
 
-Overfull \hbox (21.62407pt too wide) in paragraph at lines 72--74
+Overfull \hbox (21.62407pt too wide) in paragraph at lines 73--75
  [][] 
  []
 
-[79] [80<./ch_Article_MBL_Submitted/./PDF/fig_2.pdf>] [81]
-<ch_Article_MBL_Submitted/./PDF/fig_3.pdf, id=3137, 250.12144pt x 349.7065pt>
+[78] [79<./ch_Article_MBL_Submitted/./PDF/fig_2.pdf>] [80]
+<ch_Article_MBL_Submitted/./PDF/fig_3.pdf, id=3141, 250.12144pt x 349.7065pt>
 File: ch_Article_MBL_Submitted/./PDF/fig_3.pdf Graphic file (type pdf)
 <use ch_Article_MBL_Submitted/./PDF/fig_3.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/./PDF/fig_3.pdf  used on input
- line 86.
+ line 88.
 (luatex.def)             Requested size: 312.9803pt x 437.63896pt.
- [82] [83] [84<./ch_Article_MBL_Submitted/./PDF/fig_3.pdf>]
-<ch_Article_MBL_Submitted/./PDF/fig_4.pdf, id=3175, 250.82307pt x 465.11967pt>
+ [81] [82] [83<./ch_Article_MBL_Submitted/./PDF/fig_3.pdf>]
+<ch_Article_MBL_Submitted/./PDF/fig_4.pdf, id=3181, 250.82307pt x 465.11967pt>
 File: ch_Article_MBL_Submitted/./PDF/fig_4.pdf Graphic file (type pdf)
 <use ch_Article_MBL_Submitted/./PDF/fig_4.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/./PDF/fig_4.pdf  used on input
- line 96.
-(luatex.def)             Requested size: 312.9803pt x 580.40456pt.
+ line 99.
+(luatex.def)             Requested size: 256.0748pt x 474.87709pt.
 
 
-LaTeX Warning: Float too large for page by 111.5833pt on input line 101.
+LaTeX Warning: Float too large for page by 6.05583pt on input line 105.
 
-[85
+[84
 
-] [86] [87<./ch_Article_MBL_Submitted/./PDF/fig_4.pdf>]
-<ch_Article_MBL_Submitted/./PDF/fig_5.pdf, id=3199, 610.58817pt x 525.17708pt>
+] [85] [86<./ch_Article_MBL_Submitted/./PDF/fig_4.pdf>]
+<ch_Article_MBL_Submitted/./PDF/fig_5.pdf, id=3208, 610.58817pt x 525.17708pt>
 File: ch_Article_MBL_Submitted/./PDF/fig_5.pdf Graphic file (type pdf)
 <use ch_Article_MBL_Submitted/./PDF/fig_5.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/./PDF/fig_5.pdf  used on input
- line 113.
+ line 117.
 (luatex.def)             Requested size: 426.79134pt x 367.10057pt.
- [88
+ [87
 
-] [89] [90])
+] [88] [89])
 (./ch_Article_Vortex_arxiv/DielectricFluxTrap_arxiv_thesis_supplement.tex
-[91] [92<./ch_Article_MBL_Submitted/./PDF/fig_5.pdf>]
+[90] [91<./ch_Article_MBL_Submitted/./PDF/fig_5.pdf>]
 Appendix A.
-[93
+[92
 
 
 ]
-<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_basicfit.jpg, id=3232, 561
+<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_basicfit.jpg, id=3246, 561
 .48232pt x 254.7578pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_basicfit.jpg Graphic 
 file (type jpg)
@@ -2391,8 +2371,8 @@ file (type jpg)
 Package luatex.def Info: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_ba
 sicfit.jpg  used on input line 34.
 (luatex.def)             Requested size: 426.79134pt x 193.64903pt.
- [94] [95<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_basicfit.jpg>]
-<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf, id=3249, 14
+ [93] [94<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_basicfit.jpg>]
+<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf, id=3263, 14
 39.3775pt x 778.91pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf Graphic
  file (type pdf)
@@ -2400,10 +2380,10 @@ File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf Graphic
 Package luatex.def Info: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qn
 ovortex.pdf  used on input line 49.
 (luatex.def)             Requested size: 426.79134pt x 230.9531pt.
- [96
+ [95
 
-] [97<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf>]
-<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_meander.jpg, id=3833, 1292
+] [96<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_qnovortex.pdf>]
+<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_meander.jpg, id=3847, 1292
 .83pt x 969.6225pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_meander.jpg Graphic f
 ile (type jpg)
@@ -2411,8 +2391,8 @@ ile (type jpg)
 Package luatex.def Info: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_me
 ander.jpg  used on input line 60.
 (luatex.def)             Requested size: 426.79134pt x 320.09477pt.
- [98] [99<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_meander.jpg>]
-<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf, id=3846, 15
+ [97] [98<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_meander.jpg>]
+<ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf, id=3860, 15
 48.78625pt x 794.97pt>
 File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf Graphic
  file (type pdf)
@@ -2420,13 +2400,14 @@ File: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf Graphic
 Package luatex.def Info: ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fu
 llfield.pdf  used on input line 71.
 (luatex.def)             Requested size: 426.79134pt x 219.06018pt.
- [100<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf>]) (./ch_analog_control/analog_control_content_v1.tex [101]
+ [99<./ch_Article_Vortex_arxiv/DielectricFluxTrap_Supp_Rev2_fullfield.pdf>]) (.
+/ch_analog_control/analog_control_content_v1.tex [100]
 Appendix B.
-[102
+[101
 
 
-] [103]
-<ch_analog_control/./PDF/circuit_modelling_thesis.pdf, id=3917, 1123.71822pt x 6
+] [102]
+<ch_analog_control/./PDF/circuit_modelling_thesis.pdf, id=3899, 1123.71822pt x 6
 01.82343pt>
 File: ch_analog_control/./PDF/circuit_modelling_thesis.pdf Graphic file (type pd
 f)
@@ -2444,20 +2425,20 @@ Overfull \hbox (4.62445pt too wide) in paragraph at lines 76--91
  [][] 
  []
 
-[104<./ch_analog_control/./PDF/circuit_modelling_thesis.pdf>] [105] [106]
-[107] [108]
+[103<./ch_analog_control/./PDF/circuit_modelling_thesis.pdf>] [104] [105]
+[106] [107]
 Overfull \hbox (11.9458pt too wide) detected at line 337
 [] [] [] \T1/lmr/m/n/12 = [] [] = \OML/cmm/m/it/12 '[]\T1/lmr/m/n/12 .
  []
 
-[109]
+[108]
 Overfull \hbox (41.01793pt too wide) detected at line 381
 [] [] [] \T1/lmr/m/n/12 = [] [] = \OML/cmm/m/it/12 '[] \T1/lmr/m/n/12 + \OML/cm
 m/m/it/12 '[]
  []
 
-[110]
-<ch_analog_control/./PDF/mbr_numerics_3qubit_o_psi0.pdf, id=3999, 1008.00589pt x
+[109]
+<ch_analog_control/./PDF/mbr_numerics_3qubit_o_psi0.pdf, id=3981, 1008.00589pt x
  511.87538pt>
 File: ch_analog_control/./PDF/mbr_numerics_3qubit_o_psi0.pdf Graphic file (type 
 pdf)
@@ -2473,8 +2454,8 @@ Overfull \hbox (277.69888pt too wide) in paragraph at lines 406--407
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[111] [112<./ch_analog_control/./PDF/mbr_numerics_3qubit_o_psi0.pdf>]
-<ch_analog_control/./PDF/mbr_peaks_5q_data_191016_1057a.pdf, id=4043, 1084.58202
+[110] [111<./ch_analog_control/./PDF/mbr_numerics_3qubit_o_psi0.pdf>]
+<ch_analog_control/./PDF/mbr_peaks_5q_data_191016_1057a.pdf, id=4025, 1084.58202
 pt x 566.71826pt>
 File: ch_analog_control/./PDF/mbr_peaks_5q_data_191016_1057a.pdf Graphic file (t
 ype pdf)
@@ -2482,7 +2463,7 @@ ype pdf)
 Package luatex.def Info: ch_analog_control/./PDF/mbr_peaks_5q_data_191016_1057a.
 pdf  used on input line 420.
 (luatex.def)             Requested size: 426.79134pt x 223.00813pt.
-<ch_analog_control/./PDF/fourier_amp_2d_tv_pre_v2.pdf, id=4045, 957.19405pt x 52
+<ch_analog_control/./PDF/fourier_amp_2d_tv_pre_v2.pdf, id=4027, 957.19405pt x 52
 6.90448pt>
 File: ch_analog_control/./PDF/fourier_amp_2d_tv_pre_v2.pdf Graphic file (type pd
 f)
@@ -2494,18 +2475,18 @@ sed on input line 438.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[113
+[112
 
 <./ch_analog_control/./PDF/mbr_peaks_5q_data_191016_1057a.pdf>]
-<ch_analog_control/./PDF/bias_configurations.pdf, id=4072, 1002.51338pt x 603.47
+<ch_analog_control/./PDF/bias_configurations.pdf, id=4054, 1002.51338pt x 603.47
 057pt>
 File: ch_analog_control/./PDF/bias_configurations.pdf Graphic file (type pdf)
 <use ch_analog_control/./PDF/bias_configurations.pdf>
 Package luatex.def Info: ch_analog_control/./PDF/bias_configurations.pdf  used o
 n input line 459.
 (luatex.def)             Requested size: 426.79134pt x 256.90898pt.
- [114<./ch_analog_control/./PDF/fourier_amp_2d_tv_pre_v2.pdf>]
-<ch_analog_control/./PDF/tv_error_during_opt.pdf, id=4127, 852.11348pt x 448.023
+ [113<./ch_analog_control/./PDF/fourier_amp_2d_tv_pre_v2.pdf>]
+<ch_analog_control/./PDF/tv_error_during_opt.pdf, id=4109, 852.11348pt x 448.023
 82pt>
 File: ch_analog_control/./PDF/tv_error_during_opt.pdf Graphic file (type pdf)
 <use ch_analog_control/./PDF/tv_error_during_opt.pdf>
@@ -2516,7 +2497,7 @@ n input line 469.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<ch_analog_control/./PDF/fourier_amp_2d_tv_post_v2.pdf, id=4129, 957.19405pt x 5
+<ch_analog_control/./PDF/fourier_amp_2d_tv_post_v2.pdf, id=4111, 957.19405pt x 5
 25.36473pt>
 File: ch_analog_control/./PDF/fourier_amp_2d_tv_post_v2.pdf Graphic file (type p
 df)
@@ -2524,11 +2505,11 @@ df)
 Package luatex.def Info: ch_analog_control/./PDF/fourier_amp_2d_tv_post_v2.pdf  
 used on input line 490.
 (luatex.def)             Requested size: 426.79134pt x 234.2475pt.
-[115<./ch_analog_control/./PDF/bias_configurations.pdf>]
+[114<./ch_analog_control/./PDF/bias_configurations.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<ch_analog_control/./PDF/mbr_9q_validation.pdf, id=4150, 1104.53658pt x 534.0662
+<ch_analog_control/./PDF/mbr_9q_validation.pdf, id=4132, 1104.53658pt x 534.0662
 5pt>
 File: ch_analog_control/./PDF/mbr_9q_validation.pdf Graphic file (type pdf)
 <use ch_analog_control/./PDF/mbr_9q_validation.pdf>
@@ -2538,11 +2519,11 @@ input line 501.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[116<./ch_analog_control/./PDF/tv_error_during_opt.pdf>] [117<./ch_analog_contro
+[115<./ch_analog_control/./PDF/tv_error_during_opt.pdf>] [116<./ch_analog_contro
 l/./PDF/fourier_amp_2d_tv_post_v2.pdf><./ch_analog_control/./PDF/mbr_9q_validati
 on.pdf>]
 Underfull \hbox (badness 1424) in paragraph at lines 821--821
-|[] \T1/lmr/bx/n/17.28 Con-nec-tion be-tween many-body Ram-sey
+[] \T1/lmr/bx/n/17.28 Con-nec-tion be-tween many-body Ram-sey
  []
 
 
@@ -2550,10 +2531,10 @@ Underfull \hbox (badness 2689) in paragraph at lines 821--821
 \T1/lmr/bx/n/17.28 spec-troscopy and uni-tary to-mog-ra-phy (2
  []
 
-[118
+[117
 
 ]
-<ch_analog_control/./PDF/unitary_tomography_method.PDF, id=4264, 719.94771pt x 6
+<ch_analog_control/./PDF/unitary_tomography_method.PDF, id=4246, 719.94771pt x 6
 18.11328pt>
 File: ch_analog_control/./PDF/unitary_tomography_method.PDF Graphic file (type p
 df)
@@ -2565,436 +2546,429 @@ used on input line 878.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[119] [120<./ch_analog_control/./PDF/unitary_tomography_method.PDF>] [121])
-(./ch_Article_MBL_Submitted/supplement/MBL_Science_v1_supplement.tex [122]
+[118] [119<./ch_analog_control/./PDF/unitary_tomography_method.PDF>] [120])
+(./ch_Article_MBL_Submitted/supplement/MBL_Science_v1_supplement.tex [121]
 Appendix C.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 10.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 13.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 10.
+(hyperref)                removed on input line 13.
 
-<ch_Article_MBL_Submitted/supplement/./PDF/fs1_190916_1029a.pdf, id=4311, 1128.1
+<ch_Article_MBL_Submitted/supplement/./PDF/fs1_190916_1029a.pdf, id=4293, 1128.1
 046pt x 606.29208pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/fs1_190916_1029a.pdf Graphic fil
 e (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/fs1_190916_1029a.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/fs1_190916_10
-29a.pdf  used on input line 25.
+29a.pdf  used on input line 19.
 (luatex.def)             Requested size: 346.89732pt x 186.4314pt.
-[123
+[122
 
 
 ]
-Overfull \vbox (48.61217pt too high) has occurred while \output is active []
-
-
-[124]
-<ch_Article_MBL_Submitted/supplement/./PDF/RB_supp_190530_1105a.pdf, id=4320, 10
+<ch_Article_MBL_Submitted/supplement/./PDF/RB_supp_190530_1105a.pdf, id=4307, 10
 24.29674pt x 546.13037pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/RB_supp_190530_1105a.pdf Graphic
  file (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/RB_supp_190530_1105a.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/RB_supp_19053
-0_1105a.pdf  used on input line 34.
+0_1105a.pdf  used on input line 39.
 (luatex.def)             Requested size: 398.33858pt x 212.38165pt.
- [125<./ch_Article_MBL_Submitted/supplement/./PDF/fs1_190916_1029a.pdf>]
+ [123<./ch_Article_MBL_Submitted/supplement/./PDF/fs1_190916_1029a.pdf>]
 <ch_Article_MBL_Submitted/supplement/./PDF/random_hamiltonian_calibration_data_1
-90508_549p.pdf, id=4343, 1104.53658pt x 486.5347pt>
+90508_549p.pdf, id=4333, 1104.53658pt x 486.5347pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/random_hamiltonian_calibration_d
 ata_190508_549p.pdf Graphic file (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/random_hamiltonian_calibration_da
 ta_190508_549p.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/random_hamilt
-onian_calibration_data_190508_549p.pdf  used on input line 44.
+onian_calibration_data_190508_549p.pdf  used on input line 50.
 (luatex.def)             Requested size: 390.25536pt x 171.90068pt.
 
-[126<./ch_Article_MBL_Submitted/supplement/./PDF/RB_supp_190530_1105a.pdf>]
-[127<./ch_Article_MBL_Submitted/supplement/./PDF/random_hamiltonian_calibration_
+[124<./ch_Article_MBL_Submitted/supplement/./PDF/RB_supp_190530_1105a.pdf>]
+[125<./ch_Article_MBL_Submitted/supplement/./PDF/random_hamiltonian_calibration_
 data_190508_549p.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 65.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 72.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 65.
+(hyperref)                removed on input line 72.
 
-<ch_Article_MBL_Submitted/supplement/./PDF/fs4_190625_150p.pdf, id=4396, 719.379
+<ch_Article_MBL_Submitted/supplement/./PDF/fs4_190625_150p.pdf, id=4388, 719.379
 61pt x 641.05096pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/fs4_190625_150p.pdf Graphic file
  (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/fs4_190625_150p.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/fs4_190625_15
-0p.pdf  used on input line 70.
+0p.pdf  used on input line 77.
 (luatex.def)             Requested size: 346.89732pt x 309.1193pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[128] [129<./ch_Article_MBL_Submitted/supplement/./PDF/fs4_190625_150p.pdf>]
-<ch_Article_MBL_Submitted/supplement/./PDF/fs5_190919_1208p.pdf, id=4845, 753.41
+[126]
+<ch_Article_MBL_Submitted/supplement/./PDF/fs5_190919_1208p.pdf, id=4400, 753.41
 472pt x 590.32245pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/fs5_190919_1208p.pdf Graphic fil
 e (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/fs5_190919_1208p.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/fs5_190919_12
-08p.pdf  used on input line 84.
+08p.pdf  used on input line 92.
 (luatex.def)             Requested size: 483.69684pt x 378.98508pt.
 
-Overfull \hbox (50.07683pt too wide) in paragraph at lines 84--90
+Overfull \hbox (50.07683pt too wide) in paragraph at lines 92--99
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[130] [131] [132<./ch_Article_MBL_Submitted/supplement/./PDF/fs5_190919_1208p.pd
-f>]
-<ch_Article_MBL_Submitted/supplement/./PDF/fs6_190919_1238p.pdf, id=4870, 1072.0
+[127<./ch_Article_MBL_Submitted/supplement/./PDF/fs4_190625_150p.pdf>] [128]
+<ch_Article_MBL_Submitted/supplement/./PDF/fs6_190919_1238p.pdf, id=4857, 1072.0
 251pt x 559.96298pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/fs6_190919_1238p.pdf Graphic fil
 e (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/fs6_190919_1238p.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/fs6_190919_12
-38p.pdf  used on input line 119.
+38p.pdf  used on input line 128.
 (luatex.def)             Requested size: 426.79134pt x 222.93027pt.
 
+[129] [130<./ch_Article_MBL_Submitted/supplement/./PDF/fs5_190919_1208p.pdf>]
+[131<./ch_Article_MBL_Submitted/supplement/./PDF/fs6_190919_1238p.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 132.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 144.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 132.
+(hyperref)                removed on input line 144.
 
-[133
-
-<./ch_Article_MBL_Submitted/supplement/./PDF/fs6_190919_1238p.pdf>]
-<ch_Article_MBL_Submitted/supplement/./PDF/schem2.pdf, id=4882, 539.21451pt x 11
+<ch_Article_MBL_Submitted/supplement/./PDF/schem2.pdf, id=4890, 539.21451pt x 11
 5.632pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/schem2.pdf Graphic file (type pd
 f)
 <use ch_Article_MBL_Submitted/supplement/./PDF/schem2.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/schem2.pdf  u
-sed on input line 145.
+sed on input line 157.
 (luatex.def)             Requested size: 260.17465pt x 55.79561pt.
+[132
 
-[134<./ch_Article_MBL_Submitted/supplement/./PDF/schem2.pdf>] [135]
+<./ch_Article_MBL_Submitted/supplement/./PDF/schem2.pdf>] [133]
 <ch_Article_MBL_Submitted/supplement/./PDF/nimax_L9_N4_nmax3_J04_U16_mu4_tMax125
-_nReals50_nSReals1_mod_200302_1215p.pdf, id=4913, 361.35pt x 240.9pt>
+_nReals50_nSReals1_mod_200302_1215p.pdf, id=4922, 361.35pt x 240.9pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/nimax_L9_N4_nmax3_J04_U16_mu4_tM
 ax125_nReals50_nSReals1_mod_200302_1215p.pdf Graphic file (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/nimax_L9_N4_nmax3_J04_U16_mu4_tMa
 x125_nReals50_nSReals1_mod_200302_1215p.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/nimax_L9_N4_n
 max3_J04_U16_mu4_tMax125_nReals50_nSReals1_mod_200302_1215p.pdf  used on input l
-ine 177.
+ine 189.
 (luatex.def)             Requested size: 369.88582pt x 246.59326pt.
- [136]
-[137<./ch_Article_MBL_Submitted/supplement/./PDF/nimax_L9_N4_nmax3_J04_U16_mu4_t
-Max125_nReals50_nSReals1_mod_200302_1215p.pdf>] [138]
+ [134]
+[135<./ch_Article_MBL_Submitted/supplement/./PDF/nimax_L9_N4_nmax3_J04_U16_mu4_t
+Max125_nReals50_nSReals1_mod_200302_1215p.pdf>]
 <ch_Article_MBL_Submitted/supplement/./PDF/echo_numerics_comparison_190919_944a.
-pdf, id=4946, 460.07082pt x 343.67897pt>
+pdf, id=4951, 460.07082pt x 343.67897pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/echo_numerics_comparison_190919_
 944a.pdf Graphic file (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/echo_numerics_comparison_190919_9
 44a.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/echo_numerics
-_comparison_190919_944a.pdf  used on input line 191.
+_comparison_190919_944a.pdf  used on input line 203.
 (luatex.def)             Requested size: 398.33858pt x 297.56664pt.
- [139] [140<./ch_Article_MBL_Submitted/supplement/./PDF/echo_numerics_comparison
-_190919_944a.pdf>]
-<ch_Article_MBL_Submitted/supplement/./PDF/fs9_190919_513p.pdf, id=4983, 870.612
+<ch_Article_MBL_Submitted/supplement/./PDF/fs9_190919_513p.pdf, id=4954, 870.612
 58pt x 633.58208pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/fs9_190919_513p.pdf Graphic file
  (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/fs9_190919_513p.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/fs9_190919_51
-3p.pdf  used on input line 205.
+3p.pdf  used on input line 218.
 (luatex.def)             Requested size: 398.33858pt x 289.88513pt.
-
-[141] [142<./ch_Article_MBL_Submitted/supplement/./PDF/fs9_190919_513p.pdf>]
-[143]
+ [136] [137<./ch_Article_MBL_Submitted/supplement/./PDF/echo_numerics_comparison
+_190919_944a.pdf>] [138<./ch_Article_MBL_Submitted/supplement/./PDF/fs9_190919_5
+13p.pdf>] [139] [140]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 282.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 295.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 282.
+(hyperref)                removed on input line 295.
 
 <ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_superposition_linear.pdf,
- id=5043, 538.21774pt x 607.88708pt>
+ id=5053, 538.21774pt x 607.88708pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_superposition_linear
 .pdf Graphic file (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_superposition_linear.
 pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_s
-uperposition_linear.pdf  used on input line 286.
+uperposition_linear.pdf  used on input line 299.
 (luatex.def)             Requested size: 398.33858pt x 449.92215pt.
 
-LaTeX Warning: Float too large for page by 80.50093pt on input line 299.
+LaTeX Warning: Float too large for page by 23.25093pt on input line 315.
 
-[144] [145] [146<./ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_superpo
-sition_linear.pdf>]
-<ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_bell_linear.pdf, id=5070,
+<ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_bell_linear.pdf, id=5056,
  493.57097pt x 231.95558pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_bell_linear.pdf Grap
 hic file (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_bell_linear.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_b
-ell_linear.pdf  used on input line 307.
+ell_linear.pdf  used on input line 323.
 (luatex.def)             Requested size: 398.33858pt x 187.20341pt.
 <ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_superposition_log.pdf, id
-=5071, 519.25996pt x 586.9177pt>
+=5057, 519.25996pt x 586.9177pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_superposition_log.pd
 f Graphic file (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_superposition_log.pdf
 >
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_s
-uperposition_log.pdf  used on input line 319.
+uperposition_log.pdf  used on input line 338.
 (luatex.def)             Requested size: 398.33858pt x 450.24435pt.
- [147
-
-<./ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_bell_linear.pdf>] [148
-<./ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_superposition_log.pdf>]
-<ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_bell_log.pdf, id=5100, 64
+<ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_bell_log.pdf, id=5060, 64
 8.81699pt x 237.14597pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_bell_log.pdf Graphic
  file (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_bell_log.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_b
-ell_log.pdf  used on input line 327.
+ell_log.pdf  used on input line 347.
 (luatex.def)             Requested size: 554.82874pt x 202.79085pt.
 
-Overfull \hbox (152.27254pt too wide) in paragraph at lines 326--328
+Overfull \hbox (152.27254pt too wide) in paragraph at lines 346--348
  []|  [] 
  []
 
-[149]
-<ch_Article_MBL_Submitted/supplement/./PDF/num_svn_long_time.pdf, id=5105, 517.5
+<ch_Article_MBL_Submitted/supplement/./PDF/num_svn_long_time.pdf, id=5063, 517.5
 2747pt x 375.73776pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/num_svn_long_time.pdf Graphic fi
 le (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/num_svn_long_time.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/num_svn_long_
-time.pdf  used on input line 334.
+time.pdf  used on input line 355.
 (luatex.def)             Requested size: 398.33858pt x 289.21577pt.
- [150<./ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_bell_log.pdf>] [1
-51<./ch_Article_MBL_Submitted/supplement/./PDF/num_svn_long_time.pdf>]
+[141] [142] [143<./ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_superpo
+sition_linear.pdf>] [144<./ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num
+_bell_linear.pdf>] [145<./ch_Article_MBL_Submitted/supplement/./PDF/dat_cor_num_
+superposition_log.pdf>] [146<./ch_Article_MBL_Submitted/supplement/./PDF/dat_cor
+_num_bell_log.pdf>] [147<./ch_Article_MBL_Submitted/supplement/./PDF/num_svn_lon
+g_time.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 340.
+(hyperref)                removing `math shift' on input line 362.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 340.
+(hyperref)                removing `math shift' on input line 362.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 340.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 362.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 340.
+(hyperref)                removed on input line 362.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 344.
+(hyperref)                removing `math shift' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 344.
+(hyperref)                removing `subscript' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 344.
+(hyperref)                removing `superscript' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 344.
+(hyperref)                removing `math shift' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 344.
+(hyperref)                removing `math shift' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 344.
+(hyperref)                removing `math shift' on input line 366.
 
-<ch_Article_MBL_Submitted/supplement/./PDF/eta_svn.pdf, id=5136, 737.46016pt x 3
+<ch_Article_MBL_Submitted/supplement/./PDF/eta_svn.pdf, id=5149, 737.46016pt x 3
 78.55627pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/eta_svn.pdf Graphic file (type p
 df)
 <use ch_Article_MBL_Submitted/supplement/./PDF/eta_svn.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/eta_svn.pdf  
-used on input line 348.
+used on input line 370.
 (luatex.def)             Requested size: 569.05511pt x 292.11307pt.
 
-Overfull \hbox (194.95168pt too wide) in paragraph at lines 347--349
+Overfull \hbox (194.95168pt too wide) in paragraph at lines 369--371
  []|  [] 
  []
 
-[152] [153<./ch_Article_MBL_Submitted/supplement/./PDF/eta_svn.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 352.
+(hyperref)                removing `math shift' on input line 374.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 352.
+(hyperref)                removing `math shift' on input line 374.
 
-<ch_Article_MBL_Submitted/supplement/./PDF/eta_eof.pdf, id=5155, 749.8233pt x 38
+<ch_Article_MBL_Submitted/supplement/./PDF/eta_eof.pdf, id=5150, 749.8233pt x 38
 2.8985pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/eta_eof.pdf Graphic file (type p
 df)
 <use ch_Article_MBL_Submitted/supplement/./PDF/eta_eof.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/eta_eof.pdf  
-used on input line 356.
+used on input line 378.
 (luatex.def)             Requested size: 569.05511pt x 290.59105pt.
 
-Overfull \hbox (194.95168pt too wide) in paragraph at lines 355--359
+Overfull \hbox (194.95168pt too wide) in paragraph at lines 377--381
  []|  [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 362.
+(hyperref)                removing `math shift' on input line 384.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sigma' on input line 362.
+(hyperref)                removing `\sigma' on input line 384.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 362.
+(hyperref)                removing `superscript' on input line 384.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 362.
+(hyperref)                removing `math shift' on input line 384.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 362.
+(hyperref)                removing `math shift' on input line 384.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 362.
+(hyperref)                removing `math shift' on input line 384.
 
-<ch_Article_MBL_Submitted/supplement/./PDF/eta_ziiz.pdf, id=5156, 779.19304pt x 
+<ch_Article_MBL_Submitted/supplement/./PDF/eta_ziiz.pdf, id=5151, 779.19304pt x 
 399.97731pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/eta_ziiz.pdf Graphic file (type 
 pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/eta_ziiz.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/eta_ziiz.pdf 
- used on input line 366.
+ used on input line 388.
 (luatex.def)             Requested size: 569.05511pt x 292.10916pt.
 
-Overfull \hbox (194.95168pt too wide) in paragraph at lines 365--368
+Overfull \hbox (194.95168pt too wide) in paragraph at lines 387--390
  []|  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[154<./ch_Article_MBL_Submitted/supplement/./PDF/eta_eof.pdf>]
+[148
+
+] [149<./ch_Article_MBL_Submitted/supplement/./PDF/eta_svn.pdf>] [150<./ch_Artic
+le_MBL_Submitted/supplement/./PDF/eta_eof.pdf>] [151<./ch_Article_MBL_Submitted/
+supplement/./PDF/eta_ziiz.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 372.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 394.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 372.
+(hyperref)                removed on input line 394.
 
-<ch_Article_MBL_Submitted/supplement/./PDF/f6_190716_1129a.pdf, id=5171, 253.572
+<ch_Article_MBL_Submitted/supplement/./PDF/f6_190716_1129a.pdf, id=5199, 253.572
 34pt x 453.41496pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/f6_190716_1129a.pdf Graphic file
  (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/f6_190716_1129a.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/f6_190716_112
-9a.pdf  used on input line 376.
+9a.pdf  used on input line 398.
 (luatex.def)             Requested size: 253.22952pt x 452.81192pt.
 
-LaTeX Warning: Float too large for page by 68.8907pt on input line 386.
+LaTeX Warning: Float too large for page by 14.1407pt on input line 409.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[155<./ch_Article_MBL_Submitted/supplement/./PDF/eta_ziiz.pdf>] [156] [157]
-[158<./ch_Article_MBL_Submitted/supplement/./PDF/f6_190716_1129a.pdf>]
+[152
+
+] [153] [154<./ch_Article_MBL_Submitted/supplement/./PDF/f6_190716_1129a.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 413.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 436.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.95871pt
-(hyperref)                removed on input line 413.
+(hyperref)                removed on input line 436.
 
 <ch_Article_MBL_Submitted/supplement/./PDF/population_2d_190915_1018a.pdf, id=52
-15, 612.56453pt x 446.20801pt>
+31, 612.56453pt x 446.20801pt>
 File: ch_Article_MBL_Submitted/supplement/./PDF/population_2d_190915_1018a.pdf G
 raphic file (type pdf)
 <use ch_Article_MBL_Submitted/supplement/./PDF/population_2d_190915_1018a.pdf>
 Package luatex.def Info: ch_Article_MBL_Submitted/supplement/./PDF/population_2d
-_190915_1018a.pdf  used on input line 417.
+_190915_1018a.pdf  used on input line 440.
 (luatex.def)             Requested size: 497.92322pt x 362.69972pt.
 
-Overfull \hbox (64.3032pt too wide) in paragraph at lines 417--420
+Overfull \hbox (64.3032pt too wide) in paragraph at lines 440--443
  [][] 
  []
 
-[159
+[155
 
 <./ch_Article_MBL_Submitted/supplement/./PDF/population_2d_190915_1018a.pdf>]) 
-[160]
+[156]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 72.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [161
+) [157
 
 
 ]
-[162] [163
+[158] [159
 Missing character: There is no ’ (U+2019) in font ec-lmr12!
-] [164] [165] [166] [167] [168]
+] [160] [161] [162] [163] [164]
 Underfull \hbox (badness 1701) in paragraph at lines 73--73
 []\T1/lmr/m/n/12 Vis-sers, M. R. \T1/lmr/m/it/12 et al. \T1/lmr/m/n/12 Char-ac-
 ter-i-za-tion and in-situ mon-i-tor-ing of sub-
  []
 
-[169] [170] [171] [172] [173] [174] [175] [176] [177] [178] [179
+[165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175
 Missing character: There is no – (U+2013) in font ec-lmr12!
-] [180
+] [176
 Missing character: There is no ć (U+0107) in font ec-lmr12!
 Missing character: There is no ć (U+0107) in font ec-lmr12!
 Missing character: There is no ć (U+0107) in font ec-lmr12!
 ]
-[181
+[177
 Missing character: There is no ć (U+0107) in font ec-lmr12!
-] [182
+] [178
 Missing character: There is no Ž (U+017D) in font ec-lmr12!
 Missing character: There is no č (U+010D) in font ec-lmr12!
-] [183]
+] [179]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (./main_UCSB_submission.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `main_UCSB_submission.out' has not changed.
-(rerunfilecheck)             Checksum: E32F9ACB155567D5E1A4900B220A5262;6323.
+(rerunfilecheck)             Checksum: F3E1EBBE37738A0535EDB71583812C7C;6335.
 
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 4.98pt have occurred.
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'main_UCSB_submission.run.xml'.
 
@@ -3002,16 +2976,16 @@ Package logreq Info: Writing requests to 'main_UCSB_submission.run.xml'.
 ))
 
 Here is how much of LuaTeX's memory you used:
- 50629 strings out of 494383
+ 50709 strings out of 494383
  100000,1977958 words of node,token memory allocated
- 2750 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 33 sub_mlist, 1 glyph, 356 attribut
-e, 114 glue_spec, 356 attribute_list, 2 shape, 1 write, 71 pdf_action nodes
-   avail lists: 1:4,2:1105,3:195,4:259,5:288,6:12,7:4282,8:210,9:558,10:28,11:40
-4,12:4
- 52214 multiletter control sequences out of 65536+600000
- 143 fonts using 13443583 bytes
- 59i,15n,95p,2443b,2085s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 2751 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 33 sub_mlist, 1 glyph, 355 attribut
+e, 115 glue_spec, 355 attribute_list, 2 shape, 1 write, 71 pdf_action nodes
+   avail lists: 1:4,2:1107,3:192,4:259,5:324,6:12,7:4786,8:210,9:537,10:33,11:45
+2,12:4
+ 52302 multiletter control sequences out of 65536+600000
+ 139 fonts using 13172967 bytes
+ 59i,15n,95p,2443b,1931s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/tex
 live/2018/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-
@@ -3035,10 +3009,10 @@ lic/lm/lmri10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri
 /local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main_UCSB_submission.pdf (194 pages, 21216320 bytes).
+Output written on main_UCSB_submission.pdf (190 pages, 21264149 bytes).
 
-PDF statistics: 5778 PDF objects out of 6186 (max. 8388607)
- 4011 compressed objects within 41 object streams
- 460 named destinations out of 1000 (max. 131072)
+PDF statistics: 5795 PDF objects out of 6186 (max. 8388607)
+ 4038 compressed objects within 41 object streams
+ 456 named destinations out of 1000 (max. 131072)
  608 words of extra memory for PDF output out of 10000 (max. 100000000)
 
