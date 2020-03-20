@@ -6041,8 +6041,8 @@
       \strng{authornamehash}{c31a1432f9249b8dfad5473b7a5050c2}
       \strng{authorfullhash}{5d04b409b70d5c4ab35c7182418801c8}
       \field{extraname}{5}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Physics Letters}
@@ -7682,8 +7682,8 @@
       \strng{authorbibnamehash}{9ac9c25591df0dd716220c8e52226521}
       \strng{authornamehash}{766becfb5f10b6e538cec3670bffa3a1}
       \strng{authorfullhash}{9ac9c25591df0dd716220c8e52226521}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1901.02902}
@@ -8162,6 +8162,11 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevB.96.174201
       \endverb
+    \endentry
+    \entry{JensPrivateComm}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{note}{Eisert, J. Private communication}
     \endentry
     \entry{RStatistics}{manual}{}
       \name{author}{1}{}{%

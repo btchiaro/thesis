@@ -1,6 +1,40 @@
-\chapter[Outlook]{Outlook}
+\chapter[Conclusion and Outlook]{Conclusion and Outlook}
 
-\section{Analog outlook MBL}
+Over the past twenty years superconducting qubits have made remarkable progress in the engineering and control of single and few qubit systems.
+This progress has been facilitated, in no small part, by leveraging concepts originally developed in the atomic physics community.
+Modern supremacy era quantum processors, are large scale systems of many interacting "atoms" and describing the collective behavior of such an object is the domain of condensed matter physics.
+A fundamental motivation of this thesis is the suggestion that the quantum computing community will benefit from adopting the mindset, insights, and techniques of condensed matter physics.
+This thesis represents a conceptual step in that direction with implications in the areas of algorithm development and system level metrology.
+
+In this work we have demonstrated the use of a large scale quantum processor as a programmable quantum simulator and used it to provide a comprehensive survey of the many-body localized phase.
+The fact that part of this work was performed on the device that was used in the demonstration of quantum supremacy\cite{Arute2019}
+indicates that in the near future we will be using quantum hardware to address open questions in condensed matter physics and quantum dynamics more generally.
+As such, our work indicates analog quantum simulation as a viable pathway for near-term quantum processors to demonstrate a quantum computational advantage on meaningful questions of scientific interest
+even before quantum error correction has been achieved.
+
+Considering large scale quantum processors as condensed matter systems is also valuable for system level metrology development.
+It is equally true for digital, gate-based quantum processors and analog quantum simulators that the underlying dynamics are fundamentally analog.
+An obvious consequence of this is that the error mechanisms and "dirt physics" of the device can only be understood by considering the underlying analog nature of the device.
+Consider the fixed coupling Xmon transmon style designs. In this style of device, the interactions between qubits are turned off by large frequency detunings between qubits with fixed couplings.
+One concern for such an architecture is the parasitic ZZ interaction that results from the "always on" coupling.
+This parasitic entanglement growth within a disordered interacting lattice results from the same basic physics as the entanglement dynamics of many-body localized phase discussed in chapter\,\ref{ch:MBL}.
+Thus tools developed in the condensed matter physics community for the study of many-body localization can be easily translated provide us with system level metrology techniques.
+Explicitly, the echo protocols of chapter\,\ref{ch:MBL} were designed to capture the non-local MBL interactions $\widetilde{J}_{ij}$,
+but can equivalently characterize the parasitic interactions of a fixed coupling Xmon chain.
+
+The analog quantum simulation work in this thesis has also inspired new technical directions.
+For example, one shortcoming of our approach to analog control is that we do not presently have the ability to recover the coefficients of the Hamiltonian that was actually applied in our experiments.
+Our ability to benchmark the control fidelity is limited to a comparison of the eigenvalues predicted by a circuit model with the eigenvalues extracted by many-body Ramsey spectroscopy.
+The primary issue with this is that when there is a disagreement between the predicted and measured eigenvalues we are not presently which parameter(s) were the source of the error.
+We have a time domain method for this "Hamiltonian recovery" under development, but at the time of this thesis it remains a future direction.
+Once complete, this will enhance our ability to capture errors in our assumed device Hamiltonian model, as well as compensate for departures from the desired Hamiltonian during analog simulations.
+
+Another avenue of ongoing research sparked by the investigations in this thesis is the use entanglement measures,
+especially the entanglement of formation and distillable entanglement,
+as a means of experimentally determining (or at least bounding) the complexity of algorithms being run on the quantum computer.
+It has been suggested that development of entanglement based complexity metrics are expected to provide valuable information in the search for algorithms with a quantum advantage.\cite{JensPrivateComm}
+
+\draftcomment{\section{Analog outlook MBL}
 
 Outlook:
 
@@ -19,6 +53,7 @@ We do not have a capability to tell which Hamiltonian as actually implemented on
 
 A significant part of our ability to classify algorithm complexity results relies on ergodic dynamics.  However in the crossover region between MBL and fully
 There has been suggestions that we can use entanglement entropy to bound the complexity of the algorithm.
+}
 
 \draftcomment{
 \begin{itemize}
